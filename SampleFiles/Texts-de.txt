@@ -1,0 +1,3473 @@
+
+confirm.changelanguage.title=Sprache wechseln?
+
+confirm.changelanguage.text=Anderungen werden erst nach einem Neustart des Spiels wirksam.
+
+general.prioritiesbutton.hover=Definiere, welche Aufgabentypen ein Überlebender ausführen soll und deren Prioritäten.
+
+general.craftingprioritiesbutton.hover=Definiere, welche Gegenstände bei der Herstellung eine höhere Priorität erhalten.
+
+general.taskspanel.label=Aufgaben anzeigen
+
+general.skillsbutton.hover=Öffne das Fähigkeiten-Fenster des Überlebenden
+
+general.skills.label=Fähigkeiten
+
+general.disableaitoggle.label=Aufgaben automatisch zuweisen
+
+general.disableaitoggle.hover=Wenn deaktiviert, führt der Überlebende nur direkt zugewiesene Aufgaben aus.\n\nAnmerkung: Ist die automatische Zuweisung deaktiviert, isst und schläft der Überlebende nicht.
+
+general.duration.format=Dauer: {0}
+
+general.none.label=Nichts
+
+general.moreinfo.hover=Rechtsklicke für mehr Infos
+
+general.build.label=Bauen
+
+general.performresearch.label=Forschen
+
+general.male.he=er
+
+general.male.his=sein
+
+general.female.she=sie
+
+general.female.her=ihr
+
+general.noitems.text=Keine Gegenstände verfügbar
+
+general.cancelnorefund.title=Bist du sicher?
+
+general.cancelnorefund.text=Es werden keine Rohmaterialien erstattet, wenn du diese Aufgabe abbrichst. \nFortfahren?
+
+general.selectitem.label={0} auswählen
+
+general.day.text=Tag {0}
+
+general.enemies.title=Gegner
+
+general.loot.title=Beute
+
+general.combatsummary.extras.title=Sonstiges
+
+general.recall.hover=Zurückrufen
+
+general.health.hover=Gesundheit
+
+general.energy.hover=Energie
+
+general.nutrition.hover=Ernährung
+
+general.objectbuilt.log={0} gebaut
+
+general.ok.label=Okay
+
+general.priorities.label=Prioritäten
+
+general.preferred.hover=Bevorzugte Aufgabe.\n\nÜberlebende sammeln schneller Erfahrung, wenn sie Aufgaben erledigen, die sie mögen.
+
+general.level.max=MAX.
+
+general.costs.title=Kosten
+
+general.unlocks.title=Schaltet frei
+
+general.cancraft.format=Kann herstellen: {0}
+
+general.canbuild.format=Kann bauen: {0}
+
+general.canperform.format=Kann Aufgabe ausführen: {0}
+
+general.canequip.format=Kann ausrüsten: {0}
+
+general.bonusprofession.format=Bevorzugt von:\n{0}
+
+general.autosave.format=Autom. Speicherung – {0}
+
+general.selectitem.title=Gegenstand auswählen
+
+general.manage.label=Verwalten
+
+general.members.label=Mitglieder
+
+general.supplies.label=Vorräte
+
+general.taskforcesupplies.title=Einsatzteam-Vorräte
+
+general.basesupplies.label=Basis
+
+general.foodtypes.format=Nahrungstypen: {0}
+
+general.days.format={0}\nTage
+
+general.scrap.label=Schrott
+
+general.buyvalue.format=Kaufwert: {0}
+
+general.sellvalue.format=Verkaufswert: {0}
+
+general.day.label=Tag
+
+
+reason.alreadyhas.format=Hat bereits {0}
+
+reason.toohigh.format={0} zu hoch
+
+reason.toolow.format={0} zu niedrig
+
+missionsummary.survivors.title=Ü b e r l e b e n d e
+
+missionsummary.killedenemies.title=K i l l s
+
+missionsummary.loot.title=B e u t e
+
+missionsummary.gainedexp.format=+{0}\nErf.
+
+equipmentslot.weapon.name=Waffe
+
+equipmentslot.armor.name=Rüstung
+
+equipmentslot.usable.name=Ausrüstung
+
+infopanel.requiredresearch.label=Forschung:
+
+infopanel.requiredworkstation.label=Werkstatt:
+
+infopanel.skillrequired.label=Erforderliche Fähigkeit:
+
+infopanel.requiredmaterials.label=Erforderliche Materialien
+
+infopanel.craftmaterials.label=Materialien zur Herstellung von {0}
+
+infopanel.craft.hover=Klicke, um {0} herzustellen. Halte {1} gedrückt, um {2} herzustellen.
+
+infopanel.cancelcraft.hover=Klicke, um die Herstellung von {0} abzubrechen. Halte {1} gedrückt, um die Herstellung von {2} abzubrechen.
+
+infopanel.autocraft.label=Automatische Herstellung
+
+infopanel.autocraft.hover=Automatische Herstellung aktivieren/deaktivieren
+
+infopanel.autocraftmin.label=Min.
+
+infopanel.autocraftmin.hover=Automatische Herstellung starten, wenn Bestand unter dieser Anzahl liegt.\n\nErfordert verfügbare Materialien, Forschung und Handwerksstationen.
+
+infopanel.autocraftmax.label=Max.
+
+infopanel.autocraftmax.hover=Automatische Herstellung beenden, wenn Bestand über dieser Anzahl liegt.
+
+infopanel.gatherlimits.label=Sammel-Limits
+
+infopanel.gatherlimits.hover=Sammel-Limits aktivieren/deaktivieren.\n\nSind die Sammel-Limits aktiv, werden die Überlebenden Sammelaufgaben für diesen Gegenstand ignorieren, wenn du schon seine Höchstanzahl im Inventar überschritten hast, und erst wieder mit dem Sammeln anfangen, wenn die Anzahl unter der Mindestanzahl liegt.\n\nAnmerkung: Du musst Sammelaufgaben immer noch selbst vergeben – diese Einstellung pausiert die Aufgaben nur, wenn nötig.
+
+infopanel.objectdimensions.label=Größe: {0} x {1}
+
+time.pause.hover=Pause
+
+time.speed1.hover=Normale Geschwindigkeit
+
+time.speed2.hover=Doppelte Geschwindigkeit
+
+time.speed3.hover=4-fache Geschwindigkeit
+
+time.speed4.hover=8-fache Geschwindigkeit
+
+general.menu.hover=Menü
+
+newgame.difficulty.tough.hover=Schwerer Schwierigkeitsgrad\n\nFür alle diejenigen, die eine schwierigere Herausforderung genießen. Gegner sind zäher und Überlebende arbeiten etwas langsamer.\n\nSchwer, aber machbar.
+
+newgame.difficulty.normal.hover=Herausfordernder Schwierigkeitsgrad\n\nStell dich auf eine echte Herausforderung ein. Wahrscheinlich verlierst du bei deinen ersten Versuchen.\n\nSo sollte das Spiel eigentlich gespielt werden. \n\nNicht zu empfehlen für Spieler, die keine schwierigen Spiele mögen.
+
+newgame.difficulty.easy.hover=Nachsichtiger Schwierigkeitsgrad\n\nReduzierte Bedürfnisse der Überlebenden, Überlebende arbeiten schneller, schwächere Gegner und weniger häufige Angriffe.\n\nFür Spieler, die keine sehr schwierigen Spiele mögen.
+
+newgame.difficulty.casual.hover=Lockerer Schwierigkeitsgrad\n\nFast alle Aspekte des Spiels sind viel leichter.\n\nFür die, die ein eher entspanntes Erlebnis suchen.
+
+newgame.difficulty.custom.hover=Angepasster Schwierigkeitsgrad\n\nPasse die Schwierigkeitsgrade von verschiedenen Aspekten des Spiels an, sodass sie deinem bevorzugten Herausforderungsniveau entsprechen.
+
+newgame.difficulty.tough.label=Schwer
+
+newgame.difficulty.normal.label=Herausfordernd
+
+newgame.difficulty.easy.label=Nachsichtig
+
+newgame.difficulty.casual.label=Locker
+
+newgame.difficulty.custom.label=Angepasst
+
+newgame.difficulty.off.label=Aus
+
+#newgame.difficulty.conf.label=Conf
+
+newgame.randomseed.hover=Zufälliger Startwert
+
+newgame.seedinput.label=Karten-Startwert
+
+newgame.seedinput.hover=Der Karten-Startwert bestimmt die zufällige Karte, die generiert wird.\n\nDerselbe Startwert generiert immer dieselbe Karte.
+
+newgame.title.label=Schwierigkeitsgrad auswählen
+
+customdifficulty.title.label=Angepasster Schwierigkeitsgrad
+
+customdifficulty.needsrate.label=Bedürfnisse
+
+customdifficulty.needsrate.hover=Wie viel Essen, Trinken und Ruhe Überlebende brauchen, und wie oft.
+
+customdifficulty.workamount.label=Arbeitsmenge
+
+customdifficulty.workamount.hover=Wie lange Überlebende zum Ausführen ihrer Aufgaben brauchen.
+
+customdifficulty.enemylevel.label=Gegner-Level
+
+customdifficulty.enemylevel.hover=Bestimmt den Typ der Gegner, denen du im zufälligen Kampf begegnest.
+
+customdifficulty.enemyamount.label=Anzahl der Gegner
+
+customdifficulty.enemyamount.hover=Bestimmt die Menge der Gegner, denen du im zufälligen Kampf begegnest.
+
+customdifficulty.enemyprogress.label=Gegnerfortschritt
+
+customdifficulty.enemyprogress.hover=Die Rate, mit der sich im Laufe der Zeit der Schwierigkeitsgrad gegnerischer Angriffe erhöht.
+
+customdifficulty.enemystats.label=Gegnerstärke
+
+customdifficulty.enemystats.hover=Beeinflusst Gegnerwerte wie Schaden, Genauigkeit, Ausweichen und Rüstung.
+
+customdifficulty.awarenessrate.label=Aufmerksamkeitsgrad
+
+customdifficulty.awarenessrate.hover=Wie schnell Gegner auf deine Kolonie aufmerksam werden.
+
+customdifficulty.defensefrequency.label=Angriffshäufigkeit
+
+customdifficulty.defensefrequency.hover=Wie oft Gegner\ndie Kolonie angreifen.
+
+customdifficulty.researchitems.label=Forschungs-Gegenstände
+
+customdifficulty.researchitems.hover=Anzahl der geplünderten Forschungs-Gegenstände, die für zentrale Forschung benötigt werden.
+
+newgame.enabletutorial.hover=Wenn die Tutorials aktiviert sind, werden neue Mechaniken erklärt, sobald du ihnen begegnest.
+
+newgame.enabletutorial.label=Tutorials anzeigen
+
+newgame.play.label=Starten
+
+survivor.dead.thirst={0} ist verdurstet.
+
+survivor.dead.hunger={0} ist verhungert.
+
+settings.window.title=Einstellungen
+
+settings.controls.label=Tastaturbelegung
+
+settings.controls.reset.label=Voreinstellungen wiederherstellen
+
+settings.controls.reset.confirmtitle=Voreinstellungen wiederherstellen
+
+settings.controls.reset.confirmtext=Steuerungsvoreinstellungen wiederherstellen?
+
+settings.options.label=Optionen
+
+settings.resolution.label=Auflösung
+
+settings.fullscreen.label=Vollbildschirm
+
+settings.aa.label=Anti-Aliasing
+
+settings.enveffects.label=Umw.- Effekte
+
+settings.music.label=Musik
+
+settings.sfx.label=SFX
+
+settings.autosave.label=Autom. speichern alle
+
+settings.autosave.minutes=Minuten
+
+settings.autosave.hour=Stunde
+
+settings.disabled.text=Deaktiviert
+
+options.reset.confirmtitle=Voreinstellungen wiederherstellen
+
+options.reset.confirmtext=Optionsvoreinstellungen wiederherstellen?
+
+options.pauseoncombat.text=Kampf anhalten
+
+options.pauseoncombat.hover=Das Spiel anhalten, wenn der Kampf startet
+
+options.askreturntobase.text=Zurück zur Basis
+
+options.askreturntobase.hover=„Zurück zur Basis“ nach jeder Mission anzeigen
+
+options.askautocombat.text=Automatischer Kampf
+
+options.askautocombat.hover=Die Option „Automatischer Kampf“ bei Verfügbarkeit anzeigen
+
+options.lockmouse.text=Maus sperren
+
+options.lockmouse.hover=Die Maus im Spielfenster sperren
+
+options.edgescrolling.text=Randscrollen
+
+options.edgescrolling.hover=Erlaubt das Scrollen der Karte, wenn die Maus zum Bildschirmrand bewegt wird
+
+options.limitmanualassign.text=Manuelles Zuweisen limitieren
+
+options.limitmanualassign.hover=Limitiert manuelles Zuweisen von laufenden Aufgaben auf 24 Stunden.\n\nWenn inaktiv, bleibt das manuelle Zuweisen einer Aufgabe bis auf Widerruf erhalten.
+
+general.awareness.growth={0}\n/Tag
+
+general.awareness.hover=Die auf deine Kolonie gerichtete Aufmerksamkeit des Gegners bestimmt, wie oft gegnerische Überfälle stattfinden und wie stark sie sein werden.\n\nDie Aufmerksamkeit erhöht sich im Laufe der Zeit. Eine größere Bevölkerung verursacht ein schnelleres Wachsen der Aufmerksamkeit.\n\nDas Aufmerksamkeitsniveau kann von anderen Faktoren, wie Forschung, Gebäude, Rituale und Missionen, beeinflusst werden.
+
+general.alphaversion.text=Alpha-Version {0}
+
+taskpriorities.sort.label=Sortieren:
+
+taskpriorities.draghint.label=Ziehen, um die Prioritäten zu ändern.
+
+loadgame.oldversion.title=Alte Version
+
+loadgame.oldversion.text=Diese Speicherung stammt aus einer älteren Version.\nEs wird empfohlen, neu zu beginnen.\nTrotzdem fortfahren?
+
+loadgame.loseprogress.title=Spiel laden
+
+loadgame.loseprogress.text=Bist du sicher, dass du das Spiel laden willst?\nNicht gespeicherter Fortschritt geht verloren.
+
+customize.hair.label=Haar
+
+customize.haircolor.label=Haarfarbe
+
+customize.face.label=Gesicht
+
+customize.facecolor.label=Hautfarbe
+
+customize.hat.label=Hut
+
+customize.shirt.label=Hemd
+
+customize.shirtcolor.label=Hemdfarbe
+
+customize.pants.label=Hose
+
+customize.pantscolor.label=Hosenfarbe
+
+customize.shoescolor.label=Schuhfarbe
+
+customize.name.label=Name:
+
+customize.button.hover=Anpassen
+
+customize.randombutton.hover=Zufälliges Aussehen
+
+map.legend.randomevent=Ereignis
+
+savegame.newslot.text=Neuer Speicherstand
+
+savegame.survivorcount.text={0} Überlebende
+
+confirm.deletesave.title=Gespeichertes Spiel löschen
+
+confirm.deletesave.text=Bist du sicher, dass du dieses gespeicherte Spiel löschen willst?\nDieser Vorgang kann nicht rückgängig gemacht werden.
+
+confirm.quit.title=Beenden
+
+confirm.quit.text=Möchtest du das Spiel wirklich beenden?\nNicht gespeicherter Fortschritt geht verloren.
+
+confirm.overwrite.title=Überschreiben
+
+confirm.overwrite.text=Bist du sicher, dass du die vorhandene Speicherung überschreiben willst?
+
+confirm.destroy.title=Zerstören
+
+confirm.destroy.text=Bist du sicher, dass du dieses Objekt zerstören willst?\nRessourcen gehen verloren.
+
+confirm.modchanged.title=Neu starten
+
+confirm.modchanged.text=Änderungen an Mods werden erst beim nächsten Start von Judgment wirksam. Jetzt beenden?
+
+confirm.modtools.title=Mod-Werkzeuge öffnen
+
+confirm.modtools.text=Mod-Werkzeuge sind nur für Modder gedacht und sind nicht Teil des Spiels.\nMod-Werkzeuge öffnen?
+
+confirm.disbandtaskforce.title=Auflösen?
+
+confirm.disbandtaskforce.text=Dieses Einsatzteam auflösen?\nAlle Gegenstände gehen an die Basis zurück.
+
+confirm.recalltaskforce.title=Einsatzteam zurückrufen?
+
+confirm.recalltaskforce.text=Willst du, dass das Einsatzteam zur Basis zurückkehrt?
+
+resources.food.hover=Nahrung\n\nNur zubereitete Nahrung. Beinhaltet keine Rohmaterialien.
+
+survivor.hungry.warning=Überlebender ist hungrig
+
+survivor.tired.warning=Überlebender ist müde
+
+survivor.hungryandtired.warning=Überlebender ist hungrig & müde
+
+survivor.idle.warning=Überlebender ist untätig
+
+survivor.levelearned.log={0} hat ein neues Level erhalten in {1}
+
+survivor.notask.text=Keine Aufgabe
+
+survivor.manualassigned.hover=Manuell zugewiesen\n\nDer Überlebende wurde manuell Folgendem zugewiesen: {0}. Solange das der Fall ist, wird er seine Prioritäten ignorieren und nur diese Aufgabe ausführen. \n\nUm abzubrechen, musst du den Überlebenden auswählen und mit der rechten Maustaste auf eine leere Stelle klicken.
+
+launch.send.label=GENEHMIGT
+
+healing.approved.label=GENEHMIGT
+
+food.category.label=Nahrung
+
+crafting.default.verb=Herstellen {0}
+
+crafting.prepare.verb=Zubereiten {0}
+
+crafting.make.verb=Machen {0}
+
+crafting.bake.verb=Backen {0}
+
+build.default.verb=Bauen
+
+build.plant.verb={0} pflanzen
+
+mods.toolsbutton.text=Modifizieren/hochladen
+
+mods.createdby.format=Erstellt von: {0}
+
+mods.nomods.text=Du hast keine Mods abonniert.\nDu findest Mods für Judgment auf der Seite des Steam Workshops. Sobald du Mods abonnierst, benutze dieses Fenster, um sie zu aktivieren.
+
+mods.visitworkshop.label=Steam Workshop besuchen
+
+item.tags.format=Tags: {0}
+
+gameover.message.title=Deine Basis wurde zerstört …
+
+gameover.message.text=Die Dämonen haben deine Leute überwältigt, jede Hoffnung ist verloren …\n\nVielleicht wird es einer anderen Gruppe in einem anderen Teil der Welt besser ergehen.
+
+gameover.stats.button=Werte
+
+gameover.stats.title=Werte
+
+gameover.close.button=Schließen
+
+gameoverstat.dayssurvived.format=Tage überlebt: {0}
+
+gameoverstat.rescue.format=Überlebende gerettet: {0}
+
+gameoverstat.kills.format=Dämonen getötet: {0}
+
+gameoverstat.scavenge.format=Plünderungen abgeschlossen: {0}
+
+gameoverstat.equipmentcraft.format=Ausrüstung hergestellt: {0}
+
+gameoverstat.mapexplore.format=Karte erkundet: {0}%
+
+gameoverstat.buried.format=Überlebende begraben: {0}
+
+gameoverstat.strongestkill.format=Stärkster Kill: {0}
+
+gameoverstat.nemesis.format=Nemesis: {0}
+
+gameoverstat.damagedealer.format=Schadensverursacher: {0}
+
+gameoverstat.damagetaker.format=Sandsack: {0}
+
+gameoverstat.traveler.format=Oft unterwegs: {0}
+
+gameoverstat.longestlife.format=Überlebender: {0}
+
+gameoverstat.shortestlife.format=Bester im Sterben: {0}
+
+skillswindow.skills.title=Fähigkeiten
+
+skillswindow.effects.title=Fähigkeiten-Effekte
+
+skillswindow.stats.title=Werte
+
+colonymanagement.window.title=Kolonieverwaltung
+
+colonymanagement.bonuses.label=Boni
+
+tradepanel.window.title=Handeln
+
+tradepanel.trader.label=Händler
+
+tradepanel.base.label=Inventar
+
+tradepanel.approvebutton.label=Handel
+
+autocombat.fight.button=Kämpfen
+
+autocombat.auto.button=Automatisch bewältigen
+
+autocombat.cancel.button=Abbrechen
+
+cantdestroy.building.hasobjects=Nur leere Gebäude können zerstört werden
+
+
+
+# Title Screen Buttons
+
+titlescreen.continue.button=Fortfahren
+
+titlescreen.new.button=Neues Spiel
+
+titlescreen.settings.button=Einstellungen
+
+titlescreen.mods.button=Mods
+
+titlescreen.quit.button=Beenden
+
+
+
+# Startup Hints
+
+startup.loading.text=Lädt …
+
+startup.hints.format=Tipp: {0}
+
+startup.hints.1=Halte die mittlere Maustaste gedrückt, um die Kamera zu bewegen.
+
+startup.hints.2=Vergiss nicht, du kannst „O“ drücken, um festzulegen, welche Gegenstände zuerst hergestellt werden.
+
+startup.hints.3=Gegner aus gegenüberliegenden Richtungen anzugreifen (flankieren), erhöht Genauigkeit und Schaden.
+
+startup.hints.4=Müde Überlebende machen sich nicht gut im Kampf.
+
+startup.hints.5=Ein Angriff aus der Deckung erhöht die Genauigkeit und verringert die Chance, getroffen zu werden.
+
+startup.hints.6=Durch Drücken der Leertaste kannst du das Spiel schnell anhalten/fortsetzen.
+
+startup.hints.7=Drücke „Q“, um alle deine Überlebenden auszuwählen.
+
+startup.hints.8=Der Schlüssel zum Überleben ist effizientes Priorisieren der Aufgaben der Überlebenden gemäß ihren Fähigkeiten.
+
+startup.hints.9=Nach Auswählen einer Aktion im Menü „Aufgaben erstellen“ kannst du einen Rahmen ziehen, um einen großen Bereich auszuwählen.
+
+startup.hints.10=Halte beim Platzieren die Shift-Taste gedrückt, um mehrere gleiche Objekte zu bauen.
+
+startup.hints.11=Manchmal kann es effizienter sein, Rohmaterialien zu plündern, bevor du sie herstellen kannst.
+
+startup.hints.12=Baue deine Basis in der Nähe eines Brunnens, um die Laufzeit zu verkürzen.
+
+startup.hints.13=Bei Rettungsmissionen ist es besser, den Bereich zu säubern, bevor du mit dem Rettungsversuch beginnst.
+
+startup.hints.14=Ein Gemüse-Bauernhof, der mit maximaler Effizient bewirtschaftet wird, kann drei Überlebende ernähren.
+
+startup.hints.15=Wenn du nicht weißt, ob es sicher ist ein Biom zu betreten, überprüfe die Gegner an seinen Plünderorten.
+
+startup.hints.16=Um die Anzahl der gegnerischen Wellen zu minimieren, unterbrich nie einen Überlebenden, der eine Rettung durchführt.
+
+startup.notes.text=Aktuelle Patch Notes
+
+startup.subscribe.text=Updates abonnieren
+
+startup.supportus.text=Unterstütze Judgment
+
+
+
+# Key Mapping
+
+keymapping.action.selectall=Alle Überlebenden auswählen
+
+keymapping.action.left=Kamera nach links
+
+keymapping.action.right=Kamera nach rechts
+
+keymapping.action.up=Kamera hoch
+
+keymapping.action.down=Kamera runter
+
+keymapping.action.zoomin=Hineinzoomen
+
+keymapping.action.zoomout=Herauszoomen
+
+keymapping.action.back=Zurück
+
+keymapping.action.pause=Anhalten/Fortsetzen
+
+keymapping.action.slower=Geschwindigkeit verringern
+
+keymapping.action.faster=Geschwindigkeit erhöhen
+
+keymapping.action.help=Hilfe
+
+keymapping.action.toggleselection=Auswahl umschalten
+
+keymapping.action.multicraft=Mehrere herstellen/bewegen
+
+keymapping.action.multibuild=Mehrere bauen
+
+keymapping.action.commandmission=Quest-Fenster
+
+keymapping.action.commandinventory=Inventar-Fenster
+
+keymapping.action.commandactions=Aufgaben erstellen
+
+keymapping.action.commandbuild=Bauen-Fenster
+
+keymapping.action.commandcraft=Handwerk-Fenster
+
+keymapping.action.commandresearch=Forschung-Fenster
+
+keymapping.action.commandtasks=Aufgaben-Fenster
+
+keymapping.action.commandcolonymanagement=Kolonieverwaltung
+
+keymapping.action.skillspanel=Fähigkeiten-Fenster
+
+keymapping.action.prioritiespanel=Prioritäten-Fenster
+
+keymapping.action.craftingprioritiespanel=Handwerk-Prioritäten
+
+keymapping.action.commandsearch=Suche auf der Weltkarte
+
+keymapping.action.commandcreatetaskforce=Einsatzteam erstellen
+
+keymapping.action.commandworld=Weltkarte
+
+keymapping.action.commandbase=Basislager anzeigen
+
+keymapping.action.combataction1=Kampf-Aktion 1
+
+keymapping.action.combataction2=Kampf-Aktion 2
+
+keymapping.action.combataction3=Kampf-Aktion 3
+
+keymapping.action.combataction4=Kampf-Aktion 4
+
+keymapping.action.combataction5=Kampf-Aktion 5
+
+keymapping.action.combataction6=Kampf-Aktion 6
+
+keymapping.action.combatcancel=Kampf-Abbruch
+
+keymapping.action.selectsurvivor1=Gruppe 1 auswählen
+
+keymapping.action.selectsurvivor2=Gruppe 2 auswählen
+
+keymapping.action.selectsurvivor3=Gruppe 3 auswählen
+
+keymapping.action.selectsurvivor4=Gruppe 4 auswählen
+
+keymapping.action.selectsurvivor5=Gruppe 5 auswählen
+
+keymapping.action.selectsurvivor6=Gruppe 6 auswählen
+
+keymapping.action.selectsurvivor7=Gruppe 7 auswählen
+
+keymapping.action.selectsurvivor8=Gruppe 8 auswählen
+
+keymapping.action.selectsurvivor9=Gruppe 9 auswählen
+
+keymapping.action.selectsurvivor10=Gruppe 10 auswählen
+
+keymapping.action.setselectiongroup=Gruppe festlegen
+
+keymapping.action.rotateleft=Nach rechts drehen
+
+keymapping.action.rotateright=Nach links drehen
+
+
+
+# Toolbar
+
+toolbar.mission.hover=Mission
+
+toolbar.inventory.hover=Basis-Inventar
+
+toolbar.actions.hover=Aufgaben erstellen\n\nWähle einen Bereich aus, um mehrere Aufgaben an allen passenden Objekten im Bereich zu erstellen.
+
+toolbar.build.hover=Bauen\n\nPlatziere neue Objekte, die die Überlebenden bauen sollen.
+
+toolbar.craft.hover=Handwerk\n\nWeise Überlebende an, neue Gegenstände aus Rohmaterialien herzustellen.
+
+toolbar.research.hover=Forschung\n\nGib Forschungspunkte aus, um neue Baupläne, Herstellungsanleitungen, Rituale und andere Boni freizuschalten.
+
+toolbar.world.hover=Weltkarte\n\nSende Überlebende auf Missionen außerhalb der Basis.
+
+toolbar.base.hover=Basislager\n\nZurück zur Basis.
+
+toolbar.search.hover=Nach Gegenständen suchen\n\nFiltere die Kartenansicht, um nach Gegenständen zu suchen.
+
+toolbar.createtaskforce.hover=Einsatzteam erstellen\n\nSende Überlebende, um die Weltkarte zu erkunden.
+
+toolbar.colonymanagement.hover=Kolonieverwaltung\n\nVerwalte Vorräte, Boni und Aufgaben.
+
+
+
+# Action Groups
+
+actiongroup.chop.name=Bäume fällen
+
+actiongroup.chop.description=Bäume für\nHolz fällen.
+
+actiongroup.search.name=Trümmer durchsuchen
+
+actiongroup.search.description=Nach Schrott und Medizin suchen.
+
+actiongroup.gatherwater.name=Wasser holen
+
+actiongroup.gatherwater.description=Trinkwasser aus Brunnen sammeln.
+
+actiongroup.mine.name=Fördern
+
+actiongroup.mine.description=Metalle oder Mineralien fördern. Baue zuerst eine Mine auf den Ressourcen.
+
+actiongroup.quarry.name=Abbauen
+
+actiongroup.quarry.description=Stein oder Lehm abbauen.
+
+actiongroup.needs.name=Bedürfnisse
+
+actiongroup.needs.description=Schlafen oder Essen.
+
+actiongroup.build.name=Bauen
+
+actiongroup.build.description=Objekte bauen.
+
+actiongroup.craft.name=Herstellen
+
+actiongroup.craft.description=Gegenstände herstellen.
+
+actiongroup.agri.name=Bauernhof
+
+actiongroup.agri.description=Bauernhöfe bewirtschaften.
+
+actiongroup.research.name=Wissenschaftliche Forschung
+
+actiongroup.research.description=Forschungspunkte erzeugen.
+
+actiongroup.occultresearch.name=Okkulte Forschung
+
+actiongroup.occultresearch.description=Okkulte Forschungspunkte erzeugen.
+
+actiongroup.rituals.name=Rituale
+
+actiongroup.rituals.description=Rituale durchführen.
+
+actiongroup.train.name=Trainieren
+
+actiongroup.train.description=Kampffähigkeit trainieren.
+
+actiongroup.patrol.name=Patrouillieren
+
+actiongroup.patrol.description=Beobachtungsposten patrouillieren.
+
+actiongroup.canceltasks.name=Aufgaben abbrechen
+
+action.sleep.name=Schlafen
+
+action.eat.name=Essen
+
+action.heal.name=Heilen
+
+
+
+# Missions
+
+missions.scavenge.name=Plündern
+
+missions.scavenge.description=Schicke ein Team von Überlebenden, um an diesem Ort nach Ressourcen zu suchen.
+
+missions.rescue.name=Rettung schicken
+
+missions.rescue.description=Schicke ein Team von Überlebenden, um die bedrohte Person zu retten.
+
+missions.hellgate.name=Untersuchen
+
+missions.hellgate.description=Schicke eine Gruppe, um das Höllentor zu untersuchen.\n\nStell dich drauf ein, auf starke gegnerische Truppen zu treffen.
+
+missions.attack.name=Angreifen
+
+missions.attack.description=Das Töten des Kundschafterteams verringert das Aufmerksamkeitsniveau.\n\nEs zu ignorieren oder den Kampf zu verlieren erhöht die Aufmerksamkeit.
+
+missions.scout.name=Kundschaften
+
+missions.scout.description=Erkunde das Gebiet, um unerforschte Regionen in der Nähe aufzudecken.
+
+missions.settlementtrade.name=Handel
+
+missions.settlementtrade.description=Fordere einen Handelskonvoi an, der zu deiner Basis geschickt werden soll.
+
+missions.settlementraid.name=Plündern
+
+missions.settlementraid.description=Plündere die Vorräte dieser Siedlung.
+
+missions.settlementrecruit.name=Rekrutieren
+
+missions.settlementrecruit.description=Versuche, einen der Kolonisten dieser Siedlung zu überzeugen, sich stattdessen dir anzuschließen. Das könnte die anderen Kolonisten ärgern.
+
+missions.settlementmeet.name=Begrüßen
+
+missions.settlementmeet.description=Stell dich den Bewohnern der Siedlung vor.
+
+missions.tradecooldown.condition=Handelskonvoi nicht bereit.
+
+missions.traderelationship.condition=Siedlung vertraut dir nicht. Verbessere zuerst eure Beziehung.
+
+missions.recruitmax.condition=Deine Gruppe ist bereits übervoll, kein anderer Überlebender will sich dir derzeit anschließen.
+
+missions.tradenotactive.condition=Ein anderer Handelskonvoi befindet sich bereits auf dem Weg zu deiner Basis.
+
+
+
+# Panels
+
+panels.craftingpriorities.title=Handwerk-Prioritäten
+
+panels.teamselect.title=Team-Auswahl
+
+panels.inventory.title=Inventar
+
+panels.actions.title=Gebietsaktionen
+
+panels.build.title=Bauen
+
+panels.crafting.title=Handwerk
+
+panels.scrapping.title=Verschrottung
+
+panels.taskpriorities.title=Aufgaben-Prioritäten
+
+panels.research.title=Forschen
+
+panels.savegame.title=Spiel speichern
+
+panels.loadgame.title=Spiel laden
+
+panels.taskforce.title=Einsatzteam
+
+panels.tasks.title=Aufgaben
+
+panels.newgame.title=Neues Spiel
+
+panels.defensepreparation.title=Verteidigungsvorbereitung
+
+panels.healing.title=Heilung
+
+panels.helpindex.title=Hilfe
+
+panels.gamemenu.title=Spielmenü
+
+panels.combatsummary.title=Kampf-Zusammenfassung
+
+panels.modselect.title=Mods
+
+
+
+# Enemies
+
+enemies.imp.name=Kobold
+
+enemies.imp.description=Niedrigste der Dämonen, greifen gewöhnlich in großen Gruppen an. Schnell und beweglich.
+
+enemies.fireimp.name=Feuerkobold
+
+enemies.fireimp.description=Cousin des niedrigen Kobolds, speit Feuer, aber nicht besonders heißes.
+
+enemies.hellhound.name=Höllenhund
+
+enemies.hellhound.description=Sie halten nicht viel aus, aber lass sie nicht in deine Nähe kommen, denn ihr Biss ist gemacht, um alles in Sekunden zu zerfetzen.
+
+enemies.weakdemon.name=Geringer Dämon
+
+enemies.weakdemon.description=Kanonenfutter aus der Hölle.
+
+enemies.demon.name=Dämon
+
+enemies.demon.description=Ein vollwertiger Dämon. Basisinfanterie der Hölle.
+
+enemies.werewolf.name=Werwolf
+
+enemies.werewolf.description=Halb Mensch, halb Wolf. Einst lebten sie versteckt in unserer Mitte, aber seit der Invasion haben sie ihre Menschlichkeit verloren und sind ständig in Wolfsgestalt.
+
+enemies.ghost.name=Geist
+
+enemies.ghost.description=Verlorene Seelen der Verdammten. Sie kommen direkt aus der Hölle und wandeln auf der Suche nach überlebenden Menschen auf dem Angesicht der Erde, um sie zu jagen.
+
+enemies.possessed.name=Besessener
+
+enemies.possessed.description=Menschliche, von Dämonen besessene Wesen, die nicht im Stande sind, ihre Mordlust zu kontrollieren.
+
+enemies.reaper.name=Schnitter
+
+enemies.reaper.description=Ein Schnitter, der gekommen ist, um Menschenseelen zu sammeln und die Armeen der Hölle zu verstärken.
+
+enemies.succubus.name=Sukkubus
+
+enemies.succubus.description=Dämonin, bekannt für ihre Fähigkeit, männliche Menschen willfährig zu machen.
+
+enemies.darkangel.name=Gefallener Engel
+
+enemies.darkangel.description=Einst kamen sie aus dem Himmel, nun führen sie die Streitkräfte der Hölle. Niemand kennt den Grund für ihren Fall, oder ob es ihre eigene Entscheidung war.
+
+enemies.legion.name=Legion
+
+enemies.legion.description=Ein riesiger Koloss von einem Dämon, sehr langsam und mit starker Rüstung. Schwächere Waffen fügen ihm kaum Kratzer zu.
+
+enemies.firespitter.name=Caorthannach
+
+enemies.firespitter.description=Ein feuerspeiender Dämon. Lass den bloß nicht zu nah ran.
+
+enemies.lich.name=Lich
+
+enemies.lich.description=Die Seelen mächtiger toter Hexen, die der Hölle entkommen sind und nun die Erde verheeren. Sehr gefährliche Wesen.
+
+enemies.shedim.name=Shedim
+
+enemies.shedim.description=Es heißt, sie würden von Schlangen abstammen und sie zählen zu den fiesesten, gefährlichsten Bewohnern der Hölle.
+
+enemies.morax.name=Morax
+
+enemies.morax.description=Er ist einer der höchstrangigen Dämonen der Hölle und nimmt Besitz von geringeren Dämonen, die seine Form annehmen und gewaltige Macht erlangen.
+
+enemies.belial.name=Belial
+
+enemies.belial.description=Hochrangige Dämonen, die mit Schleudern mächtige Flammenprojektile abfeuern.
+
+enemies.demogorgon.name=Demogorgon
+
+enemies.demogorgon.description=Zwei Schädel und Tentakel, wenn du ihren Gestank wahrnimmst, weißt du, dass das Ende naht.
+
+enemies.cerberus.name=Zerberus
+
+enemies.cerberus.description=Mit ihren 3 Schädeln und der dreifachen Schlagkraft sind sie die Alpha-Höllenhunde. Lass sie nicht in deine Nähe kommen!
+
+enemies.survivor1.name=Bandenmitglied
+
+enemies.survivor2.name=Kultist
+
+enemies.survivor3.name=Plünderer
+
+enemies.survivor4.name=Räuber
+
+enemies.survivor5.name=Veteran
+
+enemies.survivor.description=Ein weiterer Überlebender der Apokalypse. Bewaffnet.
+
+
+
+# Status Effects
+
+statuseffects.onhiteffect.format=Bei Treffer: {0}
+
+statuseffects.accuracy.attribute=Genauigkeit +{1} %
+
+statuseffects.evade.attribute=Ausweichen +{1} %
+
+statuseffects.attackspeed.attribute=Angriffsgeschwindigkeit +{1} %
+
+statuseffects.defense.attribute=Rüstung +{1} %
+
+statuseffects.damage.attribute=Schaden +{1} %
+
+statuseffects.damagereceived.attribute=Erlittener Schaden +{1} %
+
+statuseffects.walkspeed.attribute=Bewegungsgeschwindigkeit +{1} %
+
+statuseffects.vision.attribute=Sichtweite +{0}
+
+statuseffects.armorpierce.attribute=Rüstung durchdringen +{1} %
+
+statuseffects.flashbang.name=Desorientiert
+
+statuseffects.elementalbomb.name=Ausgesaugt
+
+statuseffects.weakeningrune.name=Geschwächt
+
+statuseffects.hex.name=Verflucht
+
+statuseffects.protectionspell.name=Beschützt
+
+statuseffects.meleevsranged.name=Nahkampf gegen Fernkampf
+
+statuseffects.rangedadjacent.name=Fernkampf gegen Nahkampf
+
+statuseffects.flanking.name=Flankieren
+
+statuseffects.nighttime.name=Nacht
+
+statuseffects.gingerextract.name=Ingwerextrakt
+
+statuseffects.tired.name=Müde
+
+statuseffects.cross.name=Beschützt
+
+statuseffects.stunner.name=Betäubt
+
+statuseffects.frostgrenade.name=Eingefroren
+
+statuseffects.acidbomb.name=Säure
+
+statuseffects.desensitiser.name=Desensibilisiert
+
+statuseffects.forcefield.name=Beschützt
+
+statuseffects.bindingcurse.name=Verflucht
+
+statuseffects.demonfuel.name=Aufgewertet
+
+statuseffects.transmute.name=Umgewandelt
+
+statuseffects.burn.name=Brennt
+
+statuseffects.nailtofloor.name=Festgenagelt
+
+statuseffects.bless.name=Gesegnet
+
+statuseffects.huntersinstinct.name=Jägerinstinkt
+
+statuseffects.releaseboulder.name=Ohne Last
+
+statuseffects.rocketboost.name=Verstärkt
+
+statuseffects.harden.name=Gehärtet
+
+statuseffects.empower.name=Ermächtigt
+
+statuseffects.entangle.name=Verheddert
+
+statuseffects.hidden.name=Versteckt
+
+
+
+# Effects
+
+effects.raining.name=Regen
+
+effects.soulharness.name=Seelennutzung
+
+effects.demonstamina.name=Dämonische Ausdauer
+
+effects.divineinspiration.name=Göttliche Eingebung
+
+effects.divinehealing.name=Göttliche Heilung
+
+effects.nighthowls.name=Nachtheulen
+
+effects.badomens.name=Schlechte Omen
+
+effects.lowmorale.name=Niedrige Moral
+
+effects.luckybounty.name=Glückskopfgeld
+
+effects.logisticsritual.name=Verbesserte Logistik
+
+effects.eagleeye.name=Adlerauge
+
+effects.concentrationritual.name=Verbesserte Konzentration
+
+effects.defensiveaura.name=Verteidigungsaura
+
+effects.farsight.name=Weitsicht
+
+effects.evasiveaura.name=Ausweichaura
+
+effects.hungerrate.attribute=Hungers-Rate +{1} %
+
+effects.energydrain.attribute=Müdigkeits-Rate +{1} %
+
+effects.workspeed.attribute=Arbeitsgeschwindigkeit +{1} %
+
+effects.walkspeed.attribute=Bewegungsgeschwindigkeit +{1} %
+
+effects.taskforcespeed.attribute=Karten-Geschwindigkeit +{1} %
+
+effects.healrate.attribute=Natürliche Heilungs-Rate +{1} %
+
+effects.attackdifficulty.attribute=Gegnerische Angriffsstärke +{1} %
+
+effects.drinkrate.attribute=Wasserverbrauch +{1} %
+
+effects.maxsurvivorsinmission.attribute=Einsatzteam-Größe +{0}
+
+effects.awarenessadd.attribute=Aufmerksamkeits-Erzeugung +{1} %
+
+effects.extrascavenge.attribute=Chance auf Extra Ressourcen +{1} %
+
+effects.gainattribute_water.attribute=Bedürfnissen nachkommen +{1} %
+
+effects.gainattribute_maturity.attribute=Wachstumsgeschwindigkeit +{1} %
+
+effects.actiongroup_chop.attribute=Hackgeschwindigkeit +{1} %
+
+effects.actiongroup_search.attribute=Plündergeschwindigkeit +{1} %
+
+effects.actiongroup_gatherwater.attribute=Wasser-Sammelgeschwindigkeit +{1} %
+
+effects.actiongroup_mine.attribute=Fördergeschwindigkeit +{1} %
+
+effects.actiongroup_quarry.attribute=Abbaugeschwindigkeit +{1} %
+
+effects.actiongroup_build.attribute=Baugeschwindigkeit +{1} %
+
+effects.actiongroup_craft.attribute=Herstellungsgeschwindigkeit +{1} %
+
+effects.actiongroup_agri.attribute=Feldarbeit-Geschwindigkeit +{1} %
+
+effects.efficiency_agri.attribute=Bauernhof-Ertrag +{1} %
+
+effects.actiongroup_research.attribute=Forschungsgeschwindigkeit +{1} %
+
+effects.actiongroup_occultresearch.attribute=Okkulte Forschungsgeschwindigkeit +{1} %
+
+effects.actiongroup_rituals.attribute=Ritual-Geschwindigkeit +{1} %
+
+effects.actiongroup_train.attribute=Trainingsgeschwindigkeit +{1} %
+
+effects.actiongroup_patrol.attribute=Patrouilliengeschwindigkeit +{1} %
+
+effects.damage.attribute=Schaden +{1} %
+
+effects.damagereceived.attribute=Erlittener Schaden +{1} %
+
+effects.attackspeed.attribute=Angriffsgeschwindigkeit +{1} %
+
+effects.range.attribute=Reichweite +{1} %
+
+effects.accuracy.attribute=Genauigkeit +{1} %
+
+effects.armorpierce.attribute=Rüstung durchdringen +{1} %
+
+effects.defense.attribute=Rüstung +{1} %
+
+effects.evade.attribute=Ausweichen +{1} %
+
+effects.health.attribute=Max. Gesundheit +{1} %
+
+effects.nutrition.attribute=Max. Ernährung +{1} %
+
+effects.energy.attribute=Max. Energie +{1} %
+
+effects.vision.attribute=Sichtweite +{0}
+
+effects.scoutrange.attribute=Karten-Kundschafterreichweite +{0}
+
+effects.eventrate.attribute={2} Ereignis-Chance +{1} %
+
+eventqueue.mapevents.name=Karte
+
+effects.raining.description=Getreide wächst schneller und erfordert weniger Pflege, wenn es regnet.
+
+effects.soulharness.description=Überlebende verbrauchen Energie aus ihren Seelen und brauchen weniger Nahrung.
+
+effects.demonstamina.description=Überlebende erhalten Ausdauer aus dämonischen Energien.
+
+effects.divineinspiration.description=Überlebende sind inspiriert, schneller zu arbeiten.
+
+effects.divinehealing.description=Heilige Energien erhöhen die natürliche Heilung im Laufe der Zeit.
+
+effects.nighthowls.description=Ein Überlebender heult nachts und zieht unerwünschte Aufmerksamkeit an.
+
+effects.badomens.description=Schlechte Omen scheinen die dämonischen Horden zu stärken.
+
+
+
+# Object Attributes
+
+object.maturity.attribute=Reife
+
+object.charge.attribute=Ladung
+
+object.full.attribute=Voll
+
+object.water.attribute=Pflege
+
+object.food.attribute=Nahrung
+
+object.patrol.attribute=Patrouilliert
+
+object.lifetime.attribute=Lebenszeit
+
+object.relationship.attribute=Beziehung
+
+object.settlementsize.attribute=Größe
+
+object.tradecooldown.attribute=Handels-Abklingzeit
+
+
+
+# Events Choices
+
+events.nighthowls.research.perform.text=Eure führenden Okkultisten suchen nach dem Grund hinter diesem seltsamen Verhalten.
+
+events.badomens.research.perform.text=Ihr sucht nach einer Erklärung für den roten Mond und seine Wirkung auf die Dämonen.
+
+events.blackbox.opening.ignore.text=Lasst die Kiste so, wie sie ist.
+
+events.blackbox.opening.open.text=Sucht in eurem Schrott nach einem Werkzeug, um das Schloss zu öffnen.
+
+events.lowmorale.opening.feast.text=Ein Festmahl! Was für eine großartige Idee. Ihr schmeißt ein großes Festmahl, um die zu feiern, die noch leben.
+
+events.lowmorale.opening.fireworks.text=Es geht doch nichts über ein gutes Feuerwerk, um die Stimmung zu heben.
+
+events.lowmorale.rewardchoice.reward1.text=Sucht das Gebiet nach Vorräten ab.
+
+events.lowmorale.rewardchoice.reward2.text=Sucht in nahegelegenen Ruinen nach Ausrüstung.
+
+events.lowmorale.rewardchoice.reward3.text=Sorgt dafür, dass das Lager gut versteckt ist.
+
+events.darkcurse.elixir.perform.text=Braut das Elixier.
+
+events.settlement_helpresources.request.perform.text=Sagt Hilfe zu.
+
+events.settlement_helpresources.request.reject.text=Lehnt die Anfrage ab.
+
+
+
+# Warnings
+
+warnings.attacked.hover=Angriff steht bevor\n\nGegner wurden gesichtet und könnten jede Sekunde angreifen.
+
+warnings.nofood.hover=Überlebende verhungern\n\nHungernde Überlebende verlieren ständig Gesundheit.
+
+warnings.lowfood.hover=Nahrung wird knapp.
+
+warnings.tired.hover=Überlebende sind müde\n\nMüde Überlebende schlagen sich schlecht im Kampf.
+
+warnings.helpNeeded.hover=Fremder braucht Unterstützung\n\nRettungsmissionen werden von der Weltkarte aus gestartet.
+
+warnings.nowater.hover=Kein Wasser mehr\n\nÜberlebende verlieren Gesundheit.
+
+warnings.lowwater.hover=Wasser wird knapp.
+
+warnings.levelup.hover=Ein Überlebender ist ein Level aufgestiegen.\n\nWähle eine neue Fähigkeit aus.
+
+warnings.eventactive.hover=Ereignis aktiv\n\nEs gibt für kurze Zeit ein aktives Ereignis auf der Weltkarte.
+
+warnings.badomens.hover=Schlechte Omen
+
+warnings.nighthowls.hover=Nachtheulen
+
+warnings.lowmorale.hover=Verzweifelte Zeiten
+
+warnings.darkcurse.hover=Dunkler Fluch
+
+warnings.trader.hover=Händler verfügbar\n\nEin Händler ist zu Besuch. Klicke, um zu handeln.
+
+warnings.settlement_helpresources.hover=Ressourcen-Anfrage
+
+
+
+# Context Commands
+
+contextcommands.destroy.hover={0} zerstören
+
+contextcommands.heal.hover=Heilen
+
+contextcommands.move.hover=Bewegen
+
+contextcommands.moveobject.hover={0} bewegen
+
+contextcommands.cancel.hover={0} abbrechen
+
+contextcommands.assign.hover={0} {1} zuweisen
+
+
+
+# Errors
+
+error.cantbuildhere.text=Bauen hier nicht möglich
+
+error.notenoughresources.text=Nicht genug Ressourcen
+
+error.launch.minsurvivors.text=Du musst mindestens {0} Teilnehmer auswählen
+
+error.launch.maxsurvivors.text=Du kannst maximal {0} Überlebende auf eine Mission senden
+
+error.launch.unarmed.text=Manche Teilnehmer sind nicht bewaffnet
+
+error.launch.nofood.text=Nicht genug Nahrung
+
+error.launch.allsurvivors.text=Du kannst deine Basis nicht völlig unverteidigt lassen
+
+error.equipincombat.text=Du kannst während des Kampfes nicht die Ausrüstung wechseln
+
+error.noranged.text=Keine Fernkampfwaffe angelegt
+
+error.buildblocked.text=Hier zu bauen, wird Bereiche der Basis blockieren
+
+error.objectmissionexpired.text=Einsatzteam-Ziel nicht länger verfügbar
+
+error.hungrynofood.text={0} ist hungrig, hat aber nichts zu essen gefunden
+
+error.cantdotask.text={0} kann diese Aufgabe nicht ausführen
+
+
+
+# Game Menu
+
+gamemenu.continue.label=Fortsetzen
+
+gamemenu.save.label=Speichern
+
+gamemenu.load.label=Laden
+
+gamemenu.feedback.label=Feedback senden
+
+gamemenu.website.label=Website
+
+gamemenu.help.label=Hilfe
+
+gamemenu.settings.label=Einstellungen
+
+gamemenu.quit.label=Beenden
+
+
+
+# Item Properties
+
+items.damage.property=Schaden: {0}
+
+items.attackspeed.property=Angriffsgeschwindigkeit: {0}
+
+items.range.property=Reichweite: {0}
+
+items.accuracy.property=Genauigkeit: {0}
+
+items.defense.property=Rüstung: {0}
+
+items.dps.property=SPS: {0}
+
+items.dpsvsarmor.property=SPS gegen Rüstung: {0}
+
+items.evade.property=Ausweichen: {0}
+
+items.health.property=Gesundheit: {0}
+
+
+
+# Abilities
+
+abilities.abilityname.format=Fähigkeit: {0}
+
+abilities.maxuses.format=Anwendungen: {0}
+
+abilities.consumesitem.text=Verbraucht Gegenstand
+
+abilities.range.property=Reichweite: {0}
+
+abilities.healamount.property=Heilung: {1}%
+
+abilities.damage.property=Schaden: {0}
+
+abilities.aoe.property=Flächenschaden: {0}
+
+abilities.heal.name=Heilen
+
+abilities.retreat.name=Rückzug
+
+abilities.fraggrenade.name=Granate
+
+abilities.flashbang.name=Blendgranate
+
+abilities.elementalbomb.name=Elementarbombe
+
+abilities.molotov.name=Molotow
+
+abilities.hex.name=Fluch
+
+abilities.protectionspell.name=Schutzzauber
+
+abilities.weakeningrune.name=Rune
+
+abilities.gingerextract.name=Ingwerextrakt
+
+abilities.cross.name=Kreuz
+
+abilities.stunner.name=Schocker
+
+abilities.frostgrenade.name=Frostgranate
+
+abilities.acidbomb.name=Säurebombe
+
+abilities.desensitiser.name=Desensibilisierer
+
+abilities.forcefield.name=Kraftfeld
+
+abilities.bloodimplosion.name=Blutimplosion
+
+abilities.bindingcurse.name=Bindender Fluch
+
+abilities.demonfuel.name=Dämonentreibstoff
+
+abilities.snipe.name=Fokussierter Schuss
+
+abilities.nailtofloor.name=Festnageln
+
+abilities.eviscerate.name=Ausweiden
+
+abilities.exorcise.name=Austreiben
+
+abilities.bless.name=Segnen
+
+abilities.zap.name=Stromschlag
+
+abilities.huntersinstinct.name=Jägerinstinkt
+
+abilities.drainself.name=Seele anzapfen
+
+abilities.releaseboulder.name=Last nehmen
+
+abilities.rocketboost.name=Raketenschub
+
+abilities.harden.name=Härten
+
+abilities.empower.name=Ermächtigen
+
+abilities.entangle.name=Umschlingen
+
+abilities.transmuteenemy.name=Umwandeln
+
+abilities.disappear.name=Verschwinden
+
+abilities.skillprotect.name=Beschützen
+
+
+
+# Object Properties
+
+objects.cover.property=Deckung: {1}
+
+objects.range.bonus=Bonus-Reichweite: +{0}
+
+objects.cover.bonus=Bonus-Deckung: {1}
+
+
+
+# Professions
+
+professions.level.format=Level {0}
+
+professions.engineer.male=Ingenieur
+
+professions.engineer.female=Ingenieurin
+
+professions.fighter.male=Kämpfer
+
+professions.fighter.female=Kämpferin
+
+professions.occultist.male=Okkultist
+
+professions.occultist.female=Okkultistin
+
+professions.survivalist.male=Überlebenskünstler
+
+professions.survivalist.female=Überlebenskünstlerin
+
+professions.priest.male=Priester
+
+professions.priest.female=Priesterin
+
+professions.defender.male=Verteidiger
+
+professions.defender.female=Verteidigerin
+
+
+
+# Tags
+
+tags.melee.name=Nahkampf
+
+tags.blunt.name=Stumpf
+
+tags.sharp.name=Scharf
+
+tags.rifle.name=Gewehre
+
+tags.pistol.name=Pistolen
+
+tags.farm.name=Bauernhöfe
+
+tags.bow.name=Bogen
+
+tags.toolweapon.name=Werkzeug
+
+tags.automaticweapon.name=Automatische Waffen
+
+tags.holyweapon.name=Heilige Waffen
+
+tags.darkweapon.name=Dunkle Waffen
+
+tags.techweapon.name=Tech-Waffen
+
+tags.sniper.name=Scharfschützenwaffen
+
+tags.firearm.name=Schusswaffen
+
+tags.defensestructure.name=Vert.- Gebäude
+
+tags.advfirearms.name=Fortg. Schusswaffen
+
+tags.occultweapon.name=Okkulte Waffen
+
+tags.holycrafting.name=Heilige Gegenstände
+
+tags.darkcrafting.name=Dunkle Gegenstände
+
+tags.holycrafting2.name=Heilige Artefakte
+
+tags.darkcrafting2.name=Dunkle Artefakte
+
+tags.medicinecrafting.name=Medizin
+
+tags.wardscrafting.name=Schutz gegen Böses
+
+tags.consecratedstructure.name=Geweiht
+
+
+
+# Equip Skills
+
+equipskill.darkarmor.name=Dunkle Rüstung
+
+equipskill.naturearmor.name=Natürliche Rüstung
+
+equipskill.techarmor.name=Tech-Rüstung
+
+equipskill.holyarmor.name=Heilige Rüstung
+
+equipskill.techweapon.name=Tech-Waffen
+
+equipskill.toolweapon.name=Werkzeugwaffen
+
+equipskill.firearm.name=Fortg. Schusswaffen
+
+equipskill.sniper.name=Scharfschützengewehre
+
+equipskill.occultweapon.name=Okkulte Waffen
+
+
+
+# Research Categories
+
+research.category.base=Basis
+
+research.category.craft=Herstellen
+
+research.category.weapons=Waffen
+
+research.category.occult=Okkultes
+
+research.category.rituals=Rituale
+
+research.category.other=Sonstiges
+
+
+
+# Directions
+
+directions.north.text=Norden
+
+directions.east.text=Osten
+
+directions.south.text=Süden
+
+directions.west.text=Westen
+
+directions.northeast.text=Nordosten
+
+directions.southeast.text=Südosten
+
+directions.southwest.text=Südwesten
+
+directions.northwest.text=Nordwesten
+
+
+
+# Specific Names
+
+worldobject.settlement.specificnames=New Atlanta,Humanity's End,The Oasis,Blight's End,Fort Bungee,The Fringe,Ambrosia,Dumfield,Bingtown,Antfield,Noah's Ark,Hammerfeld,Hopestown,Margula,Bloodsfield,Witchland,Bourbon Dream
+
+survivor.male.specificnames=Grady,Brad,Seth,George,Andrew,Max,Brandon,Jimmy,Jan,Eric,Stan,Kyle,Kenny,Harry,Ronald,Bart,Steve,Greg,Timmy,David,Tom,John,Cruz,Armand,Michael,Ross,Joey,Glenn,Rich
+
+survivor.female.specificnames=Lauren,Anne,Liz,Betty,Stephanie,Grace,Kelly,Bertha,Brittany,Annabel,Stacy,Jenny,Martha,Holly,Leanne,May,Andy,Grace,Heather,Bobbie,Maria,Milan,Debora,July,June,August,Maya,Lucy
+
+taskforce.name.specificnames=Bomber,Truppler,Minotauren,Mammuts,Bettler,Südstaatler,Einträchtler,Schlächter,Duellisten,Zeds,Gaukler,Schmuggler,Mechaniker,Juggernauts,Höhlenmenschen,Loyalisten,Echsen,Schläger,Ranger
+
+
+
+
+# General
+
+skills.base.hover=Basis: {0}
+
+skills.exp.hover=({0}/{1} Erf.)
+
+
+
+# Profession Starting Skills - common
+
+skills.gatherer.name=Sammler
+
+skills.miner.name=Bergarbeiter
+
+skills.worker.name=Arbeiter
+
+skills.builder.name=Bauarbeiter
+
+skills.crafter.name=Handwerker
+
+skills.gardener.name=Gärtner
+
+skills.labassistant.name=Laborassistent
+
+skills.practitioner.name=Okkultist
+
+skills.dabbler.name=Amateur-Okkultist
+
+skills.devout.name=Frommer
+
+skills.corrupt.name=Verdorbener
+
+skills.gangster.name=Gangster
+
+skills.gunenthusiast.name=Waffenfanatiker
+
+skills.exconvict.name=Ex-Sträfling
+
+skills.scout.name=Kundschafter
+
+skills.cultist.name=Kultist
+
+skills.religious.name=Religiös
+
+skills.conspiracytheorist.name=Verschwörungstheoretiker
+
+skills.hoarder.name=Hamsterer
+
+
+
+# General Starting Skills - common
+
+skills.brute.name=Rohling
+
+skills.healthy.name=Gesund
+
+skills.believer.name=Gläubiger
+
+skills.clever.name=Klug
+
+skills.perceptive.name=Aufmerksam
+
+skills.nimble.name=Flink
+
+
+
+# Profession Starting Skills - uncommon
+
+skills.scavenger.name=Plünderer
+
+skills.expertminer.name=Bergarbeiter-Experte
+
+skills.constructor.name=Bauarbeiter
+
+skills.artisan.name=Handwerker
+
+skills.farmer.name=Bauer
+
+skills.scientist.name=Wissenschaftler
+
+skills.demonologist.name=Dämonologe
+
+skills.preacher.name=Prediger
+
+skills.cultleader.name=Kultführer
+
+skills.countryperson.name=Landeinwohner
+
+skills.geek.name=Geek
+
+skills.soldier.name=Soldat
+
+skills.excop.name=Ex-Polizist
+
+skills.martialartist.name=Kampfsportler
+
+skills.librarian.name=Bibliothekar
+
+skills.witch.name=Hexe
+
+skills.insomniac.name=Insomniker
+
+
+
+# General Starting Skills - uncommon
+
+skills.alienabductee.name=Alien-Entführter
+
+skills.bodybuilder.name=Bodybuilder
+
+skills.vegan.name=Veganer
+
+skills.laborer.name=Hilfsarbeiter
+
+skills.physician.name=Arzt
+
+skills.beserker.name=Berserker
+
+
+
+# Profession Starting Skills - rare
+
+skills.darkpriest.name=Dunkler Priester
+
+skills.saint.name=Heiliger
+
+skills.hacker.name=Hacker
+
+skills.architect.name=Architekt
+
+skills.spook.name=Spion
+
+skills.ninja.name=Ninja
+
+skills.monk.name=Mönch
+
+skills.crusader.name=Kreuzritter
+
+skills.naturalist.name=Naturalist
+
+skills.huntsman.name=Jäger
+
+
+
+# General Starting Skills - rare
+
+skills.weirdo.name=Spinner
+
+skills.meatlover.name=Fleischliebhaber
+
+skills.hippie.name=Hippie
+
+skills.adventurous.name=Abenteuerlustig
+
+skills.hardworking.name=Schwerarbeitend
+
+
+
+# Starting Skills - negative
+
+skills.smoker.name=Raucher
+
+skills.weak.name=Schwach
+
+skills.shortsighted.name=Kurzsichtig
+
+skills.slow.name=Langsam
+
+skills.elitist.name=Elitär
+
+skills.lazy.name=Faul
+
+skills.anemic.name=Anämisch
+
+skills.technophobe.name=Technikfeind
+
+skills.coward.name=Feigling
+
+skills.addict.name=Süchtiger
+
+skills.skeptic.name=Skeptiker
+
+
+
+# Gained Skills - special
+
+skills.consecration.name=Weihung
+
+skills.spotting.name=Spähen
+
+skills.patroling.name=Patrouillieren
+
+skills.healingrate.name=Schnelle Heilung
+
+skills.stealth.name=Tarnung
+
+skills.selflearning.name=Selbstlernend
+
+skills.builddefense.name=Verteidigungsbau
+
+skills.healing.name=Wundbehandlung
+
+skills.protection.name=Schutz
+
+skills.cursing.name=Verfluchend
+
+skills.satanist.name=Satanist
+
+skills.naturelover.name=Naturliebhaber
+
+skills.techie.name=Techie
+
+skills.holyman.name=Heiliger Mann
+
+skills.techfighter.name=Tech-Krieger
+
+skills.toolsman.name=Werkzeugspezialist
+
+skills.weaponspecialist.name=Waffenspezialist
+
+skills.sniper.name=Scharfschütze
+
+skills.occultist.name=Okkultist
+
+
+
+# Gained Skills - level 1
+
+skills.marksmanship1.name=Treffsicherheit I
+
+skills.agility1.name=Beweglichkeit I
+
+skills.damage1.name=Schaden I
+
+skills.evasion1.name=Ausweichen I
+
+skills.stalwart1.name=Robust I
+
+skills.melee1.name=Nahkampf I
+
+skills.meleedefense1.name=Nahkampf-Verteidigung I
+
+skills.blunt1.name=Stumpfe Waffen I
+
+skills.sharp1.name=Scharfe Waffen I
+
+skills.pistols1.name=Pistolen I
+
+skills.rifles1.name=Gewehre I
+
+skills.bows1.name=Bogenschießen I
+
+skills.toolweapon1.name=Werkzeugexperte I
+
+skills.autoweapon1.name=Automatische Waffen I
+
+skills.darkweapon1.name=Dunkle Waffen I
+
+skills.techweapon1.name=Tech-Waffen I
+
+skills.holyweapon1.name=Heilige Waffen I
+
+skills.gather1.name=Sammeln I
+
+skills.mine1.name=Bergbau I
+
+skills.quarry1.name=Abbau I
+
+skills.build1.name=Bau I
+
+skills.craft1.name=Handwerk I
+
+skills.farming1.name=Landwirtschaft I
+
+skills.research1.name=Forschung I
+
+skills.occultresearch1.name=Okkulte Forschung I
+
+skills.rituals1.name=Rituale I
+
+
+
+# Gained Skills - level 2
+
+skills.marksmanship2.name=Treffsicherheit II
+
+skills.agility2.name=Beweglichkeit II
+
+skills.damage2.name=Schaden II
+
+skills.evasion2.name=Ausweichen II
+
+skills.stalwart2.name=Robust II
+
+skills.melee2.name=Nahkampf II
+
+skills.meleedefense2.name=Nahkampf-Verteidigung II
+
+skills.blunt2.name=Stumpfe Waffen II
+
+skills.sharp2.name=Scharfe Waffen II
+
+skills.pistols2.name=Pistolen II
+
+skills.rifles2.name=Gewehre II
+
+skills.bows2.name=Bogenschießen II
+
+skills.toolweapon2.name=Werkzeugexperte II
+
+skills.autoweapon2.name=Automatische Waffen II
+
+skills.darkweapon2.name=Dunkle Waffen II
+
+skills.techweapon2.name=Tech-Waffen II
+
+skills.holyweapon2.name=Heilige Waffen II
+
+skills.gather2.name=Sammeln II
+
+skills.mine2.name=Bergbau II
+
+skills.quarry2.name=Abbau II
+
+skills.build2.name=Bau II
+
+skills.craft2.name=Handwerk II
+
+skills.farming2.name=Landwirtschaft II
+
+skills.research2.name=Forschung II
+
+skills.occultresearch2.name=Okkulte Forschung II
+
+skills.rituals2.name=Rituale II
+
+
+
+# Gained Skills - level 3
+
+skills.marksmanship3.name=Treffsicherheit III
+
+skills.agility3.name=Beweglichkeit III
+
+skills.damage3.name=Schaden III
+
+skills.evasion3.name=Ausweichen III
+
+skills.stalwart3.name=Robust III
+
+skills.melee3.name=Nahkampf III
+
+skills.meleedefense3.name=Nahkampf-Verteidigung III
+
+skills.blunt3.name=Stumpfe Waffen III
+
+skills.sharp3.name=Scharfe Waffen III
+
+skills.pistols3.name=Pistolen III
+
+skills.rifles3.name=Gewehre III
+
+skills.bows3.name=Bogenschießen III
+
+skills.toolweapon3.name=Werkzeugexperte III
+
+skills.autoweapon3.name=Automatische Waffen III
+
+skills.darkweapon3.name=Dunkle Waffen III
+
+skills.techweapon3.name=Tech-Waffen III
+
+skills.holyweapon3.name=Heilige Waffen III
+
+skills.gather3.name=Sammeln III
+
+skills.mine3.name=Bergbau III
+
+skills.quarry3.name=Abbau III
+
+skills.build3.name=Bau III
+
+skills.craft3.name=Handwerk III
+
+skills.farming3.name=Landwirtschaft III
+
+skills.research3.name=Forschung III
+
+skills.occultresearch3.name=Okkulte Forschung III
+
+skills.rituals3.name=Rituale III
+
+
+
+# Preset Skills
+
+skills.slayer.name=Schlächter
+
+skills.hunter.name=Jäger
+
+skills.exorcist.name=Exorzist
+
+skills.doctor.name=Arzt
+
+skills.survivor.name=Überlebender
+
+
+
+# Unused
+
+skills.woodcutter.name=Holzfäller
+
+skills.mineminerals.name=Mineralien-Bergbau
+
+skills.farmingyield.name=Landwirtschaftsertrag
+
+skills.craftfirearms.name=Schusswaffen-Handwerk
+
+skills.craftmedicine.name=Medizin-Handwerk
+
+skills.holycrafting.name=Heiliges Handwerk I
+
+skills.wardscrafting.name=Schutz gegen Böses
+
+skills.darkcrafting.name=Dunkles Handwerk I
+
+skills.occultweapons.name=Ausübender des Okkulten
+
+skills.occultweapons2.name=Meister des Okkulten
+
+items.hidden.name=Unbekannt
+
+items.none.name=Nichts
+
+items.water.name=Trinkwasser
+items.water.description=Wird aus Brunnen geholt. Überlebende trinken im Laufe der Zeit Wasser.\n\nÜberlebende können Gesundheit verlieren, wenn die Wasservorräte knapp werden.
+
+items.wood.name=Holz
+items.wood.description=Grundlegende Ressource, die hauptsächlich in Bau und Handwerk benutzt wird.
+
+items.stone.name=Steine
+items.stone.description=Grundlegende Ressource, die hauptsächlich im Bau benutzt wird.
+
+items.scraps.name=Schrott
+items.scraps.description=Kleinteile, die fast überall benutzt werden.
+
+items.clay.name=Lehm
+items.clay.description=Grundlegende Ressource, die hauptsächlich im Bau benutzt wird.
+
+items.fur.name=Felle
+items.fur.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.\n\nKann durch Töten von Werwölfen erlangt werden.
+
+items.tomato.name=Gemüse
+items.tomato.description=Ressource, die zum Kochen benutzt wird.
+
+items.wool.name=Wolle
+items.wool.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.
+
+items.wheat.name=Weizen
+items.wheat.description=Ressource, die zum Kochen und für die Herstellung von Gegenständen benutzt wird.
+
+items.physics1.name=Wissenschaftliche Forschung
+items.physics1.description=Forschungspunkte, die benutzt werden, um wissenschaftsbasierte Technologien freizuschalten.\n\nGeneriert von Überlebenden, die an Experimentiertischen arbeiten.
+
+items.occult1.name=Okkulte Forschung
+items.occult1.description=Forschungspunkte, die benutzt werden, um auf dem Okkulten basierende Technologien freizuschalten.\n\nGeneriert von Überlebenden, die in okkulten Bibliotheken arbeiten.
+
+items.sulfur.name=Schwefel
+items.sulfur.description=Ressource, die für okkulte Rituale und im Handwerk benutzt wird.\n\nKann durch Töten schwächerer Dämonen erlangt werden.
+
+items.medicine.name=Medizin
+items.medicine.description=Ressource, die zur Herstellung von Gegenständen und für die Heilung von verletzten Überlebenden in der Krankenstation benutzt wird.\n\nKann bei Plünderungsmissionen und beim Durchsuchen von Trümmern gefunden werden.
+
+items.arrows.name=Pfeile
+items.arrows.description=Werden für Bogen und Armbrüste benutzt.
+
+items.researchmaterials.name=Forschungsmaterialien
+items.researchmaterials.description=Werden für fortgeschrittene Forschung benutzt.\n\nKönnen beim Plündern gefunden werden.
+
+items.researchkit.name=Forschungsausrüstung
+items.researchkit.description=Werden für fortgeschrittene Forschung benutzt.\n\nKönnen beim Plündern gefunden werden.
+
+items.metals.name=Metalle
+items.metals.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.
+
+items.physics2.name=Wissenschaftsbauteile
+
+items.occult2.name=Essenz
+
+items.ectoplasm.name=Ektoplasma
+items.ectoplasm.description=Ressource, die für okkulte Rituale und im Handwerk benutzt wird.\n\nKann durch Töten von Schnittern und Geistern erlangt werden.
+
+items.boards.name=Bretter
+items.boards.description=Ressource, die hauptsächlich im Bau benutzt wird.
+
+items.bricks.name=Ziegel
+items.bricks.description=Ressource, die hauptsächlich im Bau benutzt wird.
+
+items.weaponparts.name=Waffenteile
+items.weaponparts.description=Ressource für die Herstellung von Waffen.
+
+items.cloth.name=Stoff
+items.cloth.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.
+
+items.demonite.name=Dämonit
+items.demonite.description=Ressource, die in den meisten Anleitungen für die Herstellung von dunkler Magie benutzt wird.\n\nKann durch Töten von stärkeren Dämonen erlangt werden.
+
+items.alcohol.name=Alkohol
+items.alcohol.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.
+
+items.herbs.name=Kräuter
+items.herbs.description=Ressource, die zum Kochen und für die Herstellung von Gegenständen benutzt wird.
+
+items.gunpowder.name=Schießpulver
+items.gunpowder.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.
+
+items.deadbody.name=Körper eines Überlebenden
+items.deadbody.description=Ein toter Kamerad.\n\nEin Priester mit der richtigen Fähigkeit kann ihn begraben.
+
+items.occult3.name=Leerenessenz
+
+items.minerals.name=Mineralien
+items.minerals.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.
+
+items.fertilizer.name=Dünger
+
+items.holywords.name=Heilige Worte
+items.holywords.description=Religiöse Schriften, die in mächtigen heiligen Ritualen und zur Herstellung von mächtigen Gegenständen benutzt werden.\n\nGefallene Engel tragen sie bei sich und sie können an manchen Orten geplündert werden.
+
+items.composites.name=Verbundmaterialien
+items.composites.description=Ressource, die zur Herstellung von Gegenständen benutzt wird.
+
+items.holywater.name=Weihwasser
+items.holywater.description=Ressource, die zur Herstellung von den meisten heiligen Gegenständen benutzt wird.
+
+items.aether.name=Äther
+items.aether.description=Ressource, die bei der Herstellung fortgeschrittener alchemistischer Waffen benutzt wird. \n\nKann bei Plünderungsmissionen erlangt werden. 
+
+items.primamateria.name=Prima Materia
+items.primamateria.description=Hergestellte alchemistische grundlegende Ressource, die für die Erstellung anderer Materialien benutzt werden kann.
+
+items.consecrated.name=#Geweihte Materialien
+
+items.machines.name=#Mechanische Teile
+
+items.salad.name=Salat
+
+items.bread.name=Brot
+
+items.sandwich.name=Sandwich
+
+items.pickles.name=Eingemachtes
+
+items.pasta.name=Nudeln
+
+items.cannedfood.name=Konservennahrung
+items.cannedfood.description=Kann beim Plündern gefunden werden.
+
+items.club.name=Keule
+
+items.baseballbat.name=Baseballschläger
+items.baseballbat.description=Professionelle Keule.\n\nKann beim Plündern gefunden werden.
+
+items.quarterstaff.name=Schlagstock
+
+items.bow.name=Bogen
+
+items.crossbow.name=Armbrust
+
+items.longbow.name=Kompositbogen
+
+items.olympicbow.name=Olympischer Bogen
+items.olympicbow.description=Besser als jeder handgefertigte Bogen.\n\nKann beim Plündern gefunden werden.
+
+items.combatknife.name=Kampfmesser
+
+items.nailgun.name=Nagelpistole
+
+items.glock.name=Glock
+
+items.uzi.name=Uzi
+
+items.demonitebow.name=Dämonit-Bogen
+
+items.swordofparacelsus.name=Schwert des Paracelsus
+
+items.shotgun.name=Schrotflinte
+
+items.deserteagle.name=Desert Eagle
+
+items.jericho.name=Jericho
+
+items.sniper.name=Scharfschützengewehr
+
+items.katana.name=Katana
+
+items.sledgehammer.name=Vorschlaghammer
+
+items.blessedpistol.name=Gesegnete Pistole
+
+items.demoniteknife.name=Dämonit-Messer
+
+items.m16.name=Sturmgewehr
+
+items.50cal.name=Kaliber 50
+
+items.combatshotgun.name=Kampf-Schrotflinte
+
+items.sacredsword.name=Heiliges Schwert
+
+items.transmutationgun.name=Umwandlungswaffe
+
+items.leatherarmor.name=Lederweste
+
+items.scraparmor.name=Schrott-Rüstung
+
+items.leatherjacket.name=Lederjacke
+items.leatherjacket.description=Wieder in Mode.\n\nKann beim Plündern gefunden werden.
+
+items.camovest.name=Tarnweste
+items.camovest.description=Die beste Verteidigung ist, nicht gesehen zu werden.\n\nKann beim Plündern gefunden werden.
+
+items.metalarmor.name=Metallrüstung
+
+items.vinearmor.name=Ranken-Rüstung
+
+items.demonitearmor.name=Dämonit-Rüstung
+
+items.holyarmor.name=Heilige Rüstung
+
+items.kevlararmor.name=Kevlar-Weste
+
+items.saintsarmor.name=Rüstung des Heiligen
+items.saintsarmor.description=Direkt aus den Gewölben des Vatikans. Zweifellos die beste Verteidigung gegen Dämonen.\n\nKann beim Plündern gefunden werden.
+
+items.mercurialarmor.name=Quecksilber-Rüstung
+
+items.medkit1.name=Erste Hilfe
+items.medkit1.description=Wird im Kampf benutzt, um Gesundheit bei verletzten Überlebenden wiederherzustellen.
+
+items.medkit2.name=Sanitäterausrüstung
+items.medkit2.description=Wird im Kampf benutzt, um Gesundheit bei verletzten Überlebenden wiederherzustellen.
+
+items.medkit3.name=Arzttasche
+items.medkit3.description=Wird im Kampf benutzt, um Gesundheit bei verletzten Überlebenden wiederherzustellen.
+
+items.medkitscavenge.name=Lazarett-Ausrüstung
+items.medkitscavenge.description=Wer braucht schon Fertigkeiten, wenn er eine Chirurgische Feldlazarett-Ausrüstung hat?\n\nKann beim Plündern gefunden werden.
+
+items.woodshield.name=Holzschild
+
+items.metalshield.name=Metallschild
+
+items.icebox.name=Kühlbox
+items.icebox.description=Ermöglicht es Überlebenden, mehr Nahrung zu speichern, was die Anzahl der Gänge zur Küche reduziert.
+
+items.paincharm.name=Schmerztalisman
+items.paincharm.description=Dunkles Artefakt, das Überlebenden hilft, Schmerz besser zu ertragen.
+
+items.luckycharm.name=Glücksbringer
+items.luckycharm.description=Der glückliche Träger verfügt über erhöhte Genauigkeit und kann besser ausweichen.
+
+items.evilward.name=Schutz gegen Böses
+items.evilward.description=Schützt gegen den bösen Blick. Und Dämonen.\n\nKann beim Plündern gefunden werden.
+
+items.fraggrenade.name=Splittergranate
+items.fraggrenade.description=Werfen, um Gegnern in einem Bereich Schaden zuzufügen.\n\nVorsicht, kann auch Verbündete verletzten.
+
+items.flashbang.name=Blendgranate
+items.flashbang.description=Werfen, um Einheiten im Gebiet zu desorientieren.\n\nDesorientierte Einheiten erleiden Abzüge in Genauigkeit und Ausweichen.\n\nVorsicht, kann auch Verbündete verletzten.
+
+items.voodoodoll.name=Voodoo-Puppe
+items.voodoodoll.description=Voodoo kann benutzt werden, um einen Gegner zu verfluchen.
+
+items.protectionspell.name=Schutzzauber
+items.protectionspell.description=Diese Zauberausrüstung kann einen Verbündeten für kurze Zeit stärken
+
+items.molotov.name=Molotow
+items.molotov.description=Kostengünstige Granate.\n\nFügt Verbündeten und Gegnern in einem Bereich Schaden zu.
+
+items.weakeningrune.name=Schwächungsrune
+items.weakeningrune.description=Schwächt Gegner in der Nähe.\n\nSchwächt aber auch den Träger.
+
+items.hexscroll.name=Fluchrolle
+items.hexscroll.description=Verfluche einen Gegner.
+
+items.werewolfpendant.name=Werwolfanhänger
+items.werewolfpendant.description=Aus den Klauen eines Alphawerwolfs gemacht.
+
+items.gingerextract.name=Ingwerextrakt
+items.gingerextract.description=Seltenes Elixier, hergestellt aus Ingwer und anderen Hexerei-Komponenten.
+
+items.sandalwood.name=Sandelholz-Armreif
+items.sandalwood.description=Dieser Armreif kann jeden heilen, der ihn im Kampf trägt.
+
+items.cross.name=Schutzkreuz
+items.cross.description=Bietet kurzfristigen aber starken Schutz vor selbst den mächtigsten Dämonen.
+
+items.binoculars.name=Fernglas
+items.binoculars.description=Wenn du weiter siehst, kannst du Gegner meiden, bevor sie dich entdecken.
+
+items.elementalbomb.name=Elementarbombe
+items.elementalbomb.description=Verursacht Schaden an Gegnern im Bereich und entzieht ihnen dabei die Lebenskraft, was sie ungelenk macht.
+
+items.nighthowls.name=Werwolfblut
+items.nighthowls.description=Blut eines lebenden Werwolfs.\n\nMan sagt, es kann benutzt werden, um Lykanthropie zu heilen.
+
+items.reinforcedoutfit.name=Verstärktes Outfit
+
+items.resin.name=Harz
+items.resin.description=Kann in Wäldern gefunden werden.
+
+items.mysticvines.name=Mystische Ranken
+items.mysticvines.description=Diese Ranken haben mystische Eigenschaften und können nur tief in Waldgebieten gefunden werden.
+
+items.obsidian.name=Obsidian
+items.obsidian.description=Kann in Lavagebieten gefunden werden.
+
+items.copper.name=Kupfer
+items.copper.description=Kann in der Wüste gefunden werden.
+
+items.volcanicbow.name=Vulkanischer Bogen
+
+items.coilgun.name=Gaußgewehr
+
+items.weakmetalarmor.name=Improvisierte Rüstung
+
+items.pipewrench.name=Schraubenschlüssel
+
+items.sterlingsmg.name=Sterling-Maschinenpistole
+
+items.huntingrifle.name=Jagdgewehr
+
+items.stunbaton.name=Knüppel
+
+items.seraphsling.name=Seraphenschleuder
+
+items.diamondcutter.name=Diamantenschneider
+
+items.freezeray.name=Froststrahl
+
+items.demonmouth.name=Dämonenmaul
+
+items.swordofnephilim.name=Schwert des Nephilim
+
+items.mtar21.name=MTAR 21
+
+items.guidedsniper.name=Gelenktes Scharfschützengewehr
+
+items.angelicarbalest.name=Engelsarbaleste
+
+items.beamcannon.name=Strahlenkanone
+
+items.damnator.name=Verdammer
+
+items.plasmacharger.name=Plasmalader
+
+items.minigun.name=Minigun
+
+items.chainsaw.name=Kettensäge
+
+items.aluminum.name=Aluminium
+
+items.diamonds.name=Diamanten
+
+items.aloe.name=Aloe Vera
+items.aloe.description=Pflanze mit heilenden und okkulten Eigenschaften.
+
+items.demonscales.name=Dämonenschuppen
+
+items.quartz.name=Quarz
+items.quartz.description=Kann in der Savanne gefunden werden.
+
+items.titanium.name=Titan
+
+items.batteries.name=Batterien
+
+items.phosphorus.name=Phosphor
+
+items.bloodruby.name=Blutrubin
+items.bloodruby.description=Diese wertvollen Steine tauchten nach den Dämonen auf. Sie haben viele nützliche Eigenschaften.
+
+items.cotton.name=Baumwolle
+
+items.permafrost.name=Permafrost-Kristall
+items.permafrost.description=Dieser Kristall von unbekannter Herkunft kann in der Tundra gefunden werden. Es ist unmöglich, ihn zu erhitzen.
+
+items.hellsessence.name=Höllenessenz
+
+items.silicon.name=Silikon
+
+items.nitro.name=Nitrozellulose
+items.nitro.description=Äußerst entzündlich, hergestellt aus Baumwollfasern
+
+items.ghilliesuit.name=Ghillie-Anzug
+
+items.elementsarmor.name=Elementrüstung
+
+items.reddevil.name=Roter Teufel
+
+items.nxravest.name=NXRA-Weste
+
+items.armorofsouls.name=Rüstung der Seelen
+
+items.boulderguard.name=Felsenschutz
+
+items.invisibilitycloak.name=Unsichtbarkeitsmantel
+
+items.celestialarmor.name=Himmlische Rüstung
+
+items.crystalguard.name=Kristallschutz
+
+items.gaiaswrath.name=Gaias Zorn
+
+items.combatsuit.name=Kampfanzug
+
+items.demonfuel.name=Dämonentreibstoff
+items.demonfuel.description=Substanz mit enormen kurzfristigen Vorteilen. Langfristige Effekte sind nicht bekannt.
+
+items.desensitiser.name=Desensibilisierer
+items.desensitiser.description=Mit ihm erreichen die Sinne für kurze Zeit eine neue Ebene. Effektive Kampfdroge.
+
+items.stunner.name=Schocker
+
+items.forcefield.name=Kraftfeld
+
+items.frostgrenade.name=Frostgranate
+
+items.acidbomb.name=Säurebombe
+
+items.bloodimplosion.name=Blutimplosion
+items.bloodimplosion.description=Bewirkt eine Implosion der Blutzellen des Gegners und fügt verheerenden Schaden zu.
+
+items.bindingcurse.name=Bindender Fluch
+items.bindingcurse.description=Bewirkt beim Ziel eine kurzfristige Schwerfälligkeit.
+
+items.pendantofinsight.name=Anhänger der Einsicht
+
+items.tranquilitycharm.name=Talisman der Ruhe
+
+items.angeldiadem.name=Engelsdiadem
+
+items.arglasses.name=AR-Brille
+
+items.researchdata.name=Forschungsdaten
+
+items.researchchip.name=Forschungschip
+
+items.sulfurcrystal.name=Schwefelkristall
+
+items.consecratedsulfur.name=Gesegneter Schwefelkristall
+
+items.bloodstone.name=Heliotrop
+
+items.antimatterdetonator.name=Antimaterie-Detonator
+
+items.demoneye.name=Dämonenauge
+
+items.antimattercontainer.name=Antimaterie-Behälter
+
+items.summoningnotes.name=Beschwörungsformeln
+
+items.antimatter.name=Antimaterie
+
+items.decoysphere.name=Ködersphäre
+
+items.huntersgear.name=Jägerausrüstung
+
+items.obsidianarmor.name=Obsidian-Rüstung
+
+items.demonsblight.name=Dämonenvernichter
+
+items.titaniumarmor.name=Titan-Rüstung
+
+items.rocketsuit.name=Raketenanzug
+
+
+
+# Natural Resources
+
+objects.tree.name=Baum
+objects.tree.description=Wächst, und kann dann für Holz gefällt werden.
+
+objects.rock.name=Stein
+objects.rock.description=Stein sammeln.
+
+objects.debris.name=Schutt
+objects.debris.description=Schrott und andere nützliche Dinge können hier gefunden werden.
+
+objects.claymine.name=Lehm
+objects.claymine.description=Lehm abbauen.
+
+objects.aluminum.name=Aluminium
+
+objects.phosphorite.name=Phosphorit
+
+objects.metals.name=Metall-Ressource
+objects.metals.description=Baue eine Mine, um Metalle zu fördern.
+
+objects.metalmine.name=Metallmine
+objects.metalmine.description=Gebaut auf Metall-Ressourcen, um den Zugang zu diesen Ressourcen zu ermöglichen.
+
+objects.minerals.name=Mineralien-Ressource
+objects.minerals.description=Baue eine Mine, um Mineralien zu fördern.
+
+objects.mineralmine.name=Mineralienmine
+objects.mineralmine.description=Gebaut auf Mineralien-Ressourcen, um den Zugang zu diesen Ressourcen zu ermöglichen.
+
+objects.diamonds.name=Diamanten
+objects.diamonds.description=Baue eine Mine, um Diamanten zu fördern.
+
+objects.diamondmine.name=Diamantenmine
+objects.diamondmine.description=Gebaut auf Diamant-Ressourcen, um den Zugang zu diesen Ressourcen zu ermöglichen.
+
+objects.bloodruby.name=Blutrubine
+objects.bloodruby.description=Baue eine Mine, um Blutrubine zu fördern.
+
+objects.bloodrubymine.name=Blutrubinmine
+objects.bloodrubymine.description=Gebaut auf Blutrubin-Ressourcen, um den Zugang zu diesen Ressourcen zu ermöglichen.
+
+
+
+# Workstations
+
+objects.research1.name=Experimentiertisch
+objects.research1.description=Ein sicherer Ort, um zu forschen und Technologien zu entdecken.
+
+objects.occultresearch.name=Okkulte Bibliothek
+objects.occultresearch.description=Okkultes Wissen, gesammelt aus uralten Texten.
+
+objects.magiccircle.name=Magischer Kreis
+objects.magiccircle.description=Irgendwas an dieser Formation schützt die Dilettanten der okkulten Künste, während sie ihre Rituale durchführen.
+
+objects.workbench.name=Werkbank
+objects.workbench.description=Voll mit einfachem Werkzeug, kann benutzt werden, um einfache Dinge herzustellen.
+
+objects.stove.name=Herd
+objects.stove.description=Hier kann gekochte Nahrung zubereitet werden.
+
+objects.sawmill.name=Säge
+objects.sawmill.description=Macht aus Holz Bretter.
+
+objects.furnace.name=Schmelzofen
+objects.furnace.description=Extreme Temperaturen ermöglichen die Verarbeitung von Roherzen.
+
+objects.weaponsworkshop.name=Waffenwerkstatt
+objects.weaponsworkshop.description=Ausgestattet mit Werkzeug und Schutzeinrichtungen, die benötigt werden, um Feinteile und robuste Schusswaffen herzustellen.
+
+objects.darkaltar.name=Dunkler Altar
+objects.darkaltar.description=Die dunklen Künste sind gefährlich, aber auch mächtig.
+
+objects.holyaltar.name=Heiliger Altar
+objects.holyaltar.description=Nicht alle Magie ist dunkel. Göttliche Rituale können hier durchgeführt werden.
+
+objects.survivorgrave.name=Grab eines Überlebenden
+objects.survivorgrave.description=Benutzt die Geister unserer gefallenen Freunde, um Dämonenessenz zu extrahieren. 
+
+objects.hellforge.name=Höllenschmiede
+objects.hellforge.description=Stelle Gegenstände aus mit dunkler Magie durchtränkten Materialien her.
+
+objects.holyforge.name=Heilige Schmiede
+objects.holyforge.description=Stelle göttliche Gegenstände her.
+
+objects.techworkshop.name=Tech-Werkstatt
+objects.techworkshop.description=Stelle fortgeschrittene Technologie her.
+
+objects.philosopherstone.name=Stein der Weisen
+objects.philosopherstone.description=Ein legendärer Gegenstand, der für Umwandlungen benutzt wird, bei denen aus einer Substanz eine andere wird.
+
+objects.alchemytable.name=Alchemietisch
+objects.alchemytable.description=Stelle alchemistische Waffen und Rüstungen her.
+
+objects.arcanefoundry.name=Arkangießerei
+objects.arcanefoundry.description=Arkane Rituale werden hier durchgeführt.
+
+objects.geologist.name=Geologiestation
+objects.geologist.description=Für die Suche nach unterirdischen Ressourcen.
+
+
+
+# Farming
+
+objects.well.name=Brunnen
+objects.well.description=Überlebende können hier Wasser holen.
+
+objects.raincollector.name=Regenwassersammler
+objects.raincollector.description=Sammle Wasser ohne Handarbeit. Ein Sammler reicht, um den Durst eines Überlebenden zu löschen.
+
+objects.tomatofarm.name=Gemüse-Bauernhof
+objects.tomatofarm.description=Hier wächst Gemüse.
+
+objects.wheatfarm.name=Weizen-Bauernhof
+objects.wheatfarm.description=Hier wächst Weizen.
+
+objects.sheepfarm.name=Schaf-Bauernhof
+objects.sheepfarm.description=Schafe bieten Wolle und der Mist kann als Dünger benutzt werden.
+
+objects.herbgarden.name=Kräutergarten
+objects.herbgarden.description=Hier wachsen zarte Kräuter, die in der raffinierten Küche und zu anderem gebraucht werden.
+
+objects.aloefarm.name=Aloe-Vera-Farm
+objects.aloefarm.description=Aloe Vera verfügt über einige heilende und arkane Eigenschaften.
+
+objects.cottonfarm.name=Baumwollfarm
+objects.cottonfarm.description=Baumwolle ist ein sehr nützliches Gut.
+
+
+
+# Base Infrastructure
+
+objects.foodstorage.name=Esstisch
+objects.foodstorage.description=Dient der Nahrungsverteilung. Hier essen hungrige Überlebende.
+
+objects.bed.name=Bett
+objects.bed.description=Müde Überlebende ruhen sich hier aus.
+
+objects.guardtower1.name=Wachturm
+objects.guardtower1.description=Überlebende im Inneren sind effizienter bei der Verteidigung der Kolonie.\n\nKann nur im Kampf und nur von Überlebenden mit Fernkampfwaffen besetzt werden.
+
+objects.infirmary.name=Krankenstation
+objects.infirmary.description=Behandle die Wunden von Überlebenden, damit sie schneller heilen.
+
+objects.trainingarea.name=Trainingsplatz
+objects.trainingarea.description=Verbessere die Kampffähigkeiten von Überlebenden.
+
+objects.sandbag.name=Sandsäcke
+objects.sandbag.description=Bieten Überlebenden Deckung, ohne die Bewegung einzuschränken.
+
+objects.spikes.name=Stachelbarrikade
+objects.spikes.description=Bietet bessere Deckung als Sandsäcke und blockiert die Bewegung.
+
+objects.barrelwall.name=Fassmauer
+objects.barrelwall.description=Verhindert Bewegung und blockiert Fernkampfwaffen vollständig.
+
+objects.logcabin_4x4.name=Blockhütte
+objects.logcabin_4x4.description=Das kleinste und einfachste Gebäude, bietet 2x2 nutzbare Slots.
+
+objects.logcabin_5x4.name=Blockhütte
+objects.logcabin_5x4.description=Einfache Holzhütte, bietet 3x2 nutzbare Slots.
+
+objects.stonehouse_5x5.name=Steinhaus
+objects.stonehouse_5x5.description=Aus stabilerem Material gebaut, kann größer gebaut werden und bietet 3x3 nutzbare Slots.
+
+objects.stonehouse_6x5.name=Steinhaus
+objects.stonehouse_6x5.description=Größere und teurere Version des Steinhauses, bietet 4x3 nutzbare Slots.
+
+objects.lookout.name=Beobachtungsposten
+objects.lookout.description=Warnt, wenn sich Feinde nähern und ermöglicht es Überlebenden so, sich besser vor den Dämonen zu verstecken.\n\nEffizienter an den Rändern der Karte.\nWeniger effizient, wenn sich andere Beobachtungsposten in der Nähe befinden.
+
+objects.occultenclosure.name=Okkultanlage
+objects.occultenclosure.description=Führe okkulte Experimente in relativer Sicherheit durch.
+
+
+
+# Combat Map
+
+objects.building.name=Gebäude
+
+objects.bus.name=Bus
+
+objects.barrel.name=Fass
+
+objects.crossedbody.name=Körper
+
+objects.combatexit.name=Ausgang
+
+objects.scavenge.name=Gerümpel
+
+objects.trappedsurvivor.name=Gefangener Überlebender
+
+
+
+# Construction
+
+objects.planting.name=Baumpflanzung
+
+objects.construction_1x1.name=Bau
+
+objects.construction_2x1.name=Bau
+
+objects.construction_1x2.name=Bau
+
+objects.construction_2x2.name=Bau
+
+objects.construction_4x4.name=Bau
+
+objects.construction_5x4.name=Bau
+
+objects.construction_5x5.name=Bau
+
+objects.construction_6x5.name=Bau
+
+
+
+# World Objects
+
+objects.base.name=Basis
+
+objects.hospital.name=Krankenhaus
+
+objects.datacenter.name=Datenzentrum
+
+objects.techfirm.name=Tech-Firma
+
+objects.military.name=Militärbasis
+
+objects.supermarket.name=Einkaufszentrum
+
+objects.residential.name=Wohngebiet
+
+objects.factory.name=Industrie-Anlage
+
+objects.farm.name=Bauernhof
+
+objects.school.name=Schule
+
+objects.church.name=Kirche
+
+objects.campsite.name=Zeltplatz
+
+objects.hauntedglade.name=Geister-Lichtung
+
+objects.miningtown.name=Bergarbeitersiedlung
+
+objects.ruins.name=Ruinen
+
+objects.quarry.name=Steinbruch
+
+objects.arcticmine.name=Bergarbeitersiedlung
+
+objects.rescuemission.name=Rettungsmission
+
+objects.demonscout.name=Dämonenkundschafter
+
+objects.settlementhelpattack.name=Hilfe-Anfrage
+
+objects.aethershrine.name=Äther-Schrein
+
+objects.secretbase.name=Geheime Basis
+
+objects.injuredsurvivor.name=Verletzter Überlebender
+
+objects.hellgate.name=Höllentor
+
+objects.recruiterskidnap.name=Rekrutierer-Lager
+
+objects.recruiterfortress.name=Rekrutierer-Bollwerk
+
+objects.archdemon.name=Erzdämon
+
+objects.physicslab.name=Physik-Labor
+
+objects.ammunitioncache.name=Munitionslager
+
+objects.nighthowls.name=Nachtheulen
+
+objects.settlement.name=Siedlung
+
+
+
+# Suburbs
+
+objects.suburbs_house_5x4.name=Haus
+
+objects.suburbs_house_5x5.name=Haus
+
+objects.suburbs_ruins_5x4.name=Verfallenes Haus
+
+objects.suburbs_car.name=Auto
+
+objects.suburbs_trash.name=Mülltonne
+
+objects.suburbs_deadtree.name=Toter Baum
+
+objects.suburbs_deadbody.name=Körper
+
+objects.suburbs_road.name=Straße
+
+
+
+# Industrial
+
+objects.industrial_silo.name=Silo
+
+objects.industrial_container.name=Container
+
+objects.industrial_factory.name=Gebäude
+
+objects.industrial_semitrailer.name=Sattelzug
+
+objects.industrial_fence.name=Zaun
+
+objects.industrial_pipe.name=Rohr
+
+
+
+# Urban
+
+objects.shopcart.name=Einkaufswagen
+
+objects.letterbox.name=Briefkasten
+
+objects.shopcart_cluster.name=Einkaufswagen
+
+objects.hospital.name=Krankenhaus
+
+objects.apartments.name=Wohnhaus
+
+objects.supermarketbuilding.name=Supermarkt
+
+objects.schoolhouse.name=Schule
+
+objects.pavement.name=Bürgersteig
+
+
+
+# Military
+
+objects.blockade.name=Blockade
+
+objects.cratespile.name=Kisten
+
+objects.humvee.name=Humvee
+
+objects.tent.name=Zelt
+
+objects.tank.name=Panzer
+
+
+
+# Mining Town
+
+objects.miningcart.name=Lore
+
+objects.brownwall.name=Wand
+
+objects.watertower.name=Wasserturm
+
+objects.truck.name=Lkw
+
+objects.shed.name=Verschlag
+
+objects.electricpost.name=Strommast
+
+
+
+# Haunted
+
+objects.swamp.name=Sumpf
+
+objects.abandonedcabin.name=Verlassene Hütte
+
+objects.crypt.name=Krypta
+
+objects.grave.name=Grab
+
+
+
+# Ruins
+
+objects.ruin.name=Ruine
+
+objects.lava.name=Lava
+
+
+
+# Farm / Settlement
+
+objects.missionfarm.name=Farmland
+
+research.farming.name=Landwirtschaft
+
+research.cooking.name=Kochen
+
+research.preserving.name=Einmachen
+
+research.waterconservation.name=Wasserkonservierung
+
+research.waterdistribution.name=Wasserverteilung
+
+research.rainwatercollection.name=Regenwassersammlung
+
+research.gardening.name=Gartenbau
+
+research.animals.name=Tieraufzucht
+
+research.woodworking.name=Holzbearbeitung
+
+research.brickmaking.name=Ziegelbrennerei
+
+research.weaving.name=Weberei
+
+research.gatherefficiency.name=Sammel-Effizienz
+
+research.scavenging.name=Plündern
+
+research.metalworking.name=Metallbearbeitung
+
+research.electromagnets.name=Elektromagneten
+
+research.minerals.name=Mineraliengewinnung
+
+research.distilling.name=Destillieren
+
+research.alchemy.name=Alchemie
+
+research.machines.name=Maschinen
+
+research.calcination.name=Kalzinierung
+
+research.bowmaking.name=Bogenbau
+
+research.crossbows.name=Armbrüste
+
+research.pneumatic.name=Pneumatische Waffen
+
+research.leatherworking.name=Lederbearbeitung
+
+research.tailoring.name=Schneidern
+
+research.knives.name=Messer
+
+research.gunmaking.name=Schusswaffenbau
+
+research.automaticweapons.name=Automatische Waffen
+
+research.advancedpistols.name=Fortgeschrittene Pistolen
+
+research.explosives.name=Sprengstoffe
+
+research.firearms.name=Schusswaffenmechanik
+
+research.hunting.name=Jagen
+
+research.advancedfirearms.name=Fortgeschrittene Schusswaffen
+
+research.swords.name=Schwerter
+
+research.firstaid.name=Erste Hilfe
+
+research.medicine.name=Medizin
+
+research.colonydefense.name=Kolonieverteidigung
+
+research.assaultrifles.name=Sturmgewehre
+
+research.heavyweapons.name=Schwere Gewehre
+
+research.urbantactics.name=Urbane Taktiken
+
+research.kevlar.name=Kevlar
+
+research.mercurialmastery.name=Quecksilber-Beherrschung
+
+research.alchemicalweapons.name=Alchemistische Waffen
+
+research.logistics.name=Logistik
+
+research.camouflage.name=Tarnung
+
+research.construction.name=Bau
+
+research.earlywarning.name=Frühwarnung
+
+research.materiamedica.name=Materia Medica
+
+research.occult.name=Dämonenherkunft
+
+research.meditation.name=Meditation
+
+research.darkmagic.name=Dunkle Magie
+
+research.holymagic.name=Heilige Magie
+
+research.hellgates.name=Höllentore
+
+research.harvestritual.name=Ernteritual
+
+research.waterritual.name=Wasserritual
+
+research.darkrituals.name=Dunkle Rituale
+
+research.demonbinding.name=Dämonenbindung
+
+research.rituals.name=Rituale
+
+research.resourcefinding.name=Zauber zur Ressourcenfindung
+
+research.demonite.name=Dämonit
+
+research.summoning.name=Beschwören
+
+research.charms.name=Talismane
+
+research.demonitecrafting.name=Dämonitbearbeitung
+
+research.soulforging.name=Seelenschmieden
+
+research.holyrituals.name=Heilige Rituale
+
+research.sacredcrafting.name=Heiliges Handwerk
+
+research.dangersense.name=Gefahrensinn
+
+research.mutation.name=Mutation
+
+research.divineinspiration.name=Göttlichkeit
+
+research.demonanatomy.name=Dämonenanatomie
+
+research.patchwork.name=Flickwerk
+
+research.expeditions.name=Expeditionen
+
+research.junglecrafting.name=Dschungelhandwerk
+
+research.advancedlogistics.name=Fortgeschrittene Logistik
+
+research.improvisedexplosives.name=Improvisierte Sprengstoffe
+
+research.metalprotection.name=Metallschutz
+
+research.metalweapons.name=Metallwaffen
+
+research.metalurgy.name=Metallurgie
+
+research.sniping.name=Scharfschützen
+
+research.magiccrafting.name=Magisches Handwerk
+
+research.lightdark.name=Licht und Dunkel
+
+research.voodoo.name=Voodoo
+
+research.extremecrafting.name=Extremes Handwerk
+
+research.weaponblessing.name=Waffen segnen
+
+research.composites.name=Verbundmaterialien
+
+research.luckybounty.name=Glückskopfgeld
+
+research.arcanerituals.name=Arkane Rituale
+
+research.spiritguide.name=Geistesführer
+
+research.allseeingeye.name=Auge der Vorsehung
+
+research.lightanddark.name=Licht und Dunkel
+
+research.defensiveaura.name=Verteidigungsaura
+
+research.godrealm.name=Gotteswelt
+
+research.tropicalfarming.name=Tropischer Ackerbau
+
+research.alchemicalprotection.name=Alchemischer Schutz
+
+research.titaniumproduction.name=Titanproduktion
+
+research.fiberextraction.name=Fasergewinnung
+
+research.phosphorusextraction.name=Phosphorgewinnung
+
+research.flamables.name=Entzündliches
+
+research.geology.name=Geologie
+
+research.diamondmining.name=Diamanten-Abbau
+
+research.diamondworking.name=Diamanten-Bearbeitung
+
+research.forcefields.name=Kraftfelder
+
+research.bloodrubies.name=Blutrubine
+
+research.semiconductors.name=Halbleiter
+
+research.diamondfusing.name=Diamanten-Fusionierung
+
+research.crowdcontrol.name=Massenkontrolle
+
+research.frostweaponry.name=Frostwaffen
+
+research.closecombat.name=Nahkampf
+
+research.guidancesystems.name=Lenksysteme
+
+research.frostexplosives.name=Frost-Sprengstoffe
+
+research.beamweapons.name=Strahlenwaffen
+
+research.aloeproperties.name=Aloe-Eigenschaften
+
+research.lostsouls.name=Verlorene Seelen
+
+research.intellectboost.name=Intelligenzschub
+
+research.soulsearching.name=Seelensuche
+
+research.fallenangels.name=Gefallene Engel
+
+research.angelicweaponry.name=Engelswaffen
+
+research.angelicartifacts.name=Engelsartefakte
+
+research.angelicprotection.name=Engelsschutz
+
+research.holytech.name=Heilige Wissenschaft
+
+research.darktech.name=Dunkle Wissenschaft
+
+research.titaniumprotection.name=Titan-Schutz
+
+research.obsidianproperties.name=Obsidian-Eigenschaften
+
+research.soulbinding.name=Seelenbinden
+
+research.soulmending.name=Seelenheilen
+
+research.miningtechniques.name=Bergbautechniken
+
+research.marching.name=Marschieren
+
+research.nursing.name=Pflegen
+
+events.trader.trade.title=Händler
+events.trader.trade.text=Ein zusammengewürfelter Haufen Überlebender wurde am Rand deines Lagers gesichtet. Nach weiterer Untersuchung stellt sich heraus, dass sie zum Handeln hierhergekommen sind.\n\nSie werden einige Stunden lang bleiben und sich dann wieder auf den Weg machen.
+
+events.settlementtrader.delay.title=Handelseinladung
+events.settlementtrader.delay.text=Du hast {{obj_name}} eingeladen, mit dir zu handeln. Ihr Konvoi wird bald bei deiner Kolonie eintreffen.
+
+events.settlementtrader.trade.title=Handelseinladung
+events.settlementtrader.trade.text=Ein Handelskonvoi, den du von {{obj_name}} eingeladen hast, ist bei deiner Kolonie eingetroffen.\n\nSie werden einige Stunden lang bleiben und sich dann wieder auf den Weg machen.
+
+events.rescue.createrescue.title=Hilfe benötigt
+events.rescue.createrescue.text=Jemand in der Nähe wird von feindlichen Kreaturen gejagt.\n\nSchicke ein Team zur Hilfe, dann schließt sich die Person euch vielleicht an.
+
+events.rescue.notfound.title=Keine Überlebenden gefunden
+events.rescue.notfound.text=Du konntest in der Nähe keine Überlebenden finden. \n\n(Maximale Bevölkerung erreicht)
+
+events.demonscout.demonscout.title=Truppe von Kundschaftern
+events.demonscout.demonscout.text=Eine Truppe feindlicher Kundschafter wurde in der Nähe gesichtet.\n\nDu solltest sie schnell erledigen, bevor sie eure Basis entdecken.\n\nWenn du die Kundschafter ausschaltest, sinkt die Aufmerksamkeit des Gegners, lässt du sie gewähren, steigt sie.
+
+events.basedefense.defensewarning.title=Feinde nähern sich
+events.basedefense.defensewarning.text=Du hast einige Kreaturen gesichtet, die sich eurem Standort nähern.\nSie werden bald angreifen, bereite dich besser darauf vor.
+
+events.basedefense.attackedmessage.title=Angegriffen!
+events.basedefense.attackedmessage.text=Ihr werdet angegriffen.\n\nRüste deine Überlebenden vor dem Kampf aus.\nBesiege alle Angreifer.
+
+events.rescuedefense.attackedmessage.title=Hilfe!
+events.rescuedefense.attackedmessage.text=Monster! Sie jagen jemanden und derjenige führt sie geradewegs zu unserer Kolonie. Wir müssen sie zurückschlagen.
+
+events.rats.rats.title=Ungeziefer!
+events.rats.rats.text=Eine unbekannte Art von Ungeziefer hat eure Nahrungsvorräte dezimiert.\n\nSie haben Schwefel als Hinweis auf ihren Ursprung zurückgelassen.
+
+events.foundmetal.foundmetal.title=Metallvorkommen gefunden
+events.foundmetal.foundmetal.text=Nahe der Basis wurde ein neues Metallvorkommen entdeckt.
+
+events.foundminerals.foundminerals.title=Mineralienvorkommen gefunden
+events.foundminerals.foundminerals.text=Nahe der Basis wurde ein neues Mineralienvorkommen entdeckt.
+
+events.nighthowls.opening.title=Nachtheulen
+events.nighthowls.opening.text=Am Ende der Zeiten gehört die Zivilisation der Vergangenheit an. Verschwunden ist die Elektronik, die das Leben so viel einfacher machte, verschwunden sind die Lichter, die nächtliche Straßen sicherer machten und die uns davon abhielten, die Sterne neben dem leuchtenden Mond am Nachthimmel zu sehen.\n\nEs könnte eine geradezu romantische Erfahrung sein, wäre da nicht die Apokalypse. Aber es scheint, als habe {{survivor}} ein besonderes Interesse am nächtlichen Mond entwickelt. Diese Faszination war schon immer offenkundig, aber jetzt ist sie anders. {{survivor}} kann nicht mehr schlafen. {{survivor_hesheC}} läuft unter dem Nachthimmel herum und sieht zum Mond auf. Seine perfekte Form, das zarte Leuchten grauweißen Lichts in der Ferne weckt einen unkontrollierbaren Drang. {{survivor_hesheC}} weiß nicht, woher er kommt, warum oder wie, aber er ist da – der Drang zu heulen.\n\n{{survivor}} heult den Mond an und was als alberne Imitation eines Wolfswelpen begonnen haben mag, wird bald zu einem vollwertigen, Furcht einflößenden Heulen. Das Heulen hallt in der Ferne wider und wird von verlassenen Gebäuden und verfallenen Verstecken zurückgeworfen. {{survivor_hesheC}} kommt wieder zu sich, aber es ist zu spät – das Heulen hat unerwünschte Aufmerksamkeit auf sich gezogen!
+
+events.nighthowls.research.title=Nachtheulen
+events.nighthowls.research.text=Dieser unersättliche Drang zu Heulen wird zweifellos zurückkehren und weiteres Unglück mit sich bringen. Du musst herausfinden, wie du {{survivor}} helfen kannst.
+
+events.nighthowls.foundwerewolf.title=Nachtheulen
+events.nighthowls.foundwerewolf.text=Deine Okkultisten haben den Ursprung dieser Bedrohung ermittelt. Es scheint, dass {{survivor}} vom „Fluch des Wolfes“ heimgesucht wird, einem uralten Fluch, der Männer und Frauen in den Wahnsinn treibt, und sie glauben macht, sie seien Wölfe. Dieser Fluch kann jedoch geheilt werden. Alles, was du brauchst, ist … ein echter Wolf. Genauer gesagt, ein Werwolf. Eine kleine Blutprobe und ein einfacher Gesang sollten diesen Fluch brechen. Der Gesang ist einfach durchzuführen, aber die Blutprobe zu bekommen, wird sich als ein wenig schwieriger erweisen.\n\nDu erinnerst dich daran, ein seltsames Geheul in der Ferne gehört zu haben, sicherlich war das ein Werwolf. Vielleicht könntest du den Werwolf dazu überreden, etwas von seinem Blut für eine gute Sache zu spenden … durch rohe Gewalt.
+
+events.nighthowls.end.title=Nachtheulen
+events.nighthowls.end.text={{survivor}} fühlt sich, als sei die Last der Welt von {{survivor_hisher}}s Schultern gefallen. Obwohl der Mond noch scheint und der Nachthimmel von Sternen übersät ist, ist der Drang zu heulen für immer verschwunden. Vielleicht ist {{survivor}} in jeder Hinsicht kein Wolf, sondern ein Mensch, der in dieser von der Apokalypse verwüsteten Welt durch die Schönheit des Nachhimmels bezaubert ist.\n\nDu spürst, dass von den Klauen des Werwolfs eine geheimnisvolle Kraft ausgeht und stellst daraus einen Anhänger her. Vielleicht wird er dir in deinen Anstrengungen helfen.
+
+events.nighthowls.dead.title=Nachtheulen
+events.nighthowls.dead.text=Der Tod nimmt {{survivor}} zu sich. {{survivor_hesheC}} wird schmerzlich vermisst werden. {{survivor_hisherC}}s Körper mag fort sein, aber die Erinnerung an {{survivor_hisher}} bleibt für immer bestehen. Mit dem Tod von {{survivor_hisher}} verschwindet auch der schreckliche Fluch und das Lager zieht keine unerwünschte Aufmerksamkeit mehr auf sich.
+
+events.badomens.research.title=Schlechte Omen
+events.badomens.research.text=Dunkle Wolken bedecken den nächtlichen Himmel und das sanfte Mondlicht dringt durch die spärlichen Risse in der Wolkendecke. So schafft es ein schwaches Licht, gerade hell genug, um sehen zu können. Ein dunkelroter Komet zieht seine Bahn und färbt den Himmel blutrot. Es scheint nichts Geringeres zu sein als Hexerei, als sich der Mond selbst rot färbt und unheilverkündend glüht. Dämonisches Heulen erklingt in der Ferne – solche schlechten Omen scheinen diesen Wesen unnatürliche Kräfte zu verleihen.
+
+events.badomens.resolved.title=Schlechte Omen
+events.badomens.resolved.text=Deine Überlebenden entdecken ein uraltes Manuskript, in dem von einem Blutmond die Rede ist, sowie von einem alten religiösen Ritual, um sich davor zu schützen. Nach dem Vollführen des Rituals kehrt der Mond zu seinem normalen, blassen Licht zurück und das dämonische Geheul klingt sofort ab. Alles ist wieder so wie vorher.
+
+events.badomens.expired.title=Schlechte Omen
+events.badomens.expired.text=So plötzlich wie er kam, verschwindet der rote Nebel vom Mond und er kehrt zu seinem normalen blassen Leuchten zurück. Das dämonische Geheul klingt sofort ab. Alles ist wieder so wie vorher.
+
+events.badomens.reward.title=Schlechte Omen
+events.badomens.reward.text=Das seltsame Phänomen muss von echter mythischer Natur gewesen sein. In einigen dunklen Ecken deiner Kolonie findest du seltsame okkulte Ressourcen, die oft beim Bezwingen von Dämonen zurückbleiben.
+
+events.blackbox.opening.title=Die schwarze Kiste
+events.blackbox.opening.text=Die Überbleibsel des einstigen Gipfels menschlicher Architektur liegen als schmerzliche Erinnerung an alles, das verlorengegangen ist, am Boden verstreut. Die Straßen einer einst blühenden Stadt sind mit schweren, staubbedeckten Ziegelsteinen und Glassplittern übersät.\n\nEin Haufen Schutt neben einem verlassenen Gebäude erregt deine Aufmerksamkeit. Tatsächlich, die Trümmer bergen ein Geheimnis – eine schwarze, verschlossene Kiste. Die Kiste ist ziemlich stabil und das Schloss an seiner Vorderseite scheint einen beträchtlichen Teil ihres Gewichts auszumachen. Mit dem richtigen Werkzeug kann sie vermutlich geöffnet werden.
+
+events.blackbox.ignore.title=Die schwarze Kiste
+events.blackbox.ignore.text=Du findest nicht das richtige Werkzeug, um die Kiste zu öffnen, und musst sie zurücklassen. Du fragst dich, ob du sie jemals wiederfinden wirst …\n
+
+events.blackbox.open1.title=Die schwarze Kiste
+events.blackbox.open1.text=Die Kiste ist voller medizinischer Vorräte!
+
+events.blackbox.open2.title=Die schwarze Kiste
+events.blackbox.open2.text=Jemand hat sich auf das Ende vorbereitet: Du findest eine Menge haltbarer Lebensmittel in der Kiste. Beim Einpacken der Vorräte fragst du dich, was wohl aus dem vorigen Besitzer geworden ist …
+
+events.blackbox.open3.title=Die schwarze Kiste
+events.blackbox.open3.text=Die Kiste ist voller Baupläne und Schemata. Deine Forscher werden sicher vieles daraus lernen können.
+
+events.blackbox.open4.title=Die schwarze Kiste
+events.blackbox.open4.text=Du öffnest die Kiste und findest einige in Stoff gewickelte Gegenstände mit arkanen Symbolen. Deine Okkultisten interessieren sich sehr dafür.
+
+events.blackbox.open5.title=Die schwarze Kiste
+events.blackbox.open5.text=Die Kiste enthält einen verwesten, mit Insekten und Maden bedeckten Körperteil. Du wirfst ihn angeekelt von dir, nur um zuzusehen, wie die Insekten direkt zu deinen Feldern fliegen!
+
+events.blackbox.open6.title=Die schwarze Kiste
+events.blackbox.open6.text=Du öffnest die Kiste und siehst ein Dollarsymbol, das gierig unter den Deckel eingraviert wurde. Die Kiste ist bis zum Rand mit Flaschendeckeln gefüllt Wer auch immer sich hier auf die Apokalypse vorbereitete, hatte eine falsche Vorstellung – wofür sollten Flaschendeckel gut sein?
+
+events.lowmorale.opening.title=Verzweifelte Zeiten
+events.lowmorale.opening.text=Als die Tage vergehen und kein Zeichen von Rettung ist in Sicht ist, fordern Erschöpfung und Verzweiflung ihren Tribut. Die Motivation ist niedrig und die Überlebenden gehen in stiller Resignation ihrer alltäglichen Arbeit nach. Forscher sind am stärksten davon betroffen. Sie können sich nur schwer konzentrieren und erzielen keine nennenswerten Durchbrüche.\n\nEs muss einen Weg geben, die Moral zu verbessen. Vielleicht ein Festmahl? Eine Feier?
+
+events.lowmorale.success.title=Verzweifelte Zeiten
+events.lowmorale.success.text=Es hat funktioniert, die Laune ist besser als je zuvor. Der Glanz ist in eure Augen zurückgekehrt.
+
+events.lowmorale.rewardchoice.title=Verzweifelte Zeiten
+events.lowmorale.rewardchoice.text=Alle sind motiviert, aber {{survivor}} ist sogar noch motivierter und fragt nach einer besonderen Aufgabe.
+
+events.lowmorale.reward1.title=Verzweifelte Zeiten
+events.lowmorale.reward1.text={{survivor}}s Plünderausflug war sehr erfolgreich! {{survivor_hesheC}} hat in der Nähe versteckte Vorräte gefunden und keine Dämonen sind in Sicht. Noch in derselben Stunde ist das Versteck seines Inhalts beraubt und deine Vorratskammern sehen etwas voller aus.
+
+events.lowmorale.reward2.title=Verzweifelte Zeiten
+events.lowmorale.reward2.text={{survivor}} ist den ganzen Weg bis zu den nahegelegenen Ruinen gelaufen und hat auf dem Weg alle Gefahren ignoriert. Eine Weile darauf kam {{survivor_heshe}} zurück zum Lager – mit ein paar Kratzern und einer großartigen neuen Waffe.
+
+events.lowmorale.reward3.title=Verzweifelte Zeiten
+events.lowmorale.reward3.text={{survivor}} läuft überall im Lager umher, versteckt alles, das fehl am Platz wirkt und verwischt alle Spuren. Man müsste schon direkt in das Lager stolpern, um zu bemerken, dass es hier außer Wildnis irgendetwas anderes gibt. Das Lager ist jetzt gut versteckt; es ist unwahrscheinlich, dass die Dämonen darauf aufmerksam werden.
+
+events.eureka.eureka.title=Eureka!
+events.eureka.eureka.text=Manche behaupten, dass einem schnell mal etwas einfallen kann, und dass es nur auf die Ausführung ankommt. Wissenschaftliche Forschung basiert jedoch auf Ideen. Ideen, die überall und von jedem stammen können. Sogar im Schlaf.\n\n{{survivor}} spricht manchmal, wenn {{survivor_hisher}} träumt. Meistens ist es nur Unsinn, aber heute hat das Gemurmel von {{survivor_hisher}} zu einem wissenschaftlichen Durchbruch verholfen!
+
+events.darkcurse.opening.title=Dunkler Fluch
+events.darkcurse.opening.text=Hexerei. Das muss es sein. Du kannst zwar keine sichtbare Veränderung ausmachen, aber die Luft scheint plötzlich dicht und erstickend. Atmen wird anstrengend. Die Arbeit wird zur Qual. Alle scheinen von dieser seltsamen Empfindung befallen zu sein. Wird dieses Gefühl jemals nachlassen?
+
+events.darkcurse.elixir.title=Dunkler Fluch
+events.darkcurse.elixir.text=Die Quelle des Fluchs ist zwar unbekannt, aber deine Okkultisten haben einen Weg ersonnen, dein Lager vor seinem Effekt zu beschützen. Ein Elixier aus besonderen Kräutern, gekocht in geschwefeltem Feuer.
+
+events.darkcurse.resolved.title=Dunkler Fluch
+events.darkcurse.resolved.text=Der Effekt des Elixiers zeigt sich sofort: Das Atmen fällt wieder leichter und das erstickende Gefühl, das immer da zu sein schien, lässt nach. Du fragst dich, ob der Fluch dämonischer Natur war oder ob hier noch andere Kräfte am Werk sind.
+
+events.darkcurse.expired.title=Dunkler Fluch
+events.darkcurse.expired.text=So plötzlich wie es begann, lässt das erstickende Gefühl nach. Die Luft fühlt sich wieder normal an und das Atmen fällt leichter. Was war die Ursache? Vielleicht wirst du es nie erfahren …
+
+events.graveyardwarning.attackedmessage.title=Friedhof
+events.graveyardwarning.attackedmessage.text=Es ist immer schwer, einen geliebten Menschen zu beerdigen. Jedes Mal, wenn du an diesen Gräbern vorbeigehst, fühlst du, wie es dir kalt den Rücken hinunterläuft. Ist dieser Schauer in diesen schwierigen Zeiten vielleicht nicht nur ein Zeichen der Trauer? Vielleicht ist es mehr als das?\n\nAls du dich umdrehst, um weiterzugehen, wird der Schauer zu einem plötzlichen Gefühl von Frost. Dein Herz bleibt beinahe stehen, als du dich mit gezogener Waffe zum Grab umdrehst. Geister. Das sind nicht deine gefallenen Freunde, sondern etwas anderes, Unnatürliches und Unheiliges. Vielleicht war es keine so gute Idee, so viele Gräber im Innern der Basis zu haben …
+
+events.graveyard.attackedmessage.title=Friedhof
+events.graveyard.attackedmessage.text=Die Gruppe ist unruhig. Zu viele Tote sind in der Nähe begraben und ziehen unerwünschte Aufmerksamkeit auf sich. Mehr Geister sind auferstanden! Sie scheinen stärker und mutiger zu werden.\n\nSo furchtbar es auch klingen mag, wir müssen einige dieser Gräber beseitigen, bevor es zu spät ist.
+
+events.settlementrecruit.recruit.title=Neuer Rekrut
+events.settlementrecruit.recruit.text=Du hast es geschafft, einen der Überlebenden von {{obj_name}} davon zu überzeugen, sich dir anzuschließen. Deine Bemühungen haben sie jedoch verärgert und eure Beziehung hat sich verschlechtert.
+
+events.settlementmeet.introduction.title=Einführung
+events.settlementmeet.introduction.text=Du erreichst die Siedlung. Auf ihrem provisorischen Ortsschild steht der Name: {{obj_name}}. Als du dich näherst, wirst du von ihren Bewohnern vorsichtig beäugt. Sie wurden vom Schicksal eindeutig ebenso gebeutelt wie du.
+
+events.settlementmeet.friendly.title=Einführung
+events.settlementmeet.friendly.text=Nach einem kurzen Gespräch mit ihren Anführern sind sie überzeugt, dass du ihnen nichts Böses willst, und sie sind aufrichtig froh über die Erkenntnis, dass sie nicht alleine sind. Ihr feiert mit einer Flasche Wein, die sie für einen besonderen Anlass aufgehoben haben, und besprecht, wie ihr euch gegenseitig helfen könnt.
+
+events.settlementmeet.neutral.title=Einführung
+events.settlementmeet.neutral.text=Du stellst dich vor und versicherst ihnen, dass du ihnen nichts Böses willst, aber sie sind immer noch misstrauisch. Sie lassen dich ihr Lager nicht betreten, bieten jedoch an, Ressourcen mit dir zu handeln.
+
+events.settlementmeet.hostile.title=Einführung
+events.settlementmeet.hostile.text=Kaum hast du ein paar Schritte gemacht, als schon jemand vor dir auf den Boden schießt. Du gehst schnell in Deckung und bereitest dich vor, um dein Leben zu kämpfen, aber sie stehen nur da und beobachten dich mit auf dich gerichteten Waffen. \n\nSie wollen eindeutig nichts mit dir zu tun haben.
+
+events.settlement_randomlauncher.improverelationship.title=Beziehung verbessert
+events.settlement_randomlauncher.improverelationship.text=Beziehung mit {{settlement_name}} hat sich verbessert.
+
+events.settlement_randomlauncher.decreaserelationship.title=Beziehung verschlechtert
+events.settlement_randomlauncher.decreaserelationship.text=Beziehung mit {{settlement_name}} hat sich verschlechtert.
+
+events.settlement_randomlauncher.givegift.title=Geschenk erhalten
+events.settlement_randomlauncher.givegift.text={{settlement_name}} hat dir zu Ehren eurer Freundschaft ein Geschenk überreicht.
+
+events.settlement_randomlauncher.helprescue.title=Hilfe angefragt
+events.settlement_randomlauncher.helprescue.text={{settlement_name}} hat um Hilfe bei einer Rettungsaktion gebeten.
+
+events.settlement_raidplayer.defensewarning.title=Bevorstehende Plünderung
+events.settlement_raidplayer.defensewarning.text=Du hast Überlebende aus {{settlement_name}} entdeckt, die sich deiner Basis nähern. In Anbetracht deiner Beziehung mit ihnen solltest du dich auf das Schlimmste vorbereiten.
+
+events.settlement_helpattack.wait.title=Bitte um Hilfe
+events.settlement_helpattack.wait.text=Ein Abgesandter von {{settlement_name}} nähert sich todesmutig deiner Basis. Er ist offensichtlich verzweifelt.\n\nEr behauptet, seine Siedlung würde von einer Gruppe besonders fieser Dämonen beobachtet, die sich auf einen Angriff vorbereiten. Sie fürchten, dass sie nicht alleine mit ihnen fertigwerden könnten, und bitten um deine Hilfe mit einer Gruppe von Dämonen Wenn du diese angreifst und besiegst, werden die Bewohner sicher dankbar sein.
+
+events.settlement_helpattack.success.title=Bitte um Hilfe
+events.settlement_helpattack.success.text=Die Leute von {{settlement_name}} sind sehr dankbar für deine Hilfe. Deine Beziehung zu ihnen hat sich stark verbessert.
+
+events.settlement_helpattack.failed.title=Bitte um Hilfe
+events.settlement_helpattack.failed.text=Du hörst, dass {{settlement_name}} von mehreren Gruppen von Dämonen angegriffen wurde. Sie haben den Ansturm überstanden, aber es wird eine Weile dauern, bis sie sich davon erholt haben und wieder handeln können. Sie sind enttäuscht, dass du ihnen nicht helfen wolltest, und vertrauen dir jetzt weniger.
+
+events.settlement_helpresources.request.title=Ressourcen-Anfrage
+events.settlement_helpresources.request.text=Ein Bote von {{settlement_name}} trifft mit einer dringenden Anfrage ein. Ihre wichtigsten Vorräte gehen zur Neige und sie hoffen, dass du welche für sie erübrigen kannst.
+
+events.settlement_helpresources.failed.title=Ressourcen-Anfrage
+events.settlement_helpresources.failed.text=Du hast gehört, dass {{settlement_name}} schwer zu kämpfen hat. Sie halten sich über Wasser, aber es wird eine Weile dauern, bis sie wieder handeln können. Sie sind enttäuscht, dass du ihnen nicht helfen wolltest, und vertrauen dir jetzt weniger.
+
+
+events.encounter.opening.title=Begegnung
+events.encounter.opening.text=Als Team „{{taskforcename}}“ außerhalb deiner Basis unterwegs ist, steht es plötzlich einer Gruppe von Dämonen gegenüber.\n\nBeide Gruppen scheinen von der Begegnung gleichermaßen überrascht zu sein, aber die Überraschung währt nur kurz. Die Dämonen brüllen, als dein Team sich auf den Angriff vorbereitet.
+
+
+scenario.main.shelter.title=Schutz
+scenario.main.shelter.story=Bei einem Campingausflug wurden vier von euch von einer einzelnen mächtigen Kreatur angegriffen. Mit vereinten Kräften konntet ihr sie gerade noch töten, aber Ned schaffte es nicht … Die vielen roten Augen um euch herum ließen die schrecklichen Dinge erahnen, die versteckt in den Schatten lauerten.\n\nIhr habt euch eure Vorräte geschnappt und seid zurück in die Stadt, nur um sie überrannt und brennend vorzufinden. Der Himmel glühte in den Farben des Feuers. Die Apokalypse hatte begonnen.\n\nIhr drei habt es in ein nahegelegenes, verstecktes Tal geschafft, in dem ihr früher immer eure Wanderausflüge verbracht habt. Vorerst scheint es hier sicher zu sein. Ihr solltet ein Lager aufschlagen. Beginne mit einer Unterkunft, einem Ort zum Essen und Ausruhen.
+scenario.main.shelter.mission=Baue eine Blockhütte, einen Brunnen, einen Esstisch und ein Bett.
+
+scenario.main.research.title=Bewirtschaften lernen
+scenario.main.research.story=Ihr habt jetzt eine Basis, aber in Sicherheit seid ihr noch lange nicht. Eure Vorräte werden nicht ewig halten. Wenn ihr keine Nahrungs- und Wasserquelle findet, werdet ihr nicht lang genug leben, um euch Sorgen zu machen, ob euch diese Kreaturen finden.\n\nBevor ihr euer eigenes Essen anbauen könnt, müsst ihr wissen, wie das geht.
+scenario.main.research.mission=Baue einen Experimentiertisch und erforsche „Landwirtschaft“.
+
+scenario.main.farming.title=Nahrungsquelle
+scenario.main.farming.story=Ihr habt herausgefunden, wie Landwirtschaft funktioniert. Nutze dieses Wissen, und baue ein paar Bauernhöfe. Sie werden regelmäßig Nahrungsvorräte bieten.\n\nDie Ressourcen werden knapp, aber es liegen reichlich davon herum. Ihr könnt Bäume für Holz fällen, Steine und Lehm abbauen, oder Trümmer nach Schrott durchsuchen.
+scenario.main.farming.mission=Baue 2 Gemüse-Bauernhöfe.
+
+scenario.main.crafting.title=Bewaffnet euch
+scenario.main.crafting.story=Diese Bauernhöfe sollten euch fürs Erste satt halten, aber wenn eure Kolonie wächst, werdet ihr mehr Bauernhöfe bauen müssen. \nDenke daran, ihr könnt keine rohe Nahrung essen, ihr werdet ständig Mahlzeiten vorbereiten müssen.\nBehalte auch euren Wasservorrat im Auge. Hole Wasser aus einem Brunnen in der Nähe, wenn es knapp wird.\n\nDa die grundlegende Versorgung jetzt sichergestellt ist, solltet ihr eure Verteidigung vorbereiten. Statte deine Überlebenden mit Waffen aus.
+scenario.main.crafting.mission=Stelle 3 Keulen her.
+
+scenario.main.attacked.title=Angegriffen!
+scenario.main.attacked.story=Diese Waffen sollten euch dabei helfen, eure Basis gegen kleinere Gruppen schwächerer Dämonen zu verteidigen, und das keinen Augenblick zu früh! Ihr wurdet entdeckt, eure Basis muss verteidigt werden.
+scenario.main.attacked.mission=Verteidige eure Basis.
+
+scenario.main.scavenging.title=Plündern
+scenario.main.scavenging.story=Das war knapp, aber das nächste Mal habt ihr vielleicht nicht so viel Glück. Um zu überleben, reicht es nicht, sich einfach zu ducken. Ihr müsst herausfinden, was da draußen los ist und aus den Städten in der Nähe Vorräte sammeln.\n\nBevor ihr euch auf den Weg macht, wollt ihr vielleicht einige bessere Waffen machen. Du weißt schon, wie man einfache Bogen macht.
+scenario.main.scavenging.mission=Sende ein Einsatzteam, um einen Ort in der Nähe zu plündern.
+
+scenario.main.rescuing.title=Rettung
+scenario.main.rescuing.story=Vorräte sind wichtig, aber du solltest darüber nachdenken, deiner Gruppe ein paar Überlebende hinzuzufügen. Mehr Hände, die kräftig zupacken können, und mehr Kämpfer werden deine Überlebenschancen erhöhen.\n\nVergiss nicht, dass eine größere Gruppe aus mehr Mäulern besteht, die es zu stopfen gilt. Sorge dafür, dass du genügend Nahrung und Wasser produzierst.
+scenario.main.rescuing.mission=Hole 4 Überlebende in deine Gruppe
+
+scenario.main.occultresearch.title=Untersuchung der Apokalypse
+scenario.main.occultresearch.story=Die Welt ist zur Hölle geworden. Es ist nur eine Frage der Zeit, bis eure kleine Basis von den Dienern der Hölle überwältigt wird. Ihr müsst herausfinden, was schiefgelaufen ist und wie ihr dem ein Ende setzen könnt.\n\nBei euren Erkundungen habt ihr einige seltsame Symbole und Runen gesehen, die ihr noch nie zuvor gesehen habt. Ihr solltet einen Platz haben, an dem ihr das Okkulte studieren und vielleicht herausfinden könnt, wo all diese Dämonen herkommen.
+scenario.main.occultresearch.mission=Baue eine Okkulte Bibliothek und erforsche „Dämonenherkunft“.
+
+scenario.main.researchmaterials.title=Fortschrittliche Forschung
+scenario.main.researchmaterials.story=Du besitzt das benötigte Wissen und die benötigten Fähigkeiten nicht, um eine fortschrittlichere Forschung durchführen zu können. Manchmal erfordert ein Durchbruch Gegenstände oder Wissen, das nur draußen in der Welt gefunden werden kann.\n\nForschungsmaterialien können zum Beispiel in den meisten Schulen gefunden werden.
+scenario.main.researchmaterials.mission=Besorge ein paar Forschungsmaterialien
+
+scenario.main.growth.title=Gemeinsam sicher
+scenario.main.growth.story=Eure wahrscheinlichste Theorie ist, dass die Barriere zwischen Hölle und Erde geschwächt wurde und die Höllenbrut einfach hindurch kann. Sie ist nicht vollends verschwunden, sonst würde der gesamte Planet brennen.\n\nIhr habt von Portalen erfahren, die von den Dämonen benutzt werden, um zwischen den Welten zu reisen – „Höllentoren“. Sie werden gut verteidigt. Ihr müsst euch besser vorbereiten, bevor ihr eins untersuchen könnt.\n\nDiese Kolonie muss stärker werden. Rekrutiere noch ein paar weitere Überlebende, und stelle sicher, dass euch die Nahrung so schnell nicht ausgeht.
+scenario.main.growth.mission=Rekrutiere 12 Überlebende und erlange 150 Nahrungsgegenstände.
+
+scenario.main.portals.title=Höllentore
+scenario.main.portals.story=Es schließen sich euch mehr Überlebende an und die Kolonie wächst. Es ist an der Zeit, etwas zu wagen. Sende ein Team aus, um eines der Höllentore zu erforschen.\n\nSei vorsichtig, denn an diesen Portalen wimmelt es vor Dämonen. Stelle sicher, dass du ein gut bewaffnetes und ausgebildetes Team hinschickst.
+scenario.main.portals.mission=Untersuche ein Höllentor.
+
+scenario.main.closedportal.title=Schließen der Portale
+scenario.main.closedportal.story=Euer Team hat einige sonderbare Essenzen vom Höllentor geplündert. Untersuche diese Portale, und schau, was du herausfindest.\n\nIm aktuellen Alpha-Build endet die Geschichte hier. Die finale Version wird über eine längere, detailliertere Geschichte sowie über mehr Gegenstände, Gebäude, Forschung und Spielmechaniken verfügen. \n\nVielen Dank, dass du unser Spiel spielst!
+
+
+
+# Rituals
+
+actions.growtrees.name=Growth Ritual
+actions.growtrees.description=Ancient ritual to mother nature that causes new trees to grow.
+
+actions.waterritual.name=Rain Dance
+actions.waterritual.description=Ancient tribal ritual that is said to bring rain. Crops grow faster while it's raining.
+
+actions.soulharness.name=Soul Harness
+actions.soulharness.description=After performing this ritual survivors will consume energy from their souls. They will become hungry 30% slower for a while.
+
+actions.demonstamina.name=Demon Stamina
+actions.demonstamina.description=Bind demonic energies to survivors to keep them going without need for rest. Survivors will not lose energy while this ritual is active
+
+actions.summonimps.name=Summon Imps
+actions.summonimps.description=Sulfur has proven to be a useful resource for the dark arts. Summon some imps to harvest their sulfur. Beware, they will not go down without fighting.
+
+actions.summonghosts.name=Summon Ghosts
+actions.summonghosts.description=Summoning and killing ghosts is a quick way to get some ectoplasm. Ghosts are not easy to kill though.
+
+actions.mutate.name=Mutate Soul
+actions.mutate.description=The soul of the survivor performing this ritual is bent and broken, mutating into a new soul. Replaces all traits with random new ones.
+
+actions.growfarms.name=Harvest Ritual
+actions.growfarms.description=Immediately grow all planted crops to full maturity
+
+actions.repelevil.name=Repel Evil
+actions.repelevil.description=Repel evil forces near your base. Lowers awareness by 50%
+
+actions.divineinspiration.name=Divine Inspiration
+actions.divineinspiration.description=Inspires all survivors to work faster.
+
+actions.divinehealing.name=Divine Healing
+actions.divinehealing.description=Creates a divine aura that speeds up the body's natural healing abilities.
+
+actions.locatesurvivors.name=Locate Survivors
+actions.locatesurvivors.description=A spell that locates other survivors in the area that are in imminent danger.
+
+actions.darkharvesting.name=Dark Harvesting
+actions.darkharvesting.description=A ritual to gather the essence of your lost friends.
+
+actions.metaltransmute.name=Metal Transmutation
+actions.metaltransmute.description=A ritual to transmutate Prima Materia into Metal.
+
+actions.mineralstransmute.name=Mineral Transmutation
+actions.mineralstransmute.description=A ritual to transmutate Prima Materia into Minerals.
+
+actions.aethertransmute.name=Aether Transmutation
+actions.aethertransmute.description=A ritual to transmutate Prima Materia into Aether.
+
+actions.luckybounty.name=Lucky Bounty
+actions.luckybounty.description=Improved luck will increase the chances of finding extra loot while scavenging.
+
+actions.logisticsritual.name=Logistics Ritual
+actions.logisticsritual.description=Gain improved logistics for faster task force travel speed.
+
+actions.farsight.name=Far Sight
+actions.farsight.description=Gain improved eyesight allows task force to scout farther.
+
+actions.eagleeye.name=Eagle Eye
+actions.eagleeye.description=Survivor eye-hand coordination improves, increasing accuracy with all weapons.
+
+actions.concentration.name=Concentration Ritual
+actions.concentration.description=Allows survivors to better concentrate, for higher research efficiency.
+
+actions.defensiveaura.name=Defensive Aura
+actions.defensiveaura.description=Surrounds the base with an aura that holds demons back, reducing the strength of their attacks.
+
+actions.evasiveaura.name=Evasive Aura
+actions.evasiveaura.description=Task forces are surrounding with an aura that hides their movements, reducing the chance of encountering enemies while travelling.
+
+actions.sulfurconsecration.name=Consecration Ritual
+actions.sulfurconsecration.description=Consecrate the Sulfur Crystal.
+
+actions.bloodstone.name=Bloodstone Ritual
+actions.bloodstone.description=Create a bloodstone for the summoning of a Demoneater.
+
+actions.summonweatherdemon.name=Summon Weather Demon
+actions.summonweatherdemon.description=Experiment with summoning a weather demon.
+
+actions.decoyritual.name=Decoy Ritual
+actions.decoyritual.description=Powerful ritual that doesn't really do anything.
+
+
+
+# Actions
+
+actions.chop.name=Chop Tree
+
+actions.search.name=Collect Scraps
+
+actions.quarrystone.name=Quarry Stone
+
+actions.quarryclay.name=Quarry Clay
+
+actions.quarryaluminum.name=Quarry Aluminum
+
+actions.quarryphosphorite.name=Quarry Phosphorus
+
+actions.minemetal.name=Mine Metal
+
+actions.mineminerals.name=Mine Minerals
+
+actions.minediamonds.name=Mine Diamonds
+
+actions.minebloodruby.name=Mine Blood Rubies
+
+actions.scienceresearch.name=Perform Experiments
+
+actions.occultresearch.name=Practice Occult
+
+actions.harvest.name=Harvest Crops
+
+actions.plant.name=Plant Seeds
+
+actions.water.name=Tend Field
+
+actions.feed.name=Feed Animals
+
+actions.sheer.name=Shear Wool
+
+actions.patrol.name=Patrol
+
+actions.findstone.name=Locate Stone Deposits
+
+actions.findclay.name=Locate Clay Deposits
+
+actions.findaluminum.name=Locate Aluminum Deposits
+
+actions.findphosphorite.name=Locate Phosphorite Deposits
+

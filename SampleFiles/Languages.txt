@@ -1,0 +1,9 @@
+﻿language.entity.en.name=English
+
+language.entity.de.name=Deutsch
+language.entity.de.changemessagetitle=Sprache wechseln?
+language.entity.de.changemessagetext=Anderungen werden erst nach einem Neustart des Spiels wirksam.
+
+language.entity.zh.name=简体中文
+language.entity.zh.changemessagetitle=切换语言？
+language.entity.zh.changemessagetext=您需要重启游戏才能使更改生效。

@@ -1,0 +1,3474 @@
+
+confirm.changelanguage.title=Change language?
+
+confirm.changelanguage.text=You will have to restart the game for changes to take effect.
+
+general.prioritiesbutton.hover=Define which task types a survivor should perform and their priorities.
+
+general.craftingprioritiesbutton.hover=Define which items receive higher priority when crafting.
+
+general.taskspanel.label=Show Tasks
+
+general.skillsbutton.hover=Open survivor skills window.
+
+general.skills.label=Skills
+
+general.disableaitoggle.label=Automatically Assign Tasks
+
+general.disableaitoggle.hover=When disabled the survivor will only perform tasks directly assigned.\n\nNote: Survivor will not eat or sleep when disabled.
+
+general.duration.format=Duration: {0}
+
+general.none.label=None
+
+general.moreinfo.hover=Right click for more info
+
+general.build.label=Build
+
+general.performresearch.label=Research
+
+general.male.he=he
+
+general.male.his=his
+
+general.female.she=she
+
+general.female.her=her
+
+general.noitems.text=No items available
+
+general.cancelnorefund.title=Are You Sure?
+
+general.cancelnorefund.text=Cancelling this task will not return any raw materials. \nProceed?
+
+general.selectitem.label=Select {0}
+
+general.day.text=Day {0}
+
+general.enemies.title=Enemies
+
+general.loot.title=Loot
+
+general.combatsummary.extras.title=Other
+
+general.recall.hover=Recall
+
+general.health.hover=Health
+
+general.energy.hover=Energy
+
+general.nutrition.hover=Nutrition
+
+general.objectbuilt.log={0} built
+
+general.ok.label=Ok
+
+general.priorities.label=Priorities
+
+general.preferred.hover=Preferred task.\n\nSurvivors gain experience faster by performing preferred tasks.
+
+general.level.max=MAX
+
+general.costs.title=Costs
+
+general.unlocks.title=Unlocks
+
+general.cancraft.format=Can Craft: {0}
+
+general.canbuild.format=Can Build: {0}
+
+general.canperform.format=Can Perform Tasks: {0}
+
+general.canequip.format=Can Equip: {0}
+
+general.bonusprofession.format=Preferred By:\n{0}
+
+general.autosave.format=Autosave - {0}
+
+general.selectitem.title=Select Item
+
+general.manage.label=Manage
+
+general.members.label=Members
+
+general.supplies.label=Supplies
+
+general.taskforcesupplies.title=Taskforce Supplies
+
+general.basesupplies.label=Base
+
+general.foodtypes.format=Food Types: {0}
+
+general.days.format={0}\ndays
+
+general.scrap.label=Scrap
+
+general.buyvalue.format=Buy Value: {0}
+
+general.sellvalue.format=Sell Value: {0}
+
+general.day.label=Day
+
+general.time.label=Time
+
+reason.alreadyhas.format=Already Has {0}
+
+reason.toohigh.format={0} Too High
+
+reason.toolow.format={0} Too Low
+
+missionsummary.survivors.title=S u r v i v o r s
+
+missionsummary.killedenemies.title=K i l l s
+
+missionsummary.loot.title=L o o t
+
+missionsummary.gainedexp.format=+{0}\nExp
+
+equipmentslot.weapon.name=Weapon
+
+equipmentslot.armor.name=Armor
+
+equipmentslot.usable.name=Equipment
+
+infopanel.requiredresearch.label=Research:
+
+infopanel.requiredworkstation.label=Workshop:
+
+infopanel.skillrequired.label=Required Skill:
+
+infopanel.requiredmaterials.label=Required Materials
+
+infopanel.craftmaterials.label=Materials for crafting {0}
+
+infopanel.craft.hover=Click to craft {0}. Hold {1} to craft {2}.
+
+infopanel.cancelcraft.hover=Click to cancel {0}. Hold {1} to cancel {2}.
+
+infopanel.autocraft.label=Auto Crafting
+
+infopanel.autocraft.hover=Enable / disable autocraft.
+
+infopanel.autocraftmin.label=Min
+
+infopanel.autocraftmin.hover=Begin automatic crafting when inventory is below this number.\n\nRequires available materials, research and crafting stations.
+
+infopanel.autocraftmax.label=Max
+
+infopanel.autocraftmax.hover=Stop automatic crafting when inventory is above this number.
+
+infopanel.gatherlimits.label=Gather Limits
+
+infopanel.gatherlimits.hover=Enable / disable gathering limits.\n\nWhen set, survivors will ignore gathering tasks for this item if you have more than Max in the inventory, and will start gathering again when below Min.\n\nNote: you still need to designate gathering tasks yourself, this setting will only put those tasks on hold when needed.
+
+infopanel.objectdimensions.label=Size: {0} x {1}
+
+time.pause.hover=Pause
+
+time.speed1.hover=Normal Speed
+
+time.speed2.hover=x2 Speed
+
+time.speed3.hover=x4 Speed
+
+time.speed4.hover=x8 Speed
+
+general.menu.hover=Menu
+
+newgame.difficulty.tough.hover=Tough Difficulty\n\nFor those who enjoy a tougher challenge. Enemies are tougher and survivors work a bit slower.\n\nTough but doable.
+
+newgame.difficulty.normal.hover=Challenging Difficulty\n\nExpect a real challenge. You will likely lose in your first few attempts.\n\nThis is the way the game was meant to be played. \n\nNot recommended for players who don't enjoy difficult games.
+
+newgame.difficulty.easy.hover=Forgiving Difficulty\n\nReduced survivor needs, survivors work faster, weaker enemies and less frequent attacks.\n\nFor players who don't enjoy games that are very hard.
+
+newgame.difficulty.casual.hover=Casual Difficulty\n\nAlmost all aspects of the game are much easier.\n\nFor those seeking a more relaxed experience.
+
+newgame.difficulty.custom.hover=Custom Difficulty\n\nCustomize different aspects of the game difficulty to fit your preferred challenge level.
+
+newgame.difficulty.tough.label=Tough
+
+newgame.difficulty.normal.label=Challenging
+
+newgame.difficulty.easy.label=Forgiving
+
+newgame.difficulty.casual.label=Casual
+
+newgame.difficulty.custom.label=Custom
+
+newgame.difficulty.off.label=Off
+
+#newgame.difficulty.conf.label=Conf
+
+newgame.randomseed.hover=Randomize Seed
+
+newgame.seedinput.label=Map Seed
+
+newgame.seedinput.hover=Map Seed determines the random map that will be generated.\n\nThe same seed will always generate the same map.
+
+newgame.title.label=Select Difficulty
+
+customdifficulty.title.label=Custom Difficulty
+
+customdifficulty.needsrate.label=Needs
+
+customdifficulty.needsrate.hover=How much food, drink and rest survivors require and how often.
+
+customdifficulty.workamount.label=Work Amount
+
+customdifficulty.workamount.hover=How long it takes survivors to complete their tasks.
+
+customdifficulty.enemylevel.label=Enemy Levels
+
+customdifficulty.enemylevel.hover=Determines the type of enemies you will encounter in random combat.
+
+customdifficulty.enemyamount.label=Enemy Numbers
+
+customdifficulty.enemyamount.hover=Determines the amount of enemies you will encounter in random combat.
+
+customdifficulty.enemyprogress.label=Enemy Progress
+
+customdifficulty.enemyprogress.hover=Rate at which enemy attack difficulty increases as time goes by.
+
+customdifficulty.enemystats.label=Enemy Strength
+
+customdifficulty.enemystats.hover=Affects enemy stats such as damage, accuracy, evasion and armor.
+
+customdifficulty.awarenessrate.label=Awareness Rate
+
+customdifficulty.awarenessrate.hover=How fast enemies become aware of your colony.
+
+customdifficulty.defensefrequency.label=Attack Frequency
+
+customdifficulty.defensefrequency.hover=How often enemies\nattack the colony.
+
+customdifficulty.researchitems.label=Research Items
+
+customdifficulty.researchitems.hover=Amount of scavenged research items required for key research.
+
+newgame.enabletutorial.hover=New mechanics will be explained as you encounter them when tutorials are enabled.
+
+newgame.enabletutorial.label=Show tutorials
+
+newgame.play.label=Start
+
+survivor.dead.thirst={0} died of thirst.
+
+survivor.dead.hunger={0} starved to death.
+
+settings.window.title=Settings
+
+settings.controls.label=Key Mapping
+
+settings.controls.reset.label=Restore Defaults
+
+settings.controls.reset.confirmtitle=Restore Defaults
+
+settings.controls.reset.confirmtext=Restore default controls?
+
+settings.options.label=Options
+
+settings.resolution.label=Resolution
+
+settings.fullscreen.label=Fullscreen
+
+settings.aa.label=Anti Aliasing
+
+settings.enveffects.label=Env. Effects
+
+settings.music.label=Music
+
+settings.sfx.label=Sound FX
+
+settings.autosave.label=Autosave Every
+
+settings.autosave.minutes=Minutes
+
+settings.autosave.hour=Hour
+
+settings.disabled.text=Disabled
+
+options.reset.confirmtitle=Restore Defaults
+
+options.reset.confirmtext=Restore Default Options?
+
+options.pauseoncombat.text=Pause Combat
+
+options.pauseoncombat.hover=Pause game when combat starts
+
+options.askreturntobase.text=Return to Base
+
+options.askreturntobase.hover=Show Return to Base dialog after every mission
+
+options.askautocombat.text=Autocombat
+
+options.askautocombat.hover=Show autocombat option when available
+
+options.lockmouse.text=Lock Mouse
+
+options.lockmouse.hover=Lock mouse within game window
+
+options.edgescrolling.text=Edge Scrolling
+
+options.edgescrolling.hover=Allow scrolling of map by moving mouse to screen edges
+
+options.limitmanualassign.text=Limit Manual Assign
+
+options.limitmanualassign.hover=Limit manual assignment of ongoing tasks to 24 hours.\n\nWhen false, manually assigning a task will remain until cancelled.
+
+general.awareness.growth={0}\n/day
+
+general.awareness.hover=Enemy awareness of your colony determines how often and how strong enemy raids will be.\n\nAwareness increases over time. Larger populations cause awareness to increase faster.\n\nOther factors can affect awareness levels such as research, buildings, rituals and missions.
+
+general.alphaversion.text=Alpha Version {0}
+
+taskpriorities.sort.label=Sort:
+
+taskpriorities.draghint.label=Drag to change priorities
+
+loadgame.oldversion.title=Old Version
+
+loadgame.oldversion.text=This save is from an older build.\nIt is recommended to start new.\nProceed anyway?
+
+loadgame.loseprogress.title=Load Game
+
+loadgame.loseprogress.text=Are you sure you wish to load?\nUnsaved progress will be lost.
+
+customize.hair.label=Hair
+
+customize.haircolor.label=Hair Color
+
+customize.face.label=Face
+
+customize.facecolor.label=Body Color
+
+customize.hat.label=Hat
+
+customize.shirt.label=Shirt
+
+customize.shirtcolor.label=Shirt Color
+
+customize.pants.label=Pants
+
+customize.pantscolor.label=Pant Color
+
+customize.shoescolor.label=Shoe Color
+
+customize.name.label=Name:
+
+customize.button.hover=Customize
+
+customize.randombutton.hover=Randomize Appearance
+
+map.legend.randomevent=Event
+
+savegame.newslot.text=New Slot
+
+savegame.survivorcount.text={0} Survivors
+
+confirm.deletesave.title=Delete saved game
+
+confirm.deletesave.text=Are you sure you wish to delete this saved game?\nThis operation is irreversible.
+
+confirm.quit.title=Quit
+
+confirm.quit.text=Are you sure you wish to quit?\nUnsaved progress will be lost.
+
+confirm.overwrite.title=Overwrite
+
+confirm.overwrite.text=Are you sure you wish overwrite existing save?
+
+confirm.destroy.title=Destroy
+
+confirm.destroy.text=Are you sure you wish to destroy this object?\nResources will be lost.
+
+confirm.modchanged.title=Restart
+
+confirm.modchanged.text=Mod changes only take effect the next time you launch Judgment. Quit now?
+
+confirm.modtools.title=Open Mod Tools
+
+confirm.modtools.text=Mod tools are meant for modders and are not part of the game.\nOpen mod tools?
+
+confirm.disbandtaskforce.title=Disband?
+
+confirm.disbandtaskforce.text=Disband this taskforce?\nAll items will be returned to base.
+
+confirm.recalltaskforce.title=Recall Taskforce?
+
+confirm.recalltaskforce.text=Do you wish the taskforce to return to base?
+
+resources.food.hover=Food\n\nPrepared food only. Does not include raw materials.
+
+survivor.hungry.warning=Survivor is hungry
+
+survivor.tired.warning=Survivor is tired
+
+survivor.hungryandtired.warning=Survivor is hungry & tired
+
+survivor.idle.warning=Survivor is idle
+
+survivor.levelearned.log={0} gained a new level in {1}
+
+survivor.notask.text=No task
+
+survivor.manualassigned.hover=Manually Assigned\n\nSurvivor has been manually assigned to {0}. As long as this is in effect they will ignore their priorities and only perform this task. \n\nIn order to cancel, select the survivor and right click on an empty space.
+
+launch.send.label=APPROVED
+
+healing.approved.label=APPROVED
+
+food.category.label=Food
+
+crafting.default.verb=Craft {0}
+
+crafting.prepare.verb=Prepare {0}
+
+crafting.make.verb=Make {0}
+
+crafting.bake.verb=Bake {0}
+
+build.default.verb=Build {0}
+
+build.plant.verb=Plant {0}
+
+mods.toolsbutton.text=Modify/Upload
+
+mods.createdby.format=Created by: {0}
+
+mods.nomods.text=You have not subscribed to any mods.\nYou can find mods for Judgment in the Steam Workshop page. Once you have subscribed to mods, use this window to activate them.
+
+mods.visitworkshop.label=Visist Steam Workshop
+
+item.tags.format=Tags: {0}
+
+gameover.message.title=Your base has been destroyed...
+
+gameover.message.text=The demons have overwhelmed your forces, all hope is lost...\n\nPerhaps another group, in another part of the world, will fare better.
+
+gameover.stats.button=Stats
+
+gameover.stats.title=Stats
+
+gameover.close.button=Close
+
+gameoverstat.dayssurvived.format=Days survived: {0}
+
+gameoverstat.rescue.format=Survivors rescued: {0}
+
+gameoverstat.kills.format=Demons killed: {0}
+
+gameoverstat.scavenge.format=Scavenge completed: {0}
+
+gameoverstat.equipmentcraft.format=Equipment crafted: {0}
+
+gameoverstat.mapexplore.format=Map explored: {0}%
+
+gameoverstat.buried.format=Survivors buried: {0}
+
+gameoverstat.strongestkill.format=Strongest kill: {0}
+
+gameoverstat.nemesis.format=Nemesis: {0}
+
+gameoverstat.damagedealer.format=Damage Dealer: {0}
+
+gameoverstat.damagetaker.format=Punching Bag: {0}
+
+gameoverstat.traveler.format=Frequent Traveler: {0}
+
+gameoverstat.longestlife.format=Survivor: {0}
+
+gameoverstat.shortestlife.format=Best at dying: {0}
+
+skillswindow.skills.title=Skills
+
+skillswindow.effects.title=Skill Effects
+
+skillswindow.stats.title=Stats
+
+colonymanagement.window.title=Colony Management
+
+colonymanagement.bonuses.label=Bonuses
+
+tradepanel.window.title=Trading
+
+tradepanel.trader.label=Trader
+
+tradepanel.base.label=Inventory
+
+tradepanel.approvebutton.label=Trade
+
+autocombat.fight.button=Fight
+
+autocombat.auto.button=Auto Resolve
+
+autocombat.cancel.button=Cancel
+
+cantdestroy.building.hasobjects=Buildings can only be destroyed when empty
+
+
+
+# Title Screen Buttons
+
+titlescreen.continue.button=Continue
+
+titlescreen.new.button=New Game
+
+titlescreen.settings.button=Settings
+
+titlescreen.mods.button=Mods
+
+titlescreen.quit.button=Quit
+
+
+
+# Startup Hints
+
+startup.loading.text=Loading...
+
+startup.hints.format=Hint: {0}
+
+startup.hints.1=Drag with your middle mouse button to move the camera
+
+startup.hints.2=Remember you can prioritize which items get crafted first by pressing 'O'
+
+startup.hints.3=Attacking enemies from opposite directions (flanking) gives a boost to accuracy and damage
+
+startup.hints.4=Tired survivors do not perform well in combat
+
+startup.hints.5=Attacking from behind cover increases accuracy and reduces chance of being hit
+
+startup.hints.6=Quickly pause/unpause the game with spacebar
+
+startup.hints.7=Press "Q" to select all your survivors
+
+startup.hints.8=Efficient prioritzation of survivor tasks to match their skills is the key to survival
+
+startup.hints.9=After selecting an action from the 'Actions' menu, you can drag a box to select a large area
+
+startup.hints.10=Hold 'Shift' when placing an object to keep placing more
+
+startup.hints.11=Sometimes it may be more efficient to scavenge raw materials before you can craft them
+
+startup.hints.12=Build your base near a well in order to reduce travel time
+
+startup.hints.13=In rescue missions, it's better to clear the area before beginning the rescue attempt
+
+startup.hints.14=One vegetable farm can feed three survivors if worked at full efficiency
+
+startup.hints.15=If you're not sure if it's safe to enter a biome, check the enemies in it's scavenge locations
+
+startup.hints.16=Don't interrupt a survivor performing a rescue to minimize the amount of enemy waves
+
+startup.notes.text=Latest patch notes
+
+startup.subscribe.text=Subscribe for updates
+
+startup.supportus.text=Support Judgment
+
+
+
+# Key Mapping
+
+keymapping.action.selectall=Select All Survivors
+
+keymapping.action.left=Camera Left
+
+keymapping.action.right=Camera Right
+
+keymapping.action.up=Camera Up
+
+keymapping.action.down=Camera Down
+
+keymapping.action.zoomin=Zoom In
+
+keymapping.action.zoomout=Zoom Out
+
+keymapping.action.back=Back
+
+keymapping.action.pause=Pause/Unpause
+
+keymapping.action.slower=Decrease Speed
+
+keymapping.action.faster=Increase Speed
+
+keymapping.action.help=Help
+
+keymapping.action.toggleselection=Toggle Selection
+
+keymapping.action.multicraft=Multiple Craft/Move
+
+keymapping.action.multibuild=Multiple Build
+
+keymapping.action.commandmission=Quest Window
+
+keymapping.action.commandinventory=Inventory Window
+
+keymapping.action.commandactions=Create Tasks
+
+keymapping.action.commandbuild=Building Window
+
+keymapping.action.commandcraft=Crafting Window
+
+keymapping.action.commandresearch=Research Window
+
+keymapping.action.commandtasks=Tasks Window
+
+keymapping.action.commandcolonymanagement=Colony Management
+
+keymapping.action.skillspanel=Skills Window
+
+keymapping.action.prioritiespanel=Priorities Window
+
+keymapping.action.craftingprioritiespanel=Crafting Priorities
+
+keymapping.action.commandsearch=World Map Search
+
+keymapping.action.commandcreatetaskforce=Create Taskforce
+
+keymapping.action.commandworld=World View
+
+keymapping.action.commandbase=Base View
+
+keymapping.action.combataction1=Combat Action 1
+
+keymapping.action.combataction2=Combat Action 2
+
+keymapping.action.combataction3=Combat Action 3
+
+keymapping.action.combataction4=Combat Action 4
+
+keymapping.action.combataction5=Combat Action 5
+
+keymapping.action.combataction6=Combat Action 6
+
+keymapping.action.combatcancel=Combat Cancel
+
+keymapping.action.selectsurvivor1=Select Group 1
+
+keymapping.action.selectsurvivor2=Select Group 2
+
+keymapping.action.selectsurvivor3=Select Group 3
+
+keymapping.action.selectsurvivor4=Select Group 4
+
+keymapping.action.selectsurvivor5=Select Group 5
+
+keymapping.action.selectsurvivor6=Select Group 6
+
+keymapping.action.selectsurvivor7=Select Group 7
+
+keymapping.action.selectsurvivor8=Select Group 8
+
+keymapping.action.selectsurvivor9=Select Group 9
+
+keymapping.action.selectsurvivor10=Select Group 10
+
+keymapping.action.setselectiongroup=Set Group
+
+keymapping.action.rotateleft=Rotate Right
+
+keymapping.action.rotateright=Rotate Left
+
+
+
+# Toolbar
+
+toolbar.mission.hover=Mission
+
+toolbar.inventory.hover=Base Inventory
+
+toolbar.actions.hover=Create Tasks\n\nSelect an area to create multiple tasks on all suitable objects within the area.
+
+toolbar.build.hover=Build\n\nPlace new objects for the survivors to build.
+
+toolbar.craft.hover=Crafting\n\nOrder survivors to craft new items from raw materials.
+
+toolbar.research.hover=Research\n\nSpend research points to unlock new blueprints, crafting recipes, rituals and other bonuses.
+
+toolbar.world.hover=World View\n\nSend survivors on missions outside the base.
+
+toolbar.base.hover=Base View\n\nBack to base view.
+
+toolbar.search.hover=Search for Items\n\nFilter map display to search for items
+
+toolbar.createtaskforce.hover=Create Taskforce\n\nSend survivors to explore the world map.
+
+toolbar.colonymanagement.hover=Colony Management\n\nManage supplies, bonuses and tasks.
+
+
+
+# Action Groups
+
+actiongroup.chop.name=Chop Trees
+
+actiongroup.chop.description=Chop trees for\nwood.
+
+actiongroup.search.name=Search Debris
+
+actiongroup.search.description=Search for scraps and medicine.
+
+actiongroup.gatherwater.name=Fetch Water
+
+actiongroup.gatherwater.description=Gather drinking water from wells.
+
+actiongroup.mine.name=Mine
+
+actiongroup.mine.description=Mine metals or minerals. Build a mine on the resources first.
+
+actiongroup.quarry.name=Quarry
+
+actiongroup.quarry.description=Quarry stone or clay.
+
+actiongroup.needs.name=Needs
+
+actiongroup.needs.description=Sleep or Eat.
+
+actiongroup.build.name=Build
+
+actiongroup.build.description=Build objects under construction.
+
+actiongroup.craft.name=Craft
+
+actiongroup.craft.description=Craft items.
+
+actiongroup.agri.name=Farm
+
+actiongroup.agri.description=Tend to farms.
+
+actiongroup.research.name=Scientific Research
+
+actiongroup.research.description=Produce science research points.
+
+actiongroup.occultresearch.name=Occult Research
+
+actiongroup.occultresearch.description=Produce occult research points.
+
+actiongroup.rituals.name=Rituals
+
+actiongroup.rituals.description=Perform rituals.
+
+actiongroup.train.name=Train
+
+actiongroup.train.description=Train combat skill.
+
+actiongroup.patrol.name=Patrol
+
+actiongroup.patrol.description=Patrol lookout posts.
+
+actiongroup.canceltasks.name=Cancel Tasks
+
+action.sleep.name=Sleep
+
+action.eat.name=Eat
+
+action.heal.name=Heal
+
+
+
+# Missions
+
+missions.scavenge.name=Scavenge
+
+missions.scavenge.description=Send a team of survivors to search for resources at this location.
+
+missions.rescue.name=Send Rescue
+
+missions.rescue.description=Send a team of survivors to aid the person in need.
+
+missions.hellgate.name=Investigate
+
+missions.hellgate.description=Send a group to investigate the hellgate.\n\nBe prepared to meet strong enemy forces.
+
+missions.attack.name=Attack
+
+missions.attack.description=Killing the scouting team  reduces awareness level.\n\nIgnoring them or losing the fight raises awareness.
+
+missions.scout.name=Scout
+
+missions.scout.description=Scout the area to reveal unexplored regions nearby.
+
+missions.settlementtrade.name=Trade
+
+missions.settlementtrade.description=Request a trade convoy to be sent to your base.
+
+missions.settlementraid.name=Raid
+
+missions.settlementraid.description=Raid this settlement for supplies.
+
+missions.settlementrecruit.name=Recruit
+
+missions.settlementrecruit.description=Try to convince one of the colonists of this settlement to join you instead. This may anger the remaining colonists.
+
+missions.settlementmeet.name=Greet
+
+missions.settlementmeet.description=Introduce yourself to the settlement's inhabitants.
+
+missions.tradecooldown.condition=Trade convoy not ready.
+
+missions.traderelationship.condition=Settlement does not trust you. Improve your relationship first.
+
+missions.recruitmax.condition=Your group is already too crowded, none of the other survivors wants to join you at the moment.
+
+missions.tradenotactive.condition=Another trade convoy is already on it's way to your base.
+
+
+
+# Panels
+
+panels.craftingpriorities.title=Crafting Priorities
+
+panels.teamselect.title=Team Selection
+
+panels.inventory.title=Inventory
+
+panels.actions.title=Area Actions
+
+panels.build.title=Build
+
+panels.crafting.title=Crafting
+
+panels.scrapping.title=Scrapping
+
+panels.taskpriorities.title=Task Priorities
+
+panels.research.title=Research
+
+panels.savegame.title=Save Game
+
+panels.loadgame.title=Load Game
+
+panels.taskforce.title=Task Force
+
+panels.tasks.title=Tasks
+
+panels.newgame.title=New Game
+
+panels.defensepreparation.title=Defense Preparation
+
+panels.healing.title=Healing
+
+panels.helpindex.title=Help
+
+panels.gamemenu.title=Game Menu
+
+panels.combatsummary.title=Combat Summary
+
+panels.modselect.title=Mods
+
+
+
+# Enemies
+
+enemies.imp.name=Imp
+
+enemies.imp.description=Lowliest of demon-kind, tend to attack in large groups. Quick and agile.
+
+enemies.fireimp.name=Fire Imp
+
+enemies.fireimp.description=Cousin of the lowly imp, this one spits fire, but not very hot fire.
+
+enemies.hellhound.name=Hellhound
+
+enemies.hellhound.description=They fall easily, but don't let them get near, as their bite was designed to shread anything in seconds.
+
+enemies.weakdemon.name=Minor Demon
+
+enemies.weakdemon.description=Cannon fodder from hell.
+
+enemies.demon.name=Demon
+
+enemies.demon.description=A full demon. Hell's basic infantry.
+
+enemies.werewolf.name=Werewolf
+
+enemies.werewolf.description=Half man, half wolf. They used to live hidden among us, but since the invasion they lost their humanity and are always in wolf form.
+
+enemies.ghost.name=Ghost
+
+enemies.ghost.description=Lost souls of the damned. Released from hell to wander the face of the earth, searching for human survivors to hunt.
+
+enemies.possessed.name=Possessed
+
+enemies.possessed.description=Human beings possessed by demons, unable to control their urge to kill.
+
+enemies.reaper.name=Reaper
+
+enemies.reaper.description=A Reaper, come to collect human souls to bolster the armies of hell.
+
+enemies.succubus.name=Succubus
+
+enemies.succubus.description=Demoness known for her ability to entice male humans to do her bidding.
+
+enemies.darkangel.name=Fallen Angel
+
+enemies.darkangel.description=Originally from heaven, now leading the forces of hell. No one knows what caused their fall from grace, or whether it was a choice they made.
+
+enemies.legion.name=Legion
+
+enemies.legion.description=A huge hulk of a demon, very slow with strong armor. Weaker weapons can barely penetrate its hide.
+
+enemies.firespitter.name=Caorthannach
+
+enemies.firespitter.description=A fire spitting demon, do not let this one get too close.
+
+enemies.lich.name=Lich
+
+enemies.lich.description=The souls of powerful dead witches, escaped from hell and now wreck havoc on Earth. Very dangerous beings.
+
+enemies.shedim.name=Shedim
+
+enemies.shedim.description=Said to be the the descendants of serpetns, these are some of the meanest most dangerous denizens of Hell.
+
+enemies.morax.name=Morax
+
+enemies.morax.description=One of the highest ranking demons in Hell, it possesses lesser demons who assume it's form and gain tremendous power.
+
+enemies.belial.name=Belial
+
+enemies.belial.description=High ranking demons carrying slingshots that shoot powerful flaming projectiles.
+
+enemies.demogorgon.name=Demogorgon
+
+enemies.demogorgon.description=Two heads and tentacles, when you smell their odor, you know the end is near.
+
+enemies.cerberus.name=Cerberus
+
+enemies.cerberus.description=These are the alpha hellhounds, with 3 heads and 3 times the punch. Don't let them get near!
+
+enemies.survivor1.name=Gangbanger
+
+enemies.survivor2.name=Cultist
+
+enemies.survivor3.name=Scavenger
+
+enemies.survivor4.name=Raider
+
+enemies.survivor5.name=Veteran
+
+enemies.survivor.description=Another survivor of the apocalypse. This one is armed.
+
+
+
+# Status Effects
+
+statuseffects.onhiteffect.format=On Hit: {0}
+
+statuseffects.accuracy.attribute=Accuracy +{1}%
+
+statuseffects.evade.attribute=Evasion +{1}%
+
+statuseffects.attackspeed.attribute=Attack Speed +{1}%
+
+statuseffects.defense.attribute=Armor +{1}%
+
+statuseffects.damage.attribute=Damage +{1}%
+
+statuseffects.damagereceived.attribute=Damage Received +{1}%
+
+statuseffects.walkspeed.attribute=Movement Speed +{1}%
+
+statuseffects.vision.attribute=Vision Range +{0}
+
+statuseffects.armorpierce.attribute=Amor Piercing +{1}%
+
+statuseffects.flashbang.name=Disoriented
+
+statuseffects.elementalbomb.name=Drained
+
+statuseffects.weakeningrune.name=Weakened
+
+statuseffects.hex.name=Hexed
+
+statuseffects.protectionspell.name=Protected
+
+statuseffects.meleevsranged.name=Melee vs Ranged
+
+statuseffects.rangedadjacent.name=Ranged vs Adjacent
+
+statuseffects.flanking.name=Flanking
+
+statuseffects.nighttime.name=Night Time
+
+statuseffects.gingerextract.name=Ginger Extract
+
+statuseffects.tired.name=Tired
+
+statuseffects.cross.name=Protected
+
+statuseffects.stunner.name=Stunned
+
+statuseffects.frostgrenade.name=Chilled
+
+statuseffects.acidbomb.name=Acid
+
+statuseffects.desensitiser.name=Desensitized
+
+statuseffects.forcefield.name=Protected
+
+statuseffects.bindingcurse.name=Cursed
+
+statuseffects.demonfuel.name=Enhanced
+
+statuseffects.transmute.name=Transmuted
+
+statuseffects.burn.name=Burning
+
+statuseffects.nailtofloor.name=Nailed Down
+
+statuseffects.bless.name=Blessed
+
+statuseffects.huntersinstinct.name=Hunter's Instinct
+
+statuseffects.releaseboulder.name=Unburdened
+
+statuseffects.rocketboost.name=Boosted
+
+statuseffects.harden.name=Hardened
+
+statuseffects.empower.name=Empowered
+
+statuseffects.entangle.name=Entangled
+
+statuseffects.hidden.name=Hidden
+
+
+
+# Effects
+
+effects.raining.name=Raining
+
+effects.soulharness.name=Soul Harness
+
+effects.demonstamina.name=Demon Stamina
+
+effects.divineinspiration.name=Divine Inspiration
+
+effects.divinehealing.name=Divine Healing
+
+effects.nighthowls.name=Night Howls
+
+effects.badomens.name=Bad Omens
+
+effects.lowmorale.name=Low Morale
+
+effects.luckybounty.name=Lucky Bounty
+
+effects.logisticsritual.name=Improved Logistics
+
+effects.eagleeye.name=Eagle Eye
+
+effects.concentrationritual.name=Improved Concentration
+
+effects.defensiveaura.name=Defensive Aura
+
+effects.farsight.name=Farsight
+
+effects.evasiveaura.name=Evasive Aura
+
+effects.hungerrate.attribute=Hunger Rate +{1}%
+
+effects.energydrain.attribute=Tired Rate +{1}%
+
+effects.workspeed.attribute=Work Speed +{1}%
+
+effects.walkspeed.attribute=Movement Speed +{1}%
+
+effects.taskforcespeed.attribute=Map Speed +{1}%
+
+effects.healrate.attribute=Natural Heal Rate +{1}%
+
+effects.attackdifficulty.attribute=Enemy Attack Strength +{1}%
+
+effects.drinkrate.attribute=Water Usage +{1}%
+
+effects.maxsurvivorsinmission.attribute=Taskforce Size +{0}
+
+effects.awarenessadd.attribute=Awareness Generation +{1}%
+
+effects.extrascavenge.attribute=Extra Resources Chance +{1}%
+
+effects.gainattribute_water.attribute=Tending Needs +{1}%
+
+effects.gainattribute_maturity.attribute=Growth Speed +{1}%
+
+effects.actiongroup_chop.attribute=Chop Speed +{1}%
+
+effects.actiongroup_search.attribute=Scavenge Speed +{1}%
+
+effects.actiongroup_gatherwater.attribute=Gather Water Speed +{1}%
+
+effects.actiongroup_mine.attribute=Mine Speed +{1}%
+
+effects.actiongroup_quarry.attribute=Quarry Speed +{1}%
+
+effects.actiongroup_build.attribute=Build Speed +{1}%
+
+effects.actiongroup_craft.attribute=Craft Speed +{1}%
+
+effects.actiongroup_agri.attribute=Farm Speed +{1}%
+
+effects.efficiency_agri.attribute=Farm Yield +{1}%
+
+effects.actiongroup_research.attribute=Research Speed +{1}%
+
+effects.actiongroup_occultresearch.attribute=Occult Research Speed +{1}%
+
+effects.actiongroup_rituals.attribute=Rituals Speed +{1}%
+
+effects.actiongroup_train.attribute=Train Speed +{1}%
+
+effects.actiongroup_patrol.attribute=Patrol Speed +{1}%
+
+effects.damage.attribute=Damage +{1}%
+
+effects.damagereceived.attribute=Damage Received +{1}%
+
+effects.attackspeed.attribute=Attack Speed +{1}%
+
+effects.range.attribute=Range +{1}%
+
+effects.accuracy.attribute=Accuracy +{1}%
+
+effects.armorpierce.attribute=Amor Piercing +{1}%
+
+effects.defense.attribute=Armor +{1}%
+
+effects.evade.attribute=Evasion +{1}%
+
+effects.health.attribute=Max Health +{1}%
+
+effects.nutrition.attribute=Max Nutrition +{1}%
+
+effects.energy.attribute=Max Energy +{1}%
+
+effects.vision.attribute=Vision Range +{0}
+
+effects.scoutrange.attribute=Map Scout Range +{0}
+
+effects.eventrate.attribute={2} Event Chance +{1}%
+
+eventqueue.mapevents.name=Map
+
+effects.raining.description=Crops grow faster and require less tending while it's raining.
+
+effects.soulharness.description=Survivors consume energy from their souls, requiring less food.
+
+effects.demonstamina.description=Survivors gain stamina from demonic energies.
+
+effects.divineinspiration.description=Survivors are inspired to work faster.
+
+effects.divinehealing.description=Holy energies increase natural healing over time.
+
+effects.nighthowls.description=A survivor howls at night attracting unwanted attention.
+
+effects.badomens.description=Bad omens seem to envigorate the demon hordes.
+
+
+
+# Object Attributes
+
+object.maturity.attribute=Maturity
+
+object.charge.attribute=Charge
+
+object.full.attribute=Full
+
+object.water.attribute=Tending
+
+object.food.attribute=Food
+
+object.patrol.attribute=Patrolled
+
+object.lifetime.attribute=Lifetime
+
+object.relationship.attribute=Relationship
+
+object.settlementsize.attribute=Size
+
+object.tradecooldown.attribute=Trade Cooldown
+
+
+
+# Events Choices
+
+events.nighthowls.research.perform.text=Your lead occultists search for the reason behind this strange behavior.
+
+events.badomens.research.perform.text=You search for an explanation for the red moon and its effects on the demons.
+
+events.blackbox.opening.ignore.text=Leave the box as it is.
+
+events.blackbox.opening.open.text=Search your scraps for a tool to open the lock.
+
+events.lowmorale.opening.feast.text=A feast! What a great idea. You throw a grand feast to celebrate those that are still alive.
+
+events.lowmorale.opening.fireworks.text=There's nothing like a good fireworks display to lift your spirits.
+
+events.lowmorale.rewardchoice.reward1.text=Search the area for supplies.
+
+events.lowmorale.rewardchoice.reward2.text=Search for equipment in nearby ruins.
+
+events.lowmorale.rewardchoice.reward3.text=Make sure the camp is well hidden.
+
+events.darkcurse.elixir.perform.text=Cook the elixir.
+
+events.settlement_helpresources.request.perform.text=Agree to help.
+
+events.settlement_helpresources.request.reject.text=Reject the request.
+
+
+
+# Warnings
+
+warnings.attacked.hover=Attack Imminent\n\nEnemies have been spotted nearby and may attack any second.
+
+warnings.nofood.hover=Survivors are starving\n\nStarving survivors constantly lose health.
+
+warnings.lowfood.hover=Food is running out.
+
+warnings.tired.hover=Survivors are tired\n\nTired survivors perform poorly in combat.
+
+warnings.helpNeeded.hover=Stranger requires assistance\n\nRescue missions are launched from the world map.
+
+warnings.nowater.hover=Out of water\n\nSurvivors are losing health.
+
+warnings.lowwater.hover=Water is running out.
+
+warnings.levelup.hover=Survivor has gained a level.\n\nSelect a new skill.
+
+warnings.eventactive.hover=Event Active\n\nThere is an active event in the world map for a limited time window.
+
+warnings.badomens.hover=Bad Omens
+
+warnings.nighthowls.hover=Night Howls
+
+warnings.lowmorale.hover=Desperate Times
+
+warnings.darkcurse.hover=Dark Curse
+
+warnings.trader.hover=Trader Available\n\nA trader is visiting. Click to trade.
+
+warnings.settlement_helpresources.hover=Resource Request
+
+
+
+# Context Commands
+
+contextcommands.destroy.hover=Destroy {0}
+
+contextcommands.heal.hover=Heal
+
+contextcommands.move.hover=Move
+
+contextcommands.moveobject.hover=Move {0}
+
+contextcommands.cancel.hover=Cancel {0}
+
+contextcommands.assign.hover=Assign {0} to {1}
+
+
+
+# Errors
+
+error.cantbuildhere.text=Can't build here
+
+error.notenoughresources.text=Not enough resources
+
+error.launch.minsurvivors.text=You must select at least {0} participants
+
+error.launch.maxsurvivors.text=You can send a maximum of {0} survivors on a mission
+
+error.launch.unarmed.text=Some participants are unarmed
+
+error.launch.nofood.text=Not enough food
+
+error.launch.allsurvivors.text=You can not leave your base completely undefended
+
+error.equipincombat.text=Can't change equipment during combat
+
+error.noranged.text=No ranged weapon equiped.
+
+error.buildblocked.text=Building here will block areas of the base
+
+error.objectmissionexpired.text=Taskforce objective no longer available
+
+error.hungrynofood.text={0} is hungry but found nothing to eat
+
+error.cantdotask.text={0} cannot perform this task
+
+
+
+# Game Menu
+
+gamemenu.continue.label=Resume
+
+gamemenu.save.label=Save
+
+gamemenu.load.label=Load
+
+gamemenu.feedback.label=Send Feedback
+
+gamemenu.website.label=Website
+
+gamemenu.help.label=Help
+
+gamemenu.settings.label=Settings
+
+gamemenu.quit.label=Quit
+
+
+
+# Item Properties
+
+items.damage.property=Damage: {0}
+
+items.attackspeed.property=Attack Speed: {0}
+
+items.range.property=Range: {0}
+
+items.accuracy.property=Accuracy: {0}
+
+items.defense.property=Armor: {0}
+
+items.dps.property=DPS: {0}
+
+items.dpsvsarmor.property=DPS vs Armor: {0}
+
+items.evade.property=Evasion: {0}
+
+items.health.property=Health: {0}
+
+
+
+# Abilities
+
+abilities.abilityname.format=Ability: {0}
+
+abilities.maxuses.format=Uses: {0}
+
+abilities.consumesitem.text=Consumes item
+
+abilities.range.property=Range: {0}
+
+abilities.healamount.property=Healing: {1}%
+
+abilities.damage.property=Damage: {0}
+
+abilities.aoe.property=AOE: {0}
+
+abilities.heal.name=Heal
+
+abilities.retreat.name=Retreat
+
+abilities.fraggrenade.name=Grenade
+
+abilities.flashbang.name=Flashbang
+
+abilities.elementalbomb.name=Elemental Bomb
+
+abilities.molotov.name=Molotov
+
+abilities.hex.name=Hex
+
+abilities.protectionspell.name=Protection Spell
+
+abilities.weakeningrune.name=Rune
+
+abilities.gingerextract.name=Ginger Extract
+
+abilities.cross.name=Cross
+
+abilities.stunner.name=Stunner
+
+abilities.frostgrenade.name=Frost Grenade
+
+abilities.acidbomb.name=Acid Bomb
+
+abilities.desensitiser.name=Desensitizer
+
+abilities.forcefield.name=Force Field
+
+abilities.bloodimplosion.name=Blood Implosion
+
+abilities.bindingcurse.name=Binding Curse
+
+abilities.demonfuel.name=Demon Fuel
+
+abilities.snipe.name=Focused Shot
+
+abilities.nailtofloor.name=Nail Down
+
+abilities.eviscerate.name=Eviscerate
+
+abilities.exorcise.name=Exorcise
+
+abilities.bless.name=Bless
+
+abilities.zap.name=Zap
+
+abilities.huntersinstinct.name=Hunter's Instinct
+
+abilities.drainself.name=Tap Soul
+
+abilities.releaseboulder.name=Unburden
+
+abilities.rocketboost.name=Rocket Boost
+
+abilities.harden.name=Harden
+
+abilities.empower.name=Empower
+
+abilities.entangle.name=Entangle
+
+abilities.transmuteenemy.name=Transmute
+
+abilities.disappear.name=Disappear
+
+abilities.skillprotect.name=Protect
+
+
+
+# Object Properties
+
+objects.cover.property=Cover: {1}
+
+objects.range.bonus=Bonus Range: +{0}
+
+objects.cover.bonus=Bonus Cover: {1}
+
+
+
+# Professions
+
+professions.level.format=Level {0}
+
+professions.engineer.male=Engineer
+
+professions.engineer.female=Engineer
+
+professions.fighter.male=Fighter
+
+professions.fighter.female=Fighter
+
+professions.occultist.male=Occultist
+
+professions.occultist.female=Occultist
+
+professions.survivalist.male=Survivalist
+
+professions.survivalist.female=Survivalist
+
+professions.priest.male=Priest
+
+professions.priest.female=Priestess
+
+professions.defender.male=Defender
+
+professions.defender.female=Defender
+
+
+
+# Tags
+
+tags.melee.name=Melee
+
+tags.blunt.name=Blunt
+
+tags.sharp.name=Sharp
+
+tags.rifle.name=Rifles
+
+tags.pistol.name=Pistols
+
+tags.farm.name=Farms
+
+tags.bow.name=Bows
+
+tags.toolweapon.name=Tools
+
+tags.automaticweapon.name=Automatic Weapons
+
+tags.holyweapon.name=Holy Weapons
+
+tags.darkweapon.name=Dark Weapons
+
+tags.techweapon.name=Tech Weapons
+
+tags.sniper.name=Sniper Weapons
+
+tags.firearm.name=Firearms
+
+tags.defensestructure.name=Def. Structures
+
+tags.advfirearms.name=Adv. Firearms
+
+tags.occultweapon.name=Occult Weapons
+
+tags.holycrafting.name=Holy Items
+
+tags.darkcrafting.name=Dark Items
+
+tags.holycrafting2.name=Holy Artifacts
+
+tags.darkcrafting2.name=Dark Artifacts
+
+tags.medicinecrafting.name=Medicine
+
+tags.wardscrafting.name=Wards
+
+tags.consecratedstructure.name=Consecrated
+
+
+
+# Equip Skills
+
+equipskill.darkarmor.name=Dark Armor
+
+equipskill.naturearmor.name=Nature Armor
+
+equipskill.techarmor.name=Tech Armor
+
+equipskill.holyarmor.name=Holy Armor
+
+equipskill.techweapon.name=Tech Weapons
+
+equipskill.toolweapon.name=Tool Weapons
+
+equipskill.firearm.name=Adv. Firearms
+
+equipskill.sniper.name=Sniper Rifles
+
+equipskill.occultweapon.name=Occult Weapons
+
+
+
+# Research Categories
+
+research.category.base=Base
+
+research.category.craft=Craft
+
+research.category.weapons=Weapons
+
+research.category.occult=Occult
+
+research.category.rituals=Rituals
+
+research.category.other=Other
+
+
+
+# Directions
+
+directions.north.text=north
+
+directions.east.text=east
+
+directions.south.text=south
+
+directions.west.text=west
+
+directions.northeast.text=north-east
+
+directions.southeast.text=south-east
+
+directions.southwest.text=south-west
+
+directions.northwest.text=north-west
+
+
+
+# Specific Names
+
+worldobject.settlement.specificnames=New Atlanta,Humanity's End,The Oasis,Blight's End,Fort Bungee,The Fringe,Ambrosia,Dumfield,Bingtown,Antfield,Noah's Ark,Hammerfeld,Hopestown,Margula,Bloodsfield,Witchland,Bourbon Dream
+
+survivor.male.specificnames=Grady,Brad,Seth,George,Andrew,Max,Brandon,Jimmy,Jan,Eric,Stan,Kyle,Kenny,Harry,Ronald,Bart,Steve,Greg,Timmy,David,Tom,John,Cruz,Armand,Michael,Ross,Joey,Glenn,Rich
+
+survivor.female.specificnames=Lauren,Anne,Liz,Betty,Stephanie,Grace,Kelly,Bertha,Brittany,Annabel,Stacy,Jenny,Martha,Holly,Leanne,May,Andy,Grace,Heather,Bobbie,Maria,Milan,Debora,July,June,August,Maya,Lucy
+
+taskforce.name.specificnames=Bombers,Squaddies,Minotaurs,Mammoths,Beggars,Dixies,Concords,Butchers,Duelists,Zeds,Jugglers,Smugglers,Mechanics,Juggernauts,Cavemen,Kingsmen,Lizards,Bashers,Rangers
+
+
+
+
+# General
+
+skills.base.hover=Base: {0}
+
+skills.exp.hover=({0}/{1} exp)
+
+
+
+# Profession Starting Skills - common
+
+skills.gatherer.name=Gatherer
+
+skills.miner.name=Miner
+
+skills.worker.name=Worker
+
+skills.builder.name=Builder
+
+skills.crafter.name=Crafter
+
+skills.gardener.name=Gardener
+
+skills.labassistant.name=Lab Assistant
+
+skills.practitioner.name=Occult Practitioner
+
+skills.dabbler.name=Occult Dabbler
+
+skills.devout.name=Devout
+
+skills.corrupt.name=Corrupt
+
+skills.gangster.name=Gangster
+
+skills.gunenthusiast.name=Gun Enthusiast
+
+skills.exconvict.name=Ex-Convict
+
+skills.scout.name=Scout
+
+skills.cultist.name=Cultist
+
+skills.religious.name=Religious
+
+skills.conspiracytheorist.name=Conspiracy Theorist
+
+skills.hoarder.name=Hoarder
+
+
+
+# General Starting Skills - common
+
+skills.brute.name=Brute
+
+skills.healthy.name=Healthy
+
+skills.believer.name=Believer
+
+skills.clever.name=Clever
+
+skills.perceptive.name=Perceptive
+
+skills.nimble.name=Nimble
+
+
+
+# Profession Starting Skills - uncommon
+
+skills.scavenger.name=Scavenger
+
+skills.expertminer.name=Expert Miner
+
+skills.constructor.name=Constructor
+
+skills.artisan.name=Artisan
+
+skills.farmer.name=Farmer
+
+skills.scientist.name=Scientist
+
+skills.demonologist.name=Demonologist
+
+skills.preacher.name=Preacher
+
+skills.cultleader.name=Cult Leader
+
+skills.countryperson.name=Countryperson
+
+skills.geek.name=Geek
+
+skills.soldier.name=Soldier
+
+skills.excop.name=Ex-Cop
+
+skills.martialartist.name=Martial Artist
+
+skills.librarian.name=Librarian
+
+skills.witch.name=Witch
+
+skills.insomniac.name=Insomniac
+
+
+
+# General Starting Skills - uncommon
+
+skills.alienabductee.name=Alien Abductee
+
+skills.bodybuilder.name=Body Builder
+
+skills.vegan.name=Vegan
+
+skills.laborer.name=Laborer
+
+skills.physician.name=Physician
+
+skills.beserker.name=Beserker
+
+
+
+# Profession Starting Skills - rare
+
+skills.darkpriest.name=Dark Priest
+
+skills.saint.name=Saint
+
+skills.hacker.name=Hacker
+
+skills.architect.name=Architect
+
+skills.spook.name=Spook
+
+skills.ninja.name=Ninja
+
+skills.monk.name=Monk
+
+skills.crusader.name=Crusader
+
+skills.naturalist.name=Naturalist
+
+skills.huntsman.name=Huntsman
+
+
+
+# General Starting Skills - rare
+
+skills.weirdo.name=Weirdo
+
+skills.meatlover.name=Meat Lover
+
+skills.hippie.name=Hippie
+
+skills.adventurous.name=Adventurous
+
+skills.hardworking.name=Hardworking
+
+
+
+# Starting Skills - negative
+
+skills.smoker.name=Smoker
+
+skills.weak.name=Weak
+
+skills.shortsighted.name=Short Sighted
+
+skills.slow.name=Slow
+
+skills.elitist.name=Elitist
+
+skills.lazy.name=Lazy
+
+skills.anemic.name=Anemic
+
+skills.technophobe.name=Technophobe
+
+skills.coward.name=Coward
+
+skills.addict.name=Addict
+
+skills.skeptic.name=Skeptic
+
+
+
+# Gained Skills - special
+
+skills.consecration.name=Consecration
+
+skills.spotting.name=Spotting
+
+skills.patroling.name=Patroling
+
+skills.healingrate.name=Fast Healing
+
+skills.stealth.name=Stealth
+
+skills.selflearning.name=Self Learning
+
+skills.builddefense.name=Defensive Building
+
+skills.healing.name=Wound Treatment
+
+skills.protection.name=Protection
+
+skills.cursing.name=Hexing
+
+skills.satanist.name=Satanist
+
+skills.naturelover.name=Nature Lover
+
+skills.techie.name=Techie
+
+skills.holyman.name=Holy Man
+
+skills.techfighter.name=Tech Warrior
+
+skills.toolsman.name=Toolsman
+
+skills.weaponspecialist.name=Weapon Specialist
+
+skills.sniper.name=Sniper
+
+skills.occultist.name=Occultist
+
+
+
+# Gained Skills - level 1
+
+skills.marksmanship1.name=Markmanship I
+
+skills.agility1.name=Agility I
+
+skills.damage1.name=Damage I
+
+skills.evasion1.name=Evasion I
+
+skills.stalwart1.name=Stalwart I
+
+skills.melee1.name=Melee I
+
+skills.meleedefense1.name=Melee Defense I
+
+skills.blunt1.name=Blunt Weapons I
+
+skills.sharp1.name=Sharp Weapons I
+
+skills.pistols1.name=Pistols I
+
+skills.rifles1.name=Rifles I
+
+skills.bows1.name=Archery I
+
+skills.toolweapon1.name=Tools Expert I
+
+skills.autoweapon1.name=Automatic Weapons I
+
+skills.darkweapon1.name=Dark Weapons I
+
+skills.techweapon1.name=Tech Weapons I
+
+skills.holyweapon1.name=Holy Weapons I
+
+skills.gather1.name=Gathering I
+
+skills.mine1.name=Mining I
+
+skills.quarry1.name=Quarrying I
+
+skills.build1.name=Construction I
+
+skills.craft1.name=Crafting I
+
+skills.farming1.name=Farming I
+
+skills.research1.name=Research I
+
+skills.occultresearch1.name=Occult Research I
+
+skills.rituals1.name=Rituals I
+
+
+
+# Gained Skills - level 2
+
+skills.marksmanship2.name=Markmanship II
+
+skills.agility2.name=Agility II
+
+skills.damage2.name=Damage II
+
+skills.evasion2.name=Evasion II
+
+skills.stalwart2.name=Stalwart II
+
+skills.melee2.name=Melee II
+
+skills.meleedefense2.name=Melee Defense II
+
+skills.blunt2.name=Blunt Weapons II
+
+skills.sharp2.name=Sharp Weapons II
+
+skills.pistols2.name=Pistols II
+
+skills.rifles2.name=Rifles II
+
+skills.bows2.name=Archery II
+
+skills.toolweapon2.name=Tools Expert II
+
+skills.autoweapon2.name=Automatic Weapons II
+
+skills.darkweapon2.name=Dark Weapons II
+
+skills.techweapon2.name=Tech Weapons II
+
+skills.holyweapon2.name=Holy Weapons II
+
+skills.gather2.name=Gathering II
+
+skills.mine2.name=Mining II
+
+skills.quarry2.name=Quarrying II
+
+skills.build2.name=Construction II
+
+skills.craft2.name=Crafting II
+
+skills.farming2.name=Farming II
+
+skills.research2.name=Research II
+
+skills.occultresearch2.name=Occult Research II
+
+skills.rituals2.name=Rituals II
+
+
+
+# Gained Skills - level 3
+
+skills.marksmanship3.name=Markmanship III
+
+skills.agility3.name=Agility III
+
+skills.damage3.name=Damage III
+
+skills.evasion3.name=Evasion III
+
+skills.stalwart3.name=Stalwart III
+
+skills.melee3.name=Melee III
+
+skills.meleedefense3.name=Melee Defense III
+
+skills.blunt3.name=Blunt Weapons III
+
+skills.sharp3.name=Sharp Weapons III
+
+skills.pistols3.name=Pistols III
+
+skills.rifles3.name=Rifles III
+
+skills.bows3.name=Archery III
+
+skills.toolweapon3.name=Tools Expert III
+
+skills.autoweapon3.name=Automatic Weapons III
+
+skills.darkweapon3.name=Dark Weapons III
+
+skills.techweapon3.name=Tech Weapons III
+
+skills.holyweapon3.name=Holy Weapons III
+
+skills.gather3.name=Gathering III
+
+skills.mine3.name=Mining III
+
+skills.quarry3.name=Quarrying III
+
+skills.build3.name=Construction III
+
+skills.craft3.name=Crafting III
+
+skills.farming3.name=Farming III
+
+skills.research3.name=Research III
+
+skills.occultresearch3.name=Occult Research III
+
+skills.rituals3.name=Rituals III
+
+
+
+# Preset Skills
+
+skills.slayer.name=Slayer
+
+skills.hunter.name=Hunter
+
+skills.exorcist.name=Exorcist
+
+skills.doctor.name=Doctor
+
+skills.survivor.name=Survivor
+
+
+
+# Unused
+
+skills.woodcutter.name=Woodcutter
+
+skills.mineminerals.name=Mineral Mining
+
+skills.farmingyield.name=Farming Yield
+
+skills.craftfirearms.name=Firearms Crafting
+
+skills.craftmedicine.name=Medicine Crafting
+
+skills.holycrafting.name=Holy Crafting I
+
+skills.wardscrafting.name=Evil Warding
+
+skills.darkcrafting.name=Dark Crafting I
+
+skills.occultweapons.name=Occult Wielder
+
+skills.occultweapons2.name=Occult Master
+
+items.hidden.name=Unknown
+
+items.none.name=None
+
+items.water.name=Drinking Water
+items.water.description=Gathered from wells. Survivors drink water over time.\n\nSurvivors may lose health when water supply runs out.
+
+items.wood.name=Wood
+items.wood.description=Basic resource used mainly for construction and crafting.
+
+items.stone.name=Stones
+items.stone.description=Basic resource used mainly for construction.
+
+items.scraps.name=Scraps
+items.scraps.description=Bits and pieces used for almost everything.
+
+items.clay.name=Clay
+items.clay.description=Basic resource used mainly for construction.
+
+items.fur.name=Hides
+items.fur.description=Resource used in crafting recipes.\n\nCan be obtained by killing werewolves.
+
+items.tomato.name=Vegetables
+items.tomato.description=Resource used for cooking.
+
+items.wool.name=Wool
+items.wool.description=Resource used in crafting recipes.
+
+items.wheat.name=Wheat
+items.wheat.description=Resource used in cooking and crafting recipes.
+
+items.physics1.name=Science Research
+items.physics1.description=Research points used to unlock new science based technologies.\n\nGenerated by survivors working in experiment tables.
+
+items.occult1.name=Occult Research
+items.occult1.description=Research points used to unlock new occult based technologies.\n\nGenerated by survivors working in magic circles.
+
+items.sulfur.name=Sulfur
+items.sulfur.description=Resource used in occult rituals and crafting.\n\nCan be obtained by killing weaker demons.
+
+items.medicine.name=Medicine
+items.medicine.description=Resource used in crafting recipes and for healing injured survivors at the infirmary.\n\nCan be found in scavenge missions and by searching debris.
+
+items.arrows.name=Arrows
+items.arrows.description=Used in bows and crossbows.
+
+items.researchmaterials.name=Research Materials
+items.researchmaterials.description=Used for advanced research.\n\nCan be found in scavenge.
+
+items.researchkit.name=Research Kit
+items.researchkit.description=Used for advanced research.\n\nCan be found in scavenge.
+
+items.metals.name=Metals
+items.metals.description=Resource used in crafting recipes.
+
+items.physics2.name=Science Parts
+
+items.occult2.name=Essence
+
+items.ectoplasm.name=Ectoplasm
+items.ectoplasm.description=Resource used in occult rituals and crafting.\n\nCan be obtained by killing reapers and ghosts.
+
+items.boards.name=Boards
+items.boards.description=Resource used mainly for construction.
+
+items.bricks.name=Bricks
+items.bricks.description=Resource used mainly for construction.
+
+items.weaponparts.name=Weapon Parts
+items.weaponparts.description=Resource used to make firearms.
+
+items.cloth.name=Cloth
+items.cloth.description=Resource used in crafting recipes.
+
+items.demonite.name=Demonite
+items.demonite.description=Resource used in most dark magic crafting recipes.\n\nCan be obtained by killing stronger demons.
+
+items.alcohol.name=Alcohol
+items.alcohol.description=Resource used in crafting recipes.
+
+items.herbs.name=Herbs
+items.herbs.description=Resource used in cooking and crafting recipes.
+
+items.gunpowder.name=Gunpowder
+items.gunpowder.description=Resource used in crafting recipes.
+
+items.deadbody.name=Survivor Body
+items.deadbody.description=A dead comrade.\n\nPriests with the right skill can bury them.
+
+items.occult3.name=Void Essence
+
+items.minerals.name=Minerals
+items.minerals.description=Resource used in crafting recipes.
+
+items.fertilizer.name=Fertilizer
+
+items.holywords.name=Holy Words
+items.holywords.description=Religious writings used in powerful holy rituals and crafting recipes.\n\nFallen Angels carry them and they can be scavenged in some locations.
+
+items.composites.name=Composites
+items.composites.description=Resource used in crafting recipes.
+
+items.holywater.name=Holy Water
+items.holywater.description=Resource used in most holy magic crafting recipes.
+
+items.aether.name=Aether
+items.aether.description=Resource used in crafting advanced alchemical weapons. \n\nCan be obtained in scavenge missions. 
+
+items.primamateria.name=Prima Materia
+items.primamateria.description=Crafted alchemical base resource that can be used to create other materials.
+
+items.consecrated.name=#Consecrated Materials
+
+items.machines.name=#Mechanical Parts
+
+items.salad.name=Salad
+
+items.bread.name=Bread
+
+items.sandwich.name=Sandwich
+
+items.pickles.name=Pickles
+
+items.pasta.name=Pasta
+
+items.cannedfood.name=Canned Food
+items.cannedfood.description=Found in scavenge.
+
+items.club.name=Club
+
+items.baseballbat.name=Baseball Bat
+items.baseballbat.description=Professionally made club.\n\nFound in scavenge.
+
+items.quarterstaff.name=Quarterstaff
+
+items.bow.name=Bow
+
+items.crossbow.name=Crossbow
+
+items.longbow.name=Composite Bow
+
+items.olympicbow.name=Olympic Bow
+items.olympicbow.description=Better than any hand crafted bow.\n\nFound in scavenge.
+
+items.combatknife.name=Combat Knife
+
+items.nailgun.name=Nailgun
+
+items.glock.name=Glock
+
+items.uzi.name=Uzi
+
+items.demonitebow.name=Demonite Bow
+
+items.swordofparacelsus.name=Sword Of Paracelsus
+
+items.shotgun.name=Shotgun
+
+items.deserteagle.name=Desert Eagle
+
+items.jericho.name=Jericho
+
+items.sniper.name=Sniper Rifle
+
+items.katana.name=Katana
+
+items.sledgehammer.name=Sledgehammer
+
+items.blessedpistol.name=Blessed Pistol
+
+items.demoniteknife.name=Demonite Knife
+
+items.m16.name=Assault Rifle
+
+items.50cal.name=50 Caliber
+
+items.combatshotgun.name=Combat Shotgun
+
+items.sacredsword.name=Sacred Sword
+
+items.transmutationgun.name=Transmutation Gun
+
+items.leatherarmor.name=Leather Vest
+
+items.scraparmor.name=Scrap Armor
+
+items.leatherjacket.name=Leather Jacket
+items.leatherjacket.description=Back in fashion.\n\nFound in scavenge.
+
+items.camovest.name=Camouflage Vest
+items.camovest.description=The best defense is not being seen.\n\nFound in scavenge.
+
+items.metalarmor.name=Metal Armor
+
+items.vinearmor.name=Vine Armor
+
+items.demonitearmor.name=Demonite Armor
+
+items.holyarmor.name=Holy Armor
+
+items.kevlararmor.name=Kevlar Vest
+
+items.saintsarmor.name=Saint's Armor
+items.saintsarmor.description=Straight from the vaults of the vatican. Arguably the best defense from demons.\n\nFound in scavenge.
+
+items.mercurialarmor.name=Mercurial Armor
+
+items.medkit1.name=First Aid
+items.medkit1.description=Used in combat to restore health to injured survivors.
+
+items.medkit2.name=Paramedic Kit
+items.medkit2.description=Used in combat to restore health to injured survivors.
+
+items.medkit3.name=Doctor's Bag
+items.medkit3.description=Used in combat to restore health to injured survivors.
+
+items.medkitscavenge.name=Surgeon Kit
+items.medkitscavenge.description=Who needs skill if you have a field surgery kit?\n\nFound in scavenge.
+
+items.woodshield.name=Wooden Shield
+
+items.metalshield.name=Metal Shield
+
+items.icebox.name=Ice Box
+items.icebox.description=Allows survivors to store more food, reducing amount of trips to the kitchen.
+
+items.paincharm.name=Pain Charm
+items.paincharm.description=Dark artifact that helps survivors handle pain better.
+
+items.luckycharm.name=Lucky Charm
+items.luckycharm.description=The lucky wearer has increased accuracy and evasion.
+
+items.evilward.name=Evil Ward
+items.evilward.description=Wards the evil eye. And demons.\n\nFound in scavenge.
+
+items.fraggrenade.name=Frag Grenade
+items.fraggrenade.description=Throw to damage enemies in an area.\n\nCaution, may harm allies as well.
+
+items.flashbang.name=Flashbang
+items.flashbang.description=Throw to disorient units in an area.\n\nDisoriented units suffer penalties to accuracy and evasion.\n\nCaution, may harm allies as well.
+
+items.voodoodoll.name=Voodoo Doll
+items.voodoodoll.description=Voodoo can be used to hex an enemy.
+
+items.protectionspell.name=Protection Spell
+items.protectionspell.description=This spell kit can strengthen an ally for a short duration.
+
+items.molotov.name=Molotov
+items.molotov.description=Inexpensive grenade.\n\nDamages allies and enemies in an area.
+
+items.weakeningrune.name=Weakening Rune
+items.weakeningrune.description=Weaken nearby enemies.\n\nWill weaken wielder as well.
+
+items.hexscroll.name=Hex Scroll
+items.hexscroll.description=Hex an enemy.
+
+items.werewolfpendant.name=Werewolf Pendant
+items.werewolfpendant.description=Made of an alpha werewolf's claws.
+
+items.gingerextract.name=Ginger Extract
+items.gingerextract.description=Rare elixir made of ginger and other witchcraft components.
+
+items.sandalwood.name=Sandalwood Bracelet
+items.sandalwood.description=This bracelet can heal whoever is wearing it in combat.
+
+items.cross.name=Protection Cross
+items.cross.description=Provides short term, yet powerful protection from even the mightiest of demons.
+
+items.binoculars.name=Binoculars
+items.binoculars.description=Seeing farther away can help avoid enemies before they spot you.
+
+items.elementalbomb.name=Elemental Bomb
+items.elementalbomb.description=Deals damage to enemies in the area, while draining their life force, making them clumsy.
+
+items.nighthowls.name=Werewolf Blood
+items.nighthowls.description=Blood from a live werewolf.\n\nSome say it can be used to cure lycanthropy.
+
+items.reinforcedoutfit.name=Reinforced Outfit
+
+items.resin.name=Resin
+items.resin.description=Found in forests.
+
+items.mysticvines.name=Mystic Vines
+items.mysticvines.description=These vines have mystical properties, and can only be found deep in the forest areas.
+
+items.obsidian.name=Obsidian
+items.obsidian.description=Can be found in lava areas.
+
+items.copper.name=Copper
+items.copper.description=Found in the desert.
+
+items.volcanicbow.name=Volcanic Bow
+
+items.coilgun.name=Coil-Gun
+
+items.weakmetalarmor.name=Improvised Armor
+
+items.pipewrench.name=Wrench
+
+items.sterlingsmg.name=Sterling SMG
+
+items.huntingrifle.name=Hunting Rifle
+
+items.stunbaton.name=Stun Baton
+
+items.seraphsling.name=Seraph Sling
+
+items.diamondcutter.name=Diamond Cutter
+
+items.freezeray.name=Freeze Ray
+
+items.demonmouth.name=Demon Mouth
+
+items.swordofnephilim.name=Sword Of Nephilim
+
+items.mtar21.name=MTAR 21
+
+items.guidedsniper.name=Guided Sniper
+
+items.angelicarbalest.name=Angelic Arbalest
+
+items.beamcannon.name=Beam Cannon
+
+items.damnator.name=Damnator
+
+items.plasmacharger.name=Plasma Charger
+
+items.minigun.name=Minigun
+
+items.chainsaw.name=Chainsaw
+
+items.aluminum.name=Aluminum
+
+items.diamonds.name=Diamonds
+
+items.aloe.name=Aloe Vera
+items.aloe.description=Herb with healing and occult properties.
+
+items.demonscales.name=Demon Scales
+
+items.quartz.name=Quartz
+items.quartz.description=Can be found in the Savannah.
+
+items.titanium.name=Titanium
+
+items.batteries.name=Batteries
+
+items.phosphorus.name=Phosphorus
+
+items.bloodruby.name=Blood Ruby
+items.bloodruby.description=These precious stones started showing up after the demons and have many useful properties.
+
+items.cotton.name=Cotton
+
+items.permafrost.name=Permafrost Crystal
+items.permafrost.description=This crystal of unknown origin can be found in the Tundra, and is impossible to heat.
+
+items.hellsessence.name=Hell's Essence
+
+items.silicon.name=Silicon
+
+items.nitro.name=Nitrocellulose
+items.nitro.description=Very flammable, made from cotton fibers.
+
+items.ghilliesuit.name=Ghillie Suit
+
+items.elementsarmor.name=Elements Armor
+
+items.reddevil.name=Red Devil
+
+items.nxravest.name=NXRA Vest
+
+items.armorofsouls.name=Armor of Souls
+
+items.boulderguard.name=Boulder Guard
+
+items.invisibilitycloak.name=Invisibility Cloak
+
+items.celestialarmor.name=Celestial Armor
+
+items.crystalguard.name=Crystal Guard
+
+items.gaiaswrath.name=Gaia's Wrath
+
+items.combatsuit.name=Combat Suit
+
+items.demonfuel.name=Demon Fuel
+items.demonfuel.description=Substance with tremendous short-term benefits. Long term effects are unknown.
+
+items.desensitiser.name=Desensitiser
+items.desensitiser.description=Allows one to transced their senses for a short time. Effective combat drug.
+
+items.stunner.name=Stunner
+
+items.forcefield.name=Forcefield
+
+items.frostgrenade.name=Frost Grenade
+
+items.acidbomb.name=Acid Bomb
+
+items.bloodimplosion.name=Blood Implosion
+items.bloodimplosion.description=Causes an enemy's blood cells to implode, dealing tremendous damage.
+
+items.bindingcurse.name=Binding Curse
+items.bindingcurse.description=Causes it's target to become sluggish for a short duration.
+
+items.pendantofinsight.name=Pendant of Insight
+
+items.tranquilitycharm.name=Tranquility Charm
+
+items.angeldiadem.name=Angelic Diadem
+
+items.arglasses.name=AR Glasses
+
+items.researchdata.name=Research Data
+
+items.researchchip.name=Research Chip
+
+items.sulfurcrystal.name=Sulfur Crystal
+
+items.consecratedsulfur.name=Blessed Sulfur Crystal
+
+items.bloodstone.name=Bloodstone
+
+items.antimatterdetonator.name=Anti-Matter Detonator
+
+items.demoneye.name=Demon Eye
+
+items.antimattercontainer.name=Anti-matter Container
+
+items.summoningnotes.name=Summoning Notes
+
+items.antimatter.name=Anti-Matter
+
+items.decoysphere.name=Decoy Sphere
+
+items.huntersgear.name=Hunter's Gear
+
+items.obsidianarmor.name=Obsidian Armor
+
+items.demonsblight.name=Demon's Blight
+
+items.titaniumarmor.name=Titanium Armor
+
+items.rocketsuit.name=Rocket Suit
+
+
+
+# Natural Resources
+
+objects.tree.name=Tree
+objects.tree.description=It grows, then can be chopped for wood.
+
+objects.rock.name=Rock
+objects.rock.description=Harvest stone.
+
+objects.debris.name=Rubble
+objects.debris.description=Scraps and other useful things may be found here.
+
+objects.claymine.name=Clay
+objects.claymine.description=Harvest clay.
+
+objects.aluminum.name=Aluminum
+
+objects.phosphorite.name=Posphorite
+
+objects.metals.name=Metal Resource
+objects.metals.description=Build a mine to harvest metals.
+
+objects.metalmine.name=Metal Mine
+objects.metalmine.description=Built on metal resources to allow access to those resources.
+
+objects.minerals.name=Mineral Resource
+objects.minerals.description=Build a mine to harvest minerals.
+
+objects.mineralmine.name=Mineral Mine
+objects.mineralmine.description=Built on mineral resources to allow access to those resources.
+
+objects.diamonds.name=Diamonds
+objects.diamonds.description=Build a mine to harvest diamonds.
+
+objects.diamondmine.name=Diamond Mine
+objects.diamondmine.description=Built on diamond resources to allow access to those resources.
+
+objects.bloodruby.name=Blood Rubies
+objects.bloodruby.description=Build a mine to harvest blood rubies.
+
+objects.bloodrubymine.name=Blood Ruby Mine
+objects.bloodrubymine.description=Built on blood ruby resources to allow access to those resources.
+
+
+
+# Workstations
+
+objects.research1.name=Experiment Table
+objects.research1.description=A safe place to practice science and discover technologies.
+
+objects.occultresearch.name=Occult Library
+objects.occultresearch.description=Occult knowledge collected from ancient texts.
+
+objects.magiccircle.name=Magic Circle
+objects.magiccircle.description=Something about this formation keeps the dabblers in the occult safe as they conduct their experiments.
+
+objects.workbench.name=Work Bench
+objects.workbench.description=Full of simple tools, can be used to create basic stuff.
+
+objects.stove.name=Stove
+objects.stove.description=Cooked food can be prepared here.
+
+objects.sawmill.name=Sawmill
+objects.sawmill.description=Makes boards out of wood.
+
+objects.furnace.name=Furnace
+objects.furnace.description=Extreme temperatures allow working of raw ores.
+
+objects.weaponsworkshop.name=Weapons Workshop
+objects.weaponsworkshop.description=Equipped with tools and protection required for creating delicate parts and sturdy firearms.
+
+objects.darkaltar.name=Dark Altar
+objects.darkaltar.description=The dark arts are dangerous, but also powerful.
+
+objects.holyaltar.name=Holy Altar
+objects.holyaltar.description=Not all magic is dark. Divine rituals can be performed here.
+
+objects.survivorgrave.name=Survivor's Grave
+objects.survivorgrave.description=Uses the spirits of our fallen friends to extract Demon Essence. 
+
+objects.hellforge.name=Hell Forge
+objects.hellforge.description=Craft items from materials imbued with dark magic.
+
+objects.holyforge.name=Holy Forge
+objects.holyforge.description=Craft divine items.
+
+objects.techworkshop.name=Tech Workshop
+objects.techworkshop.description=Craft advanced tech.
+
+objects.philosopherstone.name=Philosopher's Stone
+objects.philosopherstone.description=A legendary device used for transmutation, where one substance becomes another.  
+
+objects.alchemytable.name=Alchemy Table
+objects.alchemytable.description=Craft alchemical weapons and armors.
+
+objects.arcanefoundry.name=Arcane Foundry
+objects.arcanefoundry.description=Arcane rituals are performed here.
+
+objects.geologist.name=Geologist Station
+objects.geologist.description=Used to search for resources in the ground.
+
+
+
+# Farming
+
+objects.well.name=Well
+objects.well.description=Survivors can gather water here.
+
+objects.raincollector.name=Rainwater Collector
+objects.raincollector.description=Collect water without any manual labour. One collector is enough to quench the thirst of one survivor.
+
+objects.tomatofarm.name=Vegetable Farm
+objects.tomatofarm.description=Grows vegetables.
+
+objects.wheatfarm.name=Wheat Farm
+objects.wheatfarm.description=Grows wheat.
+
+objects.sheepfarm.name=Sheep Farm
+objects.sheepfarm.description=Sheep provide wool and their droppings can be used as fertilizer.
+
+objects.herbgarden.name=Herb Garden
+objects.herbgarden.description=Grow delicate herbs, useful for more fancy cooking and more.
+
+objects.aloefarm.name=Aloe Vera Farm
+objects.aloefarm.description=Aloe Vera has some healing and arcane properties.
+
+objects.cottonfarm.name=Cotton Farm
+objects.cottonfarm.description=Cotton and is a very useful element.
+
+
+
+# Base Infrastructure
+
+objects.foodstorage.name=Food Table
+objects.foodstorage.description=Food distribution. Hungry survivors eat here.
+
+objects.bed.name=Bed
+objects.bed.description=Tired survivors come here to rest.
+
+objects.guardtower1.name=Guard Tower
+objects.guardtower1.description=Survivors inside will be more efficient in defending the colony.\n\nCan only be occupied during combat by survivors with ranged weapons.
+
+objects.infirmary.name=Infirmary
+objects.infirmary.description=Treat survivor wounds for faster healing.
+
+objects.trainingarea.name=Training Area
+objects.trainingarea.description=Improve survivor combat skills.
+
+objects.sandbag.name=Sandbags
+objects.sandbag.description=These provide cover for survivors without inhibiting movement.
+
+objects.spikes.name=Spike Barricade
+objects.spikes.description=Provide better cover than sandbags and block movement.
+
+objects.barrelwall.name=Barrel Wall
+objects.barrelwall.description=Inhibits movement and completely blocks ranged weapons.
+
+objects.logcabin_4x4.name=Log Cabin
+objects.logcabin_4x4.description=The smallest, simplest building, provides 2x2 usable slots.
+
+objects.logcabin_5x4.name=Log Cabin
+objects.logcabin_5x4.description=Simple cabin made of wood, provides 3x2 usable slots.
+
+objects.stonehouse_5x5.name=Stone House
+objects.stonehouse_5x5.description=Made of sturdier materials, can be built to larger sizes, providing 3x3 usable slots.
+
+objects.stonehouse_6x5.name=Stone House
+objects.stonehouse_6x5.description=Larger, more expensive version of the stone house, provides 4x3 usable slots.
+
+objects.lookout.name=Lookout Post
+objects.lookout.description=Provides warning when enemies are near, allowing survivors to better hide from the demons.\n\nMore efficient near the edges of the map.\nLess efficient with other lookout posts nearby.
+
+objects.occultenclosure.name=Occult Enclosure
+objects.occultenclosure.description=Perform occult experiments in relative safety.
+
+
+
+# Combat Map
+
+objects.building.name=Building
+
+objects.bus.name=Bus
+
+objects.barrel.name=Barrel
+
+objects.crossedbody.name=Body
+
+objects.combatexit.name=Exit
+
+objects.scavenge.name=Scavenge Heap
+
+objects.trappedsurvivor.name=Trapped Survivor
+
+
+
+# Construction
+
+objects.planting.name=Tree Planting
+
+objects.construction_1x1.name=Construction
+
+objects.construction_2x1.name=Construction
+
+objects.construction_1x2.name=Construction
+
+objects.construction_2x2.name=Construction
+
+objects.construction_4x4.name=Construction
+
+objects.construction_5x4.name=Construction
+
+objects.construction_5x5.name=Construction
+
+objects.construction_6x5.name=Construction
+
+
+
+# World Objects
+
+objects.base.name=Base
+
+objects.hospital.name=Hospital
+
+objects.datacenter.name=Data Center
+
+objects.techfirm.name=Tech Firm
+
+objects.military.name=Military Base
+
+objects.supermarket.name=Shopping Center
+
+objects.residential.name=Housing
+
+objects.factory.name=Industrial
+
+objects.farm.name=Farm
+
+objects.school.name=School
+
+objects.church.name=Church
+
+objects.campsite.name=Campsite
+
+objects.hauntedglade.name=Haunted Glade
+
+objects.miningtown.name=Mining Town
+
+objects.ruins.name=Ruins
+
+objects.quarry.name=Quarry
+
+objects.arcticmine.name=Mining Town
+
+objects.rescuemission.name=Rescue Mission
+
+objects.demonscout.name=Demon Scout
+
+objects.settlementhelpattack.name=Help Request
+
+objects.aethershrine.name=Aether's Shrine
+
+objects.secretbase.name=Secret Base
+
+objects.injuredsurvivor.name=Injured Survivor
+
+objects.hellgate.name=Hellgate
+
+objects.recruiterskidnap.name=Recruiter Camp
+
+objects.recruiterfortress.name=Recruiter Fortress
+
+objects.archdemon.name=Arch-Demon
+
+objects.physicslab.name=Physics Lab
+
+objects.ammunitioncache.name=Ammunition Cache
+
+objects.nighthowls.name=Night Howls
+
+objects.settlement.name=Settlement
+
+
+
+# Suburbs
+
+objects.suburbs_house_5x4.name=House
+
+objects.suburbs_house_5x5.name=House
+
+objects.suburbs_ruins_5x4.name=Ruined House
+
+objects.suburbs_car.name=Car
+
+objects.suburbs_trash.name=Trash Bin
+
+objects.suburbs_deadtree.name=Dead Tree
+
+objects.suburbs_deadbody.name=Body
+
+objects.suburbs_road.name=Road
+
+
+
+# Industrial
+
+objects.industrial_silo.name=Silo
+
+objects.industrial_container.name=Container
+
+objects.industrial_factory.name=Building
+
+objects.industrial_semitrailer.name=Semi-Trailer
+
+objects.industrial_fence.name=Fence
+
+objects.industrial_pipe.name=Pipe
+
+
+
+# Urban
+
+objects.shopcart.name=Shopping Cart
+
+objects.letterbox.name=Letterbox
+
+objects.shopcart_cluster.name=Shopping Carts
+
+objects.hospital.name=Hospital
+
+objects.apartments.name=Apartment Building
+
+objects.supermarketbuilding.name=Supermarket
+
+objects.schoolhouse.name=Schoolhouse
+
+objects.pavement.name=Pavement
+
+
+
+# Military
+
+objects.blockade.name=Blockade
+
+objects.cratespile.name=Crates
+
+objects.humvee.name=Humvee
+
+objects.tent.name=Tent
+
+objects.tank.name=Tank
+
+
+
+# Mining Town
+
+objects.miningcart.name=Mining Cart
+
+objects.brownwall.name=Wall
+
+objects.watertower.name=Water Tower
+
+objects.truck.name=Truck
+
+objects.shed.name=Shed
+
+objects.electricpost.name=Electric Post
+
+
+
+# Haunted
+
+objects.swamp.name=Swamp
+
+objects.abandonedcabin.name=Abandoned Cabin
+
+objects.crypt.name=Crypt
+
+objects.grave.name=Grave
+
+
+
+# Ruins
+
+objects.ruin.name=Ruin
+
+objects.lava.name=Lava
+
+
+
+# Farm / Settlement
+
+objects.missionfarm.name=Farm Plot
+
+research.farming.name=Farming
+
+research.cooking.name=Cooking
+
+research.preserving.name=Preserving
+
+research.waterconservation.name=Water Conservation
+
+research.waterdistribution.name=Water Distribution
+
+research.rainwatercollection.name=Rainwater Collection
+
+research.gardening.name=Gardening
+
+research.animals.name=Animal Raising
+
+research.woodworking.name=Woodworking
+
+research.brickmaking.name=Brickmaking
+
+research.weaving.name=Weaving
+
+research.gatherefficiency.name=Gathering Efficiency
+
+research.scavenging.name=Scavenging
+
+research.metalworking.name=Metalworking
+
+research.electromagnets.name=Electromagnets
+
+research.minerals.name=Mineral Extraction
+
+research.distilling.name=Distilling
+
+research.alchemy.name=Alchemy
+
+research.machines.name=Machines
+
+research.calcination.name=Calcination
+
+research.bowmaking.name=Bowmaking
+
+research.crossbows.name=Crossbows
+
+research.pneumatic.name=Pneumatic Weapons
+
+research.leatherworking.name=Leatherworking
+
+research.tailoring.name=Tailoring
+
+research.knives.name=Knives
+
+research.gunmaking.name=Guncrafting
+
+research.automaticweapons.name=Automatic Weapons
+
+research.advancedpistols.name=Advanced Pistols
+
+research.explosives.name=Explosives
+
+research.firearms.name=Firearm Mechanics
+
+research.hunting.name=Hunting
+
+research.advancedfirearms.name=Advanced Firearms
+
+research.swords.name=Swords
+
+research.firstaid.name=First Aid
+
+research.medicine.name=Medicine
+
+research.colonydefense.name=Colony Defense
+
+research.assaultrifles.name=Assault Rifles
+
+research.heavyweapons.name=Heavy Rifles
+
+research.urbantactics.name=Urban Tactics
+
+research.kevlar.name=Kevlar
+
+research.mercurialmastery.name=Mercurial Mastery
+
+research.alchemicalweapons.name=Alchemical Weapons
+
+research.logistics.name=Logistics
+
+research.camouflage.name=Camouflage
+
+research.construction.name=Construction
+
+research.earlywarning.name=Early Warning
+
+research.materiamedica.name=Materia Medica
+
+research.occult.name=Demon Origins
+
+research.meditation.name=Meditation
+
+research.darkmagic.name=Dark Magic
+
+research.holymagic.name=Holy Magic
+
+research.hellgates.name=Hellgates
+
+research.harvestritual.name=Harvest Ritual
+
+research.waterritual.name=Water Ritual
+
+research.darkrituals.name=Dark Rituals
+
+research.demonbinding.name=Demon Binding
+
+research.rituals.name=Rituals
+
+research.resourcefinding.name=Resource Finding Spells
+
+research.demonite.name=Demonite
+
+research.summoning.name=Summoning
+
+research.charms.name=Charms
+
+research.demonitecrafting.name=Demonite Crafting
+
+research.soulforging.name=Soul Forging
+
+research.holyrituals.name=Holy Rituals
+
+research.sacredcrafting.name=Sacred Crafting
+
+research.dangersense.name=Danger Sense
+
+research.mutation.name=Mutation
+
+research.divineinspiration.name=Divinity
+
+research.demonanatomy.name=Demon Anatomy
+
+research.patchwork.name=Patchwork
+
+research.expeditions.name=Expeditions
+
+research.junglecrafting.name=Jungle Crafting
+
+research.advancedlogistics.name=Advanced Logistics
+
+research.improvisedexplosives.name=Improvised Explosives
+
+research.metalprotection.name=Metal Protection
+
+research.metalweapons.name=Metal Weapons
+
+research.metalurgy.name=Metallurgy
+
+research.sniping.name=Sniping
+
+research.magiccrafting.name=Magical Crafting
+
+research.lightdark.name=Light and Dark
+
+research.voodoo.name=Voodoo
+
+research.extremecrafting.name=Extreme Crafting
+
+research.weaponblessing.name=Weapon Blessing
+
+research.composites.name=Composites
+
+research.luckybounty.name=Lucky Bounty
+
+research.arcanerituals.name=Arcane Rituals
+
+research.spiritguide.name=Spirit Guide
+
+research.allseeingeye.name=All Seeing Eye
+
+research.lightanddark.name=Light And Dark
+
+research.defensiveaura.name=Defensive Aura
+
+research.godrealm.name=God Realm
+
+research.tropicalfarming.name=Tropical Farming
+
+research.alchemicalprotection.name=Alchemical Protection
+
+research.titaniumproduction.name=Titanium Production
+
+research.fiberextraction.name=Fiber Extraction
+
+research.phosphorusextraction.name=Phosphorus Extraction
+
+research.flamables.name=Flamables
+
+research.geology.name=Geology
+
+research.diamondmining.name=Diamond Mining
+
+research.diamondworking.name=Diamond Working
+
+research.forcefields.name=Force Fields
+
+research.bloodrubies.name=Blood Rubies
+
+research.semiconductors.name=Semiconductors
+
+research.diamondfusing.name=Diamond Fusing
+
+research.crowdcontrol.name=Crowd Control
+
+research.frostweaponry.name=Frost Weaponry
+
+research.closecombat.name=Close Combat
+
+research.guidancesystems.name=Guidance Systems
+
+research.frostexplosives.name=Frost Explosives
+
+research.beamweapons.name=Beam Weapons
+
+research.aloeproperties.name=Aloe Properties
+
+research.lostsouls.name=Lost Souls
+
+research.intellectboost.name=Intellect Boosting
+
+research.soulsearching.name=Soul Searching
+
+research.fallenangels.name=Fallen Angels
+
+research.angelicweaponry.name=Angelic Weaponry
+
+research.angelicartifacts.name=Angelic Artifacts
+
+research.angelicprotection.name=Angelic Protection
+
+research.holytech.name=Holy Science
+
+research.darktech.name=Dark Science
+
+research.titaniumprotection.name=Titanium Protection
+
+research.obsidianproperties.name=Obsidian Properties
+
+research.soulbinding.name=Soul Binding
+
+research.soulmending.name=Soul Mending
+
+research.miningtechniques.name=Mining Techniques
+
+research.marching.name=Marching
+
+research.nursing.name=Nursing
+
+events.trader.trade.title=Trader
+events.trader.trade.text=A ragtag group of survivors was spotted in the outskirts of your camp. Further investigation reveals they came to trade with you.\n\nThey will stay for a few hours and then go on their way.
+
+events.settlementtrader.delay.title=Trade Invitation
+events.settlementtrader.delay.text=You have invited {{obj_name}} to trade with you. Their convoy will arrive at your colony soon.
+
+events.settlementtrader.trade.title=Trade Invitation
+events.settlementtrader.trade.text=A trade convoy that you invited from {{obj_name}} has arrived at your colony.\n\nThey will stay for a few hours and then go on their way.
+
+events.rescue.createrescue.title=Assistance needed
+events.rescue.createrescue.text=Someone nearby is being chased by enemy creatures.\n\nSend a team to assist them, they may be willing to join you.
+
+events.rescue.notfound.title=No survivors located
+events.rescue.notfound.text=You are unable to locate any survivors nearby. \n\n(Maximum population reached)
+
+events.demonscout.demonscout.title=Scouting Party
+events.demonscout.demonscout.text=An enemy scouting party has been spotted nearby.\n\nYou should take them out quickly, before they spot your base.\n\nKilling the scouting party reduces enemy awareness while leaving them be raises it.
+
+events.basedefense.defensewarning.title=Enemies approaching
+events.basedefense.defensewarning.text=You have spotted some creatures approaching your position!\nThey will attack soon, you better prepare.
+
+events.basedefense.attackedmessage.title=Attacked!
+events.basedefense.attackedmessage.text=You are being attacked!\n\nEquip your survivors before combat.\nDefeat all attacking enemies.
+
+events.rescuedefense.attackedmessage.title=Help!
+events.rescuedefense.attackedmessage.text=Monsters! They're chasing someone and he's leading them right into our colony. We must fight them off.
+
+events.rats.rats.title=Vermin!
+events.rats.rats.text=An unknown type of vermin has decimated some of your food supplies.\n\nHints of their origin were left behind as piles of sulfur.
+
+events.foundmetal.foundmetal.title=Metal Deposit Found
+events.foundmetal.foundmetal.text=A new metal deposit has been spotted near the base.
+
+events.foundminerals.foundminerals.title=Mineral Deposit Found
+events.foundminerals.foundminerals.text=A new mineral deposit has been spotted near the base.
+
+events.nighthowls.opening.title=Night Howls
+events.nighthowls.opening.text=In the end of times, civilization is a thing of the past. Gone is the electronic equipment that made life so much simpler, gone are the lights that kept the streets a bit safer at night and that kept us from seeing the beautiful night stars next to a glowing moon.\n\nSome might find this to be a romantic experience, were it not for the apocalypse. But it seems that {{survivor}} has developed a special interest in the night moon. This fascination was always apparent, but now it’s different. {{survivor}} can’t sleep anymore. {{survivor_hesheC}} walks around under the night sky, looking up at the moon. It’s perfect roundness, the subtle glow of off-white light shining in the distance spurs an uncontrollable urge. {{survivor_hesheC}} doesn't know where it came from, why or how; but it’s there - the urge to howl.\n\n{{survivor}} howls at the moon, and what may have started as a ridiculous imitation of a wolf cub, soon grows into a full fledged, blood chilling howl. The howl echoes in the distance, bouncing off abandoned buildings and ruined hideouts. {{survivor_hesheC}} eventually snaps out of it, but too late - the howl has attracted some unwanted attention!
+
+events.nighthowls.research.title=Night Howls
+events.nighthowls.research.text=This insatiable urge to howl will no doubt return, bringing further misfortune with it. You must find a way to deal with {{survivor}}.
+
+events.nighthowls.foundwerewolf.title=Night Howls
+events.nighthowls.foundwerewolf.text=Your occultists determined the source of this menace. It seems that {{survivor}} is inflicted with “the curse of the wolf”, an ancient curse told to drive men and women insane, making them believe they are wolves. This curse can be cured, however. All you need is… an actual wolf. More specifically, a werewolf. A small blood sample and a simple chant should remove this curse. The chant is easy to perform, but getting a blood sample will probably prove to be somewhat more difficult.\n\nYou remember hearing strange howls in the distance, surely it’s a werewolf. Perhaps you could convince the werewolf to donate some blood to a good cause… by brute force.
+
+events.nighthowls.end.title=Night Howls
+events.nighthowls.end.text={{survivor}} feels as if the weight of the world has been lifted off {{survivor_hisher}} shoulders. While the moon still shines bright and the stars still litter the night sky, the urge to howl is gone for good. Perhaps on all levels, {{survivor}} is no wolf, but a human being, eternally fascinated by the beauty of the night sky in a world desolated by the apocalypse.\n\nYou feel mystical power emenating from the claws of the werewolf, and form a pendant from it. Perhaps it will assist you in your struggles.
+
+events.nighthowls.dead.title=Night Howls
+events.nighthowls.dead.text=Death takes hold of {{survivor}}. {{survivor_hesheC}} will be sorely missed. {{survivor_hisherC}} body may be gone but {{survivor_hisher}} memory stays forever. With {{survivor_hisher}} death, the horrible curse is gone, and the camp no longer attracts unwanted attention.
+
+events.badomens.research.title=Bad Omens
+events.badomens.research.text=Dark clouds cover the night sky, the soft glow of the moon breaches through what little seams and holes it can find, illuminating with a weak, faint light, barely enough to see. A dark red comet streaks across the sky, coloring it in a dark, crimson red color. In what appears to be no less than witchcraft, the moon itself becomes red, its glow ominous. Demonic howls can be heard in the distance, these bad omens seem to give them unnatural strength.
+
+events.badomens.resolved.title=Bad Omens
+events.badomens.resolved.text=Your survivors discover an ancient manuscript mentioning a blood moon and an old religious ritual used to protect against it. After performing the ritual, the moon returns to its normal pale self, and the demonic howls immediately begin to wane. Things are back to normal.
+
+events.badomens.expired.title=Bad Omens
+events.badomens.expired.text=As abruptly as it began, the red haze disappears from the moon, returning its normal pale glow. The demonic howls immediately begin to wane. Things are back to normal.
+
+events.badomens.reward.title=Bad Omens
+events.badomens.reward.text=The strange phenomenon must have had real mystical properties. In some dark corners around your colony, you find some strange occult resources that are commonly left behind after vanquishing demons.
+
+events.blackbox.opening.title=The Black Box
+events.blackbox.opening.text=The rubbles of what once was the pinnacle of human architecture lay strewn across the floor as a painful reminder of what was lost. Heavy bricks covered in dust and window fragments litter the roads and avenues of a once prospering city.\n\nA pile of rubble next to an abandoned building attracts your attention. Sure enough, the rubble holds a secret inside it - a black lockbox. The box is rather hefty, the lock in front of it seems to constitute quite a bit of its weight. It can probably be unlocked, using the proper tools.
+
+events.blackbox.ignore.title=The Black Box
+events.blackbox.ignore.text=You can’t find the right tools to open the box, and are forced to leave it behind. You wonder if you will ever be able to find it again...
+
+events.blackbox.open1.title=The Black Box
+events.blackbox.open1.text=The box is full of medical supplies!
+
+events.blackbox.open2.title=The Black Box
+events.blackbox.open2.text=Someone was prepared for the end, you find lots of preserved food inside the box. As you pack up the supplies, you wonder what became of the previous owner...
+
+events.blackbox.open3.title=The Black Box
+events.blackbox.open3.text=The box is full of blueprints and schematics. Your researchers will surely be able to learn from these.
+
+events.blackbox.open4.title=The Black Box
+events.blackbox.open4.text=You open the box, revealing several cloth-wrapped items with arcane symbols on them. Your occultists show great interest in these.
+
+events.blackbox.open5.title=The Black Box
+events.blackbox.open5.text=The box holds a rotten body part, covered by insects and maggots. You throw it away in disgust, only to watch them fly straight onto your fields!
+
+events.blackbox.open6.title=The Black Box
+events.blackbox.open6.text=You open the box and see a dollar sign greedily carved under the lid. The box is filled to the brink with bottle caps. Whoever prepared for the apocalypse had the wrong idea, why would you need bottle caps?
+
+events.lowmorale.opening.title=Desperate Times
+events.lowmorale.opening.text=As days go by, and no signs of rescue can be seen, exhaustion and despair are starting to take their toll. Motivation is low, survivors go about their daily routines in quiet surrender. Researchers are affected worst of all. They find it hard to concentrate, and are unable to make any significant breakthroughs.\n\nThere must be some way to improve morale. Perhaps a feast? A celebration?
+
+events.lowmorale.success.title=Desperate Times
+events.lowmorale.success.text=It worked, spirits are higher than ever. The spark has returned to your eyes.
+
+events.lowmorale.rewardchoice.title=Desperate Times
+events.lowmorale.rewardchoice.text=More than anyone, {{survivor}} is extremely motivated and is asking for a special assignment.
+
+events.lowmorale.reward1.title=Desperate Times
+events.lowmorale.reward1.text={{survivor}}'s scavenge run was highly successful! {{survivor_hesheC}} found a cache of supplies nearby and no demons in sight. Within the hour, the cache is emptied of content and your stockpiles seem somewhat taller.
+
+events.lowmorale.reward2.title=Desperate Times
+events.lowmorale.reward2.text={{survivor}} ran all the way to the nearby ruins, ignoring any dangers on the way. A while later {{survivor_heshe}} made {{survivor_hisher}} way back to camp with a few scratches, and a splendid new weapon.
+
+events.lowmorale.reward3.title=Desperate Times
+events.lowmorale.reward3.text={{survivor}} walks all around camp, hiding anything that might seem out of place, removing all tracks and trails. You'd have to walk right into camp in order to notice there was anything but wilderness around. The camp is well hidden now, it's unlikely the demons nearby are aware of it.
+
+events.eureka.eureka.title=Eureka!
+events.eureka.eureka.text=Some say that ideas are easy, and execution is all that matters. Scientific research, however, is driven by ideas. Ideas that can form by anyone, anywhere. Even in your sleep.\n\n{{survivor}} sometimes speaks in {{survivor_hisher}} sleep. Mostly nonesense, but today {{survivor_hisher}} ramblings led to a scientific breakthrough!
+
+events.darkcurse.opening.title=Dark Curse
+events.darkcurse.opening.text=Witchcraft. It must be. While you can't see any visible change, the air suddenly feels dense and suffocating. Breathing becomes a chore. Working becomes torture. Everyone seems affected by this strange sensation. Will this feeling ever go away?
+
+events.darkcurse.elixir.title=Dark Curse
+events.darkcurse.elixir.text=While the source of the curse is still unknown, your occultists have devised a way to protect your camp from it's effects. An elixir made of special herbs, cooked in sulfur scented fire.
+
+events.darkcurse.resolved.title=Dark Curse
+events.darkcurse.resolved.text=The elixir's effects are immediate. Breathing comes naturally, the suffocating feeling that felt as if it was always there is gone. You wonder if the curse's origin was demonic, or are there other powers at play here?
+
+events.darkcurse.expired.title=Dark Curse
+events.darkcurse.expired.text=Just as suddenly as it began, the suffocating feeling is gone. The air feels normal, breathing comes naturally. What was the cause? Perhaps you'll never know...
+
+events.graveyardwarning.attackedmessage.title=Graveyard
+events.graveyardwarning.attackedmessage.text=Burying a loved one is always hard. Every time you walk near those graves, you feel a chill down your spine. During these troubled times, perhaps that chill is not just a feeling of sadness? Perhaps it's something more?\n\nAs you turn to leave, the chill becomes a momentary freezing sensation. Your heart skips a beat, and you turn back to the grave, weapon in hand. Ghosts. These are not your fallen friends, but something perverse, something unholy. Perhaps it's not a good idea to have so many graves inside your base...
+
+events.graveyard.attackedmessage.title=Graveyard
+events.graveyard.attackedmessage.text=The group is restless. Too many dead are buried nearby, attracting unwanted attention. More ghosts have risen up! They seem to be growing stronger, bolder.\n\nAs horrible as it sounds, we need to remove some of these graves, before it's too late.
+
+events.settlementrecruit.recruit.title=New Recruit
+events.settlementrecruit.recruit.text=You managed to convince one of the survivors from {{obj_name}} to join you. Your attempts, however, seem to have angered them and harmed your relationship.
+
+events.settlementmeet.introduction.title=Introduction
+events.settlementmeet.introduction.text=You reach the settlement where a makeshift sign tells you it's name: {{obj_name}}. As you approach, you get uneasy stares from it's inhabitants. Clearly fate has not been any kinder to them than it has been to you.
+
+events.settlementmeet.friendly.title=Introduction
+events.settlementmeet.friendly.text=After a brief conversation with their leaders, they are convinced that you mean them no harm, and are genuinely happy to find out they are not alone. You celebrate with a bottle of wine they were keeping around for a special occasion, and discuss ways in which you can help each other.
+
+events.settlementmeet.neutral.title=Introduction
+events.settlementmeet.neutral.text=You introduce yourself and assure them you mean no harm, but they are still wary. They are unwilling to let you into their camp, but offer to trade resources.
+
+events.settlementmeet.hostile.title=Introduction
+events.settlementmeet.hostile.text=You barely take five steps before someone shoots at the ground near you. You quickly take cover, preparing to fight for your life, but they just stand and watch, with their weapons aimed at you. \n\nClearly, they want nothing to do with you.
+
+events.settlement_randomlauncher.improverelationship.title=Relationship Improved
+events.settlement_randomlauncher.improverelationship.text=Relationship with {{settlement_name}} has improved.
+
+events.settlement_randomlauncher.decreaserelationship.title=Relationship Worsened
+events.settlement_randomlauncher.decreaserelationship.text=Relationship with {{settlement_name}} has worsened.
+
+events.settlement_randomlauncher.givegift.title=Gift Received
+events.settlement_randomlauncher.givegift.text={{settlement_name}} has presented you with a gift to honor your friendship.
+
+events.settlement_randomlauncher.helprescue.title=Assistance Requested
+events.settlement_randomlauncher.helprescue.text={{settlement_name}} is requesting assistance with rescue.
+
+events.settlement_raidplayer.defensewarning.title=Incoming Raid
+events.settlement_raidplayer.defensewarning.text=You have spotted survivors from {{settlement_name}} approaching your base. Given your relationship with them, you should prepare for the worst.
+
+events.settlement_helpattack.wait.title=Assistance Request
+events.settlement_helpattack.wait.text=An emissary from {{settlement_name}} comes running up to your base, putting all caution aside. He's clearly distressed.\n\nHe claims their settlement is being watched by some particularly nasty groups of demons, preparing to attack. They fear they won't be able to handle them all by themselves, and request your assistance with one group of demons. If you attack and defeat them, surely they will be grateful.
+
+events.settlement_helpattack.success.title=Assistance Request
+events.settlement_helpattack.success.text=The people of {{settlement_name}} are very grateful for your assistance. Your relationship with them has improved significantly.
+
+events.settlement_helpattack.failed.title=Assistance Request
+events.settlement_helpattack.failed.text=You hear that {{settlement_name}} was attacked by several groups of demons. They managed to survive the onslaught, but it will be a while before they recuperate, and are able to trade again. They are disappointed that you were not willing to assist them, and trust you less now.
+
+events.settlement_helpresources.request.title=Resource Request
+events.settlement_helpresources.request.text=A messenger from {{settlement_name}} arrives with an urgent request. They are low on critical supplies and are asking if you have any you could spare.
+
+events.settlement_helpresources.failed.title=Resource Request
+events.settlement_helpresources.failed.text=You hear that {{settlement_name}} is having a hard time. They manage to survive, but it will be a while before they are able to trade again. They are disappointed that you were not willing to assist them, and trust you less now.
+
+
+events.encounter.opening.title=Encounter
+events.encounter.opening.text=When team "{{taskforcename}}" is away from your base, they suddenly find themselves facing a group of demons.\n\nBoth groups seem just as surprised to see the other, but quickly overcome their surprise. The demons roar, as your team prepares to repel the attack.
+
+
+scenario.main.shelter.title=Shelter
+scenario.main.shelter.story=While out camping, four of you were attacked by a single powerful creature. Together, you barely managed to take it down, but Ned didn't make it... All around, more red eyes told of awful things looming in the shadows.\n\nYou grabbed your supplies and made your way back to town, only to find it has been overrun, burning under a red sky. The Apocalypse has begun.\n\nThe three of you made your way to a nearby hidden valley that you used to hike to. It seems safe, for now. You should set up camp. Start with a shelter, a place to eat and rest.
+scenario.main.shelter.mission=Build a log cabin, a well, a food table and a bed.
+
+scenario.main.research.title=Learning to farm
+scenario.main.research.story=You now have a base of operations, but you are far from safe. Your supplies won't last forever. If you don't find a food and water source, you won't live long enough to worry about those creatures finding you.\n\nBefore you can grow your own food, you need to learn how.
+scenario.main.research.mission=Build an experiment table and research "Farming".
+
+scenario.main.farming.title=Food Source
+scenario.main.farming.story=You figure out how to farm. Use this knowledge and build some farms. They will provide a steady supply of food.\n\nResources are running low, but there are plenty lying around in the area. You can chop trees for wood, quarry for stone and clay, or search debris for scraps.
+scenario.main.farming.mission=Build 2 vegetable farms.
+
+scenario.main.crafting.title=Arm yourselves
+scenario.main.crafting.story=These farms should keep you fed for now, but when your colony grows you will need to build more farms. \nRemember you can't eat raw food, you will need to constantly prepare meals.\nKeep an eye on your water supply too. Gather water from a nearby well when it starts to run low.\n\nNow that you have basic supplies, you should prepare to defend yourselves. Make some weapons.
+scenario.main.crafting.mission=Craft 3 clubs.
+
+scenario.main.attacked.title=Attacked!
+scenario.main.attacked.story=These weapons should help you defend your base from smaller groups of weaker demons, and not a moment too soon! You've been found, get ready to defend your base.
+scenario.main.attacked.mission=Defend your base.
+
+scenario.main.scavenging.title=Scavenging
+scenario.main.scavenging.story=That was close, but next time you may not be so lucky. In order to survive you can't just keep your head low. You need to figure out what is going on out there, and gather supplies from nearby towns.\n\nYou might want to make some better weapons before heading out. You already know how to make basic bows.
+scenario.main.scavenging.mission=Scavenge a nearby location.
+
+scenario.main.rescuing.title=Rescue
+scenario.main.rescuing.story=Supplies are important, but you should also consider adding more survivors to your group. More working hands and more fighters will increase your chance for survival.\n\nDon't forget that a larger group will have more mouths to feed. Make sure you produce enough food and water.
+scenario.main.rescuing.mission=Have 4 survivors
+
+scenario.main.occultresearch.title=Investigating the Apocalypse
+scenario.main.occultresearch.story=The world has turned to hell. It's only a matter of time before your small base is overwhelmed by hell's minions. You must figure out what went wrong and how to put a stop to this.\n\nWhile exploring, you saw several weird symbols and runes that you've never seen before. You should designate an area to study the occult and maybe figure out where all these demons are coming from.
+scenario.main.occultresearch.mission=Build an occult library and research "Demon Origins".
+
+scenario.main.researchmaterials.title=Advanced Research
+scenario.main.researchmaterials.story=You don't have the knowledge and skills necessary to perform more advanced research. Sometimes, to make a breakthrough, you will require items or knowledge that can only be found out in the world.\n\nResearch materials, for example, can be found in most schools.
+scenario.main.researchmaterials.mission=Get some Research Materials
+
+scenario.main.growth.title=Safety in numbers
+scenario.main.growth.story=Your best theory is that the barrier between hell and earth is diminished and hellspawn are able to make it through. It's not completely gone or the entire planet would be burning.\n\nYou learned of portals that the demons use to travel between the realms, "Hellgates". They are well defended, you will need to be better prepared before you can investigate one.\n\nThis colony needs to grow stronger. Recruit some more survivors to join you, and make sure you have ample food supply.
+scenario.main.growth.mission=Recruit 12 survivors and obtain 150 items of food.
+
+scenario.main.portals.title=Hellgates
+scenario.main.portals.story=The colony is growing as more survivors join. It's time to make a daring stand. Send a team to explore one of the Hellgates.\n\nBe careful, these portals are swarming with demons. Make sure you send a well armed, well trained team.
+scenario.main.portals.mission=Investigate a Hellgate
+
+scenario.main.closedportal.title=Closing the portals
+scenario.main.closedportal.story=Your team salvaged some weird essence from the Hellgate. Research these portals and see what you can learn.\n\nThis is as far as the story goes in the current alpha build. The final release will have a longer, more detailed story, and will have more items, buildings, research and game mechanics. \n\nThank you for playing.
+
+
+
+# Rituals
+
+actions.growtrees.name=Growth Ritual
+actions.growtrees.description=Ancient ritual to mother nature that causes new trees to grow.
+
+actions.waterritual.name=Rain Dance
+actions.waterritual.description=Ancient tribal ritual that is said to bring rain. Crops grow faster while it's raining.
+
+actions.soulharness.name=Soul Harness
+actions.soulharness.description=After performing this ritual survivors will consume energy from their souls. They will become hungry 30% slower for a while.
+
+actions.demonstamina.name=Demon Stamina
+actions.demonstamina.description=Bind demonic energies to survivors to keep them going without need for rest. Survivors will not lose energy while this ritual is active
+
+actions.summonimps.name=Summon Imps
+actions.summonimps.description=Sulfur has proven to be a useful resource for the dark arts. Summon some imps to harvest their sulfur. Beware, they will not go down without fighting.
+
+actions.summonghosts.name=Summon Ghosts
+actions.summonghosts.description=Summoning and killing ghosts is a quick way to get some ectoplasm. Ghosts are not easy to kill though.
+
+actions.mutate.name=Mutate Soul
+actions.mutate.description=The soul of the survivor performing this ritual is bent and broken, mutating into a new soul. Replaces all traits with random new ones.
+
+actions.growfarms.name=Harvest Ritual
+actions.growfarms.description=Immediately grow all planted crops to full maturity
+
+actions.repelevil.name=Repel Evil
+actions.repelevil.description=Repel evil forces near your base. Lowers awareness by 50%
+
+actions.divineinspiration.name=Divine Inspiration
+actions.divineinspiration.description=Inspires all survivors to work faster.
+
+actions.divinehealing.name=Divine Healing
+actions.divinehealing.description=Creates a divine aura that speeds up the body's natural healing abilities.
+
+actions.locatesurvivors.name=Locate Survivors
+actions.locatesurvivors.description=A spell that locates other survivors in the area that are in imminent danger.
+
+actions.darkharvesting.name=Dark Harvesting
+actions.darkharvesting.description=A ritual to gather the essence of your lost friends.
+
+actions.metaltransmute.name=Metal Transmutation
+actions.metaltransmute.description=A ritual to transmutate Prima Materia into Metal.
+
+actions.mineralstransmute.name=Mineral Transmutation
+actions.mineralstransmute.description=A ritual to transmutate Prima Materia into Minerals.
+
+actions.aethertransmute.name=Aether Transmutation
+actions.aethertransmute.description=A ritual to transmutate Prima Materia into Aether.
+
+actions.luckybounty.name=Lucky Bounty
+actions.luckybounty.description=Improved luck will increase the chances of finding extra loot while scavenging.
+
+actions.logisticsritual.name=Logistics Ritual
+actions.logisticsritual.description=Gain improved logistics for faster task force travel speed.
+
+actions.farsight.name=Far Sight
+actions.farsight.description=Gain improved eyesight allows task force to scout farther.
+
+actions.eagleeye.name=Eagle Eye
+actions.eagleeye.description=Survivor eye-hand coordination improves, increasing accuracy with all weapons.
+
+actions.concentration.name=Concentration Ritual
+actions.concentration.description=Allows survivors to better concentrate, for higher research efficiency.
+
+actions.defensiveaura.name=Defensive Aura
+actions.defensiveaura.description=Surrounds the base with an aura that holds demons back, reducing the strength of their attacks.
+
+actions.evasiveaura.name=Evasive Aura
+actions.evasiveaura.description=Task forces are surrounding with an aura that hides their movements, reducing the chance of encountering enemies while travelling.
+
+actions.sulfurconsecration.name=Consecration Ritual
+actions.sulfurconsecration.description=Consecrate the Sulfur Crystal.
+
+actions.bloodstone.name=Bloodstone Ritual
+actions.bloodstone.description=Create a bloodstone for the summoning of a Demoneater.
+
+actions.summonweatherdemon.name=Summon Weather Demon
+actions.summonweatherdemon.description=Experiment with summoning a weather demon.
+
+actions.decoyritual.name=Decoy Ritual
+actions.decoyritual.description=Powerful ritual that doesn't really do anything.
+
+
+
+# Actions
+
+actions.chop.name=Chop Tree
+
+actions.search.name=Collect Scraps
+
+actions.quarrystone.name=Quarry Stone
+
+actions.quarryclay.name=Quarry Clay
+
+actions.quarryaluminum.name=Quarry Aluminum
+
+actions.quarryphosphorite.name=Quarry Phosphorus
+
+actions.minemetal.name=Mine Metal
+
+actions.mineminerals.name=Mine Minerals
+
+actions.minediamonds.name=Mine Diamonds
+
+actions.minebloodruby.name=Mine Blood Rubies
+
+actions.scienceresearch.name=Perform Experiments
+
+actions.occultresearch.name=Practice Occult
+
+actions.harvest.name=Harvest Crops
+
+actions.plant.name=Plant Seeds
+
+actions.water.name=Tend Field
+
+actions.feed.name=Feed Animals
+
+actions.sheer.name=Shear Wool
+
+actions.patrol.name=Patrol
+
+actions.findstone.name=Locate Stone Deposits
+
+actions.findclay.name=Locate Clay Deposits
+
+actions.findaluminum.name=Locate Aluminum Deposits
+
+actions.findphosphorite.name=Locate Phosphorite Deposits
+

@@ -1,0 +1,3437 @@
+
+confirm.changelanguage.title=切换语言？
+
+confirm.changelanguage.text=您需要重启游戏才能使更改生效。
+
+general.prioritiesbutton.hover=定义幸存者的任务类型和优先级。
+
+general.craftingprioritiesbutton.hover=定义物品制作的优先级。
+
+general.taskspanel.label=显示任务
+
+general.skillsbutton.hover=打开幸存者技能窗口。
+
+general.skills.label=技能
+
+general.disableaitoggle.label=自动分配任务
+
+general.disableaitoggle.hover=取消选中后，幸存者只会执行直接分配的任务。\n\n注：取消选中后，幸存者不会自动去吃饭或睡觉。
+
+general.duration.format=时长： {0}
+
+general.none.label=无
+
+general.moreinfo.hover=点击右键查看更多信息
+
+general.build.label=建设
+
+general.performresearch.label=研究
+
+general.male.he=他
+
+general.male.his=他的
+
+general.female.she=她
+
+general.female.her=她的
+
+general.noitems.text=无可用物品
+
+general.cancelnorefund.title=确定操作？
+
+general.cancelnorefund.text=取消任务不会返还任何原材料。 \n是否继续？
+
+general.selectitem.label=选择 {0}
+
+general.day.text=天数 {0}
+
+general.enemies.title=敌人
+
+general.loot.title=战利品
+
+general.combatsummary.extras.title=其他
+
+general.recall.hover=召回
+
+general.health.hover=健康值
+
+general.energy.hover=精力值
+
+general.nutrition.hover=饱食度
+
+general.objectbuilt.log={0} 已建
+
+general.ok.label=确定
+
+general.priorities.label=优先级
+
+general.preferred.hover=首选任务。\n\n幸存者执行首选任务时可以快速获得经验。
+
+general.level.max=最大
+
+general.costs.title=花费
+
+general.unlocks.title=解锁
+
+general.cancraft.format=可制作： {0}
+
+general.canbuild.format=可建设： {0}
+
+general.canperform.format=可执行任务： {0}
+
+general.canequip.format=能够装备：{0}
+
+general.bonusprofession.format=首选：\n{0}
+
+general.autosave.format=自动保存 - {0}
+
+general.selectitem.title=选择物品
+
+general.manage.label=管理
+
+general.members.label=成员
+
+general.supplies.label=补给
+
+general.taskforcesupplies.title=特遣小队补给
+
+general.basesupplies.label=营地
+
+general.foodtypes.format=食物类型： {0}
+
+general.days.format={0}\n天
+
+general.scrap.label=废料
+
+general.buyvalue.format=购买价值：{0}
+
+general.sellvalue.format=出售价值：{0}
+
+general.day.label=天数
+
+
+reason.alreadyhas.format=已拥有 {0}
+
+reason.toohigh.format={0} 过高
+
+reason.toolow.format={0} 过低
+
+missionsummary.survivors.title=幸存者
+
+missionsummary.killedenemies.title=击杀
+
+missionsummary.loot.title=战利品
+
+missionsummary.gainedexp.format=+{0}\n经验
+
+equipmentslot.weapon.name=武器
+
+equipmentslot.armor.name=护甲
+
+equipmentslot.usable.name=装备
+
+infopanel.requiredresearch.label=研究：
+
+infopanel.requiredworkstation.label=作坊：
+
+infopanel.skillrequired.label=所需技能：
+
+infopanel.requiredmaterials.label=所需材料
+
+infopanel.craftmaterials.label=制作材料 {0}
+
+infopanel.craft.hover=点击制作{0}。按住{1}制作{2}。
+
+infopanel.cancelcraft.hover=点击取消{0}。按住{1}取消{2}。
+
+infopanel.autocraft.label=自动制作
+
+infopanel.autocraft.hover=启用/禁用自动制作。
+
+infopanel.autocraftmin.label=最小
+
+infopanel.autocraftmin.hover=库存小于此数值时，开始自动制作。\n\n需要有可用的材料、研究和制作站。
+
+infopanel.autocraftmax.label=最大
+
+infopanel.autocraftmax.hover=库存大于此数值时，停止自动制作。
+
+infopanel.gatherlimits.label=收集限制
+
+infopanel.gatherlimits.hover=启用/禁用收集限制。\n\n设置后，幸存者的库存如果超过最大值，可以忽略这个物品的收集任务，在低于最小值后再开始收集。\n\n注意：您自己还需要指定收集任务，在需要的情况下，该设置会将这些任务挂起。
+
+infopanel.objectdimensions.label=尺寸：{0}x {1}
+
+time.pause.hover=暂停
+
+time.speed1.hover=正常速度
+
+time.speed2.hover=x2 速度
+
+time.speed3.hover=x4 速度
+
+time.speed4.hover=x8 速度
+
+general.menu.hover=菜单
+
+newgame.difficulty.tough.hover=困难难度\n\n适合喜欢接受挑战的你。敌人会更难对付，幸存者的工作效率也会降低。\n\n尽管困难，却可以征服。
+
+newgame.difficulty.normal.hover=挑战难度\n\n期待真正的挑战吗？一开始，你可能会失败多次。\n\n但这正是游戏的趣味所在。 \n\n不适合不喜欢高难度游戏的玩家。
+
+newgame.difficulty.easy.hover=宽容难度\n\n幸存者的需求较少，工作效率较高；敌人力量较弱，攻击频率较低。\n\n适合不喜欢高难度游戏的玩家。
+
+newgame.difficulty.casual.hover=休闲难度\n\n几乎各部分的难度都极大降低。\n\n适合想体验较休闲玩法的玩家。
+
+newgame.difficulty.custom.hover=自定义难度\n\n根据个人喜好，自定义各部分的挑战难度。
+
+newgame.difficulty.tough.label=困难
+
+newgame.difficulty.normal.label=挑战
+
+newgame.difficulty.easy.label=宽容
+
+newgame.difficulty.casual.label=休闲
+
+newgame.difficulty.custom.label=自定义
+
+newgame.difficulty.off.label=关闭
+
+#newgame.difficulty.conf.label=配置
+
+newgame.randomseed.hover=生成随机种子
+
+newgame.seedinput.label=地图种子
+
+newgame.seedinput.hover=地图种子决定随机生成的地图。\n\n同一个种子会始终生成同一个地图。
+
+newgame.title.label=选择难度
+
+customdifficulty.title.label=自定义难度
+
+customdifficulty.needsrate.label=需求
+
+customdifficulty.needsrate.hover=幸存者在进食、饮水和休息方面的需求和频率。
+
+customdifficulty.workamount.label=工作量
+
+customdifficulty.workamount.hover=幸存者完成任务所需的时间。
+
+customdifficulty.enemylevel.label=敌人级别
+
+customdifficulty.enemylevel.hover=决定在随机战斗中你所面临的敌人类型。
+
+customdifficulty.enemyamount.label=敌人数量
+
+customdifficulty.enemyamount.hover=决定在随机战斗中你所面临的敌人数量。
+
+customdifficulty.enemyprogress.label=敌人成长
+
+customdifficulty.enemyprogress.hover=随着时间的推移，敌人进攻难度的增加速度。
+
+customdifficulty.enemystats.label=敌人强度
+
+customdifficulty.enemystats.hover=影响敌人属性，如伤害、命中、闪避、护甲等。
+
+customdifficulty.awarenessrate.label=察觉速度
+
+customdifficulty.awarenessrate.hover=敌人察觉到你的避难所的速度。
+
+customdifficulty.defensefrequency.label=攻击频率
+
+customdifficulty.defensefrequency.hover=敌人攻击避难所的频率。
+
+customdifficulty.researchitems.label=研究物品
+
+customdifficulty.researchitems.hover=重要研究所需的探索研究物品数量。
+
+newgame.enabletutorial.hover=开启新手教程后，每次接触新功能都会出现提示。
+
+newgame.enabletutorial.label=显示教程
+
+newgame.play.label=开始游戏
+
+survivor.dead.thirst={0} 渴死了。
+
+survivor.dead.hunger={0} 饿死了。
+
+settings.window.title=设置
+
+settings.controls.label=主要地图
+
+settings.controls.reset.label=恢复默认
+
+settings.controls.reset.confirmtitle=恢复默认
+
+settings.controls.reset.confirmtext=恢复默认控制？
+
+settings.options.label=设置
+
+settings.resolution.label=分辨率
+
+settings.fullscreen.label=全屏
+
+settings.aa.label=抗锯齿
+
+settings.enveffects.label=环境特效
+
+settings.music.label=音量
+
+settings.sfx.label=音效
+
+settings.autosave.label=自动保存频率
+
+settings.autosave.minutes=分钟
+
+settings.autosave.hour=小时
+
+settings.disabled.text=禁用
+
+options.reset.confirmtitle=恢复默认
+
+options.reset.confirmtext=恢复默认设置？
+
+options.pauseoncombat.text=暂停战斗
+
+options.pauseoncombat.hover=战斗开始时暂停游戏
+
+options.askreturntobase.text=返回营地
+
+options.askreturntobase.hover=每次任务结束后显示返回营地对话框
+
+options.askautocombat.text=自动战斗
+
+options.askautocombat.hover=在合适情况下显示自动战斗选项
+
+options.lockmouse.text=锁定鼠标
+
+options.lockmouse.hover=在游戏窗口内锁定鼠标
+
+options.edgescrolling.text=边缘滚动
+
+options.edgescrolling.hover=将鼠标移至屏幕边缘时地图会发生滚动
+
+options.limitmanualassign.text=限制手动分配
+
+options.limitmanualassign.hover=限制未来 24 小时的任务手动分配。\n\n关闭后，手动分配的任务将会继续，除非取消。
+
+general.awareness.growth={0}\n/天
+
+general.awareness.hover=敌人对你的避难所的察觉度决定了敌人袭击的次数和强度。\n\n察觉度随着时间的推移而增加。较多的人口会让察觉度增加的更快。\n\n其它因素也会影响察觉度，如科研、建筑、仪式和任务。
+
+general.alphaversion.text=Alpha 版本 {0}
+
+taskpriorities.sort.label=排序：
+
+taskpriorities.draghint.label=拖动可更改优先级
+
+loadgame.oldversion.title=旧版本
+
+loadgame.oldversion.text=本次存档来自旧版本。\n建议开始新游戏。\n是否继续？
+
+loadgame.loseprogress.title=载入游戏
+
+loadgame.loseprogress.text=确定载入游戏？\n未保存的游戏进度会丢失。
+
+customize.hair.label=头发
+
+customize.haircolor.label=发色
+
+customize.face.label=脸型
+
+customize.facecolor.label=肤色
+
+customize.hat.label=帽子
+
+customize.shirt.label=衬衣
+
+customize.shirtcolor.label=衬衣颜色
+
+customize.pants.label=裤子
+
+customize.pantscolor.label=裤子颜色
+
+customize.shoescolor.label=鞋子颜色
+
+customize.name.label=名字：
+
+customize.button.hover=自定义
+
+customize.randombutton.hover=随机生成
+
+map.legend.randomevent=事件
+
+savegame.newslot.text=新位置
+
+savegame.survivorcount.text={0} 幸存者
+
+confirm.deletesave.title=删除已存档游戏
+
+confirm.deletesave.text=确定要删除该已存档的游戏？\n此操作不可撤回。
+
+confirm.quit.title=退出
+
+confirm.quit.text=确定要退出游戏？\n未保存的游戏进度会丢失。
+
+confirm.overwrite.title=覆盖
+
+confirm.overwrite.text=确定要覆盖现有存档？
+
+confirm.destroy.title=摧毁
+
+confirm.destroy.text=确定要摧毁此物品？\n资源将会丢失。
+
+confirm.modchanged.title=重启
+
+confirm.modchanged.text=Mod 中的修改只会在下次启动游戏时生效。是否退出？
+
+confirm.modtools.title=打开 Mod 工具
+
+confirm.modtools.text=Mod 工具为修改人员准备，不是游戏的一部分。\n是否打开 Mod 工具？
+
+confirm.disbandtaskforce.title=解散？
+
+confirm.disbandtaskforce.text=解散这支特遣小队？\n所有物品将返还至营地。
+
+confirm.recalltaskforce.title=召回特遣小队？
+
+confirm.recalltaskforce.text=是否将特遣小队召回营地？
+
+resources.food.hover=食物\n\n准备好的食物。不包括原材料。
+
+survivor.hungry.warning=幸存者饿了
+
+survivor.tired.warning=幸存者累了
+
+survivor.hungryandtired.warning=幸存者又饿又累
+
+survivor.idle.warning=幸存者空闲中
+
+survivor.levelearned.log={0} 升了一级： {1}
+
+survivor.notask.text=无任务
+
+survivor.manualassigned.hover=手动分配\n\n幸存者被手动分配至 {0}。一旦生效，他们会忽略优先级，只执行该任务。 \n\n要想取消，选择幸存者，然后右键点击空白区域。
+
+launch.send.label=批准
+
+healing.approved.label=批准
+
+food.category.label=食物
+
+crafting.default.verb=制作 {0}
+
+crafting.prepare.verb=准备 {0}
+
+crafting.make.verb=制作 {0}
+
+crafting.bake.verb=烘焙 {0}
+
+build.default.verb=建设
+
+build.plant.verb=种植 {0}
+
+mods.toolsbutton.text=修改/上传
+
+mods.createdby.format=创建者： {0}
+
+mods.nomods.text=你尚未订阅任何 Mod。\n在 Steam Workshop 页面可找到本游戏的 Mod。订阅 Mod 后，请通过此窗口激活。
+
+mods.visitworkshop.label=前往 Steam Workshop
+
+item.tags.format=标签： {0}
+
+gameover.message.title=你的营地已被摧毁……
+
+gameover.message.text=你无法阻挡恶魔之力，希望尽失……\n\n也许在世界的另一个角落，会有另一批人，可以做得更好。
+
+gameover.stats.button=统计
+
+gameover.stats.title=统计
+
+gameover.close.button=关闭
+
+gameoverstat.dayssurvived.format=生存天数： {0}
+
+gameoverstat.rescue.format=救援人数： {0}
+
+gameoverstat.kills.format=击杀恶魔数： {0}
+
+gameoverstat.scavenge.format=探索次数： {0}
+
+gameoverstat.equipmentcraft.format=制作装备： {0}
+
+gameoverstat.mapexplore.format=探索地图：{0}%
+
+gameoverstat.buried.format=埋葬的幸存者： {0}
+
+gameoverstat.strongestkill.format=最强击杀： {0}
+
+gameoverstat.nemesis.format=天谴： {0}
+
+gameoverstat.damagedealer.format=伤害输出者： {0}
+
+gameoverstat.damagetaker.format=出气筒： {0}
+
+gameoverstat.traveler.format=旅行常客： {0}
+
+gameoverstat.longestlife.format=幸存者： {0}
+
+gameoverstat.shortestlife.format=最可能死亡： {0}
+
+skillswindow.skills.title=技能
+
+skillswindow.effects.title=技能效果
+
+skillswindow.stats.title=统计
+
+colonymanagement.window.title=避难所管理
+
+colonymanagement.bonuses.label=加成
+
+tradepanel.window.title=交易
+
+tradepanel.trader.label=交易商
+
+tradepanel.base.label=仓库
+
+tradepanel.approvebutton.label=交易
+
+autocombat.fight.button=战斗
+
+autocombat.auto.button=自动战斗
+
+autocombat.cancel.button=取消
+
+cantdestroy.building.hasobjects=只有空建筑物才能被摧毁
+
+
+
+# Title Screen Buttons
+
+titlescreen.continue.button=继续
+
+titlescreen.new.button=新游戏
+
+titlescreen.settings.button=设置
+
+titlescreen.mods.button=Mods
+
+titlescreen.quit.button=退出
+
+
+
+# Startup Hints
+
+startup.loading.text=载入中……
+
+startup.hints.format=提示： {0}
+
+startup.hints.1=拖动鼠标的中间键可以移动镜头
+
+startup.hints.2=记住，你可以点击“O”键选择优先制造的物品
+
+startup.hints.3=从两侧夹击敌人，可以提升命中和伤害
+
+startup.hints.4=疲劳的幸存者的战斗能力会下降
+
+startup.hints.5=从背后突袭可以提升命中，降低受击率
+
+startup.hints.6=按空格键可以快速暂停/取消暂停
+
+startup.hints.7=按“Q”键可以选择全部幸存者
+
+startup.hints.8=以有效方式按照幸存者的技能设置幸存者的首选任务，是求生的关键
+
+startup.hints.9=从“行动”菜单中选择一项行动后，你可以拖动选框选择一大片区域
+
+startup.hints.10=放置物品时，按下“Shift”键可以连续放置多个
+
+startup.hints.11=在制作物品前，先探索原材料有时会提高效率
+
+startup.hints.12=在水井附近构建营地，可以减少路上的时间
+
+startup.hints.13=在救援任务中，建议在救援之前先摸清地形
+
+startup.hints.14=一个蔬菜农场可供三位幸存者全效率工作
+
+startup.hints.15=如果不确定某个生态区是否安全，可以先查看探索位置的敌人情况
+
+startup.hints.16=不要打扰正在实施救援的幸存者，这样可以使敌人的波数最少
+
+startup.notes.text=最新补丁说明
+
+startup.subscribe.text=订阅更新
+
+startup.supportus.text=支持游戏
+
+
+
+# Key Mapping
+
+keymapping.action.selectall=选择全部幸存者
+
+keymapping.action.left=镜头左移
+
+keymapping.action.right=镜头右移
+
+keymapping.action.up=镜头上移
+
+keymapping.action.down=镜头下移
+
+keymapping.action.zoomin=放大
+
+keymapping.action.zoomout=缩小
+
+keymapping.action.back=返回
+
+keymapping.action.pause=暂停/继续
+
+keymapping.action.slower=减速
+
+keymapping.action.faster=加速
+
+keymapping.action.help=帮助
+
+keymapping.action.toggleselection=切换选择
+
+keymapping.action.multicraft=批量制作/移动
+
+keymapping.action.multibuild=批量建设
+
+keymapping.action.commandmission=任务窗口
+
+keymapping.action.commandinventory=仓库窗口
+
+keymapping.action.commandactions=创建任务
+
+keymapping.action.commandbuild=建筑物窗口
+
+keymapping.action.commandcraft=制作窗口
+
+keymapping.action.commandresearch=研究窗口
+
+keymapping.action.commandtasks=任务窗口
+
+keymapping.action.commandcolonymanagement=避难所管理
+
+keymapping.action.skillspanel=技能窗口
+
+keymapping.action.prioritiespanel=优先级窗口
+
+keymapping.action.craftingprioritiespanel=制作优先级
+
+keymapping.action.commandsearch=世界地图搜索
+
+keymapping.action.commandcreatetaskforce=创建特遣小队
+
+keymapping.action.commandworld=查看世界地图
+
+keymapping.action.commandbase=查看营地
+
+keymapping.action.combataction1=战斗行动 1
+
+keymapping.action.combataction2=战斗行动 2
+
+keymapping.action.combataction3=战斗行动 3
+
+keymapping.action.combataction4=战斗行动 4
+
+keymapping.action.combataction5=战斗行动 5
+
+keymapping.action.combataction6=战斗行动 6
+
+keymapping.action.combatcancel=战斗取消
+
+keymapping.action.selectsurvivor1=选择小组 1
+
+keymapping.action.selectsurvivor2=选择小组 2
+
+keymapping.action.selectsurvivor3=选择小组 3
+
+keymapping.action.selectsurvivor4=选择小组 4
+
+keymapping.action.selectsurvivor5=选择小组 5
+
+keymapping.action.selectsurvivor6=选择小组 6
+
+keymapping.action.selectsurvivor7=选择小组 7
+
+keymapping.action.selectsurvivor8=选择小组 8
+
+keymapping.action.selectsurvivor9=选择小组 9
+
+keymapping.action.selectsurvivor10=选择小组 10
+
+keymapping.action.setselectiongroup=设置小组
+
+keymapping.action.rotateleft=向右旋转
+
+keymapping.action.rotateright=向左旋转
+
+
+
+# Toolbar
+
+toolbar.mission.hover=任务
+
+toolbar.inventory.hover=营地仓库
+
+toolbar.actions.hover=创建任务\n\n选择一片区域，在区域内所有合适的对象上创建多个任务。
+
+toolbar.build.hover=建设\n\n放置新的建设物，让幸存者建设。
+
+toolbar.craft.hover=制作\n\n命令幸存者用原材料制作新物品。
+
+toolbar.research.hover=研究\n\n花费研究点数来解锁新的蓝图、制作配方、仪式和其他奖励。
+
+toolbar.world.hover=查看世界地图\n\n派遣幸存者执行营地外的任务。
+
+toolbar.base.hover=查看营地\n\n回到营地。
+
+toolbar.search.hover=搜索物品\n\n筛选地图显示，搜索物品
+
+toolbar.createtaskforce.hover=创建特遣小队\n\n派遣幸存者探索世界地图。
+
+toolbar.colonymanagement.hover=避难所管理\n\n管理补给、奖励和任务。
+
+
+
+# Action Groups
+
+actiongroup.chop.name=砍树
+
+actiongroup.chop.description=砍树获得\n木头。
+
+actiongroup.search.name=探索废墟
+
+actiongroup.search.description=寻找废料和药物。
+
+actiongroup.gatherwater.name=打水
+
+actiongroup.gatherwater.description=从水井中打水。
+
+actiongroup.mine.name=开采
+
+actiongroup.mine.description=开采金属或矿物质。现在资源点建立一座矿。
+
+actiongroup.quarry.name=挖掘
+
+actiongroup.quarry.description=挖掘石头或粘土。
+
+actiongroup.needs.name=需求
+
+actiongroup.needs.description=睡觉或进食。
+
+actiongroup.build.name=建设
+
+actiongroup.build.description=建设施工中的建筑。
+
+actiongroup.craft.name=制作
+
+actiongroup.craft.description=制作物品。
+
+actiongroup.agri.name=耕种
+
+actiongroup.agri.description=料理农田。
+
+actiongroup.research.name=科技研究
+
+actiongroup.research.description=产生科学研究点数。
+
+actiongroup.occultresearch.name=神秘学研究
+
+actiongroup.occultresearch.description=产生神秘学研究点数。
+
+actiongroup.rituals.name=仪式
+
+actiongroup.rituals.description=举行仪式。
+
+actiongroup.train.name=训练
+
+actiongroup.train.description=训练战斗技能。
+
+actiongroup.patrol.name=巡逻
+
+actiongroup.patrol.description=巡逻岗哨。
+
+actiongroup.canceltasks.name=取消任务
+
+action.sleep.name=睡觉
+
+action.eat.name=进食
+
+action.heal.name=治疗
+
+
+
+# Missions
+
+missions.scavenge.name=探索
+
+missions.scavenge.description=派遣一队幸存者在这个地方探索资源。
+
+missions.rescue.name=派遣救援
+
+missions.rescue.description=派遣一队幸存者去帮助有需要的人。
+
+missions.hellgate.name=调查
+
+missions.hellgate.description=派遣一个小队去调查地狱之门。\n\n做好应付强大敌人的准备。
+
+missions.attack.name=攻击
+
+missions.attack.description=击杀侦察小队可以降低敌人的察觉度。\n\n放任不管或战斗失败会增加察觉度。
+
+missions.scout.name=侦查
+
+missions.scout.description=侦查该地区，以揭开附近未探索的地区。
+
+missions.settlementtrade.name=交易
+
+missions.settlementtrade.description=请求送一个贸易商队去你的营地。
+
+missions.settlementraid.name=劫掠
+
+missions.settlementraid.description=劫掠这个驻地，获取补给。
+
+missions.settlementrecruit.name=招募
+
+missions.settlementrecruit.description=尝试说服这里的一个殖民者加入你。有可能会激怒剩下的殖民者。
+
+missions.settlementmeet.name=问候
+
+missions.settlementmeet.description=向驻地的居民们介绍你自己。
+
+missions.tradecooldown.condition=贸易商队尚未准备好。
+
+missions.traderelationship.condition=驻地并不相信你。先提升你们的关系吧。
+
+missions.recruitmax.condition=你的团队人太多了，目前没有其它幸存者愿意加入你。
+
+missions.tradenotactive.condition=另一队贸易商队已经前往你的营地。
+
+
+
+# Panels
+
+panels.craftingpriorities.title=制作优先级
+
+panels.teamselect.title=选择小队
+
+panels.inventory.title=仓库
+
+panels.actions.title=区域任务
+
+panels.build.title=建设
+
+panels.crafting.title=制作
+
+panels.scrapping.title=搜集废料
+
+panels.taskpriorities.title=任务优先级
+
+panels.research.title=研究
+
+panels.savegame.title=保存游戏
+
+panels.loadgame.title=载入游戏
+
+panels.taskforce.title=特遣小队
+
+panels.tasks.title=任务
+
+panels.newgame.title=新游戏
+
+panels.defensepreparation.title=防御准备
+
+panels.healing.title=治疗
+
+panels.helpindex.title=帮助
+
+panels.gamemenu.title=游戏菜单
+
+panels.combatsummary.title=战斗总结
+
+panels.modselect.title=Mods
+
+
+
+# Enemies
+
+enemies.imp.name=恶魔之子
+
+enemies.imp.description=低级的恶魔，往往集群而攻。快速且敏捷。
+
+enemies.fireimp.name=火恶魔
+
+enemies.fireimp.description=恶魔之子的表兄弟，可以喷吐火焰，但威力不大。
+
+enemies.hellhound.name=地狱之犬
+
+enemies.hellhound.description=它们很容易跌倒，但不要让它们靠近，因为它们能在几秒钟内咬碎任何东西。
+
+enemies.weakdemon.name=小恶魔
+
+enemies.weakdemon.description=来自地狱的炮灰。
+
+enemies.demon.name=恶魔
+
+enemies.demon.description=一个完全的恶魔。来自地狱的基本步兵。
+
+enemies.werewolf.name=狼人
+
+enemies.werewolf.description=半人半狼。他们过去生活在我们中间，但自从入侵以来，他们完全失去了人性，总处于狼的状态。
+
+enemies.ghost.name=幽灵
+
+enemies.ghost.description=被诅咒的失落灵魂。从地狱释放出来后在人间游荡，一直在猎杀人类幸存者。
+
+enemies.possessed.name=恶魔缠身
+
+enemies.possessed.description=被恶魔占有的人类，无法控制他们的杀戮欲望。
+
+enemies.reaper.name=死神
+
+enemies.reaper.description=收割者，前来收集人类灵魂以壮大地狱军团。
+
+enemies.succubus.name=女妖
+
+enemies.succubus.description=她的能力是魅惑男性人类并令其听从吩咐。
+
+enemies.darkangel.name=堕落天使
+
+enemies.darkangel.description=原本生活在天堂，如今是地狱势力的首领。不知是什么迫使他们弃明投暗，或许这是他们自己的选择。
+
+enemies.legion.name=恶魔巨人
+
+enemies.legion.description=一个巨大的恶魔，缓慢但铠甲坚固。较弱的武器几乎无法穿透它的皮毛。
+
+enemies.firespitter.name=烈焰恶魔
+
+enemies.firespitter.description=一只会喷火的恶魔，千万不要太靠近它。
+
+enemies.lich.name=尸巫
+
+enemies.lich.description=强大巫师死后诞生的灵魂，从地狱逃离后在人间恣意破坏。非常危险的生物。
+
+enemies.shedim.name=舍丁
+
+enemies.shedim.description=据说是毒蛇的后代，这群地狱住民刻薄而危险。
+
+enemies.morax.name=摩拉克斯
+
+enemies.morax.description=地狱中最高级的恶魔，会控制低级恶魔变成他们的形象从而获得强大的力量。
+
+enemies.belial.name=贝利亚
+
+enemies.belial.description=这些高阶恶魔会携带弹弓，发射强大的火弹。
+
+enemies.demogorgon.name=狄摩高根
+
+enemies.demogorgon.description=有着双头和触手，当你闻到了他们的气味，说明大限将至了。
+
+enemies.cerberus.name=刻耳柏洛斯
+
+enemies.cerberus.description=这是最早的地狱犬，有着 3 颗头和 3 倍的破坏力。千万别让它们靠近！
+
+enemies.survivor1.name=团伙成员
+
+enemies.survivor2.name=异教徒
+
+enemies.survivor3.name=清道夫
+
+enemies.survivor4.name=劫掠者
+
+enemies.survivor5.name=老兵
+
+enemies.survivor.description=另一个末日幸存者。这位全副武装。
+
+
+
+# Status Effects
+
+statuseffects.onhiteffect.format=击中时：{0}
+
+statuseffects.accuracy.attribute=命中 +{1}%
+
+statuseffects.evade.attribute=闪避 +{1}%
+
+statuseffects.attackspeed.attribute=攻击速度 +{1}%
+
+statuseffects.defense.attribute=护甲 +{1}%
+
+statuseffects.damage.attribute=伤害 +{1}%
+
+statuseffects.damagereceived.attribute=接收伤害 +{1}%
+
+statuseffects.walkspeed.attribute=移动速度 +{1}%
+
+statuseffects.vision.attribute=视野范围 +{0}
+
+statuseffects.armorpierce.attribute=穿甲 +{1}%
+
+statuseffects.flashbang.name=迷失方向
+
+statuseffects.elementalbomb.name=筋疲力尽
+
+statuseffects.weakeningrune.name=被削弱
+
+statuseffects.hex.name=被诅咒
+
+statuseffects.protectionspell.name=被保护
+
+statuseffects.meleevsranged.name=近战 vs 远程
+
+statuseffects.rangedadjacent.name=远程 vs 邻近
+
+statuseffects.flanking.name=侧面攻击
+
+statuseffects.nighttime.name=夜间
+
+statuseffects.gingerextract.name=生姜萃取液
+
+statuseffects.tired.name=疲劳
+
+statuseffects.cross.name=被保护
+
+statuseffects.stunner.name=眩晕
+
+statuseffects.frostgrenade.name=冰冻
+
+statuseffects.acidbomb.name=酸蚀
+
+statuseffects.desensitiser.name=增感
+
+statuseffects.forcefield.name=被保护
+
+statuseffects.bindingcurse.name=诅咒
+
+statuseffects.demonfuel.name=强化
+
+statuseffects.transmute.name=变形
+
+statuseffects.burn.name=燃烧
+
+statuseffects.nailtofloor.name=被钉住
+
+statuseffects.bless.name=被祝福
+
+statuseffects.huntersinstinct.name=猎手本能
+
+statuseffects.releaseboulder.name=减负
+
+statuseffects.rocketboost.name=加速
+
+statuseffects.harden.name=硬化
+
+statuseffects.empower.name=力量强化
+
+statuseffects.entangle.name=被缠绕
+
+statuseffects.hidden.name=隐藏
+
+
+
+# Effects
+
+effects.raining.name=降雨中
+
+effects.soulharness.name=灵魂约束
+
+effects.demonstamina.name=恶魔能量
+
+effects.divineinspiration.name=神之启示
+
+effects.divinehealing.name=神之医治
+
+effects.nighthowls.name=夜晚嚎叫
+
+effects.badomens.name=不祥之兆
+
+effects.lowmorale.name=士气低落
+
+effects.luckybounty.name=幸运奖赏
+
+effects.logisticsritual.name=后勤加强
+
+effects.eagleeye.name=鹰眼
+
+effects.concentrationritual.name=注意力加强
+
+effects.defensiveaura.name=防御光环
+
+effects.farsight.name=远见之力
+
+effects.evasiveaura.name=闪避光环
+
+effects.hungerrate.attribute=饥饿速度 +{1}%
+
+effects.energydrain.attribute=疲劳速度 +{1}%
+
+effects.workspeed.attribute=工作速度 +{1}%
+
+effects.walkspeed.attribute=移动速度 +{1}%
+
+effects.taskforcespeed.attribute=地图速度 +{1}%
+
+effects.healrate.attribute=自然愈合速度 +{1}%
+
+effects.attackdifficulty.attribute=敌人攻击强度 +{1}%
+
+effects.drinkrate.attribute=用水量 +{1}%
+
+effects.maxsurvivorsinmission.attribute=特遣小队大小 +{0}
+
+effects.awarenessadd.attribute=察觉度产生 +{1}%
+
+effects.extrascavenge.attribute=额外资源几率 +{1}%
+
+effects.gainattribute_water.attribute=照料需求+{1}%
+
+effects.gainattribute_maturity.attribute=生长速度 +{1}%
+
+effects.actiongroup_chop.attribute=劈砍速度 +{1}%
+
+effects.actiongroup_search.attribute=搜刮速度 +{1}%
+
+effects.actiongroup_gatherwater.attribute=水收集速度 +{1}%
+
+effects.actiongroup_mine.attribute=采矿速度 +{1}%
+
+effects.actiongroup_quarry.attribute=采石速度 +{1}%
+
+effects.actiongroup_build.attribute=建设速度 +{1}%
+
+effects.actiongroup_craft.attribute=制作速度 +{1}%
+
+effects.actiongroup_agri.attribute=农业速度 +{1}%
+
+effects.efficiency_agri.attribute=农业产量 +{1}%
+
+effects.actiongroup_research.attribute=研究速度 +{1}%
+
+effects.actiongroup_occultresearch.attribute=神秘学研究速度 +{1}%
+
+effects.actiongroup_rituals.attribute=仪式速度 +{1}%
+
+effects.actiongroup_train.attribute=训练速度 +{1}%
+
+effects.actiongroup_patrol.attribute=巡逻速度 +{1}%
+
+effects.damage.attribute=伤害 +{1}%
+
+effects.damagereceived.attribute=接收伤害 +{1}%
+
+effects.attackspeed.attribute=攻击速度 +{1}%
+
+effects.range.attribute=范围 +{1}%
+
+effects.accuracy.attribute=命中 +{1}%
+
+effects.armorpierce.attribute=穿甲 +{1}%
+
+effects.defense.attribute=护甲 +{1}%
+
+effects.evade.attribute=闪避 +{1}%
+
+effects.health.attribute=最大生命 +{1}%
+
+effects.nutrition.attribute=最大营养 +{1}%
+
+effects.energy.attribute=最大能量 +{1}%
+
+effects.vision.attribute=视野范围 +{0}
+
+effects.scoutrange.attribute=地图侦查范围 +{0}
+
+effects.eventrate.attribute={2} 事件几率 +{1}%
+
+eventqueue.mapevents.name=地图
+
+effects.raining.description=下雨时，作物会生长的更快，减轻照料工作。
+
+effects.soulharness.description=幸存者可以从他们的灵魂中汲取能量，从而节约食物。
+
+effects.demonstamina.description=幸存者可以从恶魔能量中获取体力。
+
+effects.divineinspiration.description=幸存者受到鼓励，工作效率提高。
+
+effects.divinehealing.description=神圣能量会随着时间的推移增加自然愈合速度。
+
+effects.nighthowls.description=一位幸存者在夜晚嚎叫，引起了不必要的关注。
+
+effects.badomens.description=不祥之兆似乎给恶魔大军增添了气势。
+
+
+
+# Object Attributes
+
+object.maturity.attribute=成熟度
+
+object.charge.attribute=充能
+
+object.full.attribute=满
+
+object.water.attribute=照料
+
+object.food.attribute=食物
+
+object.patrol.attribute=已巡逻
+
+object.lifetime.attribute=寿命
+
+object.relationship.attribute=关系
+
+object.settlementsize.attribute=尺寸
+
+object.tradecooldown.attribute=贸易冷却
+
+
+
+# Events Choices
+
+events.nighthowls.research.perform.text=你的主要神秘主义者负责研究这一奇怪行为背后的原因。
+
+events.badomens.research.perform.text=你要探索红月亮现象的原因，以及它对恶魔的影响。
+
+events.blackbox.opening.ignore.text=不去管这个匣子。
+
+events.blackbox.opening.open.text=在废料里寻找开锁工具。
+
+events.lowmorale.opening.feast.text=一场盛宴！很棒的想法。你们举办一场盛宴，庆祝大家此刻还活着。
+
+events.lowmorale.opening.fireworks.text=除了燃放美美的烟花，没有什么能更加振奋人心了。
+
+events.lowmorale.rewardchoice.reward1.text=在该区域搜索补给。
+
+events.lowmorale.rewardchoice.reward2.text=在临近废墟中搜索装备。
+
+events.lowmorale.rewardchoice.reward3.text=确保营地位置隐秘。
+
+events.darkcurse.elixir.perform.text=制作神奇药水。
+
+events.settlement_helpresources.request.perform.text=同意帮忙。
+
+events.settlement_helpresources.request.reject.text=拒绝请求。
+
+
+
+# Warnings
+
+warnings.attacked.hover=战斗在即\n\n附近发现了敌人，他们随时可能发动攻击。
+
+warnings.nofood.hover=幸存者饥饿\n\n饥饿幸存者的健康值会持续降低。
+
+warnings.lowfood.hover=食物即将耗尽。
+
+warnings.tired.hover=幸存者疲劳\n\n疲劳的幸存者的战斗能力会下降。
+
+warnings.helpNeeded.hover=陌生人求助\n\n救援任务来自世界地图。
+
+warnings.nowater.hover=饮用水耗尽\n\n幸存者的健康值在下降。
+
+warnings.lowwater.hover=水即将耗尽。
+
+warnings.levelup.hover=幸存者升级了。\n\n选择一个新技能。
+
+warnings.eventactive.hover=活跃事件\n\n世界地图上有一个活跃事件，一段时间后会消失。
+
+warnings.badomens.hover=不祥之兆
+
+warnings.nighthowls.hover=夜晚嚎叫
+
+warnings.lowmorale.hover=绝望时刻
+
+warnings.darkcurse.hover=黑暗诅咒
+
+warnings.trader.hover=交易商来了\n\n有个交易商前来拜访。点击开始交易。
+
+warnings.settlement_helpresources.hover=资源请求
+
+
+
+# Context Commands
+
+contextcommands.destroy.hover=摧毁 {0}
+
+contextcommands.heal.hover=治疗
+
+contextcommands.move.hover=移动
+
+contextcommands.moveobject.hover=移动 {0}
+
+contextcommands.cancel.hover=取消 {0}
+
+contextcommands.assign.hover=分配 {0} 至 {1}
+
+
+
+# Errors
+
+error.cantbuildhere.text=不能在这里建设
+
+error.notenoughresources.text=资源不足
+
+error.launch.minsurvivors.text=至少选择 {0} 名幸存者
+
+error.launch.maxsurvivors.text=一次任务最多可派遣 {0} 名幸存者
+
+error.launch.unarmed.text=派遣人员中有未武装人员
+
+error.launch.nofood.text=食物不足
+
+error.launch.allsurvivors.text=您的营地不能没人留守
+
+error.equipincombat.text=战斗中无法更换装备
+
+error.noranged.text=未装备远程武器。
+
+error.buildblocked.text=在此处建设会阻挡营地的部分区域
+
+error.objectmissionexpired.text=特遣小队的目标已失效
+
+error.hungrynofood.text={0} 正处于饥饿状态而且没有食物
+
+error.cantdotask.text={0} 无法执行此任务
+
+
+
+# Game Menu
+
+gamemenu.continue.label=继续
+
+gamemenu.save.label=保存
+
+gamemenu.load.label=读取
+
+gamemenu.feedback.label=反馈
+
+gamemenu.website.label=官网
+
+gamemenu.help.label=帮助
+
+gamemenu.settings.label=设置
+
+gamemenu.quit.label=退出
+
+
+
+# Item Properties
+
+items.damage.property=伤害： {0}
+
+items.attackspeed.property=攻击速度： {0}
+
+items.range.property=范围： {0}
+
+items.accuracy.property=命中： {0}
+
+items.defense.property=护甲： {0}
+
+items.dps.property=每秒伤害： {0}
+
+items.dpsvsarmor.property=每秒伤害 vs 护甲： {0}
+
+items.evade.property=闪避： {0}
+
+items.health.property=健康值： {0}
+
+
+
+# Abilities
+
+abilities.abilityname.format=能力：{0}
+
+abilities.maxuses.format=用途： {0}
+
+abilities.consumesitem.text=消耗品
+
+abilities.range.property=范围： {0}
+
+abilities.healamount.property=治疗效果： {1}%
+
+abilities.damage.property=伤害： {0}
+
+abilities.aoe.property=范围伤害： {0}
+
+abilities.heal.name=治疗
+
+abilities.retreat.name=撤退
+
+abilities.fraggrenade.name=手榴弹
+
+abilities.flashbang.name=闪光弹
+
+abilities.elementalbomb.name=元素炸弹
+
+abilities.molotov.name=莫洛托夫燃烧瓶
+
+abilities.hex.name=妖术
+
+abilities.protectionspell.name=保护咒语
+
+abilities.weakeningrune.name=符文
+
+abilities.gingerextract.name=生姜萃取液
+
+abilities.cross.name=十字符
+
+abilities.stunner.name=眩晕者
+
+abilities.frostgrenade.name=冰霜手雷
+
+abilities.acidbomb.name=酸液炸弹
+
+abilities.desensitiser.name=增感者
+
+abilities.forcefield.name=力场盾
+
+abilities.bloodimplosion.name=血爆
+
+abilities.bindingcurse.name=约束诅咒
+
+abilities.demonfuel.name=恶魔能源
+
+abilities.snipe.name=专注射击
+
+abilities.nailtofloor.name=钉住
+
+abilities.eviscerate.name=开膛
+
+abilities.exorcise.name=驱邪
+
+abilities.bless.name=祝福
+
+abilities.zap.name=痛击
+
+abilities.huntersinstinct.name=猎手本能
+
+abilities.drainself.name=叩魂
+
+abilities.releaseboulder.name=减负
+
+abilities.rocketboost.name=火箭加速
+
+abilities.harden.name=硬化
+
+abilities.empower.name=强化力量
+
+abilities.entangle.name=缠绕
+
+abilities.transmuteenemy.name=变化
+
+abilities.disappear.name=消失
+
+abilities.skillprotect.name=保护
+
+
+
+# Object Properties
+
+objects.cover.property=掩护： {1}
+
+objects.range.bonus=范围加成：+{0}
+
+objects.cover.bonus=掩护加成： {1}
+
+
+
+# Professions
+
+professions.level.format=等级 {0}
+
+professions.engineer.male=工程师
+
+professions.engineer.female=工程师
+
+professions.fighter.male=战士
+
+professions.fighter.female=战士
+
+professions.occultist.male=神秘主义者
+
+professions.occultist.female=神秘主义者
+
+professions.survivalist.male=生存主义者
+
+professions.survivalist.female=生存主义者
+
+professions.priest.male=神职人员
+
+professions.priest.female=神职人员
+
+professions.defender.male=防御者
+
+professions.defender.female=防御者
+
+
+
+# Tags
+
+tags.melee.name=近战
+
+tags.blunt.name=钝器
+
+tags.sharp.name=锐器
+
+tags.rifle.name=步枪
+
+tags.pistol.name=手枪
+
+tags.farm.name=农场
+
+tags.bow.name=弓
+
+tags.toolweapon.name=工具
+
+tags.automaticweapon.name=自动化武器
+
+tags.holyweapon.name=神圣武器
+
+tags.darkweapon.name=黑暗武器
+
+tags.techweapon.name=科技武器
+
+tags.sniper.name=狙击武器
+
+tags.firearm.name=枪械
+
+tags.defensestructure.name=防御结构
+
+tags.advfirearms.name=高级枪械
+
+tags.occultweapon.name=神秘学武器
+
+tags.holycrafting.name=神圣物品
+
+tags.darkcrafting.name=黑暗物品
+
+tags.holycrafting2.name=神圣圣器
+
+tags.darkcrafting2.name=黑暗圣器
+
+tags.medicinecrafting.name=药物
+
+tags.wardscrafting.name=守卫
+
+tags.consecratedstructure.name=神圣
+
+
+
+# Equip Skills
+
+equipskill.darkarmor.name=黑暗护甲
+
+equipskill.naturearmor.name=自然护甲
+
+equipskill.techarmor.name=科技护甲
+
+equipskill.holyarmor.name=神圣护甲
+
+equipskill.techweapon.name=科技武器
+
+equipskill.toolweapon.name=工具武器
+
+equipskill.firearm.name=高级枪械
+
+equipskill.sniper.name=狙击步枪
+
+equipskill.occultweapon.name=神秘学武器
+
+
+
+# Research Categories
+
+research.category.base=营地
+
+research.category.craft=制作
+
+research.category.weapons=武器
+
+research.category.occult=神秘学
+
+research.category.rituals=仪式
+
+research.category.other=其他
+
+
+
+# Directions
+
+directions.north.text=北
+
+directions.east.text=东
+
+directions.south.text=南
+
+directions.west.text=西
+
+directions.northeast.text=东北
+
+directions.southeast.text=东南
+
+directions.southwest.text=西南
+
+directions.northwest.text=西北
+
+
+
+# Specific Names
+
+worldobject.settlement.specificnames=新亚特兰大,人类终末,绿洲,荒芜之末,蹦极堡,边缘,安布罗西亚,达菲尔德,兵镇,安菲尔德,诺亚方舟,翰玛非尔,希望小镇,玛鲁拉,血原,巫师之地,波旁之梦
+
+survivor.male.specificnames=格雷迪,布拉德,赛斯,乔治,安德鲁,马克斯,布兰登,吉米,简,埃里克,斯坦,凯尔,肯尼,哈利,罗纳德,巴特,史蒂夫,格雷格,蒂米,大卫,汤姆,约翰,克鲁兹,阿曼德,米歇尔,罗斯,乔伊,格伦,瑞驰
+
+survivor.female.specificnames=劳伦,安妮,利兹,贝蒂,斯蒂芬妮,格瑞斯,凯莉,贝莎,布列塔尼,安娜贝尔,史黛西,珍妮,玛莎,霍莉,琳恩,梅,安迪,格瑞斯,海瑟,博比,玛利亚,米兰,黛博拉,琼恩,琼,奥格斯特,玛雅,露西
+
+taskforce.name.specificnames=炸弹,二等兵,米诺陶罗斯,猛犸,贝格斯,迪克西斯,康克德,屠夫,决斗者,泽德,杂耍,走私者,技师,巨头,穴居人,王师,蜥蜴,重击者,流浪者
+
+
+
+
+# General
+
+skills.base.hover=营地： {0}
+
+skills.exp.hover=（{0}/{1} 经验）
+
+
+
+# Profession Starting Skills - common
+
+skills.gatherer.name=采集者
+
+skills.miner.name=矿工
+
+skills.worker.name=工人
+
+skills.builder.name=建筑工
+
+skills.crafter.name=打造者
+
+skills.gardener.name=花匠
+
+skills.labassistant.name=实验室助理
+
+skills.practitioner.name=神秘学专家
+
+skills.dabbler.name=神秘学新手
+
+skills.devout.name=虔诚
+
+skills.corrupt.name=堕落
+
+skills.gangster.name=恶棍
+
+skills.gunenthusiast.name=枪械狂人
+
+skills.exconvict.name=前科犯
+
+skills.scout.name=侦查
+
+skills.cultist.name=异教徒
+
+skills.religious.name=修道士
+
+skills.conspiracytheorist.name=阴谋论者
+
+skills.hoarder.name=囤积者
+
+
+
+# General Starting Skills - common
+
+skills.brute.name=野蛮
+
+skills.healthy.name=健康
+
+skills.believer.name=信徒
+
+skills.clever.name=聪明
+
+skills.perceptive.name=敏锐
+
+skills.nimble.name=敏捷
+
+
+
+# Profession Starting Skills - uncommon
+
+skills.scavenger.name=清道夫
+
+skills.expertminer.name=专业矿工
+
+skills.constructor.name=建造师
+
+skills.artisan.name=工匠
+
+skills.farmer.name=农民
+
+skills.scientist.name=科学家
+
+skills.demonologist.name=恶魔学家
+
+skills.preacher.name=牧师
+
+skills.cultleader.name=邪教首领
+
+skills.countryperson.name=乡下人
+
+skills.geek.name=极客
+
+skills.soldier.name=战士
+
+skills.excop.name=前警员
+
+skills.martialartist.name=武术家
+
+skills.librarian.name=图书管理员
+
+skills.witch.name=女巫
+
+skills.insomniac.name=失眠者
+
+
+
+# General Starting Skills - uncommon
+
+skills.alienabductee.name=外星人绑架
+
+skills.bodybuilder.name=健身爱好者
+
+skills.vegan.name=素食主义者
+
+skills.laborer.name=劳动者
+
+skills.physician.name=医生
+
+skills.beserker.name=狂战士
+
+
+
+# Profession Starting Skills - rare
+
+skills.darkpriest.name=黑暗祭祀
+
+skills.saint.name=圣人
+
+skills.hacker.name=黑客
+
+skills.architect.name=建筑师
+
+skills.spook.name=幽灵
+
+skills.ninja.name=忍者
+
+skills.monk.name=僧侣
+
+skills.crusader.name=十字军
+
+skills.naturalist.name=自然主义者
+
+skills.huntsman.name=猎人
+
+
+
+# General Starting Skills - rare
+
+skills.weirdo.name=怪人
+
+skills.meatlover.name=肉食主义者
+
+skills.hippie.name=嬉皮士
+
+skills.adventurous.name=冒险家
+
+skills.hardworking.name=工作努力
+
+
+
+# Starting Skills - negative
+
+skills.smoker.name=吸烟者
+
+skills.weak.name=虚弱
+
+skills.shortsighted.name=近视
+
+skills.slow.name=缓慢
+
+skills.elitist.name=优秀
+
+skills.lazy.name=懒惰
+
+skills.anemic.name=贫血
+
+skills.technophobe.name=技术恐惧
+
+skills.coward.name=懦夫
+
+skills.addict.name=瘾君子
+
+skills.skeptic.name=怀疑论者
+
+
+
+# Gained Skills - special
+
+skills.consecration.name=献祭
+
+skills.spotting.name=侦查
+
+skills.patroling.name=巡逻
+
+skills.healingrate.name=快速治疗
+
+skills.stealth.name=隐形
+
+skills.selflearning.name=自我学习
+
+skills.builddefense.name=防御建筑
+
+skills.healing.name=伤口处理
+
+skills.protection.name=保护
+
+skills.cursing.name=妖术
+
+skills.satanist.name=撒旦教徒
+
+skills.naturelover.name=热爱自然
+
+skills.techie.name=科技专家
+
+skills.holyman.name=圣徒
+
+skills.techfighter.name=科技战士
+
+skills.toolsman.name=工具师
+
+skills.weaponspecialist.name=武器专家
+
+skills.sniper.name=狙击手
+
+skills.occultist.name=神秘主义者
+
+
+
+# Gained Skills - level 1
+
+skills.marksmanship1.name=枪法 I
+
+skills.agility1.name=敏捷 I
+
+skills.damage1.name=伤害 I
+
+skills.evasion1.name=闪避 I
+
+skills.stalwart1.name=坚定 I
+
+skills.melee1.name=近战 I
+
+skills.meleedefense1.name=近战防御 I
+
+skills.blunt1.name=钝器 I
+
+skills.sharp1.name=锐器 I
+
+skills.pistols1.name=手枪 I
+
+skills.rifles1.name=步枪 I
+
+skills.bows1.name=箭术 I
+
+skills.toolweapon1.name=工具专家 I
+
+skills.autoweapon1.name=自动化武器 I
+
+skills.darkweapon1.name=黑暗武器 I
+
+skills.techweapon1.name=科技武器 I
+
+skills.holyweapon1.name=神圣武器 I
+
+skills.gather1.name=采集 I
+
+skills.mine1.name=挖矿 I
+
+skills.quarry1.name=采石 I
+
+skills.build1.name=建造 I
+
+skills.craft1.name=制作 I
+
+skills.farming1.name=耕种 I
+
+skills.research1.name=研究 I
+
+skills.occultresearch1.name=神秘学研究 I
+
+skills.rituals1.name=仪式 I
+
+
+
+# Gained Skills - level 2
+
+skills.marksmanship2.name=枪法 II
+
+skills.agility2.name=敏捷 II
+
+skills.damage2.name=伤害 II
+
+skills.evasion2.name=闪避 II
+
+skills.stalwart2.name=坚定 II
+
+skills.melee2.name=近战 II
+
+skills.meleedefense2.name=近战防御 II
+
+skills.blunt2.name=钝器 II
+
+skills.sharp2.name=锐器 II
+
+skills.pistols2.name=手枪 II
+
+skills.rifles2.name=步枪 II
+
+skills.bows2.name=箭术 II
+
+skills.toolweapon2.name=工具专家 II
+
+skills.autoweapon2.name=自动化武器 II
+
+skills.darkweapon2.name=黑暗武器 II
+
+skills.techweapon2.name=科技武器 II
+
+skills.holyweapon2.name=神圣武器 II
+
+skills.gather2.name=采集 II
+
+skills.mine2.name=挖矿 II
+
+skills.quarry2.name=采石 II
+
+skills.build2.name=建造 II
+
+skills.craft2.name=制作 II
+
+skills.farming2.name=耕种 II
+
+skills.research2.name=研究 II
+
+skills.occultresearch2.name=神秘学研究 II
+
+skills.rituals2.name=仪式 II
+
+
+
+# Gained Skills - level 3
+
+skills.marksmanship3.name=枪法 III
+
+skills.agility3.name=敏捷 III
+
+skills.damage3.name=伤害 III
+
+skills.evasion3.name=闪避 III
+
+skills.stalwart3.name=坚定 III
+
+skills.melee3.name=近战 III
+
+skills.meleedefense3.name=近战防御 III
+
+skills.blunt3.name=钝器 III
+
+skills.sharp3.name=锐器 III
+
+skills.pistols3.name=手枪 III
+
+skills.rifles3.name=步枪 III
+
+skills.bows3.name=箭术 III
+
+skills.toolweapon3.name=工具专家 III
+
+skills.autoweapon3.name=自动化武器 III
+
+skills.darkweapon3.name=黑暗武器 III
+
+skills.techweapon3.name=科技武器 III
+
+skills.holyweapon3.name=神圣武器 III
+
+skills.gather3.name=采集 III
+
+skills.mine3.name=挖矿 III
+
+skills.quarry3.name=采石 III
+
+skills.build3.name=建造 III
+
+skills.craft3.name=制作 III
+
+skills.farming3.name=耕种 III
+
+skills.research3.name=研究 III
+
+skills.occultresearch3.name=神秘学研究 III
+
+skills.rituals3.name=仪式 III
+
+
+
+# Preset Skills
+
+skills.slayer.name=杀手
+
+skills.hunter.name=猎人
+
+skills.exorcist.name=驱魔人
+
+skills.doctor.name=医生
+
+skills.survivor.name=生存主义者
+
+
+
+# Unused
+
+skills.woodcutter.name=伐木工
+
+skills.mineminerals.name=矿物质开采
+
+skills.farmingyield.name=耕种产量
+
+skills.craftfirearms.name=枪械制作
+
+skills.craftmedicine.name=药物制作
+
+skills.holycrafting.name=圣器工艺 I
+
+skills.wardscrafting.name=辟邪
+
+skills.darkcrafting.name=黑暗工艺 I
+
+skills.occultweapons.name=神秘学专家
+
+skills.occultweapons2.name=神秘学大师
+
+items.hidden.name=未知
+
+items.none.name=无
+
+items.water.name=饮用水
+items.water.description=取自水井。随着时间的推移，幸存者需要饮水。\n\n饮用水不足时，幸存者的健康值会降低。
+
+items.wood.name=木材
+items.wood.description=基本资源，主要用于建设和制作。
+
+items.stone.name=石头
+items.stone.description=基本资源，主要用于建设。
+
+items.scraps.name=废料
+items.scraps.description=零零散散，几乎可以用在所有地方。
+
+items.clay.name=粘土
+items.clay.description=基本资源，主要用于建设。
+
+items.fur.name=兽皮
+items.fur.description=制作配方时使用的资源。\n\n可通过击杀狼人获得。
+
+items.tomato.name=蔬菜
+items.tomato.description=烹饪的原料。
+
+items.wool.name=羊毛
+items.wool.description=制作配方时使用的资源。
+
+items.wheat.name=小麦
+items.wheat.description=烹饪和制作配方时使用的资源。
+
+items.physics1.name=科学研究
+items.physics1.description=研究点用于解锁新的科学技术。\n\n由在实验台工作的幸存者产生。
+
+items.occult1.name=神秘学研究
+items.occult1.description=研究点用于解锁新的神秘学技术。\n\n由在魔法圈工作的幸存者产生。
+
+items.sulfur.name=硫磺
+items.sulfur.description=在神秘学仪式和制作中使用的资源。\n\n可通过击杀弱小恶魔获得。
+
+items.medicine.name=药物
+items.medicine.description=在制作配方和医务室救治伤员时使用的资源。\n\n可在执行探索任务和搜索残骸时获得。
+
+items.arrows.name=箭矢
+items.arrows.description=用于制作弓和弩。
+
+items.researchmaterials.name=研究材料
+items.researchmaterials.description=用于高级研究。\n\n可在探索时获得。
+
+items.researchkit.name=研究包
+items.researchkit.description=用于高级研究。\n\n可在探索时获得。
+
+items.metals.name=金属
+items.metals.description=制作配方时使用的资源。
+
+items.physics2.name=科学部件
+
+items.occult2.name=精华
+
+items.ectoplasm.name=异能物质
+items.ectoplasm.description=在神秘学仪式和制作中使用的资源。\n\n可通过击杀死神和幽灵获得。
+
+items.boards.name=板材
+items.boards.description=主要用于建设的资源。
+
+items.bricks.name=砖块
+items.bricks.description=主要用于建设的资源。
+
+items.weaponparts.name=武器部件
+items.weaponparts.description=制作枪械的资源。
+
+items.cloth.name=布料
+items.cloth.description=制作配方时使用的资源。
+
+items.demonite.name=魔金矿石
+items.demonite.description=在大部分黑暗魔法制作配方中使用的资源。\n\n可通过击杀强大的恶魔获得。
+
+items.alcohol.name=酒
+items.alcohol.description=制作配方时使用的资源。
+
+items.herbs.name=草药
+items.herbs.description=烹饪和制作配方时使用的资源。
+
+items.gunpowder.name=火药
+items.gunpowder.description=制作配方时使用的资源。
+
+items.deadbody.name=幸存者的尸体
+items.deadbody.description=死去的战友。\n\n学习了相应技能的神职人员可将其埋葬。
+
+items.occult3.name=空虚精华
+
+items.minerals.name=矿物质
+items.minerals.description=制作配方时使用的资源。
+
+items.fertilizer.name=化肥
+
+items.holywords.name=圣言
+items.holywords.description=在强大的神圣仪式和制作配方中使用的宗教文字。\n\n可在堕落天使身上和其他地点探索到。
+
+items.composites.name=合金材料
+items.composites.description=制作配方时使用的资源。
+
+items.holywater.name=圣水
+items.holywater.description=在大部分神圣魔法制作配方中使用的资源。
+
+items.aether.name=乙醚
+items.aether.description=制作高级炼金武器时使用的资源。 \n\n可在探索任务中获得。 
+
+items.primamateria.name=原初物质
+items.primamateria.description=炼金基本原料，可用于制作其他材料。
+
+items.consecrated.name=#神圣材料
+
+items.machines.name=#机械部件
+
+items.salad.name=沙拉
+
+items.bread.name=面包
+
+items.sandwich.name=三明治
+
+items.pickles.name=泡菜
+
+items.pasta.name=意大利面
+
+items.cannedfood.name=罐装食品
+items.cannedfood.description=探索时获得。
+
+items.club.name=狼牙棒
+
+items.baseballbat.name=棒球棍
+items.baseballbat.description=专业制造的棍棒。\n\n探索时获得。
+
+items.quarterstaff.name=铁头木棒
+
+items.bow.name=弓
+
+items.crossbow.name=弩
+
+items.longbow.name=复合弓
+
+items.olympicbow.name=奥林匹克弓
+items.olympicbow.description=胜过任何手工制作弓。\n\n探索时获得。
+
+items.combatknife.name=战斗匕首
+
+items.nailgun.name=射钉枪
+
+items.glock.name=格洛克枪
+
+items.uzi.name=乌兹冲锋枪
+
+items.demonitebow.name=魔金弓
+
+items.swordofparacelsus.name=帕拉塞尔苏斯之剑
+
+items.shotgun.name=散弹枪
+
+items.deserteagle.name=沙漠之鹰
+
+items.jericho.name=杰里科
+
+items.sniper.name=狙击步枪
+
+items.katana.name=武士刀
+
+items.sledgehammer.name=长柄锤
+
+items.blessedpistol.name=神佑手枪
+
+items.demoniteknife.name=魔金匕首
+
+items.m16.name=突击步枪
+
+items.50cal.name=50 口径
+
+items.combatshotgun.name=战斗散弹枪
+
+items.sacredsword.name=神圣之剑
+
+items.transmutationgun.name=变异枪
+
+items.leatherarmor.name=皮背心
+
+items.scraparmor.name=报废的护甲
+
+items.leatherjacket.name=皮夹克
+items.leatherjacket.description=重归时尚。\n\n探索时获得。
+
+items.camovest.name=迷彩背心
+items.camovest.description=最好的防御是隐藏自己。\n\n探索时获得。
+
+items.metalarmor.name=金属护甲
+
+items.vinearmor.name=藤编护甲
+
+items.demonitearmor.name=魔金护甲
+
+items.holyarmor.name=神圣护甲
+
+items.kevlararmor.name=防弹背心
+
+items.saintsarmor.name=圣人护甲
+items.saintsarmor.description=梵蒂冈宝库中取出的宝贝。据说是抵御恶魔的最佳选择。\n\n探索时获得。
+
+items.mercurialarmor.name=水银护甲
+
+items.medkit1.name=急救箱
+items.medkit1.description=战斗中使用，可以恢复伤员的生命。
+
+items.medkit2.name=护理箱
+items.medkit2.description=战斗中使用，可以恢复伤员的生命。
+
+items.medkit3.name=医用急救包
+items.medkit3.description=战斗中使用，可以恢复伤员的生命。
+
+items.medkitscavenge.name=手术箱
+items.medkitscavenge.description=有了户外手术箱，还学技能干嘛？\n\n探索时获得。
+
+items.woodshield.name=木制盾牌
+
+items.metalshield.name=金属盾牌
+
+items.icebox.name=冷冻箱
+items.icebox.description=可以让幸存者贮存更多食物，减少去厨房的次数。
+
+items.paincharm.name=止痛符
+items.paincharm.description=黑暗艺术，可帮幸存者缓解疼痛。
+
+items.luckycharm.name=幸运符
+items.luckycharm.description=增加佩戴者的命中和闪避。
+
+items.evilward.name=辟邪符
+items.evilward.description=避开邪恶之眼，和恶魔。\n\n探索时获得。
+
+items.fraggrenade.name=碎片手雷
+items.fraggrenade.description=扔出后对范围内的敌人造成伤害。\n\n小心使用，否则可能伤害到同伴。
+
+items.flashbang.name=闪光弹
+items.flashbang.description=扔出后使范围内的敌人迷失方向。\n\n失去方向感的单位的命中和闪避会降低。\n\n小心使用，否则可能伤害到同伴。
+
+items.voodoodoll.name=巫术人偶
+items.voodoodoll.description=可向一个敌人施加巫术。
+
+items.protectionspell.name=保护咒语
+items.protectionspell.description=这个咒语可以在短时间内加强一个同伴。
+
+items.molotov.name=莫洛托夫燃烧瓶
+items.molotov.description=物美价廉的手榴弹。\n\n对范围内的同伴和敌人造成伤害。
+
+items.weakeningrune.name=削弱符文
+items.weakeningrune.description=削弱附近的敌人。\n\n也会削弱使用者。
+
+items.hexscroll.name=诅咒卷轴
+items.hexscroll.description=向一个敌人施加咒语。
+
+items.werewolfpendant.name=狼人挂件
+items.werewolfpendant.description=由狼人首领的爪子制成。
+
+items.gingerextract.name=生姜萃取液
+items.gingerextract.description=稀有的神秘药水，由生姜和其它魔法成分制成。
+
+items.sandalwood.name=檀香木手镯
+items.sandalwood.description=这款手镯可以在战斗中治疗它的佩戴者。
+
+items.cross.name=保护十字符
+items.cross.description=在短时间内提供强大的保护，甚至可以抵御最强的恶魔。
+
+items.binoculars.name=双筒望远镜
+items.binoculars.description=侦查远处敌情，在敌人发现你之前进行躲避。
+
+items.elementalbomb.name=元素炸弹
+items.elementalbomb.description=对范围内敌人造成伤害，降低其生命力，使其行动笨拙。
+
+items.nighthowls.name=狼人之血
+items.nighthowls.description=取自活体狼人的血液。\n\n据说可以治疗变狼症。
+
+items.reinforcedoutfit.name=加固套装
+
+items.resin.name=树脂
+items.resin.description=在森林中拾取。
+
+items.mysticvines.name=神秘藤蔓
+items.mysticvines.description=这些藤蔓具有神奇功效，只能在森林深处找到。
+
+items.obsidian.name=黑曜石
+items.obsidian.description=可在火山熔岩地区找到。
+
+items.copper.name=青铜
+items.copper.description=可在沙漠中找到。
+
+items.volcanicbow.name=火山弓
+
+items.coilgun.name=线圈炮
+
+items.weakmetalarmor.name=现造护甲
+
+items.pipewrench.name=扳手
+
+items.sterlingsmg.name=斯特林冲锋枪
+
+items.huntingrifle.name=猎枪
+
+items.stunbaton.name=眩晕棒
+
+items.seraphsling.name=炽天使抛索
+
+items.diamondcutter.name=钻石切割者
+
+items.freezeray.name=冰冻射线
+
+items.demonmouth.name=恶魔之口
+
+items.swordofnephilim.name=拿非利之剑
+
+items.mtar21.name=MTAR 21
+
+items.guidedsniper.name=制导狙击枪
+
+items.angelicarbalest.name=天使劲弩
+
+items.beamcannon.name=射线炮
+
+items.damnator.name=痛治者
+
+items.plasmacharger.name=等离子充能器
+
+items.minigun.name=机枪
+
+items.chainsaw.name=链锯
+
+items.aluminum.name=铝
+
+items.diamonds.name=钻石
+
+items.aloe.name=芦荟汁
+items.aloe.description=这种植物有着治愈与神秘学的功效。
+
+items.demonscales.name=恶魔鳞片
+
+items.quartz.name=石英
+items.quartz.description=可在萨凡纳地区找到。
+
+items.titanium.name=钛
+
+items.batteries.name=电池
+
+items.phosphorus.name=磷
+
+items.bloodruby.name=血宝石
+items.bloodruby.description=这些珍贵的石头随着恶魔一同出现，有很多用处。
+
+items.cotton.name=棉
+
+items.permafrost.name=冻土水晶
+items.permafrost.description=这种起源未知的水晶可以在冻土找到，而且无法加热。
+
+items.hellsessence.name=地狱精华
+
+items.silicon.name=硅
+
+items.nitro.name=硝化纤维
+items.nitro.description=用棉纤维制成，十分易燃。
+
+items.ghilliesuit.name=吉利装甲
+
+items.elementsarmor.name=元素护甲
+
+items.reddevil.name=红恶魔
+
+items.nxravest.name=NXRA 背心
+
+items.armorofsouls.name=灵魂护甲
+
+items.boulderguard.name=巨石守护
+
+items.invisibilitycloak.name=隐身斗篷
+
+items.celestialarmor.name=天堂护甲
+
+items.crystalguard.name=水晶守护
+
+items.gaiaswrath.name=盖亚之怒
+
+items.combatsuit.name=战斗装甲
+
+items.demonfuel.name=恶魔能源
+items.demonfuel.description=能产生巨大的短期效益。长期效果未知。
+
+items.desensitiser.name=增感者
+items.desensitiser.description=能够在短时间内强化知觉。很有用的战斗药品。
+
+items.stunner.name=眩晕者
+
+items.forcefield.name=力场盾
+
+items.frostgrenade.name=冰霜手雷
+
+items.acidbomb.name=酸液炸弹
+
+items.bloodimplosion.name=血爆
+items.bloodimplosion.description=令敌人的血细胞爆裂，造成巨大伤害。
+
+items.bindingcurse.name=约束诅咒
+items.bindingcurse.description=令目标在一段时间内变得呆滞。
+
+items.pendantofinsight.name=洞察挂件
+
+items.tranquilitycharm.name=宁静符
+
+items.angeldiadem.name=天使之冠
+
+items.arglasses.name=AR 眼镜
+
+items.researchdata.name=研究资料
+
+items.researchchip.name=研究芯片
+
+items.sulfurcrystal.name=硫磺水晶
+
+items.consecratedsulfur.name=祝福硫磺水晶
+
+items.bloodstone.name=血石
+
+items.antimatterdetonator.name=反物质雷管
+
+items.demoneye.name=恶魔之眼
+
+items.antimattercontainer.name=反物质容器
+
+items.summoningnotes.name=召唤笔记
+
+items.antimatter.name=反物质
+
+items.decoysphere.name=诱饵球
+
+items.huntersgear.name=猎手装备
+
+items.obsidianarmor.name=黑曜石护甲
+
+items.demonsblight.name=恶魔枯萎
+
+items.titaniumarmor.name=钛护甲
+
+items.rocketsuit.name=火箭装
+
+
+
+# Natural Resources
+
+objects.tree.name=树
+objects.tree.description=可在生长后砍伐，获得木材。
+
+objects.rock.name=石头
+objects.rock.description=开采石头。
+
+objects.debris.name=废墟
+objects.debris.description=可在这里找到废料和其它实用的物品。
+
+objects.claymine.name=粘土
+objects.claymine.description=采集粘土。
+
+objects.aluminum.name=铝
+
+objects.phosphorite.name=磷矿
+
+objects.metals.name=金属资源
+objects.metals.description=建设一座矿来开采金属资源。
+
+objects.metalmine.name=金属矿
+objects.metalmine.description=建设在金属资源上，可以采集相应资源。
+
+objects.minerals.name=矿物质资源
+objects.minerals.description=建设一座矿来开采矿物质资源。
+
+objects.mineralmine.name=矿物质矿
+objects.mineralmine.description=建设在矿物质资源上，可以采集相应资源。
+
+objects.diamonds.name=钻石
+objects.diamonds.description=建设一座矿来开采钻石。
+
+objects.diamondmine.name=钻石矿
+objects.diamondmine.description=建设在钻石资源上，可以采集相应资源。
+
+objects.bloodruby.name=血宝石
+objects.bloodruby.description=建设一座矿来开采血宝石。
+
+objects.bloodrubymine.name=血宝石矿
+objects.bloodrubymine.description=建设在血宝石资源上，可以采集相应资源。
+
+
+
+# Workstations
+
+objects.research1.name=实验台
+objects.research1.description=一个安全场所，可以实践科学、研发技术。
+
+objects.occultresearch.name=神秘学书桌
+objects.occultresearch.description=从古典书籍中收集神秘学知识。
+
+objects.magiccircle.name=魔法圈
+objects.magiccircle.description=它的阵型可以让神秘主义者在进行实验时保持安全。
+
+objects.workbench.name=工作台
+objects.workbench.description=全是简单的工具，可以用来制作基本的东西。
+
+objects.stove.name=炉灶
+objects.stove.description=可以在这里烹饪食物。
+
+objects.sawmill.name=锯木厂
+objects.sawmill.description=将木头加工为板材。
+
+objects.furnace.name=熔炉
+objects.furnace.description=极端温度用来提炼原矿。
+
+objects.weaponsworkshop.name=武器作坊
+objects.weaponsworkshop.description=配备各种工具和防具，可以打造精密部件和坚固的枪械。
+
+objects.darkaltar.name=黑暗祭坛
+objects.darkaltar.description=黑暗艺术是危险的，但也是强大的。
+
+objects.holyaltar.name=神圣祭坛
+objects.holyaltar.description=并非所有魔法都是黑暗的。神圣仪式可以在这里进行。
+
+objects.survivorgrave.name=幸存者坟墓
+objects.survivorgrave.description=利用逝去伙伴的灵魂淬炼恶魔精华。 
+
+objects.hellforge.name=地狱熔炉
+objects.hellforge.description=用充满黑暗魔法的材料制作物品。
+
+objects.holyforge.name=神圣熔炉
+objects.holyforge.description=制作神圣物品。
+
+objects.techworkshop.name=科技工作室
+objects.techworkshop.description=研发高新技术。
+
+objects.philosopherstone.name=贤者之石
+objects.philosopherstone.description=转化时使用的神奇道具，可以将一种物质转化成另一种物质。  
+
+objects.alchemytable.name=炼金台
+objects.alchemytable.description=制作炼金武器和护甲。
+
+objects.arcanefoundry.name=奥术工坊
+objects.arcanefoundry.description=这里是举行奥术仪式的地方。
+
+objects.geologist.name=地质站
+objects.geologist.description=用来寻找地下资源。
+
+
+
+# Farming
+
+objects.well.name=水井
+objects.well.description=幸存者可从这里打水。
+
+objects.raincollector.name=雨水收集器
+objects.raincollector.description=不用任何手工劳动便可收集雨水。一个收集器可以满足一个幸存者的饮水需求。
+
+objects.tomatofarm.name=蔬菜农场
+objects.tomatofarm.description=种植蔬菜。
+
+objects.wheatfarm.name=小麦农场
+objects.wheatfarm.description=种植小麦。
+
+objects.sheepfarm.name=绵羊农场
+objects.sheepfarm.description=羊提供了羊毛，它们的粪便可以用做肥料。
+
+objects.herbgarden.name=香草花园
+objects.herbgarden.description=生长精美的药草，用于高级烹饪和其它用途。
+
+objects.aloefarm.name=芦荟农场
+objects.aloefarm.description=芦荟汁有着治愈与神秘的功效。
+
+objects.cottonfarm.name=棉花农场
+objects.cottonfarm.description=棉花是种非常有用的东西。
+
+
+
+# Base Infrastructure
+
+objects.foodstorage.name=餐桌
+objects.foodstorage.description=分配食物。饥饿的幸存者会在这里进食。
+
+objects.bed.name=床
+objects.bed.description=疲劳的幸存者会来这里休息。
+
+objects.guardtower1.name=守卫塔
+objects.guardtower1.description=幸存者在里面可以更有效地保护家园。\n\n只有使用远程武器的幸存者才能在战斗时进驻。
+
+objects.infirmary.name=医务室
+objects.infirmary.description=可以快速治疗受伤的幸存者。
+
+objects.trainingarea.name=训练区
+objects.trainingarea.description=提升幸存者的战斗技能。
+
+objects.sandbag.name=沙袋
+objects.sandbag.description=在不影响通过的前提下，为幸存者提供掩护。
+
+objects.spikes.name=尖刺路障
+objects.spikes.description=提供比沙袋更好的掩护，会影响通过。
+
+objects.barrelwall.name=筒壁
+objects.barrelwall.description=影响通过，完全格挡远程武器。
+
+objects.logcabin_4x4.name=小木屋
+objects.logcabin_4x4.description=最小、最简单的建筑，提供 2x2 可用位置。
+
+objects.logcabin_5x4.name=小木屋
+objects.logcabin_5x4.description=简单的木制小屋，提供 3x2 可用位置。
+
+objects.stonehouse_5x5.name=大石屋
+objects.stonehouse_5x5.description=用更坚固的材料搭建，拥有更大空间，提供 3x3 可用位置。
+
+objects.stonehouse_6x5.name=大石屋
+objects.stonehouse_6x5.description=比石屋面积大，造价更高，提供 4x3 可用位置。
+
+objects.lookout.name=瞭望台
+objects.lookout.description=在敌人靠近时发出警告，可以让幸存者更好地躲避恶魔。\n\n在地图边缘时更有效。\n与其它瞭望台距离较近时效果较差。
+
+objects.occultenclosure.name=神秘学围场
+objects.occultenclosure.description=在相对安全的环境中进行神秘学实验。
+
+
+
+# Combat Map
+
+objects.building.name=建筑
+
+objects.bus.name=公共汽车
+
+objects.barrel.name=桶
+
+objects.crossedbody.name=尸体
+
+objects.combatexit.name=退出
+
+objects.scavenge.name=探索堆
+
+objects.trappedsurvivor.name=被困的幸存者
+
+
+
+# Construction
+
+objects.planting.name=种植树木
+
+objects.construction_1x1.name=建造
+
+objects.construction_2x1.name=建造
+
+objects.construction_1x2.name=建造
+
+objects.construction_2x2.name=建造
+
+objects.construction_4x4.name=建造
+
+objects.construction_5x4.name=建造
+
+objects.construction_5x5.name=建造
+
+objects.construction_6x5.name=建造
+
+
+
+# World Objects
+
+objects.base.name=营地
+
+objects.hospital.name=医院
+
+objects.datacenter.name=数据中心
+
+objects.techfirm.name=科技公司
+
+objects.military.name=军事基地
+
+objects.supermarket.name=购物中心
+
+objects.residential.name=郊区
+
+objects.factory.name=工业区
+
+objects.farm.name=农场
+
+objects.school.name=学校
+
+objects.church.name=教堂
+
+objects.campsite.name=营地
+
+objects.hauntedglade.name=幽灵林地
+
+objects.miningtown.name=矿业城镇
+
+objects.ruins.name=废墟
+
+objects.quarry.name=挖掘
+
+objects.arcticmine.name=矿业城镇
+
+objects.rescuemission.name=救援任务
+
+objects.demonscout.name=恶魔侦查
+
+objects.settlementhelpattack.name=帮助请求
+
+objects.aethershrine.name=以太神殿
+
+objects.secretbase.name=秘密营地
+
+objects.injuredsurvivor.name=受伤的幸存者
+
+objects.hellgate.name=地狱之门
+
+objects.recruiterskidnap.name=征兵营地
+
+objects.recruiterfortress.name=征兵堡垒
+
+objects.archdemon.name=大恶魔
+
+objects.physicslab.name=物理实验室
+
+objects.ammunitioncache.name=军火库存
+
+objects.nighthowls.name=夜晚嚎叫
+
+objects.settlement.name=驻地
+
+
+
+# Suburbs
+
+objects.suburbs_house_5x4.name=房屋
+
+objects.suburbs_house_5x5.name=房屋
+
+objects.suburbs_ruins_5x4.name=摧毁的房屋
+
+objects.suburbs_car.name=汽车
+
+objects.suburbs_trash.name=垃圾箱
+
+objects.suburbs_deadtree.name=枯树
+
+objects.suburbs_deadbody.name=尸体
+
+objects.suburbs_road.name=马路
+
+
+
+# Industrial
+
+objects.industrial_silo.name=筒仓
+
+objects.industrial_container.name=容器
+
+objects.industrial_factory.name=建筑
+
+objects.industrial_semitrailer.name=半拖车
+
+objects.industrial_fence.name=栅栏
+
+objects.industrial_pipe.name=管道
+
+
+
+# Urban
+
+objects.shopcart.name=购物车
+
+objects.letterbox.name=信箱
+
+objects.shopcart_cluster.name=购物车
+
+objects.hospital.name=医院
+
+objects.apartments.name=公寓楼
+
+objects.supermarketbuilding.name=超市
+
+objects.schoolhouse.name=校舍
+
+objects.pavement.name=人行道
+
+
+
+# Military
+
+objects.blockade.name=路障
+
+objects.cratespile.name=板条箱
+
+objects.humvee.name=军事运输车
+
+objects.tent.name=帐篷
+
+objects.tank.name=坦克
+
+
+
+# Mining Town
+
+objects.miningcart.name=矿车
+
+objects.brownwall.name=墙
+
+objects.watertower.name=水塔
+
+objects.truck.name=卡车
+
+objects.shed.name=小屋
+
+objects.electricpost.name=电力站
+
+
+
+# Haunted
+
+objects.swamp.name=沼泽
+
+objects.abandonedcabin.name=被遗弃的小屋
+
+objects.crypt.name=地穴
+
+objects.grave.name=坟墓
+
+
+
+# Ruins
+
+objects.ruin.name=废墟
+
+objects.lava.name=岩浆
+
+
+
+# Farm / Settlement
+
+objects.missionfarm.name=农场区
+
+research.farming.name=耕种技术
+
+research.cooking.name=烹饪术
+
+research.preserving.name=保鲜术
+
+research.waterconservation.name=水利技术
+
+research.waterdistribution.name=水量控制
+
+research.rainwatercollection.name=雨水收集
+
+research.gardening.name=园艺
+
+research.animals.name=动物饲养
+
+research.woodworking.name=木工工艺
+
+research.brickmaking.name=制砖学
+
+research.weaving.name=编织
+
+research.gatherefficiency.name=采集效率
+
+research.scavenging.name=探索
+
+research.metalworking.name=金属加工
+
+research.electromagnets.name=电磁铁
+
+research.minerals.name=矿产开采
+
+research.distilling.name=蒸馏
+
+research.alchemy.name=炼金术
+
+research.machines.name=机器
+
+research.calcination.name=煅烧
+
+research.bowmaking.name=弓的制作
+
+research.crossbows.name=弩
+
+research.pneumatic.name=气动武器
+
+research.leatherworking.name=皮革加工
+
+research.tailoring.name=裁缝
+
+research.knives.name=刀
+
+research.gunmaking.name=枪的制作
+
+research.automaticweapons.name=自动化武器
+
+research.advancedpistols.name=高级手枪
+
+research.explosives.name=炸药
+
+research.firearms.name=枪械技术
+
+research.hunting.name=狩猎
+
+research.advancedfirearms.name=高级枪械
+
+research.swords.name=剑
+
+research.firstaid.name=急救术
+
+research.medicine.name=药物
+
+research.colonydefense.name=营地防御
+
+research.assaultrifles.name=突击步枪
+
+research.heavyweapons.name=狙击枪
+
+research.urbantactics.name=城镇战术
+
+research.kevlar.name=克维拉
+
+research.mercurialmastery.name=水银技术
+
+research.alchemicalweapons.name=炼金武器
+
+research.logistics.name=物流
+
+research.camouflage.name=伪装
+
+research.construction.name=建造
+
+research.earlywarning.name=预警
+
+research.materiamedica.name=药物学
+
+research.occult.name=恶魔起源
+
+research.meditation.name=冥想
+
+research.darkmagic.name=黑暗魔法
+
+research.holymagic.name=神圣魔法
+
+research.hellgates.name=地狱之门
+
+research.harvestritual.name=收获仪式
+
+research.waterritual.name=雨之仪式
+
+research.darkrituals.name=黑暗仪式
+
+research.demonbinding.name=恶魔束缚
+
+research.rituals.name=仪式
+
+research.resourcefinding.name=发现资源的咒语
+
+research.demonite.name=魔金矿石
+
+research.summoning.name=召唤
+
+research.charms.name=符文
+
+research.demonitecrafting.name=魔金矿石制作
+
+research.soulforging.name=灵魂锻造
+
+research.holyrituals.name=神圣仪式
+
+research.sacredcrafting.name=神圣制作
+
+research.dangersense.name=危险感知
+
+research.mutation.name=变异
+
+research.divineinspiration.name=神学
+
+research.demonanatomy.name=恶魔解剖学
+
+research.patchwork.name=拼缝物
+
+research.expeditions.name=探险
+
+research.junglecrafting.name=丛林工艺
+
+research.advancedlogistics.name=高级物流
+
+research.improvisedexplosives.name=临时炸药
+
+research.metalprotection.name=金属保护
+
+research.metalweapons.name=金属武器
+
+research.metalurgy.name=冶金术
+
+research.sniping.name=狙击
+
+research.magiccrafting.name=魔法制作
+
+research.lightdark.name=光明与黑暗
+
+research.voodoo.name=巫术
+
+research.extremecrafting.name=极限制作
+
+research.weaponblessing.name=武器祝福
+
+research.composites.name=合金材料
+
+research.luckybounty.name=幸运奖赏
+
+research.arcanerituals.name=奥术仪式
+
+research.spiritguide.name=灵魂向导
+
+research.allseeingeye.name=透视之眼
+
+research.lightanddark.name=光明与黑暗
+
+research.defensiveaura.name=防御光环
+
+research.godrealm.name=神之国度
+
+research.tropicalfarming.name=热带种植
+
+research.alchemicalprotection.name=炼金保护
+
+research.titaniumproduction.name=钛生产
+
+research.fiberextraction.name=纤维开采
+
+research.phosphorusextraction.name=磷开采
+
+research.flamables.name=可燃物
+
+research.geology.name=地质学
+
+research.diamondmining.name=钻石开采
+
+research.diamondworking.name=钻石工作
+
+research.forcefields.name=力场盾
+
+research.bloodrubies.name=血宝石
+
+research.semiconductors.name=半导体
+
+research.diamondfusing.name=钻石熔合
+
+research.crowdcontrol.name=群体管理
+
+research.frostweaponry.name=冰霜武器
+
+research.closecombat.name=近接战斗
+
+research.guidancesystems.name=指导系统
+
+research.frostexplosives.name=冰霜炸药
+
+research.beamweapons.name=射线武器
+
+research.aloeproperties.name=芦荟功效
+
+research.lostsouls.name=失落灵魂
+
+research.intellectboost.name=智力增强
+
+research.soulsearching.name=灵魂搜索
+
+research.fallenangels.name=堕落天使
+
+research.angelicweaponry.name=天使武器
+
+research.angelicartifacts.name=天使圣器
+
+research.angelicprotection.name=天使保护
+
+research.holytech.name=神圣科学
+
+research.darktech.name=黑暗科学
+
+research.titaniumprotection.name=钛保护
+
+research.obsidianproperties.name=黑曜石功效
+
+research.soulbinding.name=灵魂约束
+
+research.soulmending.name=灵魂修补
+
+research.miningtechniques.name=开采技术
+
+research.marching.name=行军
+
+research.nursing.name=护理
+
+events.trader.trade.title=交易商
+events.trader.trade.text=营地周围发现了一群落魄的幸存者。根据进一步调查，他们是来进行交易的。\n\n几小时后他们便会离开，继续赶路。
+
+
+
+events.rescue.createrescue.title=有人需要援助
+events.rescue.createrescue.text=附近有人正被敌人追赶。\n\n派遣一个小队前往支援，他们可能愿意加入你们。
+
+
+events.demonscout.demonscout.title=敌军侦察队
+events.demonscout.demonscout.text=附近发现了敌人的侦察部队。\n\n你应在他们发现你的营地之前，将其解决掉。\n\n击杀侦查小队会降低敌人的察觉度，放任不管会增加察觉度。
+
+events.basedefense.defensewarning.title=敌人逼近
+events.basedefense.defensewarning.text=有生物正在向你的位置靠近。\n它们很快就会发起攻击，你应做好准备。
+
+events.basedefense.attackedmessage.title=攻击！
+events.basedefense.attackedmessage.text=你被攻击了！\n\n战斗前武装你的幸存者。\n击败所有进攻的敌人。
+
+events.rescuedefense.attackedmessage.title=求助！
+events.rescuedefense.attackedmessage.text=怪物袭来！它们在追杀别人，而被追杀者正向你的营地跑来。我们必须击退它们。
+
+events.rats.rats.title=寄生虫！
+events.rats.rats.text=一种不知名的寄生虫毁掉了你的大部分食物补给。\n\n关于它们来源的线索化成了一堆硫磺。
+
+events.foundmetal.foundmetal.title=发现金属矿床
+events.foundmetal.foundmetal.text=营地附近发现了新的金属矿床。
+
+events.foundminerals.foundminerals.title=发现矿产资源
+events.foundminerals.foundminerals.text=营地附近发现了新的矿产资源。
+
+events.nighthowls.opening.title=夜晚嚎叫
+events.nighthowls.opening.text=在时间的尽头，文明已成过往。那些为生活提供便利的电子设备，已消失不见；那些曾照亮马路、让漫天繁星和明月黯然失色的路灯，也不再亮起。\n\n有些人可能觉得这很浪漫，但如果这一切发生在世界末日，就毫无浪漫可言了。但是 {{survivor}} 好像对夜间的月亮产生了特别的兴趣。这种痴迷一向很明显，但如今却不同了。{{survivor}} 再也无法入睡。{{survivor_hesheC}} 在夜空下散步，抬头望着月亮。一轮圆月高悬于空，散发着淡淡的灰白色光，唤醒了内心一种无法遏制的欲望。{{survivor_hesheC}} 不知道这欲望来自何处、为何会来，但它是如此强烈——那就是咆哮的欲望。\n\n{{survivor}} 向着月亮咆哮，一开始好像在滑稽地模仿一只小狼，但很快便成为一种地地道道的令人毛骨悚然的狼嚎。狼嚎的声音传向远方，在废弃的建筑和隐秘地点之间回响。{{survivor_hesheC}} 终于不再咆哮，但为时已晚——这一声嚎叫已经引来了不必要的注意！
+
+events.nighthowls.research.title=夜晚嚎叫
+events.nighthowls.research.text=这种永无止境的嚎叫欲望肯定还会出现，给大家带来厄运。你必须想办法处理 {{survivor}} 的问题。
+
+events.nighthowls.foundwerewolf.title=夜晚嚎叫
+events.nighthowls.foundwerewolf.text=你的神秘学家发现了这一危险行为的诱因。{{survivor}} 好像被下了咒——“狼的诅咒”，据说这种古老的诅咒可以把正常男女逼疯，让他们相信自己是狼。不过，这个诅咒是可以解除的。你需要的只是一匹真正的狼。更具体地说，是一个狼人。只需获取狼人的血样，再施以咒语即可解除诅咒。施咒过程很简单，但获取狼人血样可能会比较困难。\n\n在你的印象里，远处曾有过奇怪的嚎叫声，这肯定是狼人的嚎叫。也许你可以让这个狼人行行好，捐献一些血样。不过要靠武力征服它。
+
+events.nighthowls.end.title=夜晚嚎叫
+events.nighthowls.end.text={{survivor}} 感觉之前压在 {{survivor_hisher}} 肩上的重担已经不见了。夜空中依然月光皎洁、星光灿烂，但嚎叫的欲望已经没有了。或许总的说来，{{survivor}} 不是狼，而是人，一个在孤单的末世里对璀璨夜空充满无限迷恋的人。\n\n你发现狼人的爪子散发着一股神奇的力量，于是用它做了个挂件。也许它会在战斗中有帮助。
+
+events.nighthowls.dead.title=夜晚嚎叫
+events.nighthowls.dead.text=死神带走了 {{survivor}}。{{survivor_hesheC}} 会被我们牢记心中。{{survivor_hisherC}} 肉体或许已经消逝，但关于 {{survivor_hisher}} 记忆将永存。随着 {{survivor_hisher}} 死亡，可怕的诅咒也消失了，营地不再吸引不必要的关注。
+
+events.badomens.research.title=不祥之兆
+events.badomens.research.text=夜空被乌云遮蔽，月亮透过乌云的缝隙，射出浅浅的虚弱的光，淡得几乎看不见。深红色的彗星划过夜空，为天空染上一层浓浓的腥红。仿佛被施了巫术一般，月亮变成了红色，散发着不祥的光。远处传来恶魔的嚎叫，这些不祥之兆似乎为它们赋予了超自然的力量。
+
+events.badomens.resolved.title=不祥之兆
+events.badomens.resolved.text=你的幸存者们发现了一本古老手册，上面记载了血月的故事以及破除血月的古老宗教仪式。举行仪式后，月亮恢复了正常的银色，远处的恶魔嚎叫也弱了下来。一切恢复了正常。
+
+events.badomens.expired.title=不祥之兆
+events.badomens.expired.text=正如突然出现时一样，月亮中的红晕又突然消失，回归了本来的银白色。恶魔嚎叫也立刻开始减弱。一切恢复了正常。
+
+events.badomens.reward.title=不祥之兆
+events.badomens.reward.text=这种怪异的现象肯定有真正的神秘原因。在避难所周围的黑暗角落里，你发现了奇怪的神秘学资源，这些东西通常只能在击败恶魔后才能获得。
+
+events.blackbox.opening.title=黑匣子
+events.blackbox.opening.text=曾被视为人类巅峰之作的建筑，如今已成为一片废墟散落在地上，以沉痛的方式提醒着那些逝去的美好。厚重的砖瓦上覆满灰尘，破碎的窗户散落在曾经一片繁华的都市街道上。\n\n在一栋废弃的大楼旁边，一堆碎石引起了你的注意。毫无疑问，这堆碎石中隐藏着一个秘密——一个黑匣子。这个匣子十分沉重，它前面的锁似乎占据了它的大部分重量。也许，你能利用合适的工具打开它。
+
+events.blackbox.ignore.title=黑匣子
+events.blackbox.ignore.text=你没能找到合适的开锁工具，而且不得不将匣子丢下。你不知道自己将来还能不能再找到它…
+
+events.blackbox.open1.title=黑匣子
+events.blackbox.open1.text=这个匣子里装满了医用品！
+
+events.blackbox.open2.title=黑匣子
+events.blackbox.open2.text=这是其他人准备的，你在里面找到了很多贮存的食物。当你收拾这些补给时，很好奇它们的前主人是谁…
+
+events.blackbox.open3.title=黑匣子
+events.blackbox.open3.text=这个匣子里装满了蓝图和示意图。你的研究员肯定能从里面学到不少。
+
+events.blackbox.open4.title=黑匣子
+events.blackbox.open4.text=你打开匣子，里面用布包裹着几件东西，上面还画着神秘符号。你的神秘学家对这些东西十分感兴趣。
+
+events.blackbox.open5.title=黑匣子
+events.blackbox.open5.text=匣子里是一截腐尸，上面爬满蛆虫。你恶心地将它扔掉，却发现那些蛆虫飞向了你的营地！
+
+events.blackbox.open6.title=黑匣子
+events.blackbox.open6.text=你打开匣子，发现盖子下刻着一个货币符号。里面装着满满的瓶盖。为迎接末世而做这些准备的人肯定脑子有问题，这些瓶盖有什么用？
+
+events.lowmorale.opening.title=绝望时刻
+events.lowmorale.opening.text=日子一天天过去，救援始终未到，疲惫和绝望开始侵蚀这里的一切。幸存者们士气低落，以服从的心态默默地完成每日工作。研究员们受到的干扰最大。他们无法集中精力，在研究上没有重大突破。\n\n必须想办法提升士气。安排一场宴会？一次庆祝？
+
+events.lowmorale.success.title=绝望时刻
+events.lowmorale.success.text=果然奏效，你们此刻情绪高昂。眼睛重新恢复了神采。
+
+events.lowmorale.rewardchoice.title=绝望时刻
+events.lowmorale.rewardchoice.text={{survivor}} 比其他人更受鼓舞，而且请求执行一项特殊任务。
+
+events.lowmorale.reward1.title=绝望时刻
+events.lowmorale.reward1.text={{survivor}} 的探索任务非常成功。{{survivor_hesheC}} 在附近发现了补给点，而且周围没有恶魔。你们在一个小时之内将补给点清空，你们的存货好像增加了。
+
+events.lowmorale.reward2.title=绝望时刻
+events.lowmorale.reward2.text={{survivor}} 不顾路上的危险，直接跑到附近的废墟处。不一会，{{survivor_heshe}} 返回营地，还带回一些废料和一把厉害的新武器。
+
+events.lowmorale.reward3.title=绝望时刻
+events.lowmorale.reward3.text={{survivor}} 走遍整个营地，把一切不正常的事物都隐藏起来，并且弄掉隐藏的痕迹。你只有走到营地中来，才能注意到它不只是一片荒地。如今的营地藏得很隐蔽，附近的敌人不太会察觉到它。
+
+events.eureka.eureka.title=有了！
+events.eureka.eureka.text=有人认为想法很简单，难的是如何付诸实践。但想法确是科学研究的驱动力。任何人在任何地方都会产生想法。哪怕是在睡梦中。\n\n{{survivor}} 有时会在 {{survivor_hisher}} 梦中讲话。大部分是胡言乱语，但今天，{{survivor_hisher}} 废话却带来了巨大的科学突破！
+
+events.darkcurse.opening.title=黑暗诅咒
+events.darkcurse.opening.text=巫术。肯定没错。表面上看起来一切如常，但周围的空气突然变的凝重而窒息。呼吸变得很困难。工作成了一种折磨。每个人都受到了这股怪异氛围的影响。这种感觉何时会消散？
+
+events.darkcurse.elixir.title=黑暗诅咒
+events.darkcurse.elixir.text=目前，诅咒之源尚不清楚，但你的神秘学家找到了保护营地不受其影响的方法。一瓶以特殊草药为原料、以燃烧的硫磺烹制的神秘药水。
+
+events.darkcurse.resolved.title=黑暗诅咒
+events.darkcurse.resolved.text=药水服用后立即见效。呼吸变得顺畅，之前一直挥之不去的窒息感也不见了。你怀疑这个诅咒是不是拥有恶魔起源，或者是其它力量在作祟？
+
+events.darkcurse.expired.title=黑暗诅咒
+events.darkcurse.expired.text=如同来时一样突然，窒息感一下子消失了。空气变得正常，呼吸开始顺畅。起因是什么？也许你永远不会知道…
+
+events.graveyardwarning.attackedmessage.title=墓地
+events.graveyardwarning.attackedmessage.text=埋葬至亲的人总是痛苦的。每次走过这些坟墓，你的后脊都一阵发凉。在动荡不安的日子里，这阵凉意也许不仅代表悲伤？也许它包含更多含义？\n\n在你转身那一刻，这阵凉意突然变得彻骨寒冷。你的心跳漏了一拍，你转身面向坟墓，手中握着武器。幽灵。他们不再是你逝去的伙伴，而是一群堕落的邪恶生物。也许，当初不该在营地里安置这么多坟墓…
+
+events.graveyard.attackedmessage.title=墓地
+events.graveyard.attackedmessage.text=幸存者们开始坐立不安。附近埋葬了太多死者，引来了不必要的关注。更多幽灵出现了！他们好像越来越强大、越来越勇猛了。\n\n迫不得已，我们需要移除一部分坟墓，以免后患。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+events.encounter.opening.title=交锋
+events.encounter.opening.text=当“{{taskforcename}}”小队离开营地执行任务时，突然遇到了一群恶魔。\n\n双方都很意外，但很快便恢复了正常。恶魔咆哮着准备攻击，而你的队伍则准备反击。
+
+
+scenario.main.shelter.title=避难所
+scenario.main.shelter.story=你与好友共四人外出野营时，被一个强大的怪物袭击！合力下你们勉强杀了它，但 Ned 没能挺过来…四周充斥着血红色的眼睛，隐现着阴影中的可怕事情…\n\n你们急促收拾好一些补给品，想方设法回到城里，却发现城里一片狼藉，血红色的天空下是一片火海。世界末日已经开始了。\n\n你们剩下的三人来到附近一个曾经徒步旅行过的隐秘山谷。这里目前看来是安全的。你们应在此处扎营。先建立一个可以进食和休息的避难所。
+scenario.main.shelter.mission=建设一个木屋、一口水井、一张餐桌和一张床。
+
+scenario.main.research.title=学习耕种
+scenario.main.research.story=现在，你们有了自己的操作基地，但仍未脱离危险。你们的补给早晚要用完。如果你们找不到食物和水的来源，根本活不了多久…也许还没被怪物发现就已经死了。\n\n在你们种植自己的食物之前，你先要学习这门技术。
+scenario.main.research.mission=建造一个实验台并研究“耕种技术”。
+
+scenario.main.farming.title=食物来源
+scenario.main.farming.story=你了解了如何耕种。利用这些知识建立一些农场。它们将提供稳定的食物供应。\n\n补给即将用尽，但这个地方到处都是资源。你可以砍树，挖掘石头和粘土，或者在荒废的营地中探索废料。
+scenario.main.farming.mission=建造 2 个蔬菜农场。
+
+scenario.main.crafting.title=武装自己
+scenario.main.crafting.story=这些农场现在应该能解决你的温饱问题，但当你的营地壮大的时候，你需要建造更多的农场。 \n记住你不能吃生的食物，你需要经常做饭。\n同样也要留意你的饮用水资源。当饮用水快用完的时候从附近的水井里收集水。\n\n现在你有了基本的补给，你应该做好自卫准备。制作一些武器吧。
+scenario.main.crafting.mission=制作 3 个狼牙棒。
+
+scenario.main.attacked.title=攻击！
+scenario.main.attacked.story=这些武器能帮你抵挡少数的弱小恶魔，现在刻不容缓！你已经被发现，准备好守卫营地吧！
+scenario.main.attacked.mission=守卫营地。
+
+scenario.main.scavenging.title=探索
+scenario.main.scavenging.story=刚刚真是千钧一发，但下次你就不一定这么走运了。要想求生，不能一味地保持低调。你需要了解外面发生的事情，并且从邻近城镇收集补给。\n\n出发之前，你也许需要制作一些更厉害的武器。你已经学会了如何制作基本的弓。
+scenario.main.scavenging.mission=探索邻近区域。
+
+scenario.main.rescuing.title=援助
+scenario.main.rescuing.story=补给固然重要，但你可以考虑为你的团队增加更多的幸存者。更多的工人和战士将可以增加你幸存的几率。\n\n但别忘了，更大的团队意味着需要喂饱更多的人。请确保食物和水供给充足。
+scenario.main.rescuing.mission=拥有 4 个幸存者
+
+scenario.main.occultresearch.title=调查世界末日
+scenario.main.occultresearch.story=世界已变成地狱一般。来自地狱的爪牙迟早会淹没你的小型避难所。你必须找到问题所在，然后阻止这一切。\n\n在探索时，你看到一些从未见过的奇怪符号和符文。你应该划定一个研究神秘学的区域，也许可以找出这些恶魔来自何处。
+scenario.main.occultresearch.mission=建立一个神秘学书桌并研究“恶魔起源”。
+
+scenario.main.researchmaterials.title=高级研究
+scenario.main.researchmaterials.story=你的知识与技能不足以进行更高级研究。有时为了取得突破，需要只能在世界上获取的物品或知识。\n\n比方说研究材料可以在大多数学校里找到。
+scenario.main.researchmaterials.mission=获取一些研究材料
+
+scenario.main.growth.title=人多有保障
+scenario.main.growth.story=你得出的最佳推论是：地狱和地球之间的结界被削弱，地狱的爪牙才得以从中穿越。但结界并未完全消失，否则整个地球将会陷入重重火海。\n\n你了解到恶魔在各个领域穿梭时需要一个传送门“地狱之门”。但它们被防御的很完善，在展开调查之前，你需要做好充分的准备。\n\n这个营地需要发展壮大。招募更多的幸存者加入你，确保你有足够的食物供应。
+scenario.main.growth.mission=招募 12 名幸存者并获得 150 单位的食物。
+
+scenario.main.portals.title=地狱之门
+scenario.main.portals.story=随着更多幸存者的加入，这个营地正在壮大。是时候做一个大胆的决定了。派遣一支队伍去探索一个地狱之门。\n\n小心，这些传送门内满是恶魔。确保你派出的是一支全副武装、训练有素的队伍。
+scenario.main.portals.mission=调查一个地狱之门
+
+scenario.main.closedportal.title=关闭传送门
+scenario.main.closedportal.story=你的队伍从地狱之门里搜刮出一些奇怪的精华。研究这些传送门，看看能学到什么。\n\nAlpha 测试版本的故事情节到此为止。最终版本的故事线会更长、更丰富，也会包括更多物品、建筑物、研究和游戏功能。 \n\n感谢你体验本游戏。
+
+
+
+# Rituals
+
+actions.growtrees.name=Growth Ritual
+actions.growtrees.description=Ancient ritual to mother nature that causes new trees to grow.
+
+actions.waterritual.name=Rain Dance
+actions.waterritual.description=Ancient tribal ritual that is said to bring rain. Crops grow faster while it's raining.
+
+actions.soulharness.name=Soul Harness
+actions.soulharness.description=After performing this ritual survivors will consume energy from their souls. They will become hungry 30% slower for a while.
+
+actions.demonstamina.name=Demon Stamina
+actions.demonstamina.description=Bind demonic energies to survivors to keep them going without need for rest. Survivors will not lose energy while this ritual is active
+
+actions.summonimps.name=Summon Imps
+actions.summonimps.description=Sulfur has proven to be a useful resource for the dark arts. Summon some imps to harvest their sulfur. Beware, they will not go down without fighting.
+
+actions.summonghosts.name=Summon Ghosts
+actions.summonghosts.description=Summoning and killing ghosts is a quick way to get some ectoplasm. Ghosts are not easy to kill though.
+
+actions.mutate.name=Mutate Soul
+actions.mutate.description=The soul of the survivor performing this ritual is bent and broken, mutating into a new soul. Replaces all traits with random new ones.
+
+actions.growfarms.name=Harvest Ritual
+actions.growfarms.description=Immediately grow all planted crops to full maturity
+
+actions.repelevil.name=Repel Evil
+actions.repelevil.description=Repel evil forces near your base. Lowers awareness by 50%
+
+actions.divineinspiration.name=Divine Inspiration
+actions.divineinspiration.description=Inspires all survivors to work faster.
+
+actions.divinehealing.name=Divine Healing
+actions.divinehealing.description=Creates a divine aura that speeds up the body's natural healing abilities.
+
+actions.locatesurvivors.name=Locate Survivors
+actions.locatesurvivors.description=A spell that locates other survivors in the area that are in imminent danger.
+
+actions.darkharvesting.name=Dark Harvesting
+actions.darkharvesting.description=A ritual to gather the essence of your lost friends.
+
+actions.metaltransmute.name=Metal Transmutation
+actions.metaltransmute.description=A ritual to transmutate Prima Materia into Metal.
+
+actions.mineralstransmute.name=Mineral Transmutation
+actions.mineralstransmute.description=A ritual to transmutate Prima Materia into Minerals.
+
+actions.aethertransmute.name=Aether Transmutation
+actions.aethertransmute.description=A ritual to transmutate Prima Materia into Aether.
+
+actions.luckybounty.name=Lucky Bounty
+actions.luckybounty.description=Improved luck will increase the chances of finding extra loot while scavenging.
+
+actions.logisticsritual.name=Logistics Ritual
+actions.logisticsritual.description=Gain improved logistics for faster task force travel speed.
+
+actions.farsight.name=Far Sight
+actions.farsight.description=Gain improved eyesight allows task force to scout farther.
+
+actions.eagleeye.name=Eagle Eye
+actions.eagleeye.description=Survivor eye-hand coordination improves, increasing accuracy with all weapons.
+
+actions.concentration.name=Concentration Ritual
+actions.concentration.description=Allows survivors to better concentrate, for higher research efficiency.
+
+actions.defensiveaura.name=Defensive Aura
+actions.defensiveaura.description=Surrounds the base with an aura that holds demons back, reducing the strength of their attacks.
+
+actions.evasiveaura.name=Evasive Aura
+actions.evasiveaura.description=Task forces are surrounding with an aura that hides their movements, reducing the chance of encountering enemies while travelling.
+
+actions.sulfurconsecration.name=Consecration Ritual
+actions.sulfurconsecration.description=Consecrate the Sulfur Crystal.
+
+actions.bloodstone.name=Bloodstone Ritual
+actions.bloodstone.description=Create a bloodstone for the summoning of a Demoneater.
+
+actions.summonweatherdemon.name=Summon Weather Demon
+actions.summonweatherdemon.description=Experiment with summoning a weather demon.
+
+actions.decoyritual.name=Decoy Ritual
+actions.decoyritual.description=Powerful ritual that doesn't really do anything.
+
+
+
+# Actions
+
+actions.chop.name=Chop Tree
+
+actions.search.name=Collect Scraps
+
+actions.quarrystone.name=Quarry Stone
+
+actions.quarryclay.name=Quarry Clay
+
+actions.quarryaluminum.name=Quarry Aluminum
+
+actions.quarryphosphorite.name=Quarry Phosphorus
+
+actions.minemetal.name=Mine Metal
+
+actions.mineminerals.name=Mine Minerals
+
+actions.minediamonds.name=Mine Diamonds
+
+actions.minebloodruby.name=Mine Blood Rubies
+
+actions.scienceresearch.name=Perform Experiments
+
+actions.occultresearch.name=Practice Occult
+
+actions.harvest.name=Harvest Crops
+
+actions.plant.name=Plant Seeds
+
+actions.water.name=Tend Field
+
+actions.feed.name=Feed Animals
+
+actions.sheer.name=Shear Wool
+
+actions.patrol.name=Patrol
+
+actions.findstone.name=Locate Stone Deposits
+
+actions.findclay.name=Locate Clay Deposits
+
+actions.findaluminum.name=Locate Aluminum Deposits
+
+actions.findphosphorite.name=Locate Phosphorite Deposits
+

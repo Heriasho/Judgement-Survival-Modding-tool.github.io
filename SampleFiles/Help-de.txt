@@ -1,0 +1,646 @@
+
+help.base.elements.titletext.type=title
+help.base.elements.titletext.font=TungusFont_Tinet
+help.base.elements.titletext.align=UpperCenter
+help.base.elements.titletext.fontsize=32
+help.base.elements.titletext.minheight=42
+help.base.elements.titletext.underline=true
+
+help.base.elements.helptext.type=text
+help.base.elements.helptext.align=UpperLeft
+help.base.elements.helptext.fontsize=18
+
+help.base.elements.headertext.parents=help.base.elements.helptext
+help.base.elements.headertext.font=TungusFont_Tinet
+help.base.elements.headertext.fontsize=24
+help.base.elements.headertext.minheight=34
+
+help.base.elements.image.type=image
+
+help.entity.createtasks.title=Aufgaben erstellen
+
+help.entity.createtasks.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.createtasks.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.createtasks.pages.1.elements.2.text=Überlebende suchen sich ihre eigenen Aufgaben, sobald diese erstellt sind.
+
+help.entity.createtasks.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.createtasks.pages.1.elements.3.text=Sammle Holz, indem du auf einen Baum linksklickst und „Baum fällen“ wählst.
+
+help.entity.createtasks.pages.1.elements.4.parents=help.base.elements.image
+help.entity.createtasks.pages.1.elements.4.sprite=help_choptree
+
+help.entity.createtasks.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.createtasks.pages.1.elements.5.text=Es gibt im Spiel viele interaktive Objekte.
+
+help.entity.createtasks.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.createtasks.pages.2.elements.1.text=Um Bau- oder Handwerksaufgaben zu verteilen, öffne die Menüs „Bauen“ oder „Handwerk“.
+
+help.entity.createtasks.pages.2.elements.2.parents=help.base.elements.image
+help.entity.createtasks.pages.2.elements.2.sprite=help_toolbartasks
+
+help.entity.camera.title=Kamerabewegung
+
+help.entity.camera.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.camera.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.camera.pages.1.elements.2.text=Bewege die Kamera durch Bewegen des Mauszeigers an die Ränder des Bildschirms oder mit den WASD-Tasten auf der Tastatur.
+
+help.entity.camera.pages.1.elements.3.parents=help.base.elements.image
+help.entity.camera.pages.1.elements.3.sprite=help_arrows
+
+help.entity.camera.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.camera.pages.1.elements.4.text=Das Sichtfeld kann auch durch Halten der mittleren Maustaste gezogen werden.
+
+help.entity.camera.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.camera.pages.2.elements.1.text=Benutze das Mausrad zum Hinein- oder Herauszoomen.
+
+help.entity.camera.pages.2.elements.2.parents=help.base.elements.image
+help.entity.camera.pages.2.elements.2.sprite=help_zoom_middlemouse
+
+help.entity.areatasks.title=Mehrere Aufgaben erstellen
+
+help.entity.areatasks.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.areatasks.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.areatasks.pages.1.elements.2.text=Manchmal werden mehrere Aufgaben desselben Typs benötigt, wie etwa das Fällen von Bäumen. Um verfügbare Optionen anzuzeigen, öffne das Fenster „Aufgaben erstellen“.
+
+help.entity.areatasks.pages.1.elements.3.parents=help.base.elements.image
+help.entity.areatasks.pages.1.elements.3.sprite=help_actionsbutton
+
+help.entity.areatasks.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.areatasks.pages.2.elements.1.text=Wähle einen Aufgabentyp aus und klicke und ziehe einen Rahmen um das gewünschte Gebiet. Aufgaben werden für jedes passende Objekt im festgelegten Bereich erstellt.
+
+help.entity.areatasks.pages.2.elements.2.parents=help.base.elements.image
+help.entity.areatasks.pages.2.elements.2.sprite=help_actionareaselect_~0-5
+help.entity.areatasks.pages.2.elements.2.fps=2
+
+help.entity.areatasks.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.areatasks.pages.2.elements.3.text=Du kannst mit derselben Methode mehrere Aufgaben abbrechen: Wähle einfach die Option „Abbrechen“ aus der Aufgabenliste.
+
+help.entity.building.title=Gebäude
+
+help.entity.building.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.building.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.building.pages.1.elements.2.text=Um Bauaufgaben zu erstellen, wähle ein Objekt und dann einen Ort zum Platzieren. Manche Objekte können mit der Komma- oder Punkt-Tasten gedreht werden.
+
+help.entity.building.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.building.pages.1.elements.3.text=Um mehrere gleiche Objekte zu bauen, halte beim Platzieren die Shift-Taste gedrückt.
+
+help.entity.building.pages.1.elements.4.parents=help.base.elements.image
+help.entity.building.pages.1.elements.4.sprite=help_shiftkey
+
+help.entity.building.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.building.pages.1.elements.5.text=Manche Objekte können gezogen werden, um einen ganzen Bereich auszufüllen.
+
+help.entity.building.pages.1.elements.6.parents=help.base.elements.image
+help.entity.building.pages.1.elements.6.sprite=help_builddrag
+help.entity.building.pages.1.elements.6.preferredheight=200
+
+help.entity.building.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.building.pages.2.elements.1.text=Einige Objekte können nur an bestimmten Orten gebaut werden, wie etwa Minen, die auf Ressourcen gebaut werden oder Betten, die nur in Innenräumen gebaut werden können.
+
+help.entity.building.pages.2.elements.2.parents=help.base.elements.image
+help.entity.building.pages.2.elements.2.sprite=help_buildingrequirement
+
+help.entity.building.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.building.pages.2.elements.3.text=Verfügbare Positionen werden beim Platzieren des Gebäudes hervorgehoben.
+
+help.entity.building.pages.2.elements.4.parents=help.base.elements.image
+help.entity.building.pages.2.elements.4.sprite=help_buildavailability
+
+help.entity.combat.title=Kampf
+
+help.entity.combat.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.combat.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.2.text=Im Kampf werden Überlebende direkt kontrolliert.
+
+help.entity.combat.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.3.text=Überlebende greifen Gegner in ihrer Reichweite an, bewegen sich oder verfolgen Gegner jedoch nur auf Befehl.
+
+help.entity.combat.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.4.text=Linksklicke auf einen Überlebenden oder sein Porträt, um ihn auszuwählen. Nach der Auswahl kann per Rechtsklick der Befehl zum Angriff oder zum Bewegen gegeben werden. 
+
+help.entity.combat.pages.1.elements.5.parents=help.base.elements.image
+help.entity.combat.pages.1.elements.5.sprite=help_selectsurvivor
+
+help.entity.combat.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.6.text=Denke daran, dass Befehle auch während das Spiel pausiert gegeben werden können. Die Leertaste pausiert das Spiel und setzt es wieder fort.
+
+help.entity.combat.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.combat.pages.2.elements.1.text=Wähle das gesamte Team mit der Q-Taste oder halte Shift und klicke, um an- oder abzuwählen. Mit Linksklick und Ziehen eines Rahmens werden alle Überlebenden in dem entsprechenden Gebiet ausgewählt.
+
+help.entity.combat.pages.2.elements.2.parents=help.base.elements.image
+help.entity.combat.pages.2.elements.2.sprite=help_multiselect_~0-5
+help.entity.combat.pages.2.elements.2.fps=2
+
+help.entity.combat.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.combat.pages.2.elements.3.text=Sind Überlebende ausgewählt, wird die Trefferchance unter den Gegnern angezeigt.
+
+help.entity.combat.pages.2.elements.4.parents=help.base.elements.image
+help.entity.combat.pages.2.elements.4.sprite=help_hitchance
+
+help.entity.rescue.title=Rettungsmissionen
+
+help.entity.rescue.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.rescue.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.rescue.pages.1.elements.2.text=In Rettungsmissionen musst du einen gefangenen Überlebenden finden, befreien und dich schnell zurückziehen.
+
+help.entity.rescue.pages.1.elements.3.parents=help.base.elements.image
+help.entity.rescue.pages.1.elements.3.sprite=help_trappedsurvivor
+
+help.entity.rescue.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.rescue.pages.1.elements.4.text=Hast du das Ziel gefunden, wähle einen Überlebenden und rechtsklicke, um mit der Befreiung zu beginnen. Überlebende mit einem Bonus auf Plündern können diese Aktion schneller ausführen.
+
+help.entity.rescue.pages.1.elements.5.parents=help.base.elements.image
+help.entity.rescue.pages.1.elements.5.sprite=help_dorescue
+
+help.entity.rescue.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.rescue.pages.2.elements.1.text=Die Befreiung braucht Zeit und Gegner bemerken den Versuch. Alle Gegner auf der Karte werden dich angreifen und du kannst damit rechnen, dass sie Verstärkung erhalten. Beschütze den Überlebenden, der die Befreiung durchführt und ziehe dich so bald wie möglich zurück.
+
+help.entity.rescue.pages.2.elements.2.parents=help.base.elements.image
+help.entity.rescue.pages.2.elements.2.sprite=help_rescuing
+
+help.entity.rescue.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.rescue.pages.2.elements.3.text=Versuche, den befreienden Überlebenden nicht zu bewegen, sonst muss er von vorn anfangen, was weiteren Dämonen die Zeit gibt, sich zu nähern.
+
+help.entity.scavenge.title=Plünderungsmissionen
+
+help.entity.scavenge.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.scavenge.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.scavenge.pages.1.elements.2.text=Während einer Plünderungsmissionen suchst du nach Kisten mit Beute und versuchst gleichzeitig, Gegnern in dem Gebiet aus dem Weg zu gehen.
+
+help.entity.scavenge.pages.1.elements.3.parents=help.base.elements.image
+help.entity.scavenge.pages.1.elements.3.sprite=help_lootcrate
+
+help.entity.scavenge.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.scavenge.pages.1.elements.4.text=Findest du eine Beutekiste, wähle einen Überlebenden und rechtsklicke, um den Inhalt zu plündern. Überlebende mit einem Bonus auf Plündern können diese Aktion schneller ausführen.
+
+help.entity.scavenge.pages.1.elements.5.parents=help.base.elements.image
+help.entity.scavenge.pages.1.elements.5.sprite=help_looting
+
+help.entity.scavenge.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.scavenge.pages.2.elements.1.text=Felder, die sich im Sichtfeld des Gegners befinden, sind mit einem Gefahrensymbol gekennzeichnet. Erblickt ein Gegner einen Überlebenden, wird diese Gegnergruppe aggressiv und greift dich an.
+
+help.entity.scavenge.pages.2.elements.2.parents=help.base.elements.image
+help.entity.scavenge.pages.2.elements.2.sprite=help_danger
+
+help.entity.scavenge.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.scavenge.pages.2.elements.3.text=Du kannst nur das Sichtfeld sichtbarer Gegner sehen, sei bei Ecken also vorsichtig.
+
+help.entity.scavenge.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.scavenge.pages.2.elements.4.text=Besiegst du alle Gegner im Bereich, sammelst du automatisch alle verbleibende Beute und die Mission ist beendet.
+
+help.entity.combat2.title=Kampftaktiken
+
+help.entity.combat2.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.combat2.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.combat2.pages.1.elements.2.text=Da die Gegner im Laufe der Zeit stärker werden, bedarf es ausgefeiltererTaktiken, um zu überleben.
+
+help.entity.combat2.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.combat2.pages.1.elements.3.text=Deckung
+
+help.entity.combat2.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.combat2.pages.1.elements.4.text=Manche Objekte bieten Deckung. Steht ein Überlebender neben einem solchen Objekt, verbessern sich Zielgenauigkeit und Ausweichen gegen Feinde in der jeweiligen Richtung. Deckung hat keine Auswirkungen auf Nahkampfangriffe.
+
+help.entity.combat2.pages.1.elements.5.parents=help.base.elements.image
+help.entity.combat2.pages.1.elements.5.sprite=help_cover
+
+help.entity.combat2.pages.1.elements.6.parents=help.base.elements.headertext
+help.entity.combat2.pages.1.elements.6.text=Fernkampf & Nahkampf
+
+help.entity.combat2.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.combat2.pages.1.elements.7.text=Fernkampfangriffe erhalten einen Abzug, wenn sie in Nahkampfreichweite ausgeführt werden und Nahkampfangriffe erhalten Boni gegen Fernkampfeinheiten.
+
+help.entity.combat2.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.combat2.pages.2.elements.1.text=Flankieren
+
+help.entity.combat2.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.combat2.pages.2.elements.2.text=Angriffe von hinten und den Seiten erhöhen Schaden und Genauigkeit erheblich.
+
+help.entity.combat2.pages.2.elements.3.parents=help.base.elements.image
+help.entity.combat2.pages.2.elements.3.sprite=help_flanking
+
+help.entity.combat2.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.combat2.pages.2.elements.4.text=Gegner machen ebenfalls von diesen Taktiken Gebrauch. Stelle sicher, dass Überlebende in Richtung ihrer Angreifer blicken. 
+
+help.entity.awareness.title=Aufmerksamkeit und Gegnerfortschritt
+
+help.entity.awareness.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.awareness.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.awareness.pages.1.elements.2.text=Es gibt viele Faktoren, die in Judgment die Schwierigkeit von Kämpfen beeinflussen.
+
+help.entity.awareness.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.awareness.pages.1.elements.3.text=Gegnerfortschritt
+
+help.entity.awareness.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.awareness.pages.1.elements.4.text=Mit der Zeit breitet sich der Befall der Dämonen immer weiter aus und die Feinde werden stärker. Später im Spiel werden die Gruppen, auf die du triffst, zahlreicher und stärker sein.
+
+help.entity.awareness.pages.1.elements.5.parents=help.base.elements.image
+help.entity.awareness.pages.1.elements.5.sprite=help_enemydifficulty
+
+help.entity.awareness.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.awareness.pages.2.elements.1.text=Aufmerksamkeit
+
+help.entity.awareness.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.awareness.pages.2.elements.2.text=Gegner werden mit der Zeit auf deine Anwesenheit aufmerksam. Größere Bevölkerungen sind schwieriger zu verstecken und erzeugen mehr Aufmerksamkeit.
+
+help.entity.awareness.pages.2.elements.3.parents=help.base.elements.image
+help.entity.awareness.pages.2.elements.3.sprite=help_awareness
+
+help.entity.awareness.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.awareness.pages.2.elements.4.text=Je höher die Aufmerksamkeit, desto höher ist die Chance, dass der Feind deine Kolonie mit stärkeren Truppen überfällt.
+
+help.entity.awareness.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.awareness.pages.2.elements.5.text=Die Aufmerksamkeit wird durch viele andere Elemente beeinflusst, wie etwa Forschung und Missionen. Lass deine Kolonie nicht schneller wachsen, als du deine Anwesenheit verbergen kannst, sonst könntest du überwältigt werden.
+
+help.entity.awareness.pages.2.elements.6.parents=help.base.elements.image
+help.entity.awareness.pages.2.elements.6.sprite=help_awarenessresearch
+
+help.entity.controls.title=Steuerung
+
+help.entity.controls.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.controls.pages.1.elements.2.parents=help.base.elements.headertext
+help.entity.controls.pages.1.elements.2.text=Spielgeschwindigkeit
+
+help.entity.controls.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.controls.pages.1.elements.3.text=Beschleunige das Spiel durch Klicken auf die Geschwindigkeitsknöpfe im Zeit-Feld. Befehle können erteilt werden, wenn das Spiel pausiert.
+
+help.entity.controls.pages.1.elements.4.parents=help.base.elements.image
+help.entity.controls.pages.1.elements.4.sprite=help_speed
+
+help.entity.controls.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.controls.pages.1.elements.5.text=Die Leertaste pausiert das Spiel und setzt es wieder fort und die Tasten „+“ und „-“ beschleunigen und verlangsamen die Geschwindigkeit.
+
+help.entity.controls.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.controls.pages.2.elements.1.text=Tastenkürzel
+
+help.entity.controls.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.controls.pages.2.elements.2.text=Beim Umgang mit der Benutzeroberfläche (etwa beim Platzieren von Gebäuden) kannst du mit Rechtsklick oder mit der Escape-Taste abbrechen.
+
+help.entity.controls.pages.2.elements.3.parents=help.base.elements.image
+help.entity.controls.pages.2.elements.3.sprite=help_esc_rightmouse
+
+help.entity.controls.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.controls.pages.2.elements.4.text=Ein offenes Fenster, wie etwa dieses Hilfe-Fenster, kann mit der Escape-Taste oder einem Rechtsklick geschlossen werden.
+
+help.entity.survivorinfo.title=Überlebenden-Information
+
+help.entity.survivorinfo.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.survivorinfo.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.1.elements.2.text=Wähle einen Überlebenden, um mehr Informationen über die Person anzuzeigen.
+
+help.entity.survivorinfo.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.survivorinfo.pages.1.elements.3.text=Ausrüstung
+
+help.entity.survivorinfo.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.1.elements.4.text=Rüste Überlebende aus, indem du auf die Gegenstandsslots klickst und einen Gegenstand auswählst.
+
+help.entity.survivorinfo.pages.1.elements.5.parents=help.base.elements.image
+help.entity.survivorinfo.pages.1.elements.5.sprite=help_equipment
+
+help.entity.survivorinfo.pages.1.elements.6.parents=help.base.elements.headertext
+help.entity.survivorinfo.pages.1.elements.6.text=Fähigkeiten
+
+help.entity.survivorinfo.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.1.elements.7.text=Jeder Überlebende startet mit einigen Fähigkeiten, die verschiedene Boni und Abzüge mit sich bringen. Klicke auf die Schaltfläche „Fähigkeiten“, um die Fähigkeiten und ihre Effekte zu sehen.
+
+help.entity.survivorinfo.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.survivorinfo.pages.2.elements.1.text=Berufe und Levels
+
+help.entity.survivorinfo.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.2.elements.2.text=Jeder Überlebende hat einen Beruf, der es ihm erlaubt, neue Fähigkeiten zu erlernen, wenn er ein höheres Level erreicht. Überlebende bekommen Erfahrung wenn sie Aufgaben erfüllen. Wenn sie ein Level aufsteigen, kannst du je nach Beruf eine von mehreren neuen Fähigkeiten auswählen.
+
+help.entity.survivorinfo.pages.2.elements.3.parents=help.base.elements.image
+help.entity.survivorinfo.pages.2.elements.3.sprite=help_skills
+
+help.entity.survivorinfo.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.2.elements.4.text=Überlebende sammeln schneller Erfahrung, wenn sie Aufgaben erfüllen, die sie aufgrund ihres Berufs bevorzugen.
+
+help.entity.research.title=Forschen
+
+help.entity.research.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.research.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.research.pages.1.elements.2.text=Durch Forschung kannst du neue Bau- und Handwerksoptionen freischalten. Es stehen mehrere Forschungskategorien zur Auswahl.
+
+help.entity.research.pages.1.elements.3.parents=help.base.elements.image
+help.entity.research.pages.1.elements.3.sprite=help_researchfields
+
+help.entity.research.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.research.pages.1.elements.4.text=Das Freischalten durch Forschung kostet Forschungspunkte, die erzeugt werden, wenn Überlebende am Experimentiertisch oder in der okkulten Bibliothek experimentieren.
+
+help.entity.research.pages.1.elements.5.parents=help.base.elements.image
+help.entity.research.pages.1.elements.5.sprite=help_researchtask
+
+help.entity.research.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.research.pages.2.elements.1.text=Einige zentrale Forschungsgegenstände benötigen spezielle Forschungsmaterialien, die nur in Plünderungsmissionen beschafft werden können. Diese sind sehr häufig in Stadt-Biomen zu finden
+
+help.entity.research.pages.2.elements.2.parents=help.base.elements.image
+help.entity.research.pages.2.elements.2.sprite=help_researchmaterialskits
+
+help.entity.craft.title=Handwerk
+
+help.entity.craft.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.craft.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.craft.pages.1.elements.2.text=Überlebende können fortgeschrittene Materialien, Nahrungsmittel und Ausrüstungsgegenstände herstellen. Gegenstände werden an Arbeitsplätzen wie der Werkbank hergestellt.
+
+help.entity.craft.pages.1.elements.3.parents=help.base.elements.image
+help.entity.craft.pages.1.elements.3.sprite=help_craftingtask
+
+help.entity.craft.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.craft.pages.2.elements.1.text=Verschiedene Gegenstände erfordern verschiedene Arbeitsplätze und Materialien.
+
+help.entity.craft.pages.2.elements.2.parents=help.base.elements.image
+help.entity.craft.pages.2.elements.2.sprite=help_craftingcosts
+
+help.entity.craft.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.craft.pages.2.elements.3.text=Linksklicke auf einen Gegenstand, um ihn herzustellen und halte die Shift-Taste, um ihn 10x herzustellen. Rechtsklicke, um mehr Informationen anzuzeigen und die automatische Herstellung einzurichten.
+
+help.entity.craft.pages.2.elements.4.parents=help.base.elements.image
+help.entity.craft.pages.2.elements.4.sprite=help_craftingamount
+
+help.entity.craft.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.craft.pages.2.elements.5.text=Neue Handwerksoptionen werden verfügbar, sobald die entsprechende Forschung fertiggestellt ist.
+
+help.entity.toolbar.title=Werkzeugleiste
+
+help.entity.toolbar.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.toolbar.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.toolbar.pages.1.elements.2.text=Die Werkzeugleiste wird verwendet, um auf verschiedene Spielfunktionen zuzugreifen.
+
+help.entity.toolbar.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.toolbar.pages.1.elements.3.text=Manche Aktionen können nur außerhalb des Basisgebiets ausgeführt werden. Mit der „Welt“-Schaltfläche wechselst du zwischen Weltkarte und Basislager.
+
+help.entity.toolbar.pages.1.elements.4.parents=help.base.elements.image
+help.entity.toolbar.pages.1.elements.4.sprite=help_worldbutton
+
+help.entity.toolbar.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.toolbar.pages.1.elements.5.text=Die Schaltflächen „Bauen“, „Handwerk“ und „Aufgabe erstellen“ werden verwendet, um verschiedene Aufgaben zu erstellen.
+
+help.entity.toolbar.pages.1.elements.6.parents=help.base.elements.image
+help.entity.toolbar.pages.1.elements.6.sprite=help_createtasksbuttons
+
+help.entity.toolbar.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.toolbar.pages.2.elements.1.text=Das Inventarfenster zeigt alle Gegenstände an, die in der Basis gelagert sind.
+
+help.entity.toolbar.pages.2.elements.2.parents=help.base.elements.image
+help.entity.toolbar.pages.2.elements.2.sprite=help_inventorybutton
+
+help.entity.toolbar.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.toolbar.pages.2.elements.3.text=Mithilfe der „Kolonieverwaltung“ kannst du Nahrung rationieren und Aufgaben verwalten.
+
+help.entity.toolbar.pages.2.elements.4.parents=help.base.elements.image
+help.entity.toolbar.pages.2.elements.4.sprite=help_tasksbutton
+
+help.entity.toolbar.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.toolbar.pages.2.elements.5.text=Die Schaltfläche „Mission“ zeigt die aktuelle Mission an, die die Handlung voranbringt.
+
+help.entity.toolbar.pages.2.elements.6.parents=help.base.elements.image
+help.entity.toolbar.pages.2.elements.6.sprite=help_quests
+
+help.entity.worldview.title=Weltkarte
+
+help.entity.worldview.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.worldview.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.worldview.pages.1.elements.2.text=Dies ist die Weltkarte. Du kannst verschiedene Orte darauf sehen – einen Bauernhof, eine Basis, eine Stadt usw. Du kannst außerdem Missionen und besondere Kartenereignisse sehen, die an die Karte angeheftet sind.
+
+help.entity.worldview.pages.1.elements.3.parents=help.base.elements.image
+help.entity.worldview.pages.1.elements.3.sprite=help_maplocations
+
+help.entity.worldview.pages.1.elements.4.parents=help.base.elements.headertext
+help.entity.worldview.pages.1.elements.4.text=Einsatzteams
+
+help.entity.worldview.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.worldview.pages.1.elements.5.text=Überlebende bilden Einsatzteams, um die Karte zu erforschen und mit ihr zu interagieren. Klicke auf die Schaltfläche „Einsatzteam erstellen“, um eines zusammenzustellen.
+
+help.entity.worldview.pages.1.elements.6.parents=help.base.elements.image
+help.entity.worldview.pages.1.elements.6.sprite=help_taskforcebutton
+
+help.entity.worldview.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.worldview.pages.1.elements.7.text=Sobald du dies erledigt hast, kannst du ein Einsatzteam auswählen und ihm durch Rechtsklick auf die Karte Befehle erteilen. Klicke auf die Schaltfläche „Verwalten“, um mehr über das Team zu erfahren und es zu verwalten.
+
+help.entity.worldview.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.worldview.pages.2.elements.1.text=Biome
+
+help.entity.worldview.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.worldview.pages.2.elements.2.text=Deine Basis ist von Grasland umgeben, aber weiter weg gibt es noch andere Biome. Verschiedene Biome besitzen verschiedene Möglichkeiten zum Plündern. Aber Vorsicht, manche Biome beheimaten stärkere Dämonen, auf die du lieber nicht unvorbereitet treffen solltest.
+
+help.entity.worldview.pages.2.elements.3.parents=help.base.elements.image
+help.entity.worldview.pages.2.elements.3.sprite=help_biomes
+
+help.entity.worldview.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.worldview.pages.2.elements.4.text=Gegner werden außerdem stärker, je weiter du dich von deiner Basis entfernst.
+
+help.entity.taskforce.title=Einsatzteam
+
+help.entity.taskforce.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.taskforce.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.taskforce.pages.1.elements.2.text=Dies ist dein Einsatzteam Klicke auf „Verwalten“, um das Verwaltungsfenster zu öffnen, wo du die Mitglieder des Einsatzteams und die mitgeführte Beute sehen und sein Aussehen anpassen kannst.
+
+help.entity.taskforce.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.taskforce.pages.1.elements.3.text=Du kannst Überlebende hinzufügen und entfernen, solange sich das Einsatzteam auf dem Basisfeld befindet.
+
+help.entity.taskforce.pages.1.elements.4.parents=help.base.elements.image
+help.entity.taskforce.pages.1.elements.4.sprite=help_addremovesurvivors
+
+help.entity.taskforce.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.taskforce.pages.2.elements.1.text=Während sie sich in der Basis befinden, sind deine Einsatzteammitglieder für Basisaufgaben verfügbar und du musst sie nicht aus dem Einsatzteam entfernen. Verlässt das Einsatzteam das Gebiet der Basis, werden die Überlebenden von der Basiskarte entfernt.
+
+help.entity.taskforce.pages.2.elements.2.parents=help.base.elements.image
+help.entity.taskforce.pages.2.elements.2.sprite=help_basearea
+
+help.entity.taskforce.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.taskforce.pages.2.elements.3.text=Befindet sich ein Einsatzteam außerhalb der Basis, essen und trinken die Überlebenden automatisch aus den Basisvorräten.
+
+help.entity.needs.title=Bedürfnisse
+
+help.entity.needs.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.needs.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.2.text=Um effizient zu sein, müssen Überlebende regelmäßig essen und schlafen.
+
+help.entity.needs.pages.1.elements.3.parents=help.base.elements.image
+help.entity.needs.pages.1.elements.3.sprite=help_needs
+
+help.entity.needs.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.4.text=Solange Nahrung verfügbar ist, begeben sich hungrige Überlebende zum nächsten Esstisch, um ihren Hunger zu stillen
+
+help.entity.needs.pages.1.elements.5.parents=help.base.elements.image
+help.entity.needs.pages.1.elements.5.sprite=help_nutrition
+
+help.entity.needs.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.6.text=Überlebende essen nur zubereitete Nahrung. Sie essen eine Einheit aus jeder verfügbaren Nahrungskategorie und erhalten von jeder gegessenen Kategorie Boni.
+
+help.entity.needs.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.7.text=Halte den Mauszeiger über der Ernährungsleiste eines Überlebenden, um die derzeit aktiven Boni zu sehen.
+
+help.entity.needs.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.needs.pages.2.elements.1.text=Überlebende werden mit der Zeit müde. Müde Überlebende suchen sich ein freies Bett. Während sie schlafen, regeneriert sich ihre Gesundheit schneller.
+
+help.entity.needs.pages.2.elements.2.parents=help.base.elements.image
+help.entity.needs.pages.2.elements.2.sprite=help_sleep
+help.entity.needs.pages.2.elements.2.preferredheight=180
+
+help.entity.needs.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.needs.pages.2.elements.3.text=Trinkwasser ist überlebensnotwendig. Der Wasservorrat nimmt mit der Zeit ab und muss aus dem Brunnen aufgefüllt werden.
+
+help.entity.needs.pages.2.elements.4.parents=help.base.elements.image
+help.entity.needs.pages.2.elements.4.sprite=help_water
+help.entity.needs.pages.2.elements.4.preferredheight=100
+
+help.entity.needs.pages.2.elements.5.parents=help.base.elements.headertext
+help.entity.needs.pages.2.elements.5.text=Abzüge
+
+help.entity.needs.pages.2.elements.6.parents=help.base.elements.helptext
+help.entity.needs.pages.2.elements.6.text=Müde Überlebende sind im Kampf sehr ineffizient. Haben sie Hunger oder Durst, verlieren Überlebende langsam Gesundheit und können sterben. Stelle sicher, dass du genügend Nahrung, Wasser und Betten besitzt.
+
+help.entity.colonymanagement.title=Kolonieverwaltung
+
+help.entity.colonymanagement.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.colonymanagement.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.1.elements.2.text=Dies ist das Fenster „Kolonieverwaltung“ Hier kannst du die Nahrungsverteilung einstellen und globale Boni sehen.
+
+help.entity.colonymanagement.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.colonymanagement.pages.1.elements.3.text=Rationieren
+
+help.entity.colonymanagement.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.1.elements.4.text=Lege fest, welche Arten von Nahrung Überlebende essen sollen. Ein Überlebender ist pro Mahlzeit eine Einheit von jedem Typ. Überlebende erhalten je nach gegessener Nahrungsmenge Boni.
+
+help.entity.colonymanagement.pages.1.elements.5.parents=help.base.elements.image
+help.entity.colonymanagement.pages.1.elements.5.sprite=help_rationing
+
+help.entity.colonymanagement.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.1.elements.6.text=Nahrungsboni werden für jeden Überlebenden jedes Mal neu berechnet, wenn dieser isst. Halte den Mauszeiger über dem Nahrungstyp-Zähler, um zu sehen, welche Boni zugewiesen werden, wenn ein Überlebender isst.
+
+help.entity.colonymanagement.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.colonymanagement.pages.2.elements.1.text=Boni
+
+help.entity.colonymanagement.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.2.elements.2.text=Die globalen Boni zeigen eine Liste aller Boni (oder Abzüge), die derzeit aktiv sind und alle Überlebenden betreffen. Dazu gehören passive Boni aus Forschungen, Boni oder Abzüge von zufälligen Ereignissen, Effekte von Ritualen und mehr.
+
+help.entity.colonymanagement.pages.2.elements.3.parents=help.base.elements.image
+help.entity.colonymanagement.pages.2.elements.3.sprite=help_globalbonuses
+
+help.entity.colonymanagement.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.2.elements.4.text=Nahrungsboni erhalten Überlebende einzeln, wenn sie essen. Diese tauchen nicht in den globalen Boni auf.
+
+help.entity.autocraftgather.title=Ressourcen-Automatisierung
+
+help.entity.autocraftgather.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.autocraftgather.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.2.text=Du kannst die Produktion von Ressourcen mithilfe der automatischen Herstellung und Sammel-Limits automatisieren.
+
+help.entity.autocraftgather.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.autocraftgather.pages.1.elements.3.text=Limits setzen
+
+help.entity.autocraftgather.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.4.text=Klicke mit der rechten Maustaste auf einen Gegenstand im Inventar oder im Handwerk-Fenster, um die Gegenstandsinformationen zu öffnen. In diesem Fenster kannst du Sammel-Limits oder automatische Herstellung aktivieren und die Limits einstellen.
+
+help.entity.autocraftgather.pages.1.elements.5.parents=help.base.elements.image
+help.entity.autocraftgather.pages.1.elements.5.sprite=help_autocraft
+
+help.entity.autocraftgather.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.6.text=Das Minimum und Maximum bestimmen, wann Überlebende diese Ressource produzieren werden.
+
+help.entity.autocraftgather.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.7.text=Sie beginnen mit der Produktion der Ressource, sobald im Inventar weniger als das Minimum vorhanden ist, und produzieren sie so lange, bis das Maximum erreicht ist. Danach hören sie auf.
+
+help.entity.autocraftgather.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.2.elements.1.text=Damit die Überlebenden nicht ständig hin- und herlaufen, werden sie erst dann erneut mit der Produktion beginnen, wenn das Inventar wieder weniger als das Minimum enthält.
+
+help.entity.autocraftgather.pages.2.elements.2.parents=help.base.elements.headertext
+help.entity.autocraftgather.pages.2.elements.2.text=Automatische Herstellung
+
+help.entity.autocraftgather.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.2.elements.3.text=Ist dies aktiviert, werden Handwerkssaufgaben automatisch anhand der festgelegten Limits erstellt, solange die Rohmaterialien verfügbar sind.
+
+help.entity.autocraftgather.pages.2.elements.4.parents=help.base.elements.headertext
+help.entity.autocraftgather.pages.2.elements.4.text=Sammel-Limits
+
+help.entity.autocraftgather.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.2.elements.5.text=Ist dies aktiviert, werden Überlebende Sammelaufgaben nur anhand der festgelegten Limits durchführen. Du musst die Sammelaufgaben weiterhin manuell vergeben, diese Einstellung limitiert nur, wann die Überlebenden diese Aufgaben tatsächlich ausführen.
+
+help.entity.survivorai.title=Überlebenden-KI
+
+help.entity.survivorai.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.survivorai.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.survivorai.pages.1.elements.2.text=Überlebende wählen ihre eigenen Aufgaben, aber eine Feinabstimmung ist möglich.
+
+help.entity.survivorai.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.survivorai.pages.1.elements.3.text=Öffne aus dem Überlebenden-Infoblatt das Fenster „Prioritäten“, um Aufgaben für jeden Überlebenden zu priorisieren.
+
+help.entity.survivorai.pages.1.elements.4.parents=help.base.elements.image
+help.entity.survivorai.pages.1.elements.4.sprite=help_prioritiesbutton
+
+help.entity.survivorai.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.survivorai.pages.1.elements.5.text=Überlebende können angewiesen werden, sofort bestimmte Aufgaben auszuführen. Wähle einen Überlebenden und rechtsklicke auf ein Objekt mit einer bestehenden Aufgabe und wähle die Option „Zuweisen“.
+
+help.entity.survivorai.pages.1.elements.6.parents=help.base.elements.image
+help.entity.survivorai.pages.1.elements.6.sprite=help_assigntask
+
+help.entity.survivorai.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.survivorai.pages.2.elements.1.text=Durch Rechtsklicken auf ein leeres Feld kannst du Überlebende anweisen, sich dorthin zu bewegen. Überlebende bleiben eine kurze Zeit an ihrem Zielort und setzen dann nach kurzer Zeit ihre Aufgabe fort.
+
+help.entity.survivorai.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.survivorai.pages.2.elements.2.text=Um zu verhindern, dass ein Überlebender neue Aufgaben annimmt, deaktiviere die Option „Aufgaben automatisch zuweisen“ im Überlebenden-Infoblatt.
+
+help.entity.survivorai.pages.2.elements.3.parents=help.base.elements.image
+help.entity.survivorai.pages.2.elements.3.sprite=help_aicontrol
+
+help.entity.survivorai.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.survivorai.pages.2.elements.4.text=Vorsicht: Dies führt dazu, dass der Überlebende nichts tut, wozu er nicht explizit angewiesen wurde, einschließlich Essen oder Schlafen.
+
+help.entity.healing.title=Heilung
+
+help.entity.healing.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.healing.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.healing.pages.1.elements.2.text=Überlebende werden auf der Krankenstation und mithilfe medizinischer Vorräte viel schneller geheilt.
+
+help.entity.healing.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.healing.pages.1.elements.3.text=Die Heilung von Überlebenden benötigt Medizin.
+
+help.entity.healing.pages.1.elements.4.parents=help.base.elements.image
+help.entity.healing.pages.1.elements.4.sprite=help_healingmedicinecost
+
+help.entity.healing.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.healing.pages.2.elements.1.text=Wähle die Überlebenden, die Heilung benötigen und stelle mit dem Gesundheitsregler die zu heilende Menge an Gesundheit ein.
+
+help.entity.healing.pages.2.elements.2.parents=help.base.elements.image
+help.entity.healing.pages.2.elements.2.sprite=help_healamount
+
+help.entity.healing.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.healing.pages.2.elements.3.text=Solange sie gesundgepflegt werden, schlafen Überlebende in den verfügbaren Betten der Krankenstation.
+
+help.entity.rituals.title=Rituale
+
+help.entity.rituals.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.rituals.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.rituals.pages.1.elements.2.text=Mit dem Freischalten okkulter Forschung werden uralte Rituale verfügbar. Diese Rituale bieten große Vorteile, sind aber meist teuer und ihre Durchführung dauert lang.
+
+help.entity.rituals.pages.1.elements.3.parents=help.base.elements.image
+help.entity.rituals.pages.1.elements.3.sprite=help_ritualaction
+
+help.entity.rituals.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.rituals.pages.2.elements.1.text=Jedes Ritual muss an einem anderen Ort durchgeführt werden, wie etwa einem magischen Kreis oder verschiedenen Altären.
+
+help.entity.rituals.pages.2.elements.2.parents=help.base.elements.image
+help.entity.rituals.pages.2.elements.2.sprite=help_performritual
+

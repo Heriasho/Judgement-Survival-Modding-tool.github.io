@@ -1,0 +1,76 @@
+automata.config.elements.count=3
+automata.config.spawn.1=0.07
+automata.config.spawn.2=0.06
+automata.config.spawn.3=0.2
+
+
+#Format: <original>,<condition neighbour type>:<condition amount of neighbour>,<becomes type>,<chance that will become>
+
+#Grow elements
+automata.runs.1.rules.1=0,1:>2,1,1
+automata.runs.1.rules.2=0,2:>2,2,1
+automata.runs.1.rules.3=0,3:>2,3,1
+automata.runs.1.rules.4=1,2:>5,2,1
+automata.runs.1.rules.5=1,3:>5,3,1
+automata.runs.1.rules.6=2,1:>5,1,1
+automata.runs.1.rules.7=2,3:>5,3,1
+automata.runs.1.rules.8=3,1:>5,1,1
+automata.runs.1.rules.9=3,2:>5,2,1
+automata.runs.1.iterations=15
+
+#Remove singles
+#automata.runs.2.rules.1=1,1:<3,3,1
+automata.runs.2.rules.2=2,2:<3,3,1
+automata.runs.2.rules.3=0,,3,1
+automata.runs.2.iterations=10
+
+#Fill gaps
+automata.runs.3.rules.1=3,1:>4,1,1
+automata.runs.3.rules.2=3,2:>4,2,1
+automata.runs.3.iterations=5
+
+#Generate Clay
+automata.runs.4.rules.1=any,,4,0.0015
+automata.runs.4.iterations=1
+
+#Expand Clay
+automata.runs.5.rules.1=any,4:>0,4,0.3
+automata.runs.5.iterations=2
+
+#Fill Clay gaps
+automata.runs.6.rules.1=any,4:>2,4,1
+automata.runs.6.iterations=1
+
+automata.runs.7.rules.1=3,1:>1,1,1
+automata.runs.7.iterations=4
+
+automata.config.elements.entity.1.object.tree=1
+automata.config.elements.entity.1.min=30
+automata.config.elements.entity.2.object.rock=1
+automata.config.elements.entity.2.min=12
+automata.config.elements.entity.4.object.claymine=1
+automata.config.elements.entity.4.min=8
+
+
+
+
+
+
+
+
+# Clusters
+clusters.debris.clustercount=5-9
+clusters.debris.objectspercluster=1-4
+clusters.debris.totalobjects=14-16
+clusters.debris.clusterseparation=8
+
+clusters.metals.clustercount=2-4
+clusters.metals.objectspercluster=1-4
+clusters.metals.totalobjects=12-14
+clusters.metals.clusterseparation=20
+
+clusters.minerals.clustercount=2-3
+clusters.minerals.objectspercluster=1-4
+clusters.minerals.totalobjects=6-8
+clusters.minerals.clusterseparation=20
+

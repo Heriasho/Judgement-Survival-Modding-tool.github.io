@@ -1,0 +1,145 @@
+# Raw perlin maps. Value is map frequency (higher value, more detailed)
+
+worldgen.perlin.mapsfrequency.wtr1=3
+worldgen.perlin.mapsfrequency.wtr2=5
+worldgen.perlin.mapsfrequency.wtr3=7
+
+worldgen.perlin.mapsfrequency.cty1=6
+worldgen.perlin.mapsfrequency.cty2=6
+worldgen.perlin.mapsfrequency.cty3=9
+
+worldgen.perlin.mapsfrequency.dsrt1=3
+worldgen.perlin.mapsfrequency.dsrt2=5
+worldgen.perlin.mapsfrequency.dsrt3=7
+
+worldgen.perlin.mapsfrequency.tndr1=3
+worldgen.perlin.mapsfrequency.tndr2=5
+worldgen.perlin.mapsfrequency.tndr3=7
+
+# Combined perlin maps. Each entry includes a map to combine and it's weight in the combined result
+# In the example below we combine noise1, noise2 and noise3 with weights 0.5, 0.3 and 0.2 respectively, into a new map called combinedmaps
+# Can use combined maps as parameters too, but they must appear before
+
+worldgen.perlin.combinedmaps.wtr.wtr1=0.5
+worldgen.perlin.combinedmaps.wtr.wtr2=0.3
+worldgen.perlin.combinedmaps.wtr.wtr3=0.2
+
+worldgen.perlin.combinedmaps.cty.cty1-norm=0.6
+worldgen.perlin.combinedmaps.cty.cty2-norm=0.3
+worldgen.perlin.combinedmaps.cty.cty3-norm=0.1
+
+worldgen.perlin.combinedmaps.dsrt.dsrt1-norm=0.5
+worldgen.perlin.combinedmaps.dsrt.dsrt2-norm=0.3
+worldgen.perlin.combinedmaps.dsrt.dsrt3-norm=0.2
+
+worldgen.perlin.combinedmaps.tndr.tndr1-norm=0.5
+worldgen.perlin.combinedmaps.tndr.tndr2-norm=0.3
+worldgen.perlin.combinedmaps.tndr.tndr3-norm=0.2
+
+# Biomes definition
+
+# Each biome has a "noisemin" and/or "noisemax" which is a list of noise maps and the minimum/maximum value required in that map to select this biome
+# Can also use "noisemin%" and "noisemax%" and define a percent of the *entire* map that should fit this biome. Tiles will only be selected out of remaining, unassigned tiles.
+# Add "-norm" to use a normalized perlin map instead of the raw values
+# The first biome that matches is selected, in case of several matches
+# If no biome matches, no object will be generated in that cell
+
+# The "objects" list defines the chance of spawning each object in each biome. Total chances should not exceed 1.
+
+worldgen.defaultbiomemap=game
+
+# Water
+worldgen.biomes.game.water.rules.1.distances.0.noisemax%.wtr-norm=0.1
+worldgen.biomes.game.water.rules.2.distances.0.noisemin%.wtr-norm=0.9
+
+# City
+worldgen.biomes.game.city.rules.1.distances.15.noisemin%.cty-norm=0.92
+worldgen.biomes.game.city.objects.hospital=0.1
+worldgen.biomes.game.city.objects.school=0.1
+worldgen.biomes.game.city.objects.residential=0.15
+worldgen.biomes.game.city.objects.factory=0.1
+worldgen.biomes.game.city.objects.supermarket=0.1
+worldgen.biomes.game.city.objects.church=0.05
+
+# Forest
+worldgen.biomes.game.deepforest.rules.1.distances.25.noisemin%.cty-norm=0
+worldgen.biomes.game.deepforest.rules.1.distances.25.noisemax%.cty-norm=0.03
+worldgen.biomes.game.deepforest.objects.hauntedglade=0.15
+worldgen.biomes.game.deepforest.objects.campsite=0.05
+worldgen.biomes.game.deepforest.objects.residential=0.04
+worldgen.biomes.game.deepforest.objects.supermarket=0.02
+worldgen.biomes.game.deepforest.objects.church=0.01
+worldgen.biomes.game.deepforest.objects.farm=0.03
+
+worldgen.biomes.game.forest.rules.1.distances.15.noisemin%.cty-norm=0
+worldgen.biomes.game.forest.rules.1.distances.15.noisemax%.cty-norm=0.15
+worldgen.biomes.game.forest.objects.campsite=0.08
+worldgen.biomes.game.forest.objects.residential=0.03
+worldgen.biomes.game.forest.objects.factory=0.04
+worldgen.biomes.game.forest.objects.supermarket=0.015
+worldgen.biomes.game.forest.objects.military=0.05
+worldgen.biomes.game.forest.objects.church=0.01
+worldgen.biomes.game.forest.objects.farm=0.02
+
+# Lava
+worldgen.biomes.game.lava.rules.1.distances.35.noisemin%.dsrt-norm=0.88
+worldgen.biomes.game.lava.rules.1.distances.35.noisemax%.dsrt-norm=1
+worldgen.biomes.game.lava.objects.ruins=0.1
+worldgen.biomes.game.lava.objects.residential=0.01
+worldgen.biomes.game.lava.objects.factory=0.01
+worldgen.biomes.game.lava.objects.supermarket=0.01
+worldgen.biomes.game.lava.objects.military=0.02
+worldgen.biomes.game.lava.objects.church=0.02
+
+# Desert
+worldgen.biomes.game.desert.rules.1.distances.18.noisemin%.dsrt-norm=0.4
+worldgen.biomes.game.desert.rules.1.distances.18.noisemax%.dsrt-norm=0.475
+worldgen.biomes.game.desert.rules.1.distances.40.noisemin%.dsrt-norm=0
+worldgen.biomes.game.desert.rules.1.distances.40.noisemax%.dsrt-norm=1
+worldgen.biomes.game.desert.objects.miningtown=0.08
+worldgen.biomes.game.desert.objects.residential=0.03
+worldgen.biomes.game.desert.objects.factory=0.03
+worldgen.biomes.game.desert.objects.supermarket=0.015
+worldgen.biomes.game.desert.objects.military=0.075
+worldgen.biomes.game.desert.objects.church=0.01
+worldgen.biomes.game.desert.objects.farm=0.01
+
+# Grassland - rest
+worldgen.biomes.game.grassland.objects.residential=0.03
+worldgen.biomes.game.grassland.objects.factory=0.03
+worldgen.biomes.game.grassland.objects.supermarket=0.01
+worldgen.biomes.game.grassland.objects.military=0.015
+worldgen.biomes.game.grassland.objects.church=0.01
+worldgen.biomes.game.grassland.objects.farm=0.07
+
+
+
+# Must have locations
+
+worldgen.staticgen.base.object=base
+worldgen.staticgen.base.distance=0
+worldgen.staticgen.base.amount=1
+
+worldgen.staticgen.settlements1.object=settlement
+worldgen.staticgen.settlements1.distance=12-20
+worldgen.staticgen.settlements1.amount=2
+
+worldgen.staticgen.settlements2.object=settlement
+worldgen.staticgen.settlements2.distance=25-40
+worldgen.staticgen.settlements2.amount=3
+
+worldgen.staticgen.settlements3.object=settlement
+worldgen.staticgen.settlements3.distance=45-70
+worldgen.staticgen.settlements3.amount=5
+
+worldgen.staticgen.research2.object=school
+worldgen.staticgen.research2.difficulty=350
+worldgen.staticgen.research2.loot.researchmaterials=1
+worldgen.staticgen.research2.distance=10-15
+worldgen.staticgen.research2.amount=4
+
+worldgen.staticgen.research3.object=hospital
+worldgen.staticgen.research3.difficulty=700
+worldgen.staticgen.research3.loot.researchkit=1
+worldgen.staticgen.research3.distance=30-40
+worldgen.staticgen.research3.amount=4

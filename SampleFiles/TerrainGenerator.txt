@@ -1,0 +1,25 @@
+automata.config.elements.count=2
+automata.config.spawn.1=0.08
+automata.config.spawn.2=0.065
+
+#Format: <original>,<condition neighbour type>:<condition amount of neighbour>,<becomes type>,<chance that will become>
+
+#Grow elements
+automata.runs.1.rules.1=0,1:>2,1,1
+automata.runs.1.rules.2=0,2:>2,2,1
+automata.runs.1.rules.4=1,2:>5,2,1
+automata.runs.1.rules.6=2,1:>5,1,1
+automata.runs.1.iterations=15
+
+#Remove singles
+automata.runs.2.rules.1=2,2:<3,1,1
+automata.runs.2.rules.2=0,,1,1
+automata.runs.2.iterations=5
+
+#Fill gaps
+automata.runs.3.rules.1=2,1:>4,1,1
+automata.runs.3.rules.1=1,2:>4,2,1
+automata.runs.3.iterations=5
+
+automata.config.elements.entity.2.terrain.dirt=1
+automata.config.elements.entity.1.terrain.grass=1
