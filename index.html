@@ -35,11 +35,11 @@
           {
             var textFromFileLoaded = fileLoadedEvent.target.result;
             lines = textFromFileLoaded.split("\n");
-            for(var j = 0, g; g = lines[j]; j++){
+            for(var j = 0, g; g = lines[j]; j++)
+            {
               if(pairValidator(g))
               {
                 settings.push(new Setting(g));
-                console.log(settings[settings.length-1].toString());
               }
             }
             
