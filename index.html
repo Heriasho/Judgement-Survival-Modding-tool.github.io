@@ -28,29 +28,31 @@
         document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
         
         var settings = [];
+        var pairOutput = [];
+        var didChange = false;
         for (var i = 0, f; f = files[i]; i++)
         {
           var fileReader = new FileReader();
           fileReader.onload = function(fileLoadedEvent)
           {
             var textFromFileLoaded = fileLoadedEvent.target.result;
-            lines = textFromFileLoaded.split("\n");
+            var lines = textFromFileLoaded.split("\n");
             for(var j = 0, g; g = lines[j]; j++)
             {
               if(pairValidator(g))
               {
-                settings.push(new Setting(g));
+                var tempSetting = new Setting(g);
+                settings.push(tempSetting);
+                pairOutput.push(tempSetting.toString());
               }
             }
-            
-            var pairOutput = [];
-            for(var i = 0; i < settings.length; i++)
-            {
-              pairOutput.push(settings[i].toString());
-            }
             document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
+            didChange = true;
           };
           fileReader.readAsText(f, "UTF-8");
+        }
+        if(!didChange){
+          document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
         }
       }
       
