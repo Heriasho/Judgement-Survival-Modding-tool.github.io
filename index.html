@@ -1,38 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Judgement Survival Modding Tool</title>
-</head>
-<body>
+  <head>
+    <title>Judgement Survival Modding Tool</title>
+  </head>
+  <body>
 
-<h1>Here is a work in progress website</h1>
-<p>My first paragraph.</p>
+    <h1>Here is a work in progress website</h1>
+    <p>My first paragraph.</p>
 
-<input type="file" id="files" name="files[]" multiple />
-<output id="list"></output>
-
-
-<script>
-  function handleFileSelect(evt) {
-    /*This script handles all file selections and displaying initial information.*/
-    var files = evt.target.files; // FileList object
-    // files is a FileList of File objects. List some properties.
-    var output = [];
-    /*For each file added, Name, Type of file, and last modified is showcased.
-    Ideally, this will include file contents, listed those that are recently modified, 
-    their relationship to the game(base or mod), and files that mention that category.*/
-    for (var i = 0, f; f = files[i]; i++) {
-      output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ', ', last modified: ',
-                  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a',
-                  '</li>');
-    }
-    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
-  }
-
-  document.getElementById('files').addEventListener('change', handleFileSelect, false);
-</script>
+    <input type="file" id="files" name="files[]" multiple />
+    <output id="list"></output>
+    <output id="pairs"></output>
 
 
-</body>
+    <script>
+      function handleFileSelect(evt) {
+        /*This script handles all file selections and displaying initial information.*/
+        var files = evt.target.files; // FileList object
+        // files is a FileList of File objects. List some properties.
+        var output = [];
+        /*For each file added, Name, Type of file, and last modified is showcased.
+        Ideally, this will include file contents, listing those that are modified from base*/
+        for (var i = 0, f; f = files[i]; i++) {
+          output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ', ', last modified: ',
+            f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a', '</li>');
+        }
+        document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+        
+        var settings = [];
+        for (var i = 0, f; f = files[i]; i++)
+        {
+          var fileReader = new FileReader();
+          fileReader.onload = function(fileLoadedEvent)
+          {
+            var textFromFileLoaded = fileLoadedEvent.target.result;
+            lines = textFromFileLoaded.split("\n");
+            for(var j = 0, g; g = lines[j]; j++){
+              if(pairValidator(g))
+              {
+                settings.push(new Setting(g));
+                console.log(settings[settings.length-1].toString());
+              }
+            }
+            
+            var pairOutput = [];
+            for(var i = 0; i < settings.length; i++)
+            {
+              pairOutput.push(settings[i].toString());
+            }
+            document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
+          };
+          fileReader.readAsText(f, "UTF-8");
+        }
+      }
+      
+      //#TODO make this more robust later.
+      function pairValidator(pair)
+      {
+        if(pair == "" || pair.startsWith("=") || pair.endsWith("=") || pair.indexOf("=") != pair.lastIndexOf("=") || !(pair.includes("=")))
+        {
+          return false;
+        }
+        return true;
+      }
+      
+      function Setting(pair){
+        this.key = pair.slice(0,pair.indexOf("="));
+        this.value = pair.slice(pair.indexOf("=")+1);
+      }
+      
+      Setting.prototype.toString = function()
+      {
+        return this.key + "=" + this.value; 
+      }
+      
+      document.getElementById('files').addEventListener('change', handleFileSelect, false);
+    </script>
+
+
+  </body>
 </html>
 
