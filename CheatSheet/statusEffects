@@ -1,0 +1,44 @@
+# Ability Effects
+
+statuseffects.base.<baseName>.sprite=[string]
+
+statuseffects.entity.<entityName>.parents=[list of entity parents] /*statuseffects.base.negative*/
+statuseffects.entity.<entityName>.effect.accuracy=[double]
+statuseffects.entity.<entityName>.effect.evade=[double]
+statuseffects.entity.<entityName>.effect.attackspeed=[double]
+statuseffects.entity.<entityName>.effect.damage=[double]
+statuseffects.entity.<entityName>.effect.defense=[double]
+statuseffects.entity.<entityName>.effect.walkspeed=[double]
+statuseffects.entity.<entityName>.name=[string]
+
+# On Hit Effects
+
+statuseffects.entity.<entityName>.effect.damagereceived=[double]
+
+#Builtin Effects
+
+statuseffects.entity.meleevsranged.parents=[string]
+statuseffects.entity.meleevsranged.effect.accuracy=[double]
+
+statuseffects.entity.rangedadjacent.parents=[string]
+statuseffects.entity.rangedadjacent.effect.accuracy=[double]
+
+statuseffects.entity.flanking.parents=[string]
+statuseffects.entity.flanking.effect.accuracy=[double]
+statuseffects.entity.flanking.effect.damage=[double]
+
+statuseffects.entity.tired.parents=[string]
+statuseffects.entity.tired.effect.accuracy=[double]
+statuseffects.entity.tired.effect.damage=[double]
+statuseffects.entity.tired.effect.evade=[double]
+
+statuseffects.entity.nighttime.parents=[string]
+statuseffects.entity.nighttime.effect.vision=[int]
+
+statuseffects.entity.nighttimeenemy.parents=[string]
+statuseffects.entity.nighttimeenemy.name=[string]
+statuseffects.entity.nighttimeenemy.effect.vision=[int]
+
+statuseffects.entity.nighttimeranged.parents=[string]
+statuseffects.entity.nighttimeranged.name=[string]
+statuseffects.entity.nighttimeranged.effect.accuracy=[double]

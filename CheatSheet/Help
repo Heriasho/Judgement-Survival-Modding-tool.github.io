@@ -1,0 +1,649 @@
+help.base.<baseName>.titletext.type=[string]
+help.base.<baseName>.titletext.font=[string]
+help.base.<baseName>.titletext.align=[string]
+help.base.<baseName>.titletext.fontsize=[int]
+help.base.<baseName>.titletext.minheight=[int]
+help.base.<baseName>.titletext.underline=[boolean]
+
+help.base.<baseName>.helptext.type=[string]
+help.base.<baseName>.helptext.align=[string]
+help.base.<baseName>.helptext.fontsize=[int]
+
+help.base.<baseName>.headertext.parents=help.base.<baseName>.<textName>
+help.base.<baseName>.headertext.font=[string]
+help.base.<baseName>.headertext.fontsize=[int]
+help.base.<baseName>.headertext.minheight=[int]
+
+help.base.<baseName>.<typeName>.type=<typeName>
+
+
+/*---------------INCOMPLETE---------------*/
+help.entity.createtasks.title=Creating Tasks
+
+help.entity.createtasks.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.createtasks.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.createtasks.pages.1.elements.2.text=Survivors choose their own tasks, once created.
+
+help.entity.createtasks.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.createtasks.pages.1.elements.3.text=Collect wood by left clicking a tree and selecting "Chop Tree".
+
+help.entity.createtasks.pages.1.elements.4.parents=help.base.elements.image
+help.entity.createtasks.pages.1.elements.4.sprite=help_choptree
+
+help.entity.createtasks.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.createtasks.pages.1.elements.5.text=There are many interactive objects in the game.
+
+help.entity.createtasks.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.createtasks.pages.2.elements.1.text=To create construction or crafting tasks, open the "Build" or "Craft" menus.
+
+help.entity.createtasks.pages.2.elements.2.parents=help.base.elements.image
+help.entity.createtasks.pages.2.elements.2.sprite=help_toolbartasks
+
+help.entity.camera.title=Camera Movement
+
+help.entity.camera.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.camera.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.camera.pages.1.elements.2.text=Move the camera by moving the mouse cursor to the edges of the screen, or using the WASD keys on the keyboard.
+
+help.entity.camera.pages.1.elements.3.parents=help.base.elements.image
+help.entity.camera.pages.1.elements.3.sprite=help_arrows
+
+help.entity.camera.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.camera.pages.1.elements.4.text=The view can also be dragged by holding the middle mouse button.
+
+help.entity.camera.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.camera.pages.2.elements.1.text=Use the mouse scroll wheel to zoom in and out.
+
+help.entity.camera.pages.2.elements.2.parents=help.base.elements.image
+help.entity.camera.pages.2.elements.2.sprite=help_zoom_middlemouse
+
+help.entity.areatasks.title=Creating Multiple Tasks
+
+help.entity.areatasks.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.areatasks.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.areatasks.pages.1.elements.2.text=Sometimes multiple tasks of the same kind are needed, tasks such as chopping trees. To see the available options open the "Create Tasks" window.
+
+help.entity.areatasks.pages.1.elements.3.parents=help.base.elements.image
+help.entity.areatasks.pages.1.elements.3.sprite=help_actionsbutton
+
+help.entity.areatasks.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.areatasks.pages.2.elements.1.text=Select task type, then click and drag to select an area. Tasks will be created for every suitable object in the designated area.
+
+help.entity.areatasks.pages.2.elements.2.parents=help.base.elements.image
+help.entity.areatasks.pages.2.elements.2.sprite=help_actionareaselect_~0-5
+help.entity.areatasks.pages.2.elements.2.fps=2
+
+help.entity.areatasks.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.areatasks.pages.2.elements.3.text=You can use the same method to cancel several tasks, simply select the Cancel option from the tasks list.
+
+help.entity.building.title=Building
+
+help.entity.building.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.building.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.building.pages.1.elements.2.text=To create build tasks, select an object then choose where to place it. Some objects can be rotated using the ',' and '.' buttons.
+
+help.entity.building.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.building.pages.1.elements.3.text=To continue building more of the same object, hold shift while placing it.
+
+help.entity.building.pages.1.elements.4.parents=help.base.elements.image
+help.entity.building.pages.1.elements.4.sprite=help_shiftkey
+
+help.entity.building.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.building.pages.1.elements.5.text=Some objects allow dragging to fill an entire area.
+
+help.entity.building.pages.1.elements.6.parents=help.base.elements.image
+help.entity.building.pages.1.elements.6.sprite=help_builddrag
+help.entity.building.pages.1.elements.6.preferredheight=200
+
+help.entity.building.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.building.pages.2.elements.1.text=Certain objects can only be built in certain locations, such as mines that are built on resources or beds that can only be built indoors.
+
+help.entity.building.pages.2.elements.2.parents=help.base.elements.image
+help.entity.building.pages.2.elements.2.sprite=help_buildingrequirement
+
+help.entity.building.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.building.pages.2.elements.3.text=Available positions are highlighted when placing the building.
+
+help.entity.building.pages.2.elements.4.parents=help.base.elements.image
+help.entity.building.pages.2.elements.4.sprite=help_buildavailability
+
+help.entity.combat.title=Combat
+
+help.entity.combat.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.combat.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.2.text=In combat, survivors are controlled directly.
+
+help.entity.combat.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.3.text=Survivors attack enemies within their range but do not move or chase enemies unless instructed to do so.
+
+help.entity.combat.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.4.text=Left click survivors or their portraits to select them. Once selected, right click to order them to move or attack. 
+
+help.entity.combat.pages.1.elements.5.parents=help.base.elements.image
+help.entity.combat.pages.1.elements.5.sprite=help_selectsurvivor
+
+help.entity.combat.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.combat.pages.1.elements.6.text=Remember that orders can be given while paused. Spacebar quickly pauses and unpauses the game.
+
+help.entity.combat.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.combat.pages.2.elements.1.text=Select the whole team with the Q key, or shift + click to toggle selection. Left click and drag to select all survivors in an area.
+
+help.entity.combat.pages.2.elements.2.parents=help.base.elements.image
+help.entity.combat.pages.2.elements.2.sprite=help_multiselect_~0-5
+help.entity.combat.pages.2.elements.2.fps=2
+
+help.entity.combat.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.combat.pages.2.elements.3.text=With survivors selected, the chance to hit can be seen below enemies.
+
+help.entity.combat.pages.2.elements.4.parents=help.base.elements.image
+help.entity.combat.pages.2.elements.4.sprite=help_hitchance
+
+help.entity.rescue.title=Rescue Missions
+
+help.entity.rescue.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.rescue.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.rescue.pages.1.elements.2.text=During rescue missions, you need to find a trapped survivor, free them, and retreat quickly.
+
+help.entity.rescue.pages.1.elements.3.parents=help.base.elements.image
+help.entity.rescue.pages.1.elements.3.sprite=help_trappedsurvivor
+
+help.entity.rescue.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.rescue.pages.1.elements.4.text=When you find your target, select a survivor and right click to start freeing. Survivors with bonus to scavenging perform this action faster.
+
+help.entity.rescue.pages.1.elements.5.parents=help.base.elements.image
+help.entity.rescue.pages.1.elements.5.sprite=help_dorescue
+
+help.entity.rescue.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.rescue.pages.2.elements.1.text=Freeing takes time, and enemies will sense the attempt. All enemies in the map will become hostile, and you can expect reinforcements. Protect the survivor that is doing the freeing, and retreat as soon as you can.
+
+help.entity.rescue.pages.2.elements.2.parents=help.base.elements.image
+help.entity.rescue.pages.2.elements.2.sprite=help_rescuing
+
+help.entity.rescue.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.rescue.pages.2.elements.3.text=Try not to move the survivor that is performing the rescue, or he will have to start over, leaving time for more demons to come.
+
+help.entity.scavenge.title=Scavenge Missions
+
+help.entity.scavenge.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.scavenge.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.scavenge.pages.1.elements.2.text=During scavenge missions you search for loot crates while trying to avoid enemies in the area.
+
+help.entity.scavenge.pages.1.elements.3.parents=help.base.elements.image
+help.entity.scavenge.pages.1.elements.3.sprite=help_lootcrate
+
+help.entity.scavenge.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.scavenge.pages.1.elements.4.text=When you find a supply crate, select a survivor and right click the crate to scavenge it's contents. Survivors with bonus to scavenging will perform this action faster.
+
+help.entity.scavenge.pages.1.elements.5.parents=help.base.elements.image
+help.entity.scavenge.pages.1.elements.5.sprite=help_looting
+
+help.entity.scavenge.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.scavenge.pages.2.elements.1.text=Tiles that are within the enemy's vision range are marked with a danger icon. If an enemy spots a survivor, that group of enemies will become aggressive and actively seek you out.
+
+help.entity.scavenge.pages.2.elements.2.parents=help.base.elements.image
+help.entity.scavenge.pages.2.elements.2.sprite=help_danger
+
+help.entity.scavenge.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.scavenge.pages.2.elements.3.text=You can only see the vision range of enemies that are visible, so take care around corners.
+
+help.entity.scavenge.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.scavenge.pages.2.elements.4.text=If you kill all the enemies in the area, you will automatically gather all remaining loot and the mission will end.
+
+help.entity.combat2.title=Combat Tactics
+
+help.entity.combat2.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.combat2.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.combat2.pages.1.elements.2.text=As enemies become stronger, more advanced tactics are required to survive.
+
+help.entity.combat2.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.combat2.pages.1.elements.3.text=Cover
+
+help.entity.combat2.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.combat2.pages.1.elements.4.text=Some objects provide cover. Standing next to these objects improves a survivor's aim and evasion against enemies in that direction. Cover does not affect melee attacks.
+
+help.entity.combat2.pages.1.elements.5.parents=help.base.elements.image
+help.entity.combat2.pages.1.elements.5.sprite=help_cover
+
+help.entity.combat2.pages.1.elements.6.parents=help.base.elements.headertext
+help.entity.combat2.pages.1.elements.6.text=Ranged & Melee
+
+help.entity.combat2.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.combat2.pages.1.elements.7.text=Ranged attacks suffer a penalty when used in melee range while melee attacks receive bonuses against ranged enemies.
+
+help.entity.combat2.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.combat2.pages.2.elements.1.text=Flanking
+
+help.entity.combat2.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.combat2.pages.2.elements.2.text=Attacking from behind or from the sides significantly increases damage and accuracy.
+
+help.entity.combat2.pages.2.elements.3.parents=help.base.elements.image
+help.entity.combat2.pages.2.elements.3.sprite=help_flanking
+
+help.entity.combat2.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.combat2.pages.2.elements.4.text=Enemies make use of these tactics as well. Make sure survivors face their attackers. 
+
+help.entity.awareness.title=Awareness and Enemy Progress
+
+help.entity.awareness.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.awareness.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.awareness.pages.1.elements.2.text=There are several factors that affect combat difficulty in Judgment.
+
+help.entity.awareness.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.awareness.pages.1.elements.3.text=Enemy Progress
+
+help.entity.awareness.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.awareness.pages.1.elements.4.text=As time goes by, the demon infestation spreads and enemies become stronger. Later in the game you will encounter a larger number of more powerful creatures.
+
+help.entity.awareness.pages.1.elements.5.parents=help.base.elements.image
+help.entity.awareness.pages.1.elements.5.sprite=help_enemydifficulty
+
+help.entity.awareness.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.awareness.pages.2.elements.1.text=Awareness
+
+help.entity.awareness.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.awareness.pages.2.elements.2.text=Enemies become aware of your presence over time. Larger populations are harder to hide, and generate more awareness.
+
+help.entity.awareness.pages.2.elements.3.parents=help.base.elements.image
+help.entity.awareness.pages.2.elements.3.sprite=help_awareness
+
+help.entity.awareness.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.awareness.pages.2.elements.4.text=When awareness is high there is a higher chance the enemy will raid your colony, with stronger forces.
+
+help.entity.awareness.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.awareness.pages.2.elements.5.text=Many other elements can affect enemy awareness, such as research and missions. Don't let your colony grow faster than you can hide your presence or you may be overwhelmed.
+
+help.entity.awareness.pages.2.elements.6.parents=help.base.elements.image
+help.entity.awareness.pages.2.elements.6.sprite=help_awarenessresearch
+
+help.entity.controls.title=Controls
+
+help.entity.controls.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.controls.pages.1.elements.2.parents=help.base.elements.headertext
+help.entity.controls.pages.1.elements.2.text=Game Speed
+
+help.entity.controls.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.controls.pages.1.elements.3.text=Speed up the game by clicking the speed buttons in the time panel. Commands can be given while the game is paused.
+
+help.entity.controls.pages.1.elements.4.parents=help.base.elements.image
+help.entity.controls.pages.1.elements.4.sprite=help_speed
+
+help.entity.controls.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.controls.pages.1.elements.5.text=Spacebar quickly pauses/unpauses the game, and +/- keys increase/decrease the speed respectively.
+
+help.entity.controls.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.controls.pages.2.elements.1.text=Shortcuts
+
+help.entity.controls.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.controls.pages.2.elements.2.text=When interacting with the user interface, for instance when placing a building, right click or press escape to cancel the interaction.
+
+help.entity.controls.pages.2.elements.3.parents=help.base.elements.image
+help.entity.controls.pages.2.elements.3.sprite=help_esc_rightmouse
+
+help.entity.controls.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.controls.pages.2.elements.4.text=Pressing escape or right clicking an open window, such as this help window, closes it.
+
+help.entity.survivorinfo.title=Survivor Information
+
+help.entity.survivorinfo.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.survivorinfo.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.1.elements.2.text=Select a survivor to see more information about them.
+
+help.entity.survivorinfo.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.survivorinfo.pages.1.elements.3.text=Equipment
+
+help.entity.survivorinfo.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.1.elements.4.text=Equip survivors by clicking on the item slots and selecting an item.
+
+help.entity.survivorinfo.pages.1.elements.5.parents=help.base.elements.image
+help.entity.survivorinfo.pages.1.elements.5.sprite=help_equipment
+
+help.entity.survivorinfo.pages.1.elements.6.parents=help.base.elements.headertext
+help.entity.survivorinfo.pages.1.elements.6.text=Skills
+
+help.entity.survivorinfo.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.1.elements.7.text=Every survivor starts with a few skills that provide various bonus and penalties. Click the "Skills" button in order to see the skills and their effects.
+
+help.entity.survivorinfo.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.survivorinfo.pages.2.elements.1.text=Profession and Levels
+
+help.entity.survivorinfo.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.2.elements.2.text=Every survivor has a profession that allows them to gain new skills when they level up. Survivors gain experience by performing tasks, and when they earn a level you may choose one of several new skils, depending on their profession.
+
+help.entity.survivorinfo.pages.2.elements.3.parents=help.base.elements.image
+help.entity.survivorinfo.pages.2.elements.3.sprite=help_skills
+
+help.entity.survivorinfo.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.survivorinfo.pages.2.elements.4.text=Survivors gain experience faster when they perform tasks preferred by their profession.
+
+help.entity.research.title=Research
+
+help.entity.research.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.research.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.research.pages.1.elements.2.text=Research allows you to unlock new building and crafting options. There are several research categories you can choose from.
+
+help.entity.research.pages.1.elements.3.parents=help.base.elements.image
+help.entity.research.pages.1.elements.3.sprite=help_researchfields
+
+help.entity.research.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.research.pages.1.elements.4.text=Unlocking research costs research points that are produced by survivors experimenting in the experiment table or occult library.
+
+help.entity.research.pages.1.elements.5.parents=help.base.elements.image
+help.entity.research.pages.1.elements.5.sprite=help_researchtask
+
+help.entity.research.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.research.pages.2.elements.1.text=Some key research subjects require special research materials or research kits, which can only be obtained in scavenge missions. These are very common in city biomes.
+
+help.entity.research.pages.2.elements.2.parents=help.base.elements.image
+help.entity.research.pages.2.elements.2.sprite=help_researchmaterialskits
+
+help.entity.craft.title=Crafting
+
+help.entity.craft.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.craft.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.craft.pages.1.elements.2.text=Survivors can craft advanced materials, food and equipment. Items are crafted in workstations such as the work bench.
+
+help.entity.craft.pages.1.elements.3.parents=help.base.elements.image
+help.entity.craft.pages.1.elements.3.sprite=help_craftingtask
+
+help.entity.craft.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.craft.pages.2.elements.1.text=Different items require different workstations and materials.
+
+help.entity.craft.pages.2.elements.2.parents=help.base.elements.image
+help.entity.craft.pages.2.elements.2.sprite=help_craftingcosts
+
+help.entity.craft.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.craft.pages.2.elements.3.text=Left click an item to craft, hold shift to craft 10x. Right click to see more information and set up automatic crafting.
+
+help.entity.craft.pages.2.elements.4.parents=help.base.elements.image
+help.entity.craft.pages.2.elements.4.sprite=help_craftingamount
+
+help.entity.craft.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.craft.pages.2.elements.5.text=New crafting options become available when suitable research is complete.
+
+help.entity.toolbar.title=Toolbar
+
+help.entity.toolbar.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.toolbar.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.toolbar.pages.1.elements.2.text=The toolbar is used to access several game functions.
+
+help.entity.toolbar.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.toolbar.pages.1.elements.3.text=Some actions can only be done outside the base area. The World button switches between base view and world view.
+
+help.entity.toolbar.pages.1.elements.4.parents=help.base.elements.image
+help.entity.toolbar.pages.1.elements.4.sprite=help_worldbutton
+
+help.entity.toolbar.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.toolbar.pages.1.elements.5.text=Build, Crafting and Create Tasks buttons are used to create different tasks.
+
+help.entity.toolbar.pages.1.elements.6.parents=help.base.elements.image
+help.entity.toolbar.pages.1.elements.6.sprite=help_createtasksbuttons
+
+help.entity.toolbar.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.toolbar.pages.2.elements.1.text=The Inventory window displays all items that are stored in the base.
+
+help.entity.toolbar.pages.2.elements.2.parents=help.base.elements.image
+help.entity.toolbar.pages.2.elements.2.sprite=help_inventorybutton
+
+help.entity.toolbar.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.toolbar.pages.2.elements.3.text=The colony management button allows you to ration food and manage tasks.
+
+help.entity.toolbar.pages.2.elements.4.parents=help.base.elements.image
+help.entity.toolbar.pages.2.elements.4.sprite=help_tasksbutton
+
+help.entity.toolbar.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.toolbar.pages.2.elements.5.text=The Mission button displays the current mission to advance the plot.
+
+help.entity.toolbar.pages.2.elements.6.parents=help.base.elements.image
+help.entity.toolbar.pages.2.elements.6.sprite=help_quests
+
+help.entity.worldview.title=World View
+
+help.entity.worldview.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.worldview.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.worldview.pages.1.elements.2.text=This is the world map. You will notice different locations on it - a farm, a base, a city etc. You’ll also see missions and special map events pinned to the map.
+
+help.entity.worldview.pages.1.elements.3.parents=help.base.elements.image
+help.entity.worldview.pages.1.elements.3.sprite=help_maplocations
+
+help.entity.worldview.pages.1.elements.4.parents=help.base.elements.headertext
+help.entity.worldview.pages.1.elements.4.text=Taskforces
+
+help.entity.worldview.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.worldview.pages.1.elements.5.text=Survivors form taskforces to explore and interract with the map. Click the create taskforce button to create one.
+
+help.entity.worldview.pages.1.elements.6.parents=help.base.elements.image
+help.entity.worldview.pages.1.elements.6.sprite=help_taskforcebutton
+
+help.entity.worldview.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.worldview.pages.1.elements.7.text=Once created, you can select a taskforce and give it orders by right clicking the map. Click the "manage" button for more information on managing taskforces.
+
+help.entity.worldview.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.worldview.pages.2.elements.1.text=Biomes
+
+help.entity.worldview.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.worldview.pages.2.elements.2.text=Your base is surrounded by grassland, but farther away there are other biomes. Different biomes have different scavenge opportunities. Beware, some biomes have tougher demons that you wouldn't want to encounter unprepared.
+
+help.entity.worldview.pages.2.elements.3.parents=help.base.elements.image
+help.entity.worldview.pages.2.elements.3.sprite=help_biomes
+
+help.entity.worldview.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.worldview.pages.2.elements.4.text=Enemies also get tougher when you wander farther away from your base.
+
+help.entity.taskforce.title=Task Force
+
+help.entity.taskforce.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.taskforce.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.taskforce.pages.1.elements.2.text=This is your taskforce. Click "Manage" to open the management window where you can see the taskforce members, loot and customize it's appearance.
+
+help.entity.taskforce.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.taskforce.pages.1.elements.3.text=You can add or remove survivors from the taskforce as long as it is located in the base tile.
+
+help.entity.taskforce.pages.1.elements.4.parents=help.base.elements.image
+help.entity.taskforce.pages.1.elements.4.sprite=help_addremovesurvivors
+
+help.entity.taskforce.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.taskforce.pages.2.elements.1.text=While in the base, your taskforce members are available for base tasks, and there is no need to remove them from the taskforce. Once the taskforce leaves the base area, survivors will be removed from the base map.
+
+help.entity.taskforce.pages.2.elements.2.parents=help.base.elements.image
+help.entity.taskforce.pages.2.elements.2.sprite=help_basearea
+
+help.entity.taskforce.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.taskforce.pages.2.elements.3.text=When a taskforce is out of base, survivors will automatically eat and drink from the base's supplies.
+
+help.entity.needs.title=Needs
+
+help.entity.needs.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.needs.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.2.text=In order to be efficient, survivors need to eat and sleep regularly.
+
+help.entity.needs.pages.1.elements.3.parents=help.base.elements.image
+help.entity.needs.pages.1.elements.3.sprite=help_needs
+
+help.entity.needs.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.4.text=Hungry survivors will visit the nearest food table to satisfy their hunger, as long as food is available for consumption.
+
+help.entity.needs.pages.1.elements.5.parents=help.base.elements.image
+help.entity.needs.pages.1.elements.5.sprite=help_nutrition
+
+help.entity.needs.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.6.text=Survivors only eat prepared food. They will eat one of each food category that is available and receive bonuses from every category eaten.
+
+help.entity.needs.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.needs.pages.1.elements.7.text=Hover a survivor's nutrition bar to see which bonuses are active.
+
+help.entity.needs.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.needs.pages.2.elements.1.text=Survivors get tired over time. Tired survivors will seek a free bed. While sleeping, their Health will regenerate quicker.
+
+help.entity.needs.pages.2.elements.2.parents=help.base.elements.image
+help.entity.needs.pages.2.elements.2.sprite=help_sleep
+help.entity.needs.pages.2.elements.2.preferredheight=180
+
+help.entity.needs.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.needs.pages.2.elements.3.text=Drinking water is required to survive. Water supply decreases over time, and must be replenished by gathering water at wells.
+
+help.entity.needs.pages.2.elements.4.parents=help.base.elements.image
+help.entity.needs.pages.2.elements.4.sprite=help_water
+help.entity.needs.pages.2.elements.4.preferredheight=100
+
+help.entity.needs.pages.2.elements.5.parents=help.base.elements.headertext
+help.entity.needs.pages.2.elements.5.text=Penalties
+
+help.entity.needs.pages.2.elements.6.parents=help.base.elements.helptext
+help.entity.needs.pages.2.elements.6.text=Tired survivors are very inefficient in combat. While hungry or thirsty, survivors lose Health over time and they may die. Make sure to have plenty of food, water and beds.
+
+help.entity.colonymanagement.title=Colony Management
+
+help.entity.colonymanagement.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.colonymanagement.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.1.elements.2.text=This is the colony management window. Here you can set food distribution and see global bonuses.
+
+help.entity.colonymanagement.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.colonymanagement.pages.1.elements.3.text=Rationing
+
+help.entity.colonymanagement.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.1.elements.4.text=Check which types of food you want survivors to eat. A survivor will eat one of each type per meal. Survivors gain bonuses based on the amount of food they eat.
+
+help.entity.colonymanagement.pages.1.elements.5.parents=help.base.elements.image
+help.entity.colonymanagement.pages.1.elements.5.sprite=help_rationing
+
+help.entity.colonymanagement.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.1.elements.6.text=Food bonuses are recalculated per survivor every time they eat. Hover the mouse over the food types counter to see which bonuses will be given when a survivor eats.
+
+help.entity.colonymanagement.pages.2.elements.1.parents=help.base.elements.headertext
+help.entity.colonymanagement.pages.2.elements.1.text=Bonuses
+
+help.entity.colonymanagement.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.2.elements.2.text=The global bonuses show a list of all bonuses (or penalties) that are currently active and affect all survivors. These include passive bonuses from research, bonuses or penalties from random events, ritual effects, and more.
+
+help.entity.colonymanagement.pages.2.elements.3.parents=help.base.elements.image
+help.entity.colonymanagement.pages.2.elements.3.sprite=help_globalbonuses
+
+help.entity.colonymanagement.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.colonymanagement.pages.2.elements.4.text=Food bonuses are given per-survivor when they eat, and do not appear in the global bonuses.
+
+help.entity.autocraftgather.title=Resource Automation
+
+help.entity.autocraftgather.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.autocraftgather.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.2.text=You can automate production of resources using Automatic Crafting and Gathering Limits.
+
+help.entity.autocraftgather.pages.1.elements.3.parents=help.base.elements.headertext
+help.entity.autocraftgather.pages.1.elements.3.text=Setting Limits
+
+help.entity.autocraftgather.pages.1.elements.4.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.4.text=Right click an item from the inventory or crafting window to open the item information window. In this window you can enable gathering limits or automatic crafting, and set up the limits
+
+help.entity.autocraftgather.pages.1.elements.5.parents=help.base.elements.image
+help.entity.autocraftgather.pages.1.elements.5.sprite=help_autocraft
+
+help.entity.autocraftgather.pages.1.elements.6.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.6.text=The minimum and maximum limits determine when survivors will produce this resource.
+
+help.entity.autocraftgather.pages.1.elements.7.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.1.elements.7.text=They will begin producing the resource when it's inventory drops below the minimum, and continue producing it until they reach the maximum, then stop.
+
+help.entity.autocraftgather.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.2.elements.1.text=To prevent survivors running back and forth, they will only begin production again when the inventory drops below the minimum again.
+
+help.entity.autocraftgather.pages.2.elements.2.parents=help.base.elements.headertext
+help.entity.autocraftgather.pages.2.elements.2.text=Automatic Crafting
+
+help.entity.autocraftgather.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.2.elements.3.text=When enabled, crafting tasks are automatically created according to the defined limits, as long as raw materials are available.
+
+help.entity.autocraftgather.pages.2.elements.4.parents=help.base.elements.headertext
+help.entity.autocraftgather.pages.2.elements.4.text=Gathering Limits
+
+help.entity.autocraftgather.pages.2.elements.5.parents=help.base.elements.helptext
+help.entity.autocraftgather.pages.2.elements.5.text=When enabled, survivors will only perform gathering tasks according to the defined limits. You must still designate the gathering tasks manually, this setting will only limit when survivors actually perform these tasks.
+
+help.entity.survivorai.title=Survivor AI
+
+help.entity.survivorai.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.survivorai.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.survivorai.pages.1.elements.2.text=Survivors choose their own tasks, but fine tuning is possible.
+
+help.entity.survivorai.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.survivorai.pages.1.elements.3.text=From the survivor info sheet, access the Priorities window to prioritize tasks for each survivor.
+
+help.entity.survivorai.pages.1.elements.4.parents=help.base.elements.image
+help.entity.survivorai.pages.1.elements.4.sprite=help_prioritiesbutton
+
+help.entity.survivorai.pages.1.elements.5.parents=help.base.elements.helptext
+help.entity.survivorai.pages.1.elements.5.text=Survivors can be ordered to perform specific tasks immediately. With a survivor selected, right click an object with an existing task, and select the assign option.
+
+help.entity.survivorai.pages.1.elements.6.parents=help.base.elements.image
+help.entity.survivorai.pages.1.elements.6.sprite=help_assigntask
+
+help.entity.survivorai.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.survivorai.pages.2.elements.1.text=Order selected survivors to move by right clicking an empty tile. Survivors remain in their destinations for a short time and then continue with their tasks.
+
+help.entity.survivorai.pages.2.elements.2.parents=help.base.elements.helptext
+help.entity.survivorai.pages.2.elements.2.text=To prevent a survivor from taking new tasks, uncheck the "Automatically Assign Tasks" option in the survivor info sheet.
+
+help.entity.survivorai.pages.2.elements.3.parents=help.base.elements.image
+help.entity.survivorai.pages.2.elements.3.sprite=help_aicontrol
+
+help.entity.survivorai.pages.2.elements.4.parents=help.base.elements.helptext
+help.entity.survivorai.pages.2.elements.4.text=Beware, this prevents the survivor from doing anything unless explicitly ordered to do so, including eating or sleeping.
+
+help.entity.healing.title=Healing
+
+help.entity.healing.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.healing.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.healing.pages.1.elements.2.text=Survivors will heal much faster in the infirmary with the help of medical supplies.
+
+help.entity.healing.pages.1.elements.3.parents=help.base.elements.helptext
+help.entity.healing.pages.1.elements.3.text=Healing survivors requires medicine.
+
+help.entity.healing.pages.1.elements.4.parents=help.base.elements.image
+help.entity.healing.pages.1.elements.4.sprite=help_healingmedicinecost
+
+help.entity.healing.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.healing.pages.2.elements.1.text=Select the survivors that need healing and adjust the amount of health they should regain using the health slider.
+
+help.entity.healing.pages.2.elements.2.parents=help.base.elements.image
+help.entity.healing.pages.2.elements.2.sprite=help_healamount
+
+help.entity.healing.pages.2.elements.3.parents=help.base.elements.helptext
+help.entity.healing.pages.2.elements.3.text=While being nursed back to health, survivors will sleep in the available infirmary beds.
+
+help.entity.rituals.title=Rituals
+
+help.entity.rituals.pages.1.elements.1.parents=help.base.elements.titletext
+
+help.entity.rituals.pages.1.elements.2.parents=help.base.elements.helptext
+help.entity.rituals.pages.1.elements.2.text=As occult research subject are unlocked, ancient rituals become available. These rituals can provide great benefits, but are usually expensive and take long to perform.
+
+help.entity.rituals.pages.1.elements.3.parents=help.base.elements.image
+help.entity.rituals.pages.1.elements.3.sprite=help_ritualaction
+
+help.entity.rituals.pages.2.elements.1.parents=help.base.elements.helptext
+help.entity.rituals.pages.2.elements.1.text=Each ritual must be performed in a different location, such as the magic circle and various altars.
+
+help.entity.rituals.pages.2.elements.2.parents=help.base.elements.image
+help.entity.rituals.pages.2.elements.2.sprite=help_performritual
+
+
+/*---------------INCOMPLETE---------------*/
