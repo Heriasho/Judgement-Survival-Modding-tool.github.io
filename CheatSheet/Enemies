@@ -1,130 +1,130 @@
 
 /*General flow of the enemy class*/
 
-enemies.<base>.<default || anotherBase>.<name of property>
+enemies.base.<base>.<name of property> = <value>
 
-enemies.<entity>.<enemyName>.<nameOfProperty>.<value>
+enemies.entity.<enemyName>.<nameOfProperty> = <value>
 
-/-----------*Follow the flow below----------------*/
+/...........*Follow the flow below................*/
 
 enemies
 /*Basic base and generic base*/
-    -base
-        -default
-            -properties
-                -attackhitsound
+    .base
+        .default
+            .properties
+                .attackhitsound
                     [string]
-                -attackmisssound
+                .attackmisssound
                     [string]
-                -attacksound
+                .attacksound
                     [string]
-                -difficultyval
+                .difficultyval
                     [int]
-                -walkanimationspeed
+                .walkanimationspeed
                     [double]
-                -vision
+                .vision
                     [int]
-        -alterativeBase
-            -parents
+        .alterativeBase
+            .parents
                 [list of parent types] /*enemies.base.meleeattack,enemies.base.human*/
-            -class /*Humans use these*/
+            .class /*Humans use these*/
                 [string]
-            -survivortype 
+            .survivortype 
                 [list of survivortypes] /*male1, female1*/
-            -tags
+            .tags
                 [baseType] /*Human*/
                     [boolean]
-            -properties  /*enemies.base.floating.properties.floating*/
+            .properties  /*enemies.base.floating.properties.floating*/
                 [Name of alterativeBase]
                     [double]
-            -name   /*enemies.base.survivor1.name=survivor1*/
+            .name   /*enemies.base.survivor1.name=survivor1*/
                 [name of alterativeBase]
-            -icon   /*enemies.base.survivor1.icon=enemy_icon_survivor1*/
+            .icon   /*enemies.base.survivor1.icon=enemy_icon_survivor1*/
                 [name of icon]
 
 /*EG............................*/
-        -human
-            -class
+        .human
+            .class
                 [string]
-            -survivortype
+            .survivortype
                 [list of strings]
-            -tags
-                -human
+            .tags
+                .human
                     [boolean]
-        -demon
-            -tags
-                -demon
+        .demon
+            .tags
+                .demon
                     [boolean]
-        -ranged
-            -parents
+        .ranged
+            .parents
                 [list of enemies.base.[strings of types that use this]]
-            -properties
-        -meleeattack
-            -parents
+            .properties
+        .meleeattack
+            .parents
                 [list of enemies.base.[strings of types that use this]]
-            -properties
-                -attackmisssound
+            .properties
+                .attackmisssound
                     [string]
-            -range
+            .range
                 [int]
-        -humanmelee
-            -parents
+        .humanmelee
+            .parents
                 [enemies.base.default]
-        -humanranged
-            -parents
+        .humanranged
+            .parents
                 [enemies.base.default]
-        -floating
-            -properties
-                -floating
+        .floating
+            .properties
+                .floating
                     [double]
-        -survivor1
-            -name
+        .survivor1
+            .name
                 [string of declared type]
-            -icon
+            .icon
                 [string]
 /*...............................*/
 
     /*Generic entity*/
-    -entity
-        -[enemyName]
-            -parents
+    .entity
+        .[enemyName]
+            .parents
                 [declared types] /*enemies.base.[enemyName]*/
-            -damage
+            .damage
                 [double]
-            -attackspeed
+            .attackspeed
                 [int]
-            -range
+            .range
                 [int]
-            -accuracy
+            .accuracy
                 [int]
-            -health
+            .health
                 [int]
-            -evade
+            .evade
                 [int]
-            -defense
+            .defense
                 [int]
-            -walkspeed
+            .walkspeed
                 [double]
-            -vision
+            .vision
                 [int]
-            -difficultyval
+            .difficultyval
                 [int]
-            -mindifficulty
+            .mindifficulty
                 [int]
-            -maxdifficulty
+            .maxdifficulty
                 [int]
-            -loot
+            .loot
                 [lootName]
                     [int]
-            -walkanimationspeed
+            .walkanimationspeed
                 [double]
-            -prefab
+            .prefab
                 [prefabName]
-            -properties
+            .properties
                 [propertyName]
                     [propertyPrefabName]
-            -weapon
+            .weapon
                 [list of weapons] /*club,quarterstaff,baseballbat*/
 
 
-/*--------------------------------------------*/
+/*............................................*/
