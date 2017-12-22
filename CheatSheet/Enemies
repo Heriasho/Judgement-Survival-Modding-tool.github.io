@@ -24,6 +24,8 @@ enemies
                     [double]
                 .vision
                     [int]
+                .attackanimation
+                    [string]
         .alterativeBase
             .parents
                 [list of parent types] /*enemies.base.meleeattack,enemies.base.human*/
