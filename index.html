@@ -14,6 +14,12 @@
 
 
     <script>
+    
+      var skillStartingAmounts = [];
+      var skillRarityCategories = [];
+      var skillBaseGroups = [];
+      var skills = [];
+      
       function handleFileSelect(evt) {
         /*This script handles all file selections and displaying initial information.*/
         var files = evt.target.files; // FileList object
@@ -27,7 +33,7 @@
         }
         document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
         
-        var settings = [];
+        var settings = new Array();
         var pairOutput = [];
         var didChange = false;
         for (var i = 0, f; f = files[i]; i++)
@@ -37,13 +43,15 @@
           {
             var textFromFileLoaded = fileLoadedEvent.target.result;
             var lines = textFromFileLoaded.split("\n");
-            for(var j = 0, g; g = lines[j]; j++)
+            for(var j = 0; j < lines.length; j++)
             {
+              var g = lines[j];
               if(pairValidator(g))
               {
                 var tempSetting = new Setting(g);
                 settings.push(tempSetting);
                 pairOutput.push(tempSetting.toString());
+                //console.log(tempSetting.toString());
               }
             }
             document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
@@ -54,6 +62,11 @@
         if(!didChange){
           document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
         }
+        
+        console.log("boop");
+        console.log(settings);
+        console.log(settings.length);
+        parseKeyValuePairs(settings);
       }
       
       //#TODO make this more robust later.
@@ -71,9 +84,198 @@
         this.value = pair.slice(pair.indexOf("=")+1);
       }
       
+      function Attribute(pair){
+        this.key = pair.slice(0,pair.indexOf("="));
+        this.value = pair.slice(pair.indexOf("=")+1);
+      }
+      
       Setting.prototype.toString = function()
       {
         return this.key + "=" + this.value; 
+      }
+      
+      function SkillStartingAmount(name, range)
+      {
+        this.name = name;
+        this.value = range;
+        //this.skills = []; //TODO: Currently invalid due to not having professions.
+      }
+      
+      function SkillRarityCategory(name, rarity)
+      {
+        this.name = name;
+        this.value = rarity;
+        this.bases = [];
+        this.skills = [];
+      }
+      
+      function SkillBaseGroup(name, category)
+      {
+        this.name = name;
+        this.value = category;
+        this.category = null;
+        this.skills = [];
+      }
+      
+      function Skill(name)
+      {
+        this.name = name;
+        this.attributes = [];
+        this.category = null;
+        //this.professions = []; //TODO: Currently invalid due to not having professions.
+      }
+      
+      function parseKeyValuePairs(settings)
+      {
+        console.log("boop");
+        console.log(settings);
+        console.log(settings.length);
+        for(var i = 0; i < settings.length; i++)
+        {
+          console.log("boop");
+          var curSet
+          var curSetKeySplit = curSet.key.split(".");
+          var curSetValueSplit = curSet.value.split(".");
+          if(curSetKeySplit[0] === "skills")
+          {
+            if(curSetKeySplit[1] === "startingskills")
+            {
+              skillStartingAmounts.push(new SkillStartingAmount(curSetKeySplit[2],curSet.value));
+            }
+            else if(curSetKeySplit[1] === "categories")
+            {
+              skillRarityCategories.push(new SkillRarityCategory(curSetKeySplit[2],curSet.value));
+            }
+            else if(curSetKeySplit[1] === "base")
+            {
+              skillBaseGroups.push(new SkillBaseGroup(curSetKeySplit[2],curSet.value));
+            }
+            else if(curSetKeySplit[1] === "entity")
+            {
+              if(!(hasSkill(curSetKeySplit[2])))
+              {
+                skills.push(new Skill(curSetKeySplit[2]));
+              }
+              else
+              {
+                var thisSkill = getSkill(curSetKeySplit[2]);
+                thisSkill.attributes.push(curSet.key.slice(new Attribute(curSetKeySplit[0].length+curSetKeySplit[1].length+curSetKeySplit[2].length+3) + "=" + curSet.value));
+              }
+            }
+            else
+            {
+              settingError(curSet);
+            }
+          }
+          else
+          {
+            settingError(curSet);
+          }
+        }
+        
+        for(var i = 0; i < skillRarityCategories.length; i++)
+        {
+          var curCat = skillRarityCategories[i];
+          for(var j = 0; j < skillBaseGroups.length; j++)
+          {
+            var curBase = skillBaseGroups[j];
+            if(curBase.value === curCat.name)
+            {
+              curCat.bases.push(curBase);
+            }
+          }
+        }
+        
+        for(var i = 0; i < skillBaseGroups.length; i++)
+        {
+          var curBase = skillRarityCategories[i];
+          for(var j = 0; j < skillRarityCategories.length; j++)
+          {
+            var curCat = skillRarityCategories[j];
+            if(curBase.value === curCat.name)
+            {
+              curBase.category = curCat;
+            }
+          }
+        }
+        
+        for(var i = 0; i < skills.length; i++)
+        {
+          var curSkill = skills[i];
+          for(var j = 0; j < curSkill.attributes.length; j++)
+          {
+            var curProp = curSkill.attributes[j];
+            var curPropKeySplit = curProp.key.split(".");
+            if(curPropKeySplit[0] === "parents")
+            {
+              var curSkillBase = curProp.value.split(".")[2];
+              var curSkillBaseRarity = "";
+              for(var k = 0; k < skillBaseGroups.length(); k++)
+              {
+                if(skillBaseGroups[k].name === curSkillBase)
+                {
+                  curSkill.category = skillBaseGroups[k].category;
+                }
+              }
+            }
+          }
+        }
+        
+        for(var i = 0; i < skillRarityCategories.length; i++)
+        {
+          var curCat = skillRarityCategories[i];
+          for(var j = 0; j < skills.length; j++)
+          {
+            curSkill = skills[j];
+            if(curSkill.category.name === curCat.name)
+            {
+              curCat.skills.push(curSkill);
+            }
+          }
+        }
+        
+        for(var i = 0; i < skillBaseGroups.length; i++)
+        {
+          var curBase = skillBaseGroups[i];
+          for(var j = 0; j < skills.length; j++)
+          {
+            curSkill = skills[j];
+            if(curSkill.category.name === curBase.name)
+            {
+              curBase.skills.push(curSkill);
+            }
+          }
+        }
+        console.log(skillStartingAmounts);
+        console.log(skillRarityCategories);
+        console.log(skillBaseGroups);
+        console.log(skills);
+      }
+      
+      function settingError(curSet){
+        console.log("Err Invalid Setting: " + curSet.toString());
+      }
+      
+      function hasSkill(name){
+        for(var i = 0; i < skills.length; i++)
+        {
+          if(skills[i] === "name")
+          {
+            return true;
+          }
+        }
+        return false;
+      }
+      
+      function getSkill(name){
+        for(var i = 0; i < skills.length; i++)
+        {
+          if(skills[i] === "name")
+          {
+            return skills[i];
+          }
+        }
+        return null;
       }
       
       document.getElementById('files').addEventListener('change', handleFileSelect, false);
