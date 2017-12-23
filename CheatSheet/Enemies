@@ -1,0 +1,164 @@
+
+/*General flow of the enemy class*/
+
+enemies.base.<baseName>.<name of property> = <value>
+
+enemies.entity.<enemyName>.<nameOfProperty> = <value>
+
+/...........*Follow the flow below................*/
+
+enemies
+    .base   /*Generic base*/
+        .baseName
+            .properties
+                .attackhitsound
+                    [string]
+                .attackmisssound
+                    [string]
+                .attacksound
+                    [string]
+                .difficultyval
+                    [int]
+                .walkanimationspeed
+                    [double]
+                .vision
+                    [int]
+                .attackanimation
+                    [string]
+            .parents
+                [list of parent types] /*enemies.base.meleeattack,enemies.base.human*/
+            .class /*Humans use these*/
+                [string]
+            .survivortype 
+                [list of survivortypes] /*male1, female1*/
+            .tags
+                [baseType] /*Human*/
+                    [boolean]
+            .properties  /*enemies.base.floating.properties.floating*/
+                [Name of alterativeBase]
+                    [double]
+            .name   /*enemies.base.survivor1.name=survivor1*/
+                [name of alterativeBase]
+            .icon   /*enemies.base.survivor1.icon=enemy_icon_survivor1*/
+                [name of icon]
+
+
+    
+    .entity /*Generic entity*/
+        .enemyName
+            .parents
+                [declared types] /*enemies.base.[enemyName]*/
+            .damage
+                [double]
+            .attackspeed
+                [double]
+            .range
+                [int]
+            .accuracy
+                [int]
+            .health
+                [int]
+            .evade
+                [int]
+            .defense
+                [int]
+            .walkspeed
+                [double]
+            .vision
+                [int]
+            .difficultyval
+                [int]
+            .mindifficulty
+                [int]
+            .maxdifficulty
+                [int]
+            .loot
+                [lootName]
+                    [int]
+            .walkanimationspeed
+                [double]
+            .prefab
+                [prefabName]
+            .properties
+                [propertyName]
+                    [propertyPrefabName]
+            .weapon
+                [list of weapons] /*club,quarterstaff,baseballbat*/
+
+
+/*............................................*/
+
+
+/*EG of bases*/
+        .human
+            .class
+                [string]
+            .survivortype
+                [list of strings]
+            .tags
+                .human
+                    [boolean]
+        .demon
+            .tags
+                .demon
+                    [boolean]
+        .ranged
+            .parents
+                [list of enemies.base.[strings of types that use this]]
+            .properties
+        .meleeattack
+            .parents
+                [list of enemies.base.[strings of types that use this]]
+            .properties
+                .attackmisssound
+                    [string]
+            .range
+                [int]
+        .humanmelee
+            .parents
+                [enemies.base.default]
+        .humanranged
+            .parents
+                [enemies.base.default]
+        .floating
+            .properties
+                .floating
+                    [double]
+        .survivor1
+            .name
+                [string of declared type]
+            .icon
+                [string]
+/*...............................*/
+
+/*EG of entities*/
+enemies.entity.werewolf.parents=enemies.base.demon,enemies.base.meleeattack
+enemies.entity.werewolf.damage=8
+enemies.entity.werewolf.attackspeed=6
+enemies.entity.werewolf.range=1
+enemies.entity.werewolf.accuracy=60
+enemies.entity.werewolf.health=65
+enemies.entity.werewolf.evade=20
+enemies.entity.werewolf.defense=2
+enemies.entity.werewolf.walkspeed=1.45
+enemies.entity.werewolf.difficultyval=100
+enemies.entity.werewolf.mindifficulty=100
+enemies.entity.werewolf.maxdifficulty=699
+enemies.entity.werewolf.loot.fur=2
+enemies.entity.werewolf.walkanimationspeed=1.8
+
+enemies.entity.reaper.parents=enemies.base.demon,enemies.base.ranged,enemies.base.floating
+enemies.entity.reaper.damage=12
+enemies.entity.reaper.attackspeed=5
+enemies.entity.reaper.range=4
+enemies.entity.reaper.accuracy=55
+enemies.entity.reaper.health=60
+enemies.entity.reaper.evade=15
+enemies.entity.reaper.defense=2
+enemies.entity.reaper.vision=5
+enemies.entity.reaper.difficultyval=100
+enemies.entity.reaper.mindifficulty=100
+enemies.entity.reaper.maxdifficulty=699
+enemies.entity.reaper.loot.ectoplasm=1
+enemies.entity.reaper.properties.attackanimation=ReaperAttackPrefab
+/*...............................*/
