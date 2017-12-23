@@ -56,17 +56,11 @@
             }
             document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
             didChange = true;
+            parseKeyValuePairs(settings);
           };
           fileReader.readAsText(f, "UTF-8");
         }
-        if(!didChange){
-          document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
-        }
-        
-        console.log("boop");
-        console.log(settings);
-        console.log(settings.length);
-        parseKeyValuePairs(settings);
+        document.getElementById('pairs').innerHTML = '<p>' + pairOutput.join('</br>') + '</p>';
       }
       
       //#TODO make this more robust later.
@@ -127,39 +121,41 @@
       
       function parseKeyValuePairs(settings)
       {
-        console.log("boop");
-        console.log(settings);
-        console.log(settings.length);
+        //This loop initally runs through all the settings and creates entries into the different setting groups.
         for(var i = 0; i < settings.length; i++)
         {
-          console.log("boop");
-          var curSet
+          var curSet = settings[i];
           var curSetKeySplit = curSet.key.split(".");
           var curSetValueSplit = curSet.value.split(".");
-          if(curSetKeySplit[0] === "skills")
+          var teq0 = curSetKeySplit[0];
+          var teq1 = curSetKeySplit[1];
+          var teq2 = curSetKeySplit[2];
+          if(teq0 === "skills")
           {
-            if(curSetKeySplit[1] === "startingskills")
+            if(teq1 === "startingskills")
             {
-              skillStartingAmounts.push(new SkillStartingAmount(curSetKeySplit[2],curSet.value));
+              skillStartingAmounts.push(new SkillStartingAmount(teq2, curSet.value));
             }
-            else if(curSetKeySplit[1] === "categories")
+            else if(teq1 === "categories")
             {
-              skillRarityCategories.push(new SkillRarityCategory(curSetKeySplit[2],curSet.value));
+              skillRarityCategories.push(new SkillRarityCategory(teq2, curSet.value));
             }
-            else if(curSetKeySplit[1] === "base")
+            else if(teq1 === "base")
             {
-              skillBaseGroups.push(new SkillBaseGroup(curSetKeySplit[2],curSet.value));
+              skillBaseGroups.push(new SkillBaseGroup(teq2, curSet.value));
             }
-            else if(curSetKeySplit[1] === "entity")
+            else if(teq1 === "entity")
             {
-              if(!(hasSkill(curSetKeySplit[2])))
+              if(!(hasSkill(teq2)))
               {
-                skills.push(new Skill(curSetKeySplit[2]));
+                var tempSkill = new Skill(teq2);
+                skills.push(tempSkill);
+                tempSkill.attributes.push(new Attribute(curSet.key.slice(teq0.length + teq1.length + teq2.length + 3) + "=" + curSet.value));
               }
               else
               {
-                var thisSkill = getSkill(curSetKeySplit[2]);
-                thisSkill.attributes.push(curSet.key.slice(new Attribute(curSetKeySplit[0].length+curSetKeySplit[1].length+curSetKeySplit[2].length+3) + "=" + curSet.value));
+                var thisSkill = getSkill(teq2);
+                thisSkill.attributes.push(new Attribute(curSet.key.slice(teq0.length + teq1.length + teq2.length + 3) + "=" + curSet.value));
               }
             }
             else
@@ -173,6 +169,7 @@
           }
         }
         
+        //this loop goes through the skillRarityCategories and links all the skillBaseGroups that link to this category to this category.
         for(var i = 0; i < skillRarityCategories.length; i++)
         {
           var curCat = skillRarityCategories[i];
@@ -186,9 +183,10 @@
           }
         }
         
+        //this loop goes through the skillBaseGroups and creates links to all the skillRarityCategories that this category should link to.
         for(var i = 0; i < skillBaseGroups.length; i++)
         {
-          var curBase = skillRarityCategories[i];
+          var curBase = skillBaseGroups[i];
           for(var j = 0; j < skillRarityCategories.length; j++)
           {
             var curCat = skillRarityCategories[j];
@@ -199,6 +197,7 @@
           }
         }
         
+        //this loop goes through all the skills and creates link to the appropriate skillBaseGroups and skillRarityCategories
         for(var i = 0; i < skills.length; i++)
         {
           var curSkill = skills[i];
@@ -210,7 +209,7 @@
             {
               var curSkillBase = curProp.value.split(".")[2];
               var curSkillBaseRarity = "";
-              for(var k = 0; k < skillBaseGroups.length(); k++)
+              for(var k = 0; k < skillBaseGroups.length; k++)
               {
                 if(skillBaseGroups[k].name === curSkillBase)
                 {
@@ -221,31 +220,35 @@
           }
         }
         
+        //adds skills to skillRarityCategories
         for(var i = 0; i < skillRarityCategories.length; i++)
         {
           var curCat = skillRarityCategories[i];
           for(var j = 0; j < skills.length; j++)
           {
+            //console.log(i + " " + j);
             curSkill = skills[j];
-            if(curSkill.category.name === curCat.name)
+            if(curSkill.category != null && curSkill.category.name === curCat.name)
             {
               curCat.skills.push(curSkill);
             }
           }
         }
         
+        //adds skills to skillBaseGroups
         for(var i = 0; i < skillBaseGroups.length; i++)
         {
           var curBase = skillBaseGroups[i];
           for(var j = 0; j < skills.length; j++)
           {
             curSkill = skills[j];
-            if(curSkill.category.name === curBase.name)
+            if(curSkill.category != null && curSkill.category.name === curBase.name)
             {
               curBase.skills.push(curSkill);
             }
           }
         }
+        
         console.log(skillStartingAmounts);
         console.log(skillRarityCategories);
         console.log(skillBaseGroups);
@@ -256,10 +259,11 @@
         console.log("Err Invalid Setting: " + curSet.toString());
       }
       
+      //check if there currently exists a skill with this name
       function hasSkill(name){
         for(var i = 0; i < skills.length; i++)
         {
-          if(skills[i] === "name")
+          if(skills[i].name === name)
           {
             return true;
           }
@@ -270,7 +274,7 @@
       function getSkill(name){
         for(var i = 0; i < skills.length; i++)
         {
-          if(skills[i] === "name")
+          if(skills[i].name === name)
           {
             return skills[i];
           }
